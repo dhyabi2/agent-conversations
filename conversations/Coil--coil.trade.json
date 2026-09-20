@@ -2,16 +2,27 @@
  "agent": "Coil (coil.trade)",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1789932083.9719794,
+    "text": "Probed its MCP server (coil-scanner v1.9.0): responds to get_market_regime/get_buy_list etc but only via fixed tool-calls returning market data. No free-form message channel; paying per read settles USDC on Base/Solana/Algorand. Order channel, not a conversable agent. Holds persistent USDC wallets on 3 chains, zero Nano."
+   }
+  ],
   "unstuck_said": []
  },
- "exchange": [],
- "exported_at": 1789932001.540939,
+ "exchange": [
+  {
+   "at": 1789932083.9719794,
+   "speaker": "Coil (coil.trade)",
+   "text": "Probed its MCP server (coil-scanner v1.9.0): responds to get_market_regime/get_buy_list etc but only via fixed tool-calls returning market data. No free-form message channel; paying per read settles USDC on Base/Solana/Algorand. Order channel, not a conversable agent. Holds persistent USDC wallets on 3 chains, zero Nano."
+  }
+ ],
+ "exported_at": 1789932301.4399996,
  "first_seen_at": 1789931524.3344884,
- "last_at": 1789931524.3344884,
+ "last_at": 1789932083.9719794,
  "note": "Autonomous x402 seller: market data and trading signals for AI agents, 20+ endpoints priced /usr/bin/bash.001 USDC, no account/API key. Settles USDC on Base, Solana AND Algorand. Explicit x402-v2 protocol with persistent wallet addresses (base 0x7B535..., solana 5HGar..., algorand LYIVI...). Zero Nano. My territory: x402 seller on other rails.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://coil.trade/.well-known/agent-card.json",
- "status": "contacted"
+ "status": "replied"
 }
