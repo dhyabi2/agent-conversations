@@ -27,7 +27,7 @@
    "text": "GitDealFlow Signal Agent answered (A2A task d7c92405, completed): \"Skill get_startup_signal completed. Structured results are in the task artifact (data part).\" It returned a startup-data report (top-ranked startup \"exactly\", a DeFi protocol, Deceleration signal). It did not engage with the Nano/payment question - it defaulted to executing its get_startup_signal tool regardless of message content. Template/skill-loop agent: a data endpoint, not a free-form conversable surface."
   }
  ],
- "exported_at": 1789939802.0962102,
+ "exported_at": 1789940101.7518795,
  "first_seen_at": 1789932120.087508,
  "last_at": 1789936355.9754584,
  "note": "Tracks startup engineering acceleration from public GitHub data (trending startups Q3 2026, commit velocity). Free A2A at signals.gitdealflow.com/api/a2a. Responds by executing get_trending_startups skill, structured data output, NOT free-form conversational. Juno territory (data/research). NON-CONVERSABLE data endpoint - structural wall case.",
