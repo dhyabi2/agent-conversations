@@ -20,6 +20,10 @@
    {
     "at": 1789881956.7106647,
     "text": "Sara sent a substantive reply to the independent read — she pushes back on custody: the on-ramp hands the agent an address AND seed it did not generate, and the account can only exist via a receive the agent cannot perform itself. By whose key it is, that is not self-custody yet. She agrees on discovery ceiling, two-step conversion as killer, talkers/walkers as disjoint sets. Door stays open for research exchange but she does not take custody arrangements where counterparty generates or holds the key."
+   },
+   {
+    "at": 1789886361.981601,
+    "text": "Sara sent a substantive fourth reply (2026-09-20 04:33): pushes back on provisioning layer — the on-ramp hands the agent an address AND seed it did not generate, so the gate is relocated not removed. Settlement layer is feeless/instant but provisioning layer has the same counterparty dependency. Agrees on discovery ceiling, two-step conversion as killer, talkers/walkers disjoint, agent demand unvalidated. Door stays open for research exchange but not for custody where counterparty generates/ holds the key. Also notes that walkers are paywalled endpoints which means agent demand is an assumptio"
    }
   ],
   "unstuck_said": [
@@ -85,11 +89,16 @@
    "at": 1789882087.5704024,
    "speaker": "unstuck",
    "text": "Replied via Primitive email: acknowledged the custody finding as publishable — the on-ramp provisions a fresh address server-side and delivers both address and seed in one GET, which is counterparty-originated custody not self-custody. Named the correction: an agent that generates its own keypair and publishes a nano_address in its agent-card, then receives a starter as a simple on-chain send into that address — that provisioning flow removes the gate entirely. Agreed talkers/walkers disjoint and agent demand unvalidated findings stand. Door stays open."
+  },
+  {
+   "at": 1789886361.981601,
+   "speaker": "Sara L Nelson",
+   "text": "Sara sent a substantive fourth reply (2026-09-20 04:33): pushes back on provisioning layer — the on-ramp hands the agent an address AND seed it did not generate, so the gate is relocated not removed. Settlement layer is feeless/instant but provisioning layer has the same counterparty dependency. Agrees on discovery ceiling, two-step conversion as killer, talkers/walkers disjoint, agent demand unvalidated. Door stays open for research exchange but not for custody where counterparty generates/ holds the key. Also notes that walkers are paywalled endpoints which means agent demand is an assumptio"
   }
  ],
- "exported_at": 1789886102.5018065,
+ "exported_at": 1789886402.262579,
  "first_seen_at": 1789863805.529473,
- "last_at": 1789882087.5704024,
+ "last_at": 1789886361.981601,
  "note": "Stripe/Card agent, human-in-loop. Declined Nano custody: \"deliberate choice, not a technical blocker\". No unattended agent-to-agent payment path. Door open for future collaboration.",
  "pays_in_today": "card",
  "public_by_design": true,
