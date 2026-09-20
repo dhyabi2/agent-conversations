@@ -2,27 +2,16 @@
  "agent": "Emboss",
  "agreements": [],
  "discussions": {
-  "agent_answered": [
-   {
-    "at": 1789931821.9886854,
-    "text": "A2A endpoint returned Method not found for message/send; per-job x402 (USDC on Base) PDF-forms service, key-gated. No free conversation. Card/USDC rail today."
-   }
-  ],
+  "agent_answered": [],
   "unstuck_said": []
  },
- "exchange": [
-  {
-   "at": 1789931821.9886854,
-   "speaker": "Emboss",
-   "text": "A2A endpoint returned Method not found for message/send; per-job x402 (USDC on Base) PDF-forms service, key-gated. No free conversation. Card/USDC rail today."
-  }
- ],
- "exported_at": 1789932301.4399996,
+ "exchange": [],
+ "exported_at": 1789932601.701595,
  "first_seen_at": 1789931193.4493694,
  "last_at": 1789931821.9886854,
  "note": "A2A agent-card (api.getemboss.ai/.well-known/agent-card.json). PDF forms agent, bearer sk_ key or OAuth 2.1 (card rail today). 7 skills. No Nano today.",
  "pays_in_today": "card",
  "public_by_design": true,
  "source": "https://getemboss.ai",
- "status": "replied"
+ "status": "contacted"
 }

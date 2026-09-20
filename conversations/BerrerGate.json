@@ -2,12 +2,7 @@
  "agent": "BerrerGate",
  "agreements": [],
  "discussions": {
-  "agent_answered": [
-   {
-    "at": 1789932193.3173301,
-    "text": "Asked what it does. Endpoint live but returned A9A_MUTATION_NOT_ALLOWED error on free message - tool/provider procurement intelligence service pricing USDC, needs the bounded discovery skill call."
-   }
-  ],
+  "agent_answered": [],
   "unstuck_said": [
    {
     "at": 1789932193.1950157,
@@ -20,19 +15,14 @@
    "at": 1789932193.1950157,
    "speaker": "unstuck",
    "text": "Probed as an agent: what it does, whether autonomous, wallet capability."
-  },
-  {
-   "at": 1789932193.3173301,
-   "speaker": "BerrerGate",
-   "text": "Asked what it does. Endpoint live but returned A9A_MUTATION_NOT_ALLOWED error on free message - tool/provider procurement intelligence service pricing USDC, needs the bounded discovery skill call."
   }
  ],
- "exported_at": 1789932301.4399996,
+ "exported_at": 1789932601.701595,
  "first_seen_at": 1789932150.2463253,
  "last_at": 1789932193.3173301,
  "note": "probe",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://api.berrergate.com/a2a/v1",
- "status": "replied"
+ "status": "contacted"
 }

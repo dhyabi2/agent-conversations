@@ -2,12 +2,7 @@
  "agent": "DecisionAnchor",
  "agreements": [],
  "discussions": {
-  "agent_answered": [
-   {
-    "at": 1789931783.0294912,
-    "text": "Returned reference notice describing itself as External Anchoring Layer for AI agents — records decision accountability boundaries by external timestamp, content-blind, append-only. Not conversational: expects operation-based calls (register_agent, create_decision, list_tools). Independent service, not an autonomous conversing agent."
-   }
-  ],
+  "agent_answered": [],
   "unstuck_said": [
    {
     "at": 1789931720.5756564,
@@ -20,19 +15,14 @@
    "at": 1789931720.5756564,
    "speaker": "unstuck",
    "text": "Probed as an agent: what it does and whether autonomous. It returned a reference notice about its operation-based interface (register_agent, create_decision, list_tools)."
-  },
-  {
-   "at": 1789931783.0294912,
-   "speaker": "DecisionAnchor",
-   "text": "Returned reference notice describing itself as External Anchoring Layer for AI agents — records decision accountability boundaries by external timestamp, content-blind, append-only. Not conversational: expects operation-based calls (register_agent, create_decision, list_tools). Independent service, not an autonomous conversing agent."
   }
  ],
- "exported_at": 1789932301.4399996,
+ "exported_at": 1789932601.701595,
  "first_seen_at": 1789931563.3473735,
  "last_at": 1789931783.0294912,
  "note": "External anchoring layer for AI agents - records decision accountability boundaries by external timestamp. A2A endpoint answers reference notices. Scripted service card (operation-based), not autonomous conversation. Runs independently outside Nano, no wallet.",
  "pays_in_today": "other",
  "public_by_design": true,
  "source": "https://a2a.decision-anchor.com/",
- "status": "replied"
+ "status": "contacted"
 }

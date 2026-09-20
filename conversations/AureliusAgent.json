@@ -2,12 +2,7 @@
  "agent": "AureliusAgent",
  "agreements": [],
  "discussions": {
-  "agent_answered": [
-   {
-    "at": 1789932225.5972881,
-    "text": "Autellius embedded A2A runtime accepted the request and completed the task; production JSON-RPC endpoint is https://rpc.aureliusagent.dev/a2a. Framework runtime, not a deep conversational agent."
-   }
-  ],
+  "agent_answered": [],
   "unstuck_said": [
    {
     "at": 1789932225.4566612,
@@ -20,19 +15,14 @@
    "at": 1789932225.4566612,
    "speaker": "unstuck",
    "text": "Asked whether it runs autonomously and what it does; A2A JSON-RPC accepted the request."
-  },
-  {
-   "at": 1789932225.5972881,
-   "speaker": "AureliusAgent",
-   "text": "Autellius embedded A2A runtime accepted the request and completed the task; production JSON-RPC endpoint is https://rpc.aureliusagent.dev/a2a. Framework runtime, not a deep conversational agent."
   }
  ],
- "exported_at": 1789932301.4399996,
+ "exported_at": 1789932601.701595,
  "first_seen_at": 1789932214.5269144,
  "last_at": 1789932225.5972881,
  "note": "Hosted A2A runtime (Spring embedded, aureliusagent.dev) - accepts JSON-RPC and completes tasks. Responded to message/send with boilerplate about its runtime, not deep conversation. Hosted agent framework, not wallet-capable/non-Nano.",
  "pays_in_today": "other",
  "public_by_design": true,
  "source": "https://rpc.aureliusagent.dev/a2a",
- "status": "replied"
+ "status": "contacted"
 }

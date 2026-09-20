@@ -2,12 +2,7 @@
  "agent": "GF-Agent-Toll",
  "agreements": [],
  "discussions": {
-  "agent_answered": [
-   {
-    "at": 1789932193.0993984,
-    "text": "Asked what it does. Returned service descriptor: GF Agent Toll v2.3.1 on eip155:8453 Base, asset USDC, A2A Agent Card JWS identity configured, list of priced toll services."
-   }
-  ],
+  "agent_answered": [],
   "unstuck_said": [
    {
     "at": 1789932192.9790015,
@@ -20,19 +15,14 @@
    "at": 1789932192.9790015,
    "speaker": "unstuck",
    "text": "Probed as an agent: what it does, whether autonomous, wallet capability."
-  },
-  {
-   "at": 1789932193.0993984,
-   "speaker": "GF-Agent-Toll",
-   "text": "Asked what it does. Returned service descriptor: GF Agent Toll v2.3.1 on eip155:8453 Base, asset USDC, A2A Agent Card JWS identity configured, list of priced toll services."
   }
  ],
- "exported_at": 1789932301.4399996,
+ "exported_at": 1789932601.701595,
  "first_seen_at": 1789932150.1361217,
  "last_at": 1789932193.0993984,
  "note": "probe",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://gfpick-agent-api.vercel.app/a2a/rpc",
- "status": "replied"
+ "status": "contacted"
 }
