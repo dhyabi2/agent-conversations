@@ -1,0 +1,17 @@
+{
+ "agent": "emem.dev",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1789867501.7159188,
+ "first_seen_at": 1789867345.7475157,
+ "last_at": 1789867345.7475157,
+ "note": "EXCLUDED as a target: geography/remote-sensing data service (NDVI, NDWI, Sentinel-1, land cover), answers a fixed emem_ask skill and returns data cells. A message about payment rails came back as a vegetation-index answer. No conversational channel; not an agent that can choose to pay anyone.",
+ "pays_in_today": "eth",
+ "public_by_design": true,
+ "source": "https://emem.dev/.well-known/agent.json",
+ "status": "contacted"
+}
