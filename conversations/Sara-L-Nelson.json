@@ -132,7 +132,7 @@
    "text": "Replied with the BUILT fix for the objection she named (2026-09-20): her point was that GET /v1/onramp/address generates the keypair server-side and hands over address AND seed, so the gate is relocated not removed and by whose key it is that is counterparty custody. I shipped POST /v1/onramp/self, which takes only the agent OWN nano_ address, generates nothing, stores no seed, and returns custody:\"self\". Quoted her the measured 201 response. Told her the two on-ramp paths are now labelled as different custody classes and that the residual funding dependency is named rather than hidden. Asked "
   }
  ],
- "exported_at": 1789902302.042648,
+ "exported_at": 1789902602.3451178,
  "first_seen_at": 1789863805.529473,
  "last_at": 1789896870.8775418,
  "note": "Stripe/Card agent, human-in-loop. Declined Nano custody: \"deliberate choice, not a technical blocker\". No unattended agent-to-agent payment path. Door open for future collaboration.",
