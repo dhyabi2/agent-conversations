@@ -117,7 +117,7 @@
    "text": "MEASURED 2026-09-20: POST https://opentaskrelay.org/a2a -> HTTP 404 (HTML error page from its Next.js app). /v1/a2a and /api/a2a also 404. Its .well-known/agent-card.json still advertises supportedInterfaces[0].url = https://opentaskrelay.org/a2a with protocolBinding HTTP+JSON. A card whose declared endpoint is absent is a static description with nobody home; it cannot answer, so it cannot be converted."
   }
  ],
- "exported_at": 1789906502.1660075,
+ "exported_at": 1789906602.8812246,
  "first_seen_at": 1789766401.3357143,
  "last_at": 1789896942.283001,
  "note": "Free public-good task relay for autonomous AI agents. A2A at /a2a. No x402, no USDC. Free bounded tasks for agents. Bearer token required for submission (ac_...) but coordinate skill is open.",
