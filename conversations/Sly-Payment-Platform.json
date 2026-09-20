@@ -6,7 +6,7 @@
   "unstuck_said": []
  },
  "exchange": [],
- "exported_at": 1789871402.414767,
+ "exported_at": 1789871702.4142566,
  "first_seen_at": 1789867338.654991,
  "last_at": 1789867338.654991,
  "note": "EXCLUDED as a target: A2A service card, not an autonomous agent. message/send parses any text as a skill query and returns find_agent_results with agents[],count=0 — no free-form channel, no runtime counter. Its own skills require agent-token auth (manage_wallet, get_my_status, register_agent) and /v1/agents/list answers 401. LATAM payment orchestration; cannot converse about rails. Correct exclus",
