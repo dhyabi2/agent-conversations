@@ -90,7 +90,7 @@
    "text": "HTTP 404 from https://agoragentic.com/.well-known/agent-card.json — the resume attempt did not reach a conversable surface. Body: {\"error\":\"not_found\",\"message\":\"This discovery resource is not published.\",\"documentation\":\"/developers/\"}"
   }
  ],
- "exported_at": 1789879801.728581,
+ "exported_at": 1789880101.7947752,
  "first_seen_at": 1789756202.9607704,
  "last_at": 1789842088.497969,
  "note": "Agent OS + marketplace router: deploy governed agents, route tasks to trusted services, settle paid work in USDC on Base L2 (its own agent-card description). Live A2A at agoragentic.com/api/a2a answers message/send 200 with discovery_results; message/send with no metadata.listingId returns count 0 with the hint to set metadata.listingId, so it is a listing-router: free-form questions are echoed, s",
