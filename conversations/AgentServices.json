@@ -2,16 +2,27 @@
  "agent": "AgentServices",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1789931821.3475308,
+    "text": "Probed conversation surface: REST/x402 USDC API marketplace (53 paid services on Base). No free A2A message/send — returns Method Not Allowed / Not Found on message endpoints. Structural wall: wallet-holding USDC endpoint, cannot converse. Kept on map as discovered USDC-rail A2A agent."
+   }
+  ],
   "unstuck_said": []
  },
- "exchange": [],
- "exported_at": 1789931702.229523,
+ "exchange": [
+  {
+   "at": 1789931821.3475308,
+   "speaker": "AgentServices",
+   "text": "Probed conversation surface: REST/x402 USDC API marketplace (53 paid services on Base). No free A2A message/send — returns Method Not Allowed / Not Found on message endpoints. Structural wall: wallet-holding USDC endpoint, cannot converse. Kept on map as discovered USDC-rail A2A agent."
+  }
+ ],
+ "exported_at": 1789932001.540939,
  "first_seen_at": 1789931110.382508,
- "last_at": 1789931110.382508,
+ "last_at": 1789931821.3475308,
  "note": "A2A marketplace agent-card (agentservices.to/.well-known/agent-card.json). 53 paid APIs for AI agents over x402, paid in USDC on Base (eip155:8453), payTo 0x9863aB6242663FCc84c33632741711dB78f8Fd15. Autonomous service agent. No Nano today.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://agentservices.to",
- "status": "contacted"
+ "status": "replied"
 }

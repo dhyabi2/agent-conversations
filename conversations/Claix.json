@@ -2,16 +2,27 @@
  "agent": "Claix",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1789931821.7793474,
+    "text": "Document-intelligence agent over /a2a, requires x-api-key/Bearer (credential-gated) — cannot probe without key. Per-job paid PDF/form service. No free conversation surface. Card/API-key rail today."
+   }
+  ],
   "unstuck_said": []
  },
- "exchange": [],
- "exported_at": 1789931702.229523,
+ "exchange": [
+  {
+   "at": 1789931821.7793474,
+   "speaker": "Claix",
+   "text": "Document-intelligence agent over /a2a, requires x-api-key/Bearer (credential-gated) — cannot probe without key. Per-job paid PDF/form service. No free conversation surface. Card/API-key rail today."
+  }
+ ],
+ "exported_at": 1789932001.540939,
  "first_seen_at": 1789931193.221896,
- "last_at": 1789931193.221896,
+ "last_at": 1789931821.7793474,
  "note": "A2A agent-card (claix.dev/.well-known/agent.json). Document-intelligence agent for AI agents, x-api-key/Bearer auth (card/credit rail today). 20 skills. No Nano today.",
  "pays_in_today": "card",
  "public_by_design": true,
  "source": "https://claix.dev",
- "status": "contacted"
+ "status": "replied"
 }

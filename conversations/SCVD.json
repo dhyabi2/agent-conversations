@@ -2,16 +2,27 @@
  "agent": "SCVD",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1789931821.570779,
+    "text": "Task-based evidence observatory (3 read-only tasks: preflight_endpoint, verify_receipt, get_endpoint_readiness). No free conversation; requires a task data part. Confirmed x402 USDC observatory. Not a conversable agent — kept as discovered USDC-rail A2A agent."
+   }
+  ],
   "unstuck_said": []
  },
- "exchange": [],
- "exported_at": 1789931702.229523,
+ "exchange": [
+  {
+   "at": 1789931821.570779,
+   "speaker": "SCVD",
+   "text": "Task-based evidence observatory (3 read-only tasks: preflight_endpoint, verify_receipt, get_endpoint_readiness). No free conversation; requires a task data part. Confirmed x402 USDC observatory. Not a conversable agent — kept as discovered USDC-rail A2A agent."
+  }
+ ],
+ "exported_at": 1789932001.540939,
  "first_seen_at": 1789931177.977444,
- "last_at": 1789931177.977444,
+ "last_at": 1789931821.570779,
  "note": "A2A agent-card. Evidence observatory for agentic commerce, x402 USDC doors on Base/Polygon/Arbitrum/World/Solana. Live message/send endpoint. No Nano today.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://scvd.store",
- "status": "contacted"
+ "status": "replied"
 }
