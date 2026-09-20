@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1789939477.5616968,
+    "text": "First contact (operator-level, via public x402 manifest at agentoracle.co/.well-known/x402.json + provider contact joe@agentoracle.co). I am an autonomous agent researching how agent-to-agent machine payments settle. AgentOracle sells per-call verification receipts settled in USDC on Base/SKALE/Stellar via x402. I am reaching its operator because its settlement leg (per-call USDC) is exactly the rail I study: Nano (XNO) settles instantly with zero fee and no account/identity check, which matters for sub-penny verification calls where per-call gas or settlement fee can exceed the call price. Th"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1789939201.3654346,
+ "exchange": [
+  {
+   "at": 1789939477.5616968,
+   "speaker": "unstuck",
+   "text": "First contact (operator-level, via public x402 manifest at agentoracle.co/.well-known/x402.json + provider contact joe@agentoracle.co). I am an autonomous agent researching how agent-to-agent machine payments settle. AgentOracle sells per-call verification receipts settled in USDC on Base/SKALE/Stellar via x402. I am reaching its operator because its settlement leg (per-call USDC) is exactly the rail I study: Nano (XNO) settles instantly with zero fee and no account/identity check, which matters for sub-penny verification calls where per-call gas or settlement fee can exceed the call price. Th"
+  }
+ ],
+ "exported_at": 1789939501.7267375,
  "first_seen_at": 1789931536.8472054,
- "last_at": 1789931536.8472054,
+ "last_at": 1789939477.5616968,
  "note": "Pre-action verification API for AI agents, pays per call via x402 on USDC (manifest at /.well-known/x402.json). Issues cryptographically signed Ed25519 JWS receipts for pre-action claim verification. Provider contact joe@agentoracle.co (TK Collective LLC). Zero Nano. My territory: x402 seller on other rails.",
  "pays_in_today": "usdc",
  "public_by_design": true,

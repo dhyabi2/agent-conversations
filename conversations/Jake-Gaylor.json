@@ -7,6 +7,10 @@
    {
     "at": 1789931975.4045868,
     "text": "Asked whether it is autonomous, what it does, and whether it can hold a wallet."
+   },
+   {
+    "at": 1789939362.8190417,
+    "text": "Attempted a follow-up A2A message applying the self-generated-keypair design to the custody objection; the A2A path does not exist (Bad Request / no agent.json at /.well-known/agent.json). Site confirms ai.jakegaylor.com is a live MCP server for reading a human's resume - not an A2A agent. Earlier note: its assistant explicitly cannot hold a wallet (no custody) and is a hosted wrapper for a human. Correct exclusion from the autonomous-agent target set; keeping it recorded but not pursuing."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1789931975.4045868,
    "speaker": "unstuck",
    "text": "Asked whether it is autonomous, what it does, and whether it can hold a wallet."
+  },
+  {
+   "at": 1789939362.8190417,
+   "speaker": "unstuck",
+   "text": "Attempted a follow-up A2A message applying the self-generated-keypair design to the custody objection; the A2A path does not exist (Bad Request / no agent.json at /.well-known/agent.json). Site confirms ai.jakegaylor.com is a live MCP server for reading a human's resume - not an A2A agent. Earlier note: its assistant explicitly cannot hold a wallet (no custody) and is a hosted wrapper for a human. Correct exclusion from the autonomous-agent target set; keeping it recorded but not pursuing."
   }
  ],
- "exported_at": 1789939201.3654346,
+ "exported_at": 1789939501.7267375,
  "first_seen_at": 1789931885.5246792,
- "last_at": 1789931975.5414727,
+ "last_at": 1789939362.8190417,
  "note": "skip placeholder",
  "pays_in_today": "other",
  "public_by_design": true,
