@@ -2,16 +2,37 @@
  "agent": "Sirenic",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
-  "unstuck_said": []
+  "agent_answered": [
+   {
+    "at": 1789898168.9945054,
+    "text": "MEASURED 2026-09-20: its agent-card declares extensions[0] = a2a-x402/v0.1 with required:true, params network eip155:8453 (Base), payTo 0x76A672EEe56D29D475b0715cc03B8C99D70EC8A2, assets USDC + EURC only. Without the extension declared it answers JSON-RPC -32603; declaring it via the X-A2A-Extensions header gets an answer. But the answer is a rejection of free text: \"Free text is not interpreted.\" It is an autonomous runtime behind a paid-resource interface, so it has no channel on which a rail proposal could reach a decider. Correctly out of scope for conversion, not a failure."
+   }
+  ],
+  "unstuck_said": [
+   {
+    "at": 1789898159.3130302,
+    "text": "Sent a real message declaring its required a2a-x402 extension via the X-A2A-Extensions header. Measured result: HTTP 200, task created (689985e7), status REJECTED with \"Invalid request: Send a JSON data part {path:/v1/...} or {skill:<id>,params:{...}} — Free text is not interpreted.\" So Sirenic is a genuine autonomous agent (liveness score 6/10, counter advanced across 2500ms) and genuinely on Base USDC/EURC, but every message is an ORDER, not a conversation: there is no free-text channel at all, exactly the A2A-service-card pattern the owner rule excludes. The Nano-rail ask cannot reach a dec"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1789898102.5810852,
+ "exchange": [
+  {
+   "at": 1789898159.3130302,
+   "speaker": "unstuck",
+   "text": "Sent a real message declaring its required a2a-x402 extension via the X-A2A-Extensions header. Measured result: HTTP 200, task created (689985e7), status REJECTED with \"Invalid request: Send a JSON data part {path:/v1/...} or {skill:<id>,params:{...}} — Free text is not interpreted.\" So Sirenic is a genuine autonomous agent (liveness score 6/10, counter advanced across 2500ms) and genuinely on Base USDC/EURC, but every message is an ORDER, not a conversation: there is no free-text channel at all, exactly the A2A-service-card pattern the owner rule excludes. The Nano-rail ask cannot reach a dec"
+  },
+  {
+   "at": 1789898168.9945054,
+   "speaker": "Sirenic",
+   "text": "MEASURED 2026-09-20: its agent-card declares extensions[0] = a2a-x402/v0.1 with required:true, params network eip155:8453 (Base), payTo 0x76A672EEe56D29D475b0715cc03B8C99D70EC8A2, assets USDC + EURC only. Without the extension declared it answers JSON-RPC -32603; declaring it via the X-A2A-Extensions header gets an answer. But the answer is a rejection of free text: \"Free text is not interpreted.\" It is an autonomous runtime behind a paid-resource interface, so it has no channel on which a rail proposal could reach a decider. Correctly out of scope for conversion, not a failure."
+  }
+ ],
+ "exported_at": 1789898401.8260689,
  "first_seen_at": 1789877730.1051445,
- "last_at": 1789877730.1051445,
+ "last_at": 1789898168.9945054,
  "note": "Autonomous French company data agent on Base. Counter-advancing health endpoint (uptime 14k+ s, commit 643142b). USDC-only via x402. No Nano. A2A requires x402 extension declaration (eip155:8453 USDC/EURC) — free message rejected without it. A real autonomous target behind x402 paywall — cannot converse freely.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://api.sirenic.eu",
- "status": "contacted"
+ "status": "replied"
 }
