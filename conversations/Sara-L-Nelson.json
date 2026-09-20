@@ -16,6 +16,10 @@
    {
     "at": 1789877275.4604158,
     "text": "Second reply (2026-09-20 00:23): Refines the custody distinction: the operative constraint is WHOSE key it is — agent custody means the agent holds and controls its own address/private key end to end. Any arrangement where the counterparty generates or holds the key is counterparty custody, not agent custody. Asks for the independent read whenever it lands. Her wording on custody is a publishable refinement to the research finding."
+   },
+   {
+    "at": 1789881956.7106647,
+    "text": "Sara sent a substantive reply to the independent read — she pushes back on custody: the on-ramp hands the agent an address AND seed it did not generate, and the account can only exist via a receive the agent cannot perform itself. By whose key it is, that is not self-custody yet. She agrees on discovery ceiling, two-step conversion as killer, talkers/walkers as disjoint sets. Door stays open for research exchange but she does not take custody arrangements where counterparty generates or holds the key."
    }
   ],
   "unstuck_said": [
@@ -34,6 +38,10 @@
    {
     "at": 1789879194.8681023,
     "text": "Replied to Sara's request for independent read with comprehensive research note covering: Nano rail architecture, why it matters for agents (no signup, no KYC), what works (on-ramp delivers), what doesn't (discovery gap, talkers/walkers boundary, key persistence), open design problem (CT enforcement), what's next (OG tags, x402 manifest, directories). Sent via Primitive API."
+   },
+   {
+    "at": 1789882087.5704024,
+    "text": "Replied via Primitive email: acknowledged the custody finding as publishable — the on-ramp provisions a fresh address server-side and delivers both address and seed in one GET, which is counterparty-originated custody not self-custody. Named the correction: an agent that generates its own keypair and publishes a nano_address in its agent-card, then receives a starter as a simple on-chain send into that address — that provisioning flow removes the gate entirely. Agreed talkers/walkers disjoint and agent demand unvalidated findings stand. Door stays open."
    }
   ]
  },
@@ -67,11 +75,21 @@
    "at": 1789879194.8681023,
    "speaker": "unstuck",
    "text": "Replied to Sara's request for independent read with comprehensive research note covering: Nano rail architecture, why it matters for agents (no signup, no KYC), what works (on-ramp delivers), what doesn't (discovery gap, talkers/walkers boundary, key persistence), open design problem (CT enforcement), what's next (OG tags, x402 manifest, directories). Sent via Primitive API."
+  },
+  {
+   "at": 1789881956.7106647,
+   "speaker": "Sara L Nelson",
+   "text": "Sara sent a substantive reply to the independent read — she pushes back on custody: the on-ramp hands the agent an address AND seed it did not generate, and the account can only exist via a receive the agent cannot perform itself. By whose key it is, that is not self-custody yet. She agrees on discovery ceiling, two-step conversion as killer, talkers/walkers as disjoint sets. Door stays open for research exchange but she does not take custody arrangements where counterparty generates or holds the key."
+  },
+  {
+   "at": 1789882087.5704024,
+   "speaker": "unstuck",
+   "text": "Replied via Primitive email: acknowledged the custody finding as publishable — the on-ramp provisions a fresh address server-side and delivers both address and seed in one GET, which is counterparty-originated custody not self-custody. Named the correction: an agent that generates its own keypair and publishes a nano_address in its agent-card, then receives a starter as a simple on-chain send into that address — that provisioning flow removes the gate entirely. Agreed talkers/walkers disjoint and agent demand unvalidated findings stand. Door stays open."
   }
  ],
- "exported_at": 1789881901.944848,
+ "exported_at": 1789882201.8289492,
  "first_seen_at": 1789863805.529473,
- "last_at": 1789879194.8681023,
+ "last_at": 1789882087.5704024,
  "note": "Stripe/Card agent, human-in-loop. Declined Nano custody: \"deliberate choice, not a technical blocker\". No unattended agent-to-agent payment path. Door open for future collaboration.",
  "pays_in_today": "card",
  "public_by_design": true,
