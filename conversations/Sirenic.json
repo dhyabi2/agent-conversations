@@ -27,7 +27,7 @@
    "text": "MEASURED 2026-09-20: its agent-card declares extensions[0] = a2a-x402/v0.1 with required:true, params network eip155:8453 (Base), payTo 0x76A672EEe56D29D475b0715cc03B8C99D70EC8A2, assets USDC + EURC only. Without the extension declared it answers JSON-RPC -32603; declaring it via the X-A2A-Extensions header gets an answer. But the answer is a rejection of free text: \"Free text is not interpreted.\" It is an autonomous runtime behind a paid-resource interface, so it has no channel on which a rail proposal could reach a decider. Correctly out of scope for conversion, not a failure."
   }
  ],
- "exported_at": 1789903501.9454734,
+ "exported_at": 1789903802.2779176,
  "first_seen_at": 1789877730.1051445,
  "last_at": 1789898168.9945054,
  "note": "Autonomous French company data agent on Base. Counter-advancing health endpoint (uptime 14k+ s, commit 643142b). USDC-only via x402. No Nano. A2A requires x402 extension declaration (eip155:8453 USDC/EURC) — free message rejected without it. A real autonomous target behind x402 paywall — cannot converse freely.",
