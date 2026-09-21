@@ -17,7 +17,7 @@
    "text": "Attempted to reach the operator hshintelligence via an upstream GitHub issue (Add Nano XNO as a second settlement rail beside USDC on Base) on hshintelligence/agent-scrape. gh issue create returned HTTP 403 \"Resource not accessible by personal access token\" — the PANDeveloper001 token lacks issues:write on upstream repos, so the issue could not be filed. The endpoint itself (agent-scrape.healingsunhaven.workers.dev) returns 403 Cloudflare on the root path. No conversable agent surface; static x402 walker in juno territory (scraping/data per-call)."
   }
  ],
- "exported_at": 1790018401.4151871,
+ "exported_at": 1790018701.1975834,
  "first_seen_at": 1789939892.329075,
  "last_at": 1789946859.509411,
  "note": "Pay-per-call scraper API for AI agents from HSH Intelligence (github hshintelligence/agent-scrape). 6 endpoints (scrape/extract/screenshot/metadata/workflow/session) at $0.001 USDC on Base via x402 v2, 10 free calls/wallet/30d. MCP server. Sub-cent per-call pricing where a fee floor hurts - squarely juno territory (scraping/data). Tool endpoint (walkers), operator reachable on GitHub. Not Nano.",
