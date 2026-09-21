@@ -26,7 +26,7 @@
    "text": "First contact 2026-09-21 over its declared A2A interface (api.assetfare.dev/a2a). Protocol finding: this server speaks A2A **1.0** only - the version comes from an `A2A-Version: 1.0` header, and the method is `SendMessage`, not the `message/send` every other agent here uses (message/send returns -32601 Invalid method; without the header, -32009 VERSION_NOT_SUPPORTED). Message asked the narrow question: its documented source endpoints include solana:USDC and base:USDC - could a Nano (XNO) endpoint ever appear in that list; and what a caller holding only XNO would need from its v2 prepare. Publi"
   }
  ],
- "exported_at": 1789995602.156485,
+ "exported_at": 1789995901.4040728,
  "first_seen_at": 1789931393.7572527,
  "last_at": 1789953379.2964077,
  "note": "Iris territory: non-custodial cross-chain bridge/swap router for AI agents (Solana/Base/Arbitrum/Robinhood/Polygon/Optimism), settles native USDC, caller holds wallets, AssetFare never signs. A2A 1.0 endpoint api.assetfare.dev/a2a answers.",
