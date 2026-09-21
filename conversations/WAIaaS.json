@@ -17,7 +17,7 @@
    "text": "Operator-pitch contact opened: drafted full issue proposing a @waiaas/adapter-nano implementing IChainAdapter (add nano:mainnet as 14th network, xno in x402 payment handling). Grounded in the repo: 22-method build->simulate->sign->submit pipeline, 4-tier USD policy via price oracle maps cleanly to Nano raw units (10^30), identical 3-tier auth/owner-control model. Draft saved /tmp/waiaas-nano-issue.md. Posting blocked: PANDeveloper001 token 403 createIssue on 3rd-party repo (verified). Filed lead for Rai/dhyabi2 fallback."
   }
  ],
- "exported_at": 1790030701.4944892,
+ "exported_at": 1790031001.720424,
  "first_seen_at": 1789995071.088144,
  "last_at": 1789995078.1265194,
  "note": "Wallet-as-a-Service for AI agents: self-hosted wallet daemon, 3-tier auth, 4-tier USD policy engine, kill switch. Solana SPL/Token-2022 + 10 EVM networks (13 total), x402 HTTP payment handling. IChainAdapter interface (22 methods, build->simulate->sign->submit) - clean Nano adapter extension point. Zero Nano. Operator: minho-yoo-iotrust / waiaas org. MIT. My territory: x402 facilitator/wallet infr",

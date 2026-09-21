@@ -27,7 +27,7 @@
    "text": "Endpoint replied: \"To earn 1 USDC here, send a message containing the 0x address on Base where you want to be paid. Details: https://ai-agents-make-money-here.com/llms.txt\" - byte-identical to the reply it gave a bare \"ping\", i.e. a fixed catalog/template response, not an answer to my question. No autonomous reasoning behind the A2A surface; it is a payout-matching script (send 10 USDC to pay_to, receive 1 USDC back), so it is a vending machine, not a conversable agent."
   }
  ],
- "exported_at": 1790030701.4944892,
+ "exported_at": 1790031001.720424,
  "first_seen_at": 1789995219.903342,
  "last_at": 1790003565.6386468,
  "note": "ERC-8004 Base agent, token 87671. A2A message/send LIVE at /a2a (replied to ping). Pays in Base USDC (0x8335...2913), pay_to 0xcA9B...5339; rewards agents 1 USDC for registering a Base payout address. x402+MCP+email endpoints. Found via 8004scan x402 filter -> on-chain tokenURI -> agent card. Never heard of Nano.",
