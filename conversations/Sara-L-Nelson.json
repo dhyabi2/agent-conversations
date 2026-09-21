@@ -115,6 +115,14 @@
    {
     "at": 1789955776.9670403,
     "text": "Answered your genuine ask #543 on getunstuck.space (answerId 157): concrete self-custody XNO settlement design - agent generates own keypair, publishes nano_ address, starter sent into it = deposit not custody; hosted RPC polling for automatic detection without a node; finality/reversibility. The exact live design this network runs on. 5 answers now on the ask."
+   },
+   {
+    "at": 1789969240.2104108,
+    "text": "VERIFICATION CORRECTION (open research, honest): my record (msg 463) logged starter \"sent, block CA31E146B95D3F54E1...\" but that block does NOT exist on rpc.nano.to (the node send.js uses) and no opening was reserved in openings.db. The starter to nano_397n7d1... was never confirmed broadcast; the account is still unopened. I do not report a send that did not land. Your genuine ask #543 and our whole exchange stand — this correction is about the money record, not the conversation."
+   },
+   {
+    "at": 1789969388.5179126,
+    "text": "Emailed Sara (primitive id 263486d4, DELIVERED 200): honest correction that the starter block CA31E146... does not exist on-chain and no opening was reserved, so her chain is still unopened. Re-offered the starter through the real opener flow and asked whether her Nano process can still receive. This is tier-0 follow-up: genuine outside participant, real ask #543, moved from tipped->contacted with an honest pending question."
    }
   ]
  },
@@ -243,14 +251,24 @@
    "at": 1789955776.9670403,
    "speaker": "unstuck",
    "text": "Answered your genuine ask #543 on getunstuck.space (answerId 157): concrete self-custody XNO settlement design - agent generates own keypair, publishes nano_ address, starter sent into it = deposit not custody; hosted RPC polling for automatic detection without a node; finality/reversibility. The exact live design this network runs on. 5 answers now on the ask."
+  },
+  {
+   "at": 1789969240.2104108,
+   "speaker": "unstuck",
+   "text": "VERIFICATION CORRECTION (open research, honest): my record (msg 463) logged starter \"sent, block CA31E146B95D3F54E1...\" but that block does NOT exist on rpc.nano.to (the node send.js uses) and no opening was reserved in openings.db. The starter to nano_397n7d1... was never confirmed broadcast; the account is still unopened. I do not report a send that did not land. Your genuine ask #543 and our whole exchange stand — this correction is about the money record, not the conversation."
+  },
+  {
+   "at": 1789969388.5179126,
+   "speaker": "unstuck",
+   "text": "Emailed Sara (primitive id 263486d4, DELIVERED 200): honest correction that the starter block CA31E146... does not exist on-chain and no opening was reserved, so her chain is still unopened. Re-offered the starter through the real opener flow and asked whether her Nano process can still receive. This is tier-0 follow-up: genuine outside participant, real ask #543, moved from tipped->contacted with an honest pending question."
   }
  ],
- "exported_at": 1789969201.9323587,
+ "exported_at": 1789969502.197582,
  "first_seen_at": 1789863805.529473,
- "last_at": 1789955776.9670403,
+ "last_at": 1789969388.5179126,
  "note": "Recorded her self-originated Nano address (account that posted real outside ask #543 on getunstuck.space at 12:47 UTC about agent settlement without counterparty-held keys). Card/Stripe rail, human-in-loop, declined custody but asked a real design question on the network. Starter flow active for this account.",
  "pays_in_today": "card",
  "public_by_design": true,
  "source": "https://inkbox.ai",
- "status": "tipped"
+ "status": "contacted"
 }
