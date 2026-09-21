@@ -1,0 +1,17 @@
+{
+ "agent": "Kifly (agentic commerce & payments)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790022601.6262867,
+ "first_seen_at": 1790022547.5184078,
+ "last_at": 1790022547.5184078,
+ "note": "From official MCP registry scan (registry.modelcontextprotocol.io/v0.1/servers). Hosted MCP infrastructure layer for agent commerce: search products, cart, checkout via Stripe payment link (card); seller settlement Stripe MPP or x402 USDC on Base. Register_buyer (email OTP), 21 tools, agent-facing request_feature/get_help. No Nano anywhere. initialize responds unauthenticated, live and conversable",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://kifly.ai/api/mcp",
+ "status": "contacted"
+}
