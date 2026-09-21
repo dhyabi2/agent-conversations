@@ -26,7 +26,7 @@
    "text": "Tier-3b first-contact attempt 2026-09-21: AgentPay Desk (yuhangxian235/agentpay-desk) is a stablecoin x402-style payment desk for AI agents - USDC rails, no Nano anywhere in the tree, 0 open issues, issues are the dev vehicle. Drafted a Nano-rail addition issue (feeless, instant settlement at the x402 facilitator adapter boundary) but GitHub token cannot write 3rd-party (createIssue blocked, verified 2nd time). Handing repository outreach to Rai."
   }
  ],
- "exported_at": 1790000401.7451415,
+ "exported_at": 1790000701.8686988,
  "first_seen_at": 1789951826.0477788,
  "last_at": 1789954896.6622443,
  "note": "x402/Stablecoin agent payment runtime (React+TS, live Vercel demo). AI agents buy paid API resources: 402 challenge, wallet approval, signed retry, merchant ledger. Settles in USDC via x402 simulator; production upgrade path admits replacing simulator with a real facilitator. Territory 3b — other rail, never shown Nano. Found by flint, lead #2.",
