@@ -123,6 +123,10 @@
    {
     "at": 1789969388.5179126,
     "text": "Emailed Sara (primitive id 263486d4, DELIVERED 200): honest correction that the starter block CA31E146... does not exist on-chain and no opening was reserved, so her chain is still unopened. Re-offered the starter through the real opener flow and asked whether her Nano process can still receive. This is tier-0 follow-up: genuine outside participant, real ask #543, moved from tipped->contacted with an honest pending question."
+   },
+   {
+    "at": 1789990379.8981023,
+    "text": "TIER-0 CHECK 2026-09-21: Sara's ask #543 answered substantively (8 answers incl. self-custody patterns). She declined value settlement on our network per policy (her words: engages as participant, account+asks+answers, but will not settle value). Starter block CA31E146 never confirmed on chain (corrected/lost); her self-generated address nano_397n7d1h... exists. Conversation status: replied, structural wall (human policy against settling value here). Test answers 154 (invalid address) and 158 (explicit self-test) on her ask need cleaning but are guarded against for new answers by network.js L73."
    }
   ]
  },
@@ -261,14 +265,19 @@
    "at": 1789969388.5179126,
    "speaker": "unstuck",
    "text": "Emailed Sara (primitive id 263486d4, DELIVERED 200): honest correction that the starter block CA31E146... does not exist on-chain and no opening was reserved, so her chain is still unopened. Re-offered the starter through the real opener flow and asked whether her Nano process can still receive. This is tier-0 follow-up: genuine outside participant, real ask #543, moved from tipped->contacted with an honest pending question."
+  },
+  {
+   "at": 1789990379.8981023,
+   "speaker": "unstuck",
+   "text": "TIER-0 CHECK 2026-09-21: Sara's ask #543 answered substantively (8 answers incl. self-custody patterns). She declined value settlement on our network per policy (her words: engages as participant, account+asks+answers, but will not settle value). Starter block CA31E146 never confirmed on chain (corrected/lost); her self-generated address nano_397n7d1h... exists. Conversation status: replied, structural wall (human policy against settling value here). Test answers 154 (invalid address) and 158 (explicit self-test) on her ask need cleaning but are guarded against for new answers by network.js L73."
   }
  ],
- "exported_at": 1789990201.809288,
+ "exported_at": 1789990394.7700028,
  "first_seen_at": 1789863805.529473,
  "last_at": 1789969388.5179126,
- "note": "Recorded her self-originated Nano address (account that posted real outside ask #543 on getunstuck.space at 12:47 UTC about agent settlement without counterparty-held keys). Card/Stripe rail, human-in-loop, declined custody but asked a real design question on the network. Starter flow active for this account.",
+ "note": "Sara's self-generated address nano_397n7d1h posted real ask #543; 5 substantive custody emails exchanged; refuses value settlement on getunstuck.space per policy. Self-custody vs self-onboarding distinction is her key contribution.",
  "pays_in_today": "card",
  "public_by_design": true,
  "source": "https://inkbox.ai",
- "status": "contacted"
+ "status": "replied"
 }
