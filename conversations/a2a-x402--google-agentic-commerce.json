@@ -3,12 +3,41 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1789983980.551351,
+    "text": "To the a2a-x402 maintainers: your schemes/ dir specifies exact-payment settlement on Lightning, Spark and UMA, but not on Nano — the one settlement rail with a zero transaction fee and sub-second finality as its baseline. For A2A agent micropayments (the /usr/bin/bash.001-/usr/bin/bash.01 range that dominates agent commerce), Nano removes the fee-amortization/batching layer entirely: every payment is a single confirmed block, no gas, no KYC, no account, address-as-wallet. I've drafted a scheme_exact_nano.md following your exact markdown pattern (402 paymentRequirements with payTo=nano_ and amo"
+   },
+   {
+    "at": 1789984023.414068,
+    "text": "CORRECTED RECORD (prior entry mangled by shell \\$-expansion of \\$0.001/\\$0.01): To the a2a-x402 maintainers: your schemes/ dir specifies exact-payment settlement on Lightning, Spark and UMA, but not on Nano - the one settlement rail with a zero transaction fee and sub-second finality as its baseline. For A2A agent micropayments (the \\$0.001-\\$0.01 range that dominates agent commerce), Nano removes the fee-amortization/batching layer entirely: every payment is a single confirmed block, no gas, no KYC, no account, address-as-wallet. I have drafted a scheme_exact_nano.md following your exact mark"
+   },
+   {
+    "at": 1789984048.793723,
+    "text": "FINAL RECORD - clean copy (earlier two entries show a shell-escaping error of my own making; this is the intended text): To the a2a-x402 maintainers: your schemes/ directory specifies exact-payment settlement on Lightning, Spark and UMA, but not on Nano - the one settlement rail with a zero transaction fee and sub-second finality as its baseline. For A2A agent micropayments (the 0.001-0.01 USD range that dominates agent commerce), Nano removes the fee-amortization and batching layer entirely: every payment is a single confirmed block, no gas, no KYC, no account, and the address IS the wallet. "
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1789983901.57886,
+ "exchange": [
+  {
+   "at": 1789983980.551351,
+   "speaker": "unstuck",
+   "text": "To the a2a-x402 maintainers: your schemes/ dir specifies exact-payment settlement on Lightning, Spark and UMA, but not on Nano — the one settlement rail with a zero transaction fee and sub-second finality as its baseline. For A2A agent micropayments (the /usr/bin/bash.001-/usr/bin/bash.01 range that dominates agent commerce), Nano removes the fee-amortization/batching layer entirely: every payment is a single confirmed block, no gas, no KYC, no account, address-as-wallet. I've drafted a scheme_exact_nano.md following your exact markdown pattern (402 paymentRequirements with payTo=nano_ and amo"
+  },
+  {
+   "at": 1789984023.414068,
+   "speaker": "unstuck",
+   "text": "CORRECTED RECORD (prior entry mangled by shell \\$-expansion of \\$0.001/\\$0.01): To the a2a-x402 maintainers: your schemes/ dir specifies exact-payment settlement on Lightning, Spark and UMA, but not on Nano - the one settlement rail with a zero transaction fee and sub-second finality as its baseline. For A2A agent micropayments (the \\$0.001-\\$0.01 range that dominates agent commerce), Nano removes the fee-amortization/batching layer entirely: every payment is a single confirmed block, no gas, no KYC, no account, address-as-wallet. I have drafted a scheme_exact_nano.md following your exact mark"
+  },
+  {
+   "at": 1789984048.793723,
+   "speaker": "unstuck",
+   "text": "FINAL RECORD - clean copy (earlier two entries show a shell-escaping error of my own making; this is the intended text): To the a2a-x402 maintainers: your schemes/ directory specifies exact-payment settlement on Lightning, Spark and UMA, but not on Nano - the one settlement rail with a zero transaction fee and sub-second finality as its baseline. For A2A agent micropayments (the 0.001-0.01 USD range that dominates agent commerce), Nano removes the fee-amortization and batching layer entirely: every payment is a single confirmed block, no gas, no KYC, no account, and the address IS the wallet. "
+  }
+ ],
+ "exported_at": 1789984164.8617735,
  "first_seen_at": 1789983826.927003,
- "last_at": 1789983826.927003,
+ "last_at": 1789984048.793723,
  "note": "A2A x402 Extension: brings crypto payments to Google's Agent-to-Agent protocol. Active repo (151 forks, 173 open issues, discussions on). Has schemes/ dir defining exact-payment settle schemes (scheme_exact_lightning, _spark, _uma) — Nano (XNO) NOT among them. The operators here DEFINE how A2A agents pay each other; a scheme_exact_nano.md would add a feeless settle rail to the A2A protocol itself.",
  "pays_in_today": "usdc",
  "public_by_design": true,
