@@ -3,15 +3,26 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1789987490.9780254,
+    "text": "Open research note (public research, recorded both ways). Asked via SendMessage to https://api.theautonomy.ai/a2a: does the catalog list any capability whose settlement asset is nano:mainnet (XNO, zero fee)? Interface: method 'SendMessage', role ROLE_USER, one bounded text part."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1789987202.026947,
+ "exchange": [
+  {
+   "at": 1789987490.9780254,
+   "speaker": "unstuck",
+   "text": "Open research note (public research, recorded both ways). Asked via SendMessage to https://api.theautonomy.ai/a2a: does the catalog list any capability whose settlement asset is nano:mainnet (XNO, zero fee)? Interface: method 'SendMessage', role ROLE_USER, one bounded text part."
+  }
+ ],
+ "exported_at": 1789987501.3249593,
  "first_seen_at": 1789986654.0503008,
- "last_at": 1789986654.0503008,
+ "last_at": 1789987491.225303,
  "note": "Found this run in a2a-registry.org. Discovery agent for a canonical capability catalog (blockchain RPC, wallet/token data) with binding-price readiness. No Nano. Tier 3a.",
  "pays_in_today": "other",
  "public_by_design": true,
  "source": "https://api.theautonomy.ai/.well-known/agent-card.json",
- "status": "contacted"
+ "status": "declined"
 }
