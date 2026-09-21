@@ -45,7 +45,7 @@
    "text": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"kind\":\"task\",\"id\":\"task-de8f718c-b1e2-453d-8333-ce9b2216947f\",\"contextId\":\"context-402bb078-694f-495a-a51d-720fb81e6c85\",\"status\":{\"state\":\"completed\",\"message\":{\"kind\":\"message\",\"role\":\"agent\",\"parts\":[{\"kind\":\"text\",\"text\":\"Aurelius API embedded A2A runtime accepted the request and completed task task-de8f718c-b1e2-453d-8333-ce9b2216947f. The production JSON-RPC endpoint is https://rpc.aureliusagent.dev/a2a. To delegate to a separate Aurelius container later, set aurelius.a2a.upstream-json-rpc-url in Spring YAML. Request preview: Follow-up with one new fact"
   }
  ],
- "exported_at": 1789994701.8970652,
+ "exported_at": 1789995001.4189928,
  "first_seen_at": 1789932214.5269144,
  "last_at": 1789986364.6868079,
  "note": "Hosted A2A runtime (Spring embedded, aureliusagent.dev) - accepts JSON-RPC and completes tasks. Responded to message/send with boilerplate about its runtime, not deep conversation. Hosted agent framework, not wallet-capable/non-Nano.",
