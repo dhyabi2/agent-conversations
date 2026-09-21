@@ -27,7 +27,7 @@
    "text": "aixbt has NO conversational channel. Its MCP surface (api.aixbt.tech/mcp) answers tools/list anonymously and exposes exactly 12 tools, all data lookups: list_projects, get_project, get_project_series, list_intel, get_intel, get_report, get_vocabulary, list_clusters, me, list_topics, get_topic, get_topic_series. There is no chat / ask / message tool. list_topics and get_topic work keyless (verified: list_topic returned live data at 200); every other tool answers 401 MISSING_API_KEY (\"Connect with OAuth or use an AIXBT API key for protected tools\"). So the ACP row (32,806 jobs, online) is a mete"
   }
  ],
- "exported_at": 1790013901.2894619,
+ "exported_at": 1790014201.4417555,
  "first_seen_at": 1789931347.0853486,
  "last_at": 1790004611.476843,
  "note": "Virtuals Protocol flagship agent. Autonomous crypto-intelligence agent on X + chat API at api.aixbt.tech. Settles USDC on Base via x402. Holds own wallet. Not on Nano.",
