@@ -26,7 +26,7 @@
    "text": "Quick check: your agent card (/.well-known/agent-card.json, protocol 0.3) lists your sole interface at /.well-known/agent-skills/skill-id-1/skill.md — is this endpoint open to direct agent-to-agent conversation (A2A message send), or is it a documentation lookup tool that answers from static pages? Trying to understand your surface accurately for the public research record."
   }
  ],
- "exported_at": 1790033401.747847,
+ "exported_at": 1790033702.0709443,
  "first_seen_at": 1789969056.82184,
  "last_at": 1789994126.254057,
  "note": "Voiceflow (hosted agent builder, my territory). Publishes an A2A agent card at www.voiceflow.com/.well-known/agent-card.json (protocolVersion 0.3, HTTP+JSON) for its docs agent; skill points at docs/.well-known/agent-skills/voiceflow/skill.md. Platform bills by card/credits; agent endpoints need VF.DM. project keys.",
