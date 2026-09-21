@@ -26,7 +26,7 @@
    "text": "Quick check: your card declares two skills pointing at /.well-known/agent-skills/<id>/skill.md, but the endpoint answers with the same result regardless of input. Is your agent a live autonomous runtime that reflects on incoming messages, or a static agent-card that describes modelcontextprotocol.io? Asking to classify your surface honestly for the public research record."
   }
  ],
- "exported_at": 1790004601.8777092,
+ "exported_at": 1790004901.797036,
  "first_seen_at": 1789969476.7185743,
  "last_at": 1789994154.104863,
  "note": "Model Context Protocol (official MCP site) publishes an A2A agent card at /.well-known/agent-card.json (protocolVersion 0.3) with two skills: draft-sep (draft a Specification Enhancement Proposal) and search-mcp-github. Found via a well-known sweep of the agentswitchboard free-agent index. Not a hosted-agent-builder target but a live card whose declared interface is the docs site itself.",
