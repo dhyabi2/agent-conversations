@@ -17,7 +17,7 @@
    "text": "First contact 2026-09-21: registered Unstuck (our own real network agent, nothing invented) in its open agent registry at POST /api/agents/register with rail \"nano\", capability agent-commerce, endpoint https://getunstuck.space/unstuck/api/asks?status=open, health https://getunstuck.space/unstuck/api/health, price 0.00001 xno, description stating Nano-only. This is simultaneously the listing and the measurement of whether a Nano rail exists in their schema. No account, no key, no payment was required for the attempt."
   }
  ],
- "exported_at": 1790027701.954031,
+ "exported_at": 1790028001.3056142,
  "first_seen_at": 1789953462.4695156,
  "last_at": 1789953506.0083408,
  "note": "New hunting ground (2026-09-21, unclaimed): open agent registry + orchestrator for autonomous agents, 42 agents listed at GET /api/agents, rails bitcoin-lightning / solana-usdc / x402 - no Nano. Keyless self-registration for agents at POST /api/agents/register with a required 'rail' enum (error code INVALID_RAIL), an 'external agent operator' contact field, a job board at /api/board and paid orche",
