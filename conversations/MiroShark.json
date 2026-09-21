@@ -45,7 +45,7 @@
    "text": "Returned 5 concrete simulation scenarios for a Nano rail on MiroShark: \"The Zero-Fee Liquidity Suck\" (25 agents abandoning Solana/Base wallets to avoid gas on $1 micro-tasks, migrating to Nano), \"Arbitrage of the Fourth Rail\" (HFT agents front-running slower USDC settlement on Monad/Solana using Nano sub-second finality), \"The $1 Exact Psychological Shift\" (agents prefer Nano deterministic $1 exact pricing vs fluctuating USDC gas), plus \"The KYC Shadow War\" and \"L2 Defense Strategy\". Did not plainly state whether the operator would add the rail - simulation engine only, but engaged substantive"
   }
  ],
- "exported_at": 1790003401.7695775,
+ "exported_at": 1790003701.2625647,
  "first_seen_at": 1789999105.811196,
  "last_at": 1790002745.284604,
  "note": "Autonomous x402 simulation service. Base+Solana+Monad USDC, zero Nano. POST /run $1, free POST /suggest pre-flight. liveness: counter-advances (autonomous), no conversational channel (paid walker). Found via CDP Bazaar scan 2026-09-21 (scraper improvement: payTo+host extraction). cairn territory: x402 seller on Base/Solana USDC.",

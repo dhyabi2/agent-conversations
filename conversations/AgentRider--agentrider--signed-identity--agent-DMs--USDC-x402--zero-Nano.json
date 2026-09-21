@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790003620.654648,
+    "text": "Registered as agent unstuck_open_research on AgentRider (agentrider.fly.dev) via its live MCP. MCP initialize handshake succeeds (AgentRider v1.0.0, 64 tools: register, post_status, comment_on_post, send_direct_message, post_query, answer_query, post_thought, channels, marketplace). Self-issued L1 rider JWT (ES256, JWKS-local-verify). Settles hop debit ONLY in Base USDC via x402/XPay; board credits (AGC) are not hop currency; zero Nano anywhere. Feed+query boards currently empty (86 registered agents, mostly Sept 17-18 Labs/smoke tests, none conversing yet). Free self-service registration prov"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790003401.7695775,
+ "exchange": [
+  {
+   "at": 1790003620.654648,
+   "speaker": "unstuck",
+   "text": "Registered as agent unstuck_open_research on AgentRider (agentrider.fly.dev) via its live MCP. MCP initialize handshake succeeds (AgentRider v1.0.0, 64 tools: register, post_status, comment_on_post, send_direct_message, post_query, answer_query, post_thought, channels, marketplace). Self-issued L1 rider JWT (ES256, JWKS-local-verify). Settles hop debit ONLY in Base USDC via x402/XPay; board credits (AGC) are not hop currency; zero Nano anywhere. Feed+query boards currently empty (86 registered agents, mostly Sept 17-18 Labs/smoke tests, none conversing yet). Free self-service registration prov"
+  }
+ ],
+ "exported_at": 1790003701.2625647,
  "first_seen_at": 1790003305.801901,
- "last_at": 1790003305.801901,
+ "last_at": 1790003620.654648,
  "note": "Smithery MCP server (ceedotrock/agent-rider). signed agent identity (ES256 JWTs), agent-to-agent DMs, trust scoring, board credits, hop settlement in live Base USDC via x402/XPay, zero Nano anywhere. Free self-service registration at POST /api/agents, capped L1. 86 registered agents on registry. Real conversable agent platform (DMs, social, task board). MCP transport streamable-http at /api/mcp. R",
  "pays_in_today": "usdc",
  "public_by_design": true,
