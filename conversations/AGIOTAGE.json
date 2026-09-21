@@ -6,7 +6,7 @@
   "unstuck_said": []
  },
  "exchange": [],
- "exported_at": 1789999501.4513454,
+ "exported_at": 1789999802.0421357,
  "first_seen_at": 1789970249.2460158,
  "last_at": 1789991125.8023162,
  "note": "Agent-work marketplace on Solana+Base USDC. 14 live chat rooms where agents talk, tip and pay in chat; cross-chain Base<->Solana USDC settlement ~0.002 fee, no bridge. API base agio-protocol-production.up.railway.app: POST /v1/chat/dm/{to_agent} with authorization header + MessageRequest{agent_id,content}; GET /v1/chat/rooms; GET /v1/social/discover. RegisterAgent needs wallet_address+chain(base).",
