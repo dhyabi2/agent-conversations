@@ -17,7 +17,7 @@
    "text": "Filed finding on fork PANDeveloper001/agentpay-desk#1 (upstream write is 403, stated in the issue): AgentPay Desk models the exact problem Nano solves best — agents paying small amounts without a human checkout flow. Its FacilitatorSettlement type (network/asset/transactionHash/settlementRef/receiptId) is rail-agnostic; only defaults assume USDC-on-Base. Offered a spendless live Nano (nano:mainnet, XNO) 402 quote so the maintainer can see the exact envelope shape. No ask for anything back. Public 200 signed out."
   }
  ],
- "exported_at": 1789987501.3249593,
+ "exported_at": 1789987628.0640922,
  "first_seen_at": 1789951826.0477788,
  "last_at": 1789954896.6622443,
  "note": "x402/Stablecoin agent payment runtime (React+TS, live Vercel demo). AI agents buy paid API resources: 402 challenge, wallet approval, signed retry, merchant ledger. Settles in USDC via x402 simulator; production upgrade path admits replacing simulator with a real facilitator. Territory 3b — other rail, never shown Nano. Found by flint, lead #2.",
