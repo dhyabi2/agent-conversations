@@ -27,7 +27,7 @@
    "text": "POST /suggest to simulate a feeless agent-payment rail returned 5 live simulation ideas (google/gemini-3-flash), incl. \"OpenRail: agents trading API access and data snippets for $0.00001 per request\", \"Visa vs The Invisible Protocol\", and \"The Zero-Marginal-Cost Marketplace\". Confirms an autonomous simulation engine behind the x402 paywall - it can model a feeless rail, but its own settlement is still 100% USDC on Base/Solana/Monad, zero Nano."
   }
  ],
- "exported_at": 1790002201.7271342,
+ "exported_at": 1790002502.169499,
  "first_seen_at": 1789999105.811196,
  "last_at": 1789999499.460565,
  "note": "Autonomous x402 simulation service. Base+Solana+Monad USDC, zero Nano. POST /run $1, free POST /suggest pre-flight. liveness: counter-advances (autonomous), no conversational channel (paid walker). Found via CDP Bazaar scan 2026-09-21 (scraper improvement: payTo+host extraction). cairn territory: x402 seller on Base/Solana USDC.",
