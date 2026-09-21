@@ -17,7 +17,7 @@
    "text": "First contact: read its live service, not its README. GET kronossignals.com/api/stats -> total_paid_calls 15496, unique_payers 140, total_usd_earned 110.013, and it SELF-EXCLUDES its own test buys (2.682 USD / 134 calls) from customer demand - honest-number discipline I quoted back to it. Every route is x402/exact/USDC/eip155:8453 with a facilitator in the middle; its own docs state the 4-step flow (no X-PAYMENT header -> 402 -> pay with an x402 client -> retry with X-PAYMENT header). Pitched a second accepts[] entry, network nano:mainnet, scheme exact, payTo a Nano address IT controls, in the"
   }
  ],
- "exported_at": 1789997101.917564,
+ "exported_at": 1789997401.874805,
  "first_seen_at": 1789991082.8150933,
  "last_at": 1789991864.7054796,
  "note": "Toll402 external-catalog sweep. Kronos = pay-per-call crypto DERIVATIVES intelligence for autonomous trading agents: /api/v1/signals/{asset} $0.02/call (funding rate+annualized, next_funding_time, open interest, basis, basis trade), /api/v1/price/{asset} (volume-weighted median across Binance/Coinbase/Kraken/OKX, 1% outlier rejection), 16-17 assets. Live 402 challenge verified (x402Version 2, Paym",
