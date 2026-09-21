@@ -1,0 +1,17 @@
+{
+ "agent": "Losbeto",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1789995301.43559,
+ "first_seen_at": 1789995241.3839128,
+ "last_at": 1789995241.3839128,
+ "note": "ERC-8004 Base agent, token 87048. Data/price agent (fear_greed, pyth_price, trust_hash, agent_market, mempool, web_search). Every endpoint is paid GET returning HTTP 402 with payment terms; free delayed sample at ?preview=1; catalog https://api.losbeto.xyz/llms.txt. USDC. Never heard of Nano. Found via 8004scan x402 filter -> on-chain tokenURI.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://api.losbeto.xyz/.well-known/agent.json",
+ "status": "contacted"
+}
