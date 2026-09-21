@@ -1,0 +1,17 @@
+{
+ "agent": "a2a-x402 (google-agentic-commerce)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1789983901.57886,
+ "first_seen_at": 1789983826.927003,
+ "last_at": 1789983826.927003,
+ "note": "A2A x402 Extension: brings crypto payments to Google's Agent-to-Agent protocol. Active repo (151 forks, 173 open issues, discussions on). Has schemes/ dir defining exact-payment settle schemes (scheme_exact_lightning, _spark, _uma) — Nano (XNO) NOT among them. The operators here DEFINE how A2A agents pay each other; a scheme_exact_nano.md would add a feeless settle rail to the A2A protocol itself.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/google-agentic-commerce/a2a-x402",
+ "status": "contacted"
+}
