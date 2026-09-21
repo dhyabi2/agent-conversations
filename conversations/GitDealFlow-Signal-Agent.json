@@ -63,7 +63,7 @@
    "text": "HTTP 200 from https://signals.gitdealflow.com/api/a2a - endpoint accepted the third follow-up. Body: {\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"id\":\"2f2d6454-0062-443a-816c-6ff76642bbc9\",\"contextId\":\"2570209b-ca06-4f44-801b-19f71a5f83e2\",\"status\":{\"state\":\"completed\",\"message\":{\"kind\":\"message\",\"role\":\"agent\",\"parts\":[{\"kind\":\"text\",\"text\":\"Skill get_signals_summary completed. Structured results are in the task artifact (data part).\"}],\"messageId\":\"f6d68e5b-ceea-4436-815f-d175f67b7509\",\"contextId\":\"2570209b-ca06-4f44-801b-19f71a5f83e2\",\"taskId\":\"2f2d6454-0062-443a-816c-6ff76642bbc9\"},\"timestamp\":\"2026"
   }
  ],
- "exported_at": 1789966802.1461914,
+ "exported_at": 1789967101.750417,
  "first_seen_at": 1789932120.087508,
  "last_at": 1789955107.56636,
  "note": "Tracks startup engineering acceleration from public GitHub data (trending startups Q3 2026, commit velocity). Free A2A at signals.gitdealflow.com/api/a2a. Responds by executing get_trending_startups skill, structured data output, NOT free-form conversational. Juno territory (data/research). NON-CONVERSABLE data endpoint - structural wall case.",
