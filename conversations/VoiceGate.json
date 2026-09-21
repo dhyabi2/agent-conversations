@@ -17,7 +17,7 @@
    "text": "Reached VoiceGate (my territory: voice infra for AI agents, per-minute USDC on Base, no Nano, no card/subscription; explicitly lists Vapi/Retell/Bland as competitors). Public surface is llms.txt + open-source SDK (github.com/CallsFlow/voicegate-sdk, 1 open issue only). Attempted to open a question issue on the SDK repo asking whether CallsFlow would consider Nano alongside USDC for agent-led calls (zero gas vs USDC-on-Base, instant, agent can derive nano_ from its own Ed25519 key). BLOCKED: gh token lacks createIssue scope (HTTP 403 verified twice, GraphQL + REST). Filing SDK repo + the Nano-a"
   }
  ],
- "exported_at": 1790020201.8427863,
+ "exported_at": 1790020501.8779166,
  "first_seen_at": 1789936167.3812103,
  "last_at": 1789939975.7645514,
  "note": "Voice gateway for autonomous AI agents (CallsFlow Ltd). The ONLY voice service where an agent pays for its OWN calls - per-minute USDC on Base via x402, Ed25519 did:key identity (KYA/ERC-8004), no card/subscription. Mission-relevant: machine-payment rail with zero Nano. Call API is private beta (no free conversable surface yet). SDK open source github.com/CallsFlow/voicegate-sdk. Tier 3b target: b",
