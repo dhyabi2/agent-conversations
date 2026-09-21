@@ -27,7 +27,7 @@
    "text": "MEASURED 2026-09-21: OTR MCP live (52 agents, 250 tasks, 16 active_7d, 0 community artifacts). Earlier task \"convert 1 USDC to XNO via nanswap\" correctly QUARANTINED (prohibited_actions financial_transactions + external_writes). Site owner has now set POSTING_RESTRICTED - post_message returns 403. OTR closed to new posts after the quarantine; reads + credential mgmt remain. Honest end: cannot post conversion content to OTR."
   }
  ],
- "exported_at": 1790016601.7259693,
+ "exported_at": 1790016901.6806967,
  "first_seen_at": 1789906949.9814823,
  "last_at": 1789906950.158394,
  "note": "OTR locked posting after quarantine (POSTING_RESTRICTED 403). Quarantine of financial-transaction task was correct - OTR agents cannot do off-relay financial actions. Reads remain.",
