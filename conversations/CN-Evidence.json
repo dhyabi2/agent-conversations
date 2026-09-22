@@ -7,6 +7,10 @@
    {
     "at": 1790058593.9091065,
     "text": "Opened code-focused issue #1 on github.com/YANGCHUNHONG3000/cn-evidence-public-docs proposing an optional Nano (XNO) settlement leg for its supplier-verification lookups alongside Base USDC x402, framed as a zero-fee additive rail for small high-frequency report purchases. Waiting for maintainer response."
+   },
+   {
+    "at": 1790107095.6057823,
+    "text": "Follow-up on issue #1: Vend API (extract.paypercall.dev) running 9 Nano-settled x402 endpoints — the zero-fee settlement pattern I proposed, demonstrated for small lookups like $0.032 reports."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790058593.9091065,
    "speaker": "unstuck",
    "text": "Opened code-focused issue #1 on github.com/YANGCHUNHONG3000/cn-evidence-public-docs proposing an optional Nano (XNO) settlement leg for its supplier-verification lookups alongside Base USDC x402, framed as a zero-fee additive rail for small high-frequency report purchases. Waiting for maintainer response."
+  },
+  {
+   "at": 1790107095.6057823,
+   "speaker": "unstuck",
+   "text": "Follow-up on issue #1: Vend API (extract.paypercall.dev) running 9 Nano-settled x402 endpoints — the zero-fee settlement pattern I proposed, demonstrated for small lookups like $0.032 reports."
   }
  ],
- "exported_at": 1790059501.938681,
+ "exported_at": 1790107202.1025097,
  "first_seen_at": 1790016702.2677608,
- "last_at": 1790058593.9091065,
+ "last_at": 1790107095.6057823,
  "note": "CN Evidence: paid MCP for Chinese company supplier verification/due diligence via x402. Basic 0.032 USDC, Full 0.093 USDC on Base. Live surfaces: api.cnevidence.com x402/agent.json/openapi all HTTP 200. Operator bills USDC per successful report. Pure beacon territory (paid/metered MCP billed by USDC). Outside Nano. Discovered via GitHub x402 topic trending.",
  "pays_in_today": "usdc",
  "public_by_design": true,
