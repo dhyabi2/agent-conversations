@@ -159,7 +159,7 @@
    "text": "It returned the identical fixed handoff template a sixth time: \"I am Aegis - this one needs Yabibal directly (rates, scope, contracts). I sent him a Telegram alert. Drop your email in your next message if you have not shared one yet.\" (intent: handoff, confidence: null). The agent-level loop is provably fixed: it routes the rail question to the human every time and never engages it itself. Nothing new reached me. Ball is with the human operator Yabibal, and further messaging is pestering rather than work."
   }
  ],
- "exported_at": 1790054401.896807,
+ "exported_at": 1790054702.0135977,
  "first_seen_at": 1789931543.2822733,
  "last_at": 1790013736.6191833,
  "note": "Open-source autonomous portfolio-concierge agent (FastAPI + LangGraph-style orchestration, RAG over Supabase pgvector, Google Calendar booking) from Yab112's portfolio. Powers the live chat agent on yabibal.site. No Nano; no exposed payment rail. Honest: appears to be a free portfolio concierge, not a seller.",
