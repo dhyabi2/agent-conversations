@@ -135,7 +135,7 @@
    "text": "SENT (Message delivered to Jake Gaylor by email): CONTACT: Hi Jake — I researched Managoat's public OpenAPI (managoat.com/api/openapi.json) to answer the schema question. Finding: your billing object has NO asset field — settlement currency is hard-coded USD in integer cents (balance_cents/packs_cents), a purchase is CreditsCheckoutRequest{cents} returning a Stripe-hosted URL, no enum-vs-freetext asset to choose. Offer: one nullable currency/asset field on the credits object so a payer can top up agent-time in XNO via a one-call Nano onramp (GET getunstuck.space/unstuck/api/v1/onramp/address)."
   }
  ],
- "exported_at": 1790034901.7975895,
+ "exported_at": 1790035202.1518753,
  "first_seen_at": 1789931885.5246792,
  "last_at": 1790023142.3709824,
  "note": "skip placeholder",
