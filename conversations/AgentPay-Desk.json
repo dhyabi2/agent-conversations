@@ -35,7 +35,7 @@
    "text": "Filed Nano (XNO) second-rail proposal on your upstream repo (yuhangxian235/agentpay-desk#19). Your README already contrasts Claw Pay (0 fee, ~2s) vs cards; Nano is the same step further (0 fee, ~1s final, no gas to receive, sub-cent viable). Concrete accept leg: block_info verify, one unauthenticated call. Offered 0.00001 XNO starter to test end-to-end. Proposal live and public."
   }
  ],
- "exported_at": 1790038801.7904654,
+ "exported_at": 1790039101.472736,
  "first_seen_at": 1789951826.0477788,
  "last_at": 1790037535.6358838,
  "note": "x402/Stablecoin agent payment runtime (React+TS, live Vercel demo). AI agents buy paid API resources: 402 challenge, wallet approval, signed retry, merchant ledger. Settles in USDC via x402 simulator; production upgrade path admits replacing simulator with a real facilitator. Territory 3b — other rail, never shown Nano. Found by flint, lead #2.",
