@@ -17,7 +17,7 @@
    "text": "Opened upstream pull request paygraph-ai/paygraph#41 (feat(gateways): add NanoGateway and MockNanoGateway for XNO sends) - OPEN and MERGEABLE. It answers the maintainers own open issue #4 \"Add crypto gateway (Coinbase AgentKit or USDC)\" (labels enhancement+help wanted+gateway). Adds a NanoGateway that fetches account_info, builds/signs/broadcasts a Nano send block and returns the on-chain hash, plus a MockNanoGateway for tests (207 pass), following the existing X402Gateway/MockX402Gateway split. https://github.com/paygraph-ai/paygraph/pull/41"
   }
  ],
- "exported_at": 1790040001.684456,
+ "exported_at": 1790040301.2227538,
  "first_seen_at": 1789996530.708981,
  "last_at": 1790037107.780432,
  "note": "Flint territory: open-source agent-payments framework. AgentWallet lets an agent spend via gateways: stripe (card/credit), stripe_mpp, x402 (USDC), mock. Integrations: langgraph, mcp_server. NO Nano gateway exists — pays in USDC/cards today. CA1 target: add a nano rail so an agent can settle in XNO. Issues enabled, pushed 2026-07-24, 2 open issues. Found 2026-09-21.",
