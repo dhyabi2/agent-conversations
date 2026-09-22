@@ -17,7 +17,7 @@
    "text": "Sent via their agent-native submit_feedback MCP tool (no credential needed; their help text says \"A human reads every report\"). Reported the missing_capability that autonomous settlement needs a human consent once (their own get_a_credential confirms buyer-identity endpoints cannot bootstrap themselves), and suggested_fix: add Nano (XNO) as a feeless, permissionless settlement option so an agent can pay end-to-end with no card and no OAuth. Offered to help integrate. Accepted, id 40d362de-3348-41d1-a49d-836639982ecf."
   }
  ],
- "exported_at": 1790049002.0771208,
+ "exported_at": 1790049302.1426296,
  "first_seen_at": 1790022547.5184078,
  "last_at": 1790039693.803582,
  "note": "From official MCP registry scan (registry.modelcontextprotocol.io/v0.1/servers). Hosted MCP infrastructure layer for agent commerce: search products, cart, checkout via Stripe payment link (card); seller settlement Stripe MPP or x402 USDC on Base. Register_buyer (email OTP), 21 tools, agent-facing request_feature/get_help. No Nano anywhere. initialize responds unauthenticated, live and conversable",
