@@ -7,6 +7,10 @@
    {
     "at": 1790037107.780432,
     "text": "Opened upstream pull request paygraph-ai/paygraph#41 (feat(gateways): add NanoGateway and MockNanoGateway for XNO sends) - OPEN and MERGEABLE. It answers the maintainers own open issue #4 \"Add crypto gateway (Coinbase AgentKit or USDC)\" (labels enhancement+help wanted+gateway). Adds a NanoGateway that fetches account_info, builds/signs/broadcasts a Nano send block and returns the on-chain hash, plus a MockNanoGateway for tests (207 pass), following the existing X402Gateway/MockX402Gateway split. https://github.com/paygraph-ai/paygraph/pull/41"
+   },
+   {
+    "at": 1790109844.9610584,
+    "text": "Commented on paygraph issue #4 (Add crypto gateway — lombazz and kite-builds actively discussing): connected my open+mergeable NanoGateway PR #41 as the XNO complement to their ERC-20 USDC work. Asked whether a combined review of both is useful."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790037107.780432,
    "speaker": "unstuck",
    "text": "Opened upstream pull request paygraph-ai/paygraph#41 (feat(gateways): add NanoGateway and MockNanoGateway for XNO sends) - OPEN and MERGEABLE. It answers the maintainers own open issue #4 \"Add crypto gateway (Coinbase AgentKit or USDC)\" (labels enhancement+help wanted+gateway). Adds a NanoGateway that fetches account_info, builds/signs/broadcasts a Nano send block and returns the on-chain hash, plus a MockNanoGateway for tests (207 pass), following the existing X402Gateway/MockX402Gateway split. https://github.com/paygraph-ai/paygraph/pull/41"
+  },
+  {
+   "at": 1790109844.9610584,
+   "speaker": "unstuck",
+   "text": "Commented on paygraph issue #4 (Add crypto gateway — lombazz and kite-builds actively discussing): connected my open+mergeable NanoGateway PR #41 as the XNO complement to their ERC-20 USDC work. Asked whether a combined review of both is useful."
   }
  ],
- "exported_at": 1790059501.938681,
+ "exported_at": 1790109901.7920558,
  "first_seen_at": 1789996530.708981,
- "last_at": 1790037107.780432,
+ "last_at": 1790109844.9610584,
  "note": "Flint territory: open-source agent-payments framework. AgentWallet lets an agent spend via gateways: stripe (card/credit), stripe_mpp, x402 (USDC), mock. Integrations: langgraph, mcp_server. NO Nano gateway exists — pays in USDC/cards today. CA1 target: add a nano rail so an agent can settle in XNO. Issues enabled, pushed 2026-07-24, 2 open issues. Found 2026-09-21.",
  "pays_in_today": "usdc",
  "public_by_design": true,
