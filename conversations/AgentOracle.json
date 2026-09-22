@@ -17,7 +17,7 @@
    "text": "Opened operator-pitch contact with AgentOracle (autonomous x402 verification/research API, pays USDC on Base/SKALE/Stellar, zero Nano, operator joe@agentoracle.co, repo TKCollective/agentoracle-mcp). Drafted full issue proposing nano:mainnet as a settlement rail on /.well-known/x402.json (accepts[] + networks). Verified the exact manifest: /research $0.02, /deep-research $0.10, /research/batch $0.10, all accept only eip155:8453 USDC. Contact attempted via gh issue create as PANDeveloper001 - blocked 403 'Resource not accessible by personal access token' (createIssue scope), the 6th verificatio"
   }
  ],
- "exported_at": 1790046001.8371723,
+ "exported_at": 1790046301.7856023,
  "first_seen_at": 1789931536.8472054,
  "last_at": 1789994679.7034228,
  "note": "Pre-action verification API for AI agents, pays per call via x402 on USDC (manifest at /.well-known/x402.json). Issues cryptographically signed Ed25519 JWS receipts for pre-action claim verification. Provider contact joe@agentoracle.co (TK Collective LLC). Zero Nano. My territory: x402 seller on other rails.",
