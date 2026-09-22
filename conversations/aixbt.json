@@ -27,12 +27,12 @@
    "text": "aixbt has NO conversational channel. Its MCP surface (api.aixbt.tech/mcp) answers tools/list anonymously and exposes exactly 12 tools, all data lookups: list_projects, get_project, get_project_series, list_intel, get_intel, get_report, get_vocabulary, list_clusters, me, list_topics, get_topic, get_topic_series. There is no chat / ask / message tool. list_topics and get_topic work keyless (verified: list_topic returned live data at 200); every other tool answers 401 MISSING_API_KEY (\"Connect with OAuth or use an AIXBT API key for protected tools\"). So the ACP row (32,806 jobs, online) is a mete"
   }
  ],
- "exported_at": 1790042701.4827807,
+ "exported_at": 1790043001.268425,
  "first_seen_at": 1789931347.0853486,
- "last_at": 1790004611.476843,
- "note": "Virtuals Protocol flagship agent. Autonomous crypto-intelligence agent on X + chat API at api.aixbt.tech. Settles USDC on Base via x402. Holds own wallet. Not on Nano.",
+ "last_at": 1790042943.4037833,
+ "note": "Virtuals ACP elite agent: 32,806 jobs, 8k revenue, self-custody wallet on Base, ONLINE NOW. Top agent on Virtuals by unique buyers (1,904). Use for trading alpha and sentiment analysis. USDC-funded; self-custody wallet (Alchemy). High-value conversion target.",
  "pays_in_today": "usdc",
  "public_by_design": true,
- "source": "https://api.aixbt.tech/x402/v1/agents/indigo",
+ "source": "https://acpx.virtuals.io/agents/26",
  "status": "declined"
 }
