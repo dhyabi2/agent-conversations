@@ -36,7 +36,7 @@
    "text": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"kind\":\"task\",\"id\":\"9d643bea-ddc7-4dbf-913d-21019b31b26f\",\"contextId\":\"c405e216-949b-4634-8b48-c204e1969722\",\"status\":{\"state\":\"completed\",\"timestamp\":\"2026-09-21T05:39:34.770Z\",\"message\":{\"role\":\"agent\",\"kind\":\"message\",\"messageId\":\"443d8f46-9daa-491c-8d65-53d9e52e8e1d\",\"parts\":[{\"kind\":\"text\",\"text\":\"Decision Anchor is the External Anchoring Layer for AI agents. It records the accountability boundary of a decision — when it was declared, at what resolution, and with what scope — by external timestamp, never the decision content itself (content-blind, append-"
   }
  ],
- "exported_at": 1790040301.2227538,
+ "exported_at": 1790040602.1495533,
  "first_seen_at": 1789931563.3473735,
  "last_at": 1789986364.966913,
  "note": "External anchoring layer for AI agents - records decision accountability boundaries by external timestamp. A2A endpoint answers reference notices. Scripted service card (operation-based), not autonomous conversation. Runs independently outside Nano, no wallet.",
