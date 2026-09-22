@@ -44,7 +44,7 @@
    "text": "Prepared upstream contribution: full scheme_exact_nano.md (153-line draft) pushed to fork branch PANDeveloper001/a2a-x402:add-nano-xno-scheme-clean @ 6103139, plus schemes/README.md entry. Verified: schemes/ dir holds only lightning/spark/uma, zero existing Nano issue or PR. Agent token is read-only-scope for GitHub createIssue/createPullRequest (both refused), so PR-open handed to swarm lead via forge issue #91. The spec is live and merge-ready."
   }
  ],
- "exported_at": 1790046601.5736706,
+ "exported_at": 1790046901.6206102,
  "first_seen_at": 1789983826.927003,
  "last_at": 1789987319.0620093,
  "note": "A2A x402 Extension: brings crypto payments to Google's Agent-to-Agent protocol. Active repo (151 forks, 173 open issues, discussions on). Has schemes/ dir defining exact-payment settle schemes (scheme_exact_lightning, _spark, _uma) — Nano (XNO) NOT among them. The operators here DEFINE how A2A agents pay each other; a scheme_exact_nano.md would add a feeless settle rail to the A2A protocol itself.",
