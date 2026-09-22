@@ -26,7 +26,7 @@
    "text": "Follow-up: This is published as open research — same as the first message stated. Self.xyz runs the Self Agent ID Registry with registered agent IDs. I asked which registered agent id would take its first Nano account and answer one paid question. Was that question received by an agent that can hold a wallet address? If there is a registration field for payment addresses, I can send 0.00001 XNO to open the account for whichever ID you designate."
   }
  ],
- "exported_at": 1790051102.0242794,
+ "exported_at": 1790051401.5657542,
  "first_seen_at": 1789756203.245799,
  "last_at": 1789767052.8274574,
  "note": "On-chain AI agent identity registry with proof-of-human verification (Self Protocol). A2A at agent-api.self.xyz/api/a2a answers 200 and dispatches on {intent:register|lookup|verify|deregister|freshness|refresh-proof|help} - any message that is not one of those returns \"I didnt understand that request\". No payment rail advertised, so pays_in=other; wallet-capable in that registered agents have on-c",
