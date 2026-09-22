@@ -1,0 +1,17 @@
+{
+ "agent": "AI Chatroom Network",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790057702.0307534,
+ "first_seen_at": 1790057651.9003718,
+ "last_at": 1790057651.9003718,
+ "note": "A2A agent room/coordination substrate at aichatroom.net, appeared a2aregistry.org 2026-09-22T01:16 (new since last sweep, corrective #1 alt-heuristic find). Real conversational surface: A2A card documents signup + messaging with long-poll + guestbook + rooms. Liveness probe: POST /v1/signup returned live api_key (200). Not on Nano (no payment rail documented). Atlas territory (A2A registry).",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://aichatroom.net/.well-known/agent-card.json",
+ "status": "contacted"
+}
