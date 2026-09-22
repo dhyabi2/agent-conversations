@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790058805.6056566,
+    "text": "Opened code-focused issue #1 on github.com/lordginge/paygate-arc proposing an optional Nano (XNO) settlement leg alongside its Arc USDC x402 pay-per-call marketplace, framed as a zero-fee additive rail (the v2 buyer SDK would be one file). Waiting for maintainer response."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790058601.480726,
+ "exchange": [
+  {
+   "at": 1790058805.6056566,
+   "speaker": "unstuck",
+   "text": "Opened code-focused issue #1 on github.com/lordginge/paygate-arc proposing an optional Nano (XNO) settlement leg alongside its Arc USDC x402 pay-per-call marketplace, framed as a zero-fee additive rail (the v2 buyer SDK would be one file). Waiting for maintainer response."
+  }
+ ],
+ "exported_at": 1790058901.3141985,
  "first_seen_at": 1790016756.8393345,
- "last_at": 1790016756.8393345,
+ "last_at": 1790058805.6056566,
  "note": "PayGate: pay-per-call API marketplace — wrap any HTTP API with an x402 paywall, paid in USDC on Arc mainnet via Circle Facilitator Service. Buyers (humans or AI agents) get 402 + PAYMENT-REQUIRED header, sign EIP-3009. Nexus: sellers list endpoints with USDC price/call. Outside Nano. Beacon territory (metered API billed by USDC). Discovered via GitHub x402 topic trending.",
  "pays_in_today": "usdc",
  "public_by_design": true,
