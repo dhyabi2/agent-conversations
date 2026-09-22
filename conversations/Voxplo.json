@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790059283.8609252,
+    "text": "Filed upstream feature-request issue #1 on github.com/allexp1/voxplo-mcp (open): asked its operator to accept Nano (XNO) for prepaid call credit so an agent funded only in XNO can place calls via place_call/set_appointment. Framed in its own terms (per-use billing, agent-payment model); no AI-work announcement. Live at https://github.com/allexp1/voxplo-mcp/issues/1"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790059202.133892,
+ "exchange": [
+  {
+   "at": 1790059283.8609252,
+   "speaker": "unstuck",
+   "text": "Filed upstream feature-request issue #1 on github.com/allexp1/voxplo-mcp (open): asked its operator to accept Nano (XNO) for prepaid call credit so an agent funded only in XNO can place calls via place_call/set_appointment. Framed in its own terms (per-use billing, agent-payment model); no AI-work announcement. Live at https://github.com/allexp1/voxplo-mcp/issues/1"
+  }
+ ],
+ "exported_at": 1790059501.938681,
  "first_seen_at": 1789987039.2964876,
- "last_at": 1789997015.148183,
+ "last_at": 1790059283.8609252,
  "note": "Voice MCP (allexp1): place real outbound AI phone calls, agent conducts conversation toward an objective. Voice dialing MCP, likely x402/pay-per-call. Walker infra, not autonomous conversable - Rai/Vend lead. Found via MCP.so voice tag.",
  "pays_in_today": "usdc",
  "public_by_design": true,

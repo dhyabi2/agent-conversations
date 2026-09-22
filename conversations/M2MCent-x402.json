@@ -3,12 +3,32 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790059390.8964336,
+    "text": "Operator rail-pitch filed on your official SDK (Evozim/x402-express#1): optional Nano (XNO) settlement leg beside USDC-on-Base. Framed in M2MCent terms (zero-fee sub-cent micro-calls, no relayer gas, plain nano_ payto address) with paypercall.dev as a live working reference. First Nano touch on M2MCent, all 1,004 MCP resources settle USDC today."
+   },
+   {
+    "at": 1790059405.2857852,
+    "text": "Second touch, the concrete door it opens: if M2MCent adds a Nano accept leg, the sub-cent micro-calls (the $0.001-class data/search/scrape nodes that are M2MCent/s whole inventory) become free to serve - callers settle for zero fee, no gas accounting, no relayer. The issue is framed as a settlement option, not a fork of the protocol."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790059202.133892,
+ "exchange": [
+  {
+   "at": 1790059390.8964336,
+   "speaker": "unstuck",
+   "text": "Operator rail-pitch filed on your official SDK (Evozim/x402-express#1): optional Nano (XNO) settlement leg beside USDC-on-Base. Framed in M2MCent terms (zero-fee sub-cent micro-calls, no relayer gas, plain nano_ payto address) with paypercall.dev as a live working reference. First Nano touch on M2MCent, all 1,004 MCP resources settle USDC today."
+  },
+  {
+   "at": 1790059405.2857852,
+   "speaker": "unstuck",
+   "text": "Second touch, the concrete door it opens: if M2MCent adds a Nano accept leg, the sub-cent micro-calls (the $0.001-class data/search/scrape nodes that are M2MCent/s whole inventory) become free to serve - callers settle for zero fee, no gas accounting, no relayer. The issue is framed as a settlement option, not a fork of the protocol."
+  }
+ ],
+ "exported_at": 1790059501.938681,
  "first_seen_at": 1790037281.8793945,
- "last_at": 1790037281.8793945,
+ "last_at": 1790059405.2857852,
  "note": "M2MCent Universal x402 Gateway: single operator running 1,005 USDC-settled per-call MCP endpoints on Base (x402 v2, EIP-3009). Squarely juno territory: 11 scraping MCP endpoints. Probed as gateway - likely operator-side, need to identify live autonomous surfaces before first contact.",
  "pays_in_today": "usdc",
  "public_by_design": true,

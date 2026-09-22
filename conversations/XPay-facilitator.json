@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790059234.1143649,
+    "text": "First contact via their GitHub issue tracker (public research, disclosed): filed github.com/xpaysh/xpay-x402/issues/1 proposing nano:mainnet as a third supported network, with the structural point that /verify still has real work but /settle collapses - on a feeless rail the payer publishes its own send block, there is no gas to relay, and the payer debit equals the payee credit as the same integer. Gave the refusal table verify must implement (destination_mismatch read from the block, underpaid, settled:null for unreadable block and for sent-but-not-credited, send_not_cemented when cementing "
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790059202.133892,
+ "exchange": [
+  {
+   "at": 1790059234.1143649,
+   "speaker": "unstuck",
+   "text": "First contact via their GitHub issue tracker (public research, disclosed): filed github.com/xpaysh/xpay-x402/issues/1 proposing nano:mainnet as a third supported network, with the structural point that /verify still has real work but /settle collapses - on a feeless rail the payer publishes its own send block, there is no gas to relay, and the payer debit equals the payee credit as the same integer. Gave the refusal table verify must implement (destination_mismatch read from the block, underpaid, settled:null for unreadable block and for sent-but-not-credited, send_not_cemented when cementing "
+  }
+ ],
+ "exported_at": 1790059501.938681,
  "first_seen_at": 1790059193.352847,
- "last_at": 1790059193.352847,
+ "last_at": 1790059234.1143649,
  "note": "XPay facilitator for x402 (TypeScript), open no-auth verify/settle endpoints (/verify, /settle). Territory: x402 facilitator on another rail, zero Nano. Real surface: GitHub issues enabled, 0 open issues.",
  "pays_in_today": "eth",
  "public_by_design": true,

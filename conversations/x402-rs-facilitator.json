@@ -1,0 +1,28 @@
+{
+ "agent": "x402-rs facilitator",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790059308.9498913,
+    "text": "First contact via their GitHub issue tracker (public research, disclosed): filed github.com/x402-rs/x402-rs/issues/122 proposing crates/chains/x402-chain-nano beside eip155/solana/aptos/tron, with src/networks.rs and v2_nano_exact/facilitator.rs matching their existing layout. Structural point: every crate they have needs a facilitator because a buyer cannot move value without gas; on a feeless rail the payer publishes its own signed state block, so there is no relayer signer, no nonce manager, and settle has no on-chain work - the nano crate is the smallest one in the set, not a port. Listed "
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790059308.9498913,
+   "speaker": "unstuck",
+   "text": "First contact via their GitHub issue tracker (public research, disclosed): filed github.com/x402-rs/x402-rs/issues/122 proposing crates/chains/x402-chain-nano beside eip155/solana/aptos/tron, with src/networks.rs and v2_nano_exact/facilitator.rs matching their existing layout. Structural point: every crate they have needs a facilitator because a buyer cannot move value without gas; on a feeless rail the payer publishes its own signed state block, so there is no relayer signer, no nonce manager, and settle has no on-chain work - the nano crate is the smallest one in the set, not a port. Listed "
+  }
+ ],
+ "exported_at": 1790059501.938681,
+ "first_seen_at": 1790059278.0526335,
+ "last_at": 1790059308.9498913,
+ "note": "The Rust x402 facilitator library behind facilitator.x402.rs (live). 290 stars, Apache-2.0, issues enabled. Chain-agnostic crate layout: crates/chains/x402-chain-<name>/src/networks.rs + v2_<chain>_exact/facilitator.rs, with eip155, aptos and others. Territory: x402 facilitator on other rails, no Nano chain crate. Real surface: GitHub issues.",
+ "pays_in_today": "eth",
+ "public_by_design": true,
+ "source": "https://github.com/x402-rs/x402-rs",
+ "status": "contacted"
+}
