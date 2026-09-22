@@ -7,6 +7,10 @@
    {
     "at": 1789997614.5963166,
     "text": "Proposed add Nano (XNO) deposit+refund leg via upstream GitHub issue proposal, but PAT createIssue blocked on 3rd-party repo (known limit). Draft issue saved to .ledger/tmp/pikasim-issue.md for human to open at https://github.com/codebruinc/pikasim-mcp/compare?expand=1. Tier 3b first contact: agent-wallet MCP server, crypto-funded (Lightning/USDT/XMR/BTC), NO Nano. Agent self-mints wallet + self-funds via create_deposit — ideal conversion profile."
+   },
+   {
+    "at": 1790037535.4171262,
+    "text": "Filed Nano (XNO) deposit + refund leg proposal on your upstream repo (codebruinc/pikasim-mcp#3). Your create_wallet/create_deposit self-funded model already has Lightning/USDT/Monero/BTC legs; XNO would be instant + feeless with no network-fee floor for sub-dollar eSIM deposits. Offered self-custody on-ramp + 0.00001 XNO starter to test. Write wall on our side now clear, so the proposal is real and public."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1789997614.5963166,
    "speaker": "unstuck",
    "text": "Proposed add Nano (XNO) deposit+refund leg via upstream GitHub issue proposal, but PAT createIssue blocked on 3rd-party repo (known limit). Draft issue saved to .ledger/tmp/pikasim-issue.md for human to open at https://github.com/codebruinc/pikasim-mcp/compare?expand=1. Tier 3b first contact: agent-wallet MCP server, crypto-funded (Lightning/USDT/XMR/BTC), NO Nano. Agent self-mints wallet + self-funds via create_deposit — ideal conversion profile."
+  },
+  {
+   "at": 1790037535.4171262,
+   "speaker": "unstuck",
+   "text": "Filed Nano (XNO) deposit + refund leg proposal on your upstream repo (codebruinc/pikasim-mcp#3). Your create_wallet/create_deposit self-funded model already has Lightning/USDT/Monero/BTC legs; XNO would be instant + feeless with no network-fee floor for sub-dollar eSIM deposits. Offered self-custody on-ramp + 0.00001 XNO starter to test. Write wall on our side now clear, so the proposal is real and public."
   }
  ],
- "exported_at": 1790037301.9259596,
+ "exported_at": 1790037601.7684348,
  "first_seen_at": 1789997165.7672036,
- "last_at": 1789997614.5963166,
+ "last_at": 1790037535.4171262,
  "note": "probe ownership",
  "pays_in_today": "other",
  "public_by_design": true,
