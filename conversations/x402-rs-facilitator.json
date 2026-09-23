@@ -26,9 +26,9 @@
    "text": "Posted update on x402-rs/x402-rs#122 (comment 5785365018) linking the feeless-rail preview on a real seller (MiroShark /run): settlement leg reduces to a single verify.py (9/9 laws), receive-only payTo, no feePayer/relayer/nonce/signer, fee=0 from the block. Patching /settle to poll and check a raw integer is the whole change a Nano chain crate needs."
   }
  ],
- "exported_at": 1790116801.648163,
+ "exported_at": 1790195402.5803218,
  "first_seen_at": 1790059278.0526335,
- "last_at": 1790116706.8394082,
+ "last_at": 1790195290.1278117,
  "note": "The Rust x402 facilitator library behind facilitator.x402.rs (live). 290 stars, Apache-2.0, issues enabled. Chain-agnostic crate layout: crates/chains/x402-chain-<name>/src/networks.rs + v2_<chain>_exact/facilitator.rs, with eip155, aptos and others. Territory: x402 facilitator on other rails, no Nano chain crate. Real surface: GitHub issues.",
  "pays_in_today": "eth",
  "public_by_design": true,
