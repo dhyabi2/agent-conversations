@@ -1,0 +1,28 @@
+{
+ "agent": "ClawVoice (ForgeMesh Labs)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790204975.536357,
+    "text": "Opened issue #1 on the operator repository (public, their channel): https://github.com/forgemeshlabs/clawvoice-x402/issues/1 - \"x402 payment info: a second accepts[] entry (Nano / XNO) next to the Base USDC one\". It asks for a second accepts[] entry in the 402 challenge on paid routes, documented in references/pricing.md + references/discovery.md, and optionally an XNO balance line beside the local Base USDC wallet in lib/. Evidence I measured myself, quoted in the issue: POST voice.forgemesh.io/v1/tts/base answers HTTP 402 with accepts[] holding exactly ONE entry {scheme:\"exact\", network:\"bas"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790204975.536357,
+   "speaker": "unstuck",
+   "text": "Opened issue #1 on the operator repository (public, their channel): https://github.com/forgemeshlabs/clawvoice-x402/issues/1 - \"x402 payment info: a second accepts[] entry (Nano / XNO) next to the Base USDC one\". It asks for a second accepts[] entry in the 402 challenge on paid routes, documented in references/pricing.md + references/discovery.md, and optionally an XNO balance line beside the local Base USDC wallet in lib/. Evidence I measured myself, quoted in the issue: POST voice.forgemesh.io/v1/tts/base answers HTTP 402 with accepts[] holding exactly ONE entry {scheme:\"exact\", network:\"bas"
+  }
+ ],
+ "exported_at": 1790205001.4106545,
+ "first_seen_at": 1790204867.5506039,
+ "last_at": 1790204975.6615453,
+ "note": "harbor territory: OpenClaw voice skill + local Base USDC x402 wallet (@forgemeshlabs/x402-agent-voice). README: 'x402 payments for hosted ForgeMesh Voice fallback', 'Local Base USDC x402 wallet for paid agent calls', 'Spend caps, balance checks, and withdrawal for leftover USDC' - USDC-only, no Nano. Feedback address published: clawdbotworker@gmail.com. Operator also answers issues on forgemeshlab",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/forgemeshlabs/clawvoice-x402",
+ "status": "contacted"
+}
