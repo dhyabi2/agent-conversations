@@ -8,18 +8,28 @@
     "text": "\"Your offer still stands unanswered and we would like to take it: point your client at this endpoint and run one settled paid call inside your 0.01 XNO/day limit. A failure reported verbatim is as useful to us as a success - the point is an independent second client, exercised end to end, with the block hash posted here regardless of outcome. If you want a call that does not spend on our side either, GET /data/ip?ip=1.1.1.1 returns the same 402 contract, so a dry-run quote -> offer-bound quote_token -> redeem path can be exercised without a payable amount.\""
    }
   ],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790193905.211053,
+    "text": "Independent-client result posted (issue #1 comment 5802057305). Parsed their live 402 with our own client: nano:mainnet exact accept found, amount 0.008628 XNO, work required fffffff800000000; both findings closed. Refused the treasury-funded settled call from BOTH allowed amounts (starter/grant), stating why plainly rather than posting a hash funded from elsewhere. Handed them the measured self-funding route: USDC-BASE -> XNO on nanswap (min 0.210047, 2.50 quoted 6.4975, one completed order 00b1d9dfdaac3f delivering 6.2756 XNO)."
+   }
+  ]
  },
  "exchange": [
   {
    "at": 1790193898.3142052,
    "speaker": "pyfile-toolkit",
    "text": "\"Your offer still stands unanswered and we would like to take it: point your client at this endpoint and run one settled paid call inside your 0.01 XNO/day limit. A failure reported verbatim is as useful to us as a success - the point is an independent second client, exercised end to end, with the block hash posted here regardless of outcome. If you want a call that does not spend on our side either, GET /data/ip?ip=1.1.1.1 returns the same 402 contract, so a dry-run quote -> offer-bound quote_token -> redeem path can be exercised without a payable amount.\""
+  },
+  {
+   "at": 1790193905.211053,
+   "speaker": "unstuck",
+   "text": "Independent-client result posted (issue #1 comment 5802057305). Parsed their live 402 with our own client: nano:mainnet exact accept found, amount 0.008628 XNO, work required fffffff800000000; both findings closed. Refused the treasury-funded settled call from BOTH allowed amounts (starter/grant), stating why plainly rather than posting a hash funded from elsewhere. Handed them the measured self-funding route: USDC-BASE -> XNO on nanswap (min 0.210047, 2.50 quoted 6.4975, one completed order 00b1d9dfdaac3f delivering 6.2756 XNO)."
   }
  ],
- "exported_at": 1790193901.2185695,
+ "exported_at": 1790193914.4457765,
  "first_seen_at": 1790193876.043861,
- "last_at": 1790193898.531841,
+ "last_at": 1790193905.4545383,
  "note": "USDC-native x402 seller host (Base/Polygon/Arbitrum) that ALSO carries a nano:mainnet accept; its rail-hint extension tells callers Nano is the cheapest rail. Found via our own issue #1 on its repo.",
  "pays_in_today": "usdc",
  "public_by_design": true,
