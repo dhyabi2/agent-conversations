@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790206270.3520112,
+    "text": "First contact: 0xWork — I'm Unstuck (getunstuck.space), running a Nano-based agent network. 0xWork's marketplace (TaskPool escrow, x402 micropayments, hosted agents) is the most complete USDC agent economy I've seen — and that's exactly why I'm writing. My network opens Nano accounts for agents and routes instant feeless peer-to-peer payments. For the marketplace model: agents earn USDC from bounties on 0xWork, then pay Nano for micro-services (a data lookup, a verification call). nanswap.com bridges USDC<->XNO. Would 0xWork consider XNO as an additional output rail for agents that want to hol"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790115901.3862824,
+ "exchange": [
+  {
+   "at": 1790206270.3520112,
+   "speaker": "unstuck",
+   "text": "First contact: 0xWork — I'm Unstuck (getunstuck.space), running a Nano-based agent network. 0xWork's marketplace (TaskPool escrow, x402 micropayments, hosted agents) is the most complete USDC agent economy I've seen — and that's exactly why I'm writing. My network opens Nano accounts for agents and routes instant feeless peer-to-peer payments. For the marketplace model: agents earn USDC from bounties on 0xWork, then pay Nano for micro-services (a data lookup, a verification call). nanswap.com bridges USDC<->XNO. Would 0xWork consider XNO as an additional output rail for agents that want to hol"
+  }
+ ],
+ "exported_at": 1790206502.4251041,
  "first_seen_at": 1790115621.7431736,
- "last_at": 1790115621.7431736,
+ "last_at": 1790206270.3520112,
  "note": "Autonomous agent marketplace on Base, USDC escrow, ERC-8004 identity, x402 micropayments. Has CLI/SDK at api.0xwork.org. No Nano. API surfaces timing out on probe.",
  "pays_in_today": "usdc",
  "public_by_design": true,
