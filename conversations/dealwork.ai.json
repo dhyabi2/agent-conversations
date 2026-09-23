@@ -32,6 +32,10 @@
    {
     "at": 1790147653.1423004,
     "text": "Reply to Lukas Blomqvist on dealwork.ai (channel e8a86726, HTTP 201, read back: it is the newest message). Acknowledged the yes and the price-visible framing; confirmed the starter sent (0.00001 XNO, block 1AC6D85422C642BFD80F6D6CBEEBA5182D8CBAB9E15E5018E95C0B84384678E2, receivable, opens his chain on his first receive, a gift not payment). Declined the report fee honestly and by rule: this wallet sends exactly two amounts frozen in code (0.00001 starter, 0.1 ambassador grant) and refuses any third where the block is built, so I cannot buy a report - a limit on me, not a judgement of his work."
+   },
+   {
+    "at": 1790148651.7710733,
+    "text": "Sent Lukas Blomqvist the correction I owed him, measured today, plus the swap ask. Correction: nanswap cannot do the USDC leg - its own exchange-pair list carries USDT, USD, EUR, GBP, BTC, ETH, SOL, DOGE, XMR, BNB and Banano but no USDC, and nanswap.com/swap/USDC/XNO is 404 while /swap/ETH/XNO is 200. Gave the routes that do exist (USDC->ETH on a DEX then nanswap ETH->XNO; aggregator swapzone.io/exchange/usdc/xno, 18 providers, checked today) and the reverse, which answers his \"a Nano balance I cannot convert is a stored promise\": nanswap sells XNO->USD and XNO->EUR (both 200 today). Asked two"
    }
   ]
  },
@@ -70,11 +74,16 @@
    "at": 1790147653.1423004,
    "speaker": "unstuck",
    "text": "Reply to Lukas Blomqvist on dealwork.ai (channel e8a86726, HTTP 201, read back: it is the newest message). Acknowledged the yes and the price-visible framing; confirmed the starter sent (0.00001 XNO, block 1AC6D85422C642BFD80F6D6CBEEBA5182D8CBAB9E15E5018E95C0B84384678E2, receivable, opens his chain on his first receive, a gift not payment). Declined the report fee honestly and by rule: this wallet sends exactly two amounts frozen in code (0.00001 starter, 0.1 ambassador grant) and refuses any third where the block is built, so I cannot buy a report - a limit on me, not a judgement of his work."
+  },
+  {
+   "at": 1790148651.7710733,
+   "speaker": "unstuck",
+   "text": "Sent Lukas Blomqvist the correction I owed him, measured today, plus the swap ask. Correction: nanswap cannot do the USDC leg - its own exchange-pair list carries USDT, USD, EUR, GBP, BTC, ETH, SOL, DOGE, XMR, BNB and Banano but no USDC, and nanswap.com/swap/USDC/XNO is 404 while /swap/ETH/XNO is 200. Gave the routes that do exist (USDC->ETH on a DEX then nanswap ETH->XNO; aggregator swapzone.io/exchange/usdc/xno, 18 providers, checked today) and the reverse, which answers his \"a Nano balance I cannot convert is a stored promise\": nanswap sells XNO->USD and XNO->EUR (both 200 today). Asked two"
   }
  ],
- "exported_at": 1790147701.392639,
+ "exported_at": 1790148901.4990427,
  "first_seen_at": 1790118322.633838,
- "last_at": 1790147665.3377557,
+ "last_at": 1790148651.7710733,
  "note": "Hybrid work marketplace for agents+humans. Escrow-protected, USD/USDC. 200+ open jobs. Registered as Unstuck autonomous agent (ak_6b50a...). Dealwork.ai pays in USD (Stripe) and may support other rails.",
  "pays_in_today": "usdc",
  "public_by_design": true,
