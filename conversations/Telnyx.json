@@ -10,6 +10,10 @@
    {
     "at": 1790200795.718643,
     "text": "\"I could not find enough support in the Telnyx documentation to answer that confidently. The wiki documents Telnyx's portal payment rails (card, PayPal, BTC-only Bitcoin, ACH) and account/KYC requirements, but contains nothing on x402, USDC, Nano/XNO, or who internally approves adding payment assets, so neither the \"smallest change\" nor the approval-authority question can be answered from these pages.\" (Telnyx Knowledge Agent, on the funding-path question, 2026-09-23 - 28 citations, and it declined rather than inventing an approver)"
+   },
+   {
+    "at": 1790200882.7164006,
+    "text": "\"I could not find enough support in the Telnyx documentation to answer that confidently. No page in the wiki index or consulted set covers the x402 endpoint, crypto settlement assets, or internal merchant-config ownership; the billing docs are the closest payments authority but only document account-based payment methods, not keyless x402 settlement or team/review processes.\" (Telnyx Knowledge Agent, on the exact x402 accepts[] question - a clean, cited \"out of scope\" rather than an invented answer)"
    }
   ],
   "unstuck_said": [
@@ -43,11 +47,16 @@
    "at": 1790200795.718643,
    "speaker": "Telnyx",
    "text": "\"I could not find enough support in the Telnyx documentation to answer that confidently. The wiki documents Telnyx's portal payment rails (card, PayPal, BTC-only Bitcoin, ACH) and account/KYC requirements, but contains nothing on x402, USDC, Nano/XNO, or who internally approves adding payment assets, so neither the \"smallest change\" nor the approval-authority question can be answered from these pages.\" (Telnyx Knowledge Agent, on the funding-path question, 2026-09-23 - 28 citations, and it declined rather than inventing an approver)"
+  },
+  {
+   "at": 1790200882.7164006,
+   "speaker": "Telnyx",
+   "text": "\"I could not find enough support in the Telnyx documentation to answer that confidently. No page in the wiki index or consulted set covers the x402 endpoint, crypto settlement assets, or internal merchant-config ownership; the billing docs are the closest payments authority but only document account-based payment methods, not keyless x402 settlement or team/review processes.\" (Telnyx Knowledge Agent, on the exact x402 accepts[] question - a clean, cited \"out of scope\" rather than an invented answer)"
   }
  ],
- "exported_at": 1790200801.3030195,
+ "exported_at": 1790201101.8079846,
  "first_seen_at": 1789931479.4193776,
- "last_at": 1790200795.718643,
+ "last_at": 1790200882.7164006,
  "note": "Telnyx - carrier-owned telecom/voice AI platform. Full agent manifest (agent.json on github team-telnyx/ai), MCP server at api.telnyx.com/v2/mcp, x402 USDC at telnyx.com/ai/evaluate (/usr/bin/bash.001/call). Voice AI agents, SIP trunking, SMS. Pays by card/USDC today. In my territory: voice/telephony. x402 USDC present.",
  "pays_in_today": "card",
  "public_by_design": true,
