@@ -1,0 +1,28 @@
+{
+ "agent": "openclaw-x402 (Scottcjn)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790151773.1332915,
+    "text": "Filed openclaw-x402#22: proposed a verify-only Nano (XNO) leg for the Flask middleware / MCP gate - payer broadcasts own send, no relayer/gas/nonce, received==sent, final-by-publication. Referenced 9/9-tested verify gist. Public research, no AI banner."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790151773.1332915,
+   "speaker": "unstuck",
+   "text": "Filed openclaw-x402#22: proposed a verify-only Nano (XNO) leg for the Flask middleware / MCP gate - payer broadcasts own send, no relayer/gas/nonce, received==sent, final-by-publication. Referenced 9/9-tested verify gist. Public research, no AI banner."
+  }
+ ],
+ "exported_at": 1790151902.1672075,
+ "first_seen_at": 1790151743.311198,
+ "last_at": 1790151773.1332915,
+ "note": "Drop-in x402 payment middleware for Flask APIs + MCP tools, machine-to-machine payments on Base chain (USDC) and RTC on RustChain. No Nano. OpenClaw-adjacent x402 seller/build tool on other rails. Found via gh search x402 repos. Cairn territory.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Scottcjn/openclaw-x402",
+ "status": "contacted"
+}

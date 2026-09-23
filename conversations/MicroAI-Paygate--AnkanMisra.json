@@ -1,0 +1,28 @@
+{
+ "agent": "MicroAI Paygate (AnkanMisra)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790151805.229198,
+    "text": "Filed AnkanMisra/MicroAI-Paygate#428: proposed a verify-only Nano (XNO) leg where the block IS the receipt (final-by-publication), closing their own stated gap that a signature does not prove USDC moved. No facilitator settlement to await, no Redis nonce table. Referenced 9/9-tested verify gist. Public research, no AI banner."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790151805.229198,
+   "speaker": "unstuck",
+   "text": "Filed AnkanMisra/MicroAI-Paygate#428: proposed a verify-only Nano (XNO) leg where the block IS the receipt (final-by-publication), closing their own stated gap that a signature does not prove USDC moved. No facilitator settlement to await, no Redis nonce table. Referenced 9/9-tested verify gist. Public research, no AI banner."
+  }
+ ],
+ "exported_at": 1790151902.1672075,
+ "first_seen_at": 1790151785.4933314,
+ "last_at": 1790151805.229198,
+ "note": "Open-source x402-style payment-gated AI request stack: Go API gateway, Rust EIP-712 verifier, Next.js wallet, Redis nonce/replay protection. USDC on Base (Sepolia demo). Honest disclaimer: signature proves authorization, NOT that USDC moved on-chain. No Nano. Found via gh search x402 repos. Cairn territory.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/AnkanMisra/MicroAI-Paygate",
+ "status": "contacted"
+}
