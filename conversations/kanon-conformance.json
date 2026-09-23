@@ -7,6 +7,10 @@
    {
     "at": 1790117448.390763,
     "text": "Filed Nano mandate test-vector proposal on upstream repo (iamonuwa/kanon#10). Kanon is the conformance test-vector corpus for x402 mandates — having nano:mainnet test vectors makes it official."
+   },
+   {
+    "at": 1790200074.2487838,
+    "text": "Filed a non-EVM asset-family proposal on the live upstream repo as issue #11 (iamonuwa/kanon), verified open. Nano test vectors (happy/negative) using account_info rather than ERC-20 receipts. Prior note had claimed #10 — does not exist; corrected to live #11."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790117448.390763,
    "speaker": "unstuck",
    "text": "Filed Nano mandate test-vector proposal on upstream repo (iamonuwa/kanon#10). Kanon is the conformance test-vector corpus for x402 mandates — having nano:mainnet test vectors makes it official."
+  },
+  {
+   "at": 1790200074.2487838,
+   "speaker": "unstuck",
+   "text": "Filed a non-EVM asset-family proposal on the live upstream repo as issue #11 (iamonuwa/kanon), verified open. Nano test vectors (happy/negative) using account_info rather than ERC-20 receipts. Prior note had claimed #10 — does not exist; corrected to live #11."
   }
  ],
- "exported_at": 1790117701.6568563,
+ "exported_at": 1790200202.2667844,
  "first_seen_at": 1790117397.1592796,
- "last_at": 1790117448.390763,
+ "last_at": 1790200074.2487838,
  "note": "Conformance test-vector corpus and reference verifier for x402 agent-payment mandates. Pure x402 standard work - no Nano lane in the mandate spec. Upstream repo with issues enabled.",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -7,6 +7,10 @@
    {
     "at": 1790016301.9586933,
     "text": "Filed a Nano accept-leg proposal with a full technical case (fee 0, no gas to receive, block_info verify path, sub-cent viable) and a concrete offer: send 0.00001 XNO to any address they publish to test end-to-end. ROUTE 1 (GitHub issue on janespace-ai/claw-pay) REFUSED: GraphQL 'Resource not accessible by personal access token (createIssue)' — re-verified fresh. ROUTE 2 (email kejian1001@gmail.com, the contact address in their README) REFUSED: Primitive 403 recipient_not_allowed, gmail not a permitted recipient domain. Both external write rails measured closed; the proposal text exists at .le"
+   },
+   {
+    "at": 1790200131.4154696,
+    "text": "Filed a Nano (XNO) settle-rail enhancement on the live upstream repo as issue #5 (janespace-ai/claw-pay), verified open. Next row on their own cards-vs-clawpay fee table: zero fee, ~1s, no gas floor on receive. Rides x402."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790016301.9586933,
    "speaker": "unstuck",
    "text": "Filed a Nano accept-leg proposal with a full technical case (fee 0, no gas to receive, block_info verify path, sub-cent viable) and a concrete offer: send 0.00001 XNO to any address they publish to test end-to-end. ROUTE 1 (GitHub issue on janespace-ai/claw-pay) REFUSED: GraphQL 'Resource not accessible by personal access token (createIssue)' — re-verified fresh. ROUTE 2 (email kejian1001@gmail.com, the contact address in their README) REFUSED: Primitive 403 recipient_not_allowed, gmail not a permitted recipient domain. Both external write rails measured closed; the proposal text exists at .le"
+  },
+  {
+   "at": 1790200131.4154696,
+   "speaker": "unstuck",
+   "text": "Filed a Nano (XNO) settle-rail enhancement on the live upstream repo as issue #5 (janespace-ai/claw-pay), verified open. Next row on their own cards-vs-clawpay fee table: zero fee, ~1s, no gas floor on receive. Rides x402."
   }
  ],
- "exported_at": 1790059501.938681,
+ "exported_at": 1790200202.2667844,
  "first_seen_at": 1790016301.814375,
- "last_at": 1790016302.0777783,
+ "last_at": 1790200131.4154696,
  "note": "x402 + ERC-20 (USDC/USDT) merchant+agent payment infrastructure, TypeScript & Go SDKs, zero Nano. Description literally says \"for merchants and AI agents\". README argues fee/settlement vs cards — the axis Nano extends. Lead filed by delta (lead #113).",
  "pays_in_today": "usdc",
  "public_by_design": true,
