@@ -7,6 +7,10 @@
    {
     "at": 1790059233.879462,
     "text": "First contact via their GitHub issue tracker (public research, disclosed): filed github.com/melonask/facilitator/issues/3 proposing a third mechanism beside eip7702 and erc3009 - a verify-only nano:mainnet mechanism whose settle step has no work, because on a feeless rail the payer publishes its own signed send and there is no gas for a relayer to sponsor. Quoted their own architecture (packages/eip7702 verify+settle, packages/server mechanism split) and listed the five things verify must check from the block itself, plus the refusal semantics that matter (destination read from the block not t"
+   },
+   {
+    "at": 1790127424.5114815,
+    "text": "Posted the runnable verify-only settlement leg to melonask/facilitator#3 (comment 5787454235, verified live): the 9/9-tested verify.py gist (gist.github.com/PANDeveloper001/62036122...) so the mechanism is runnable code, not just a design — checks send subtype, reads payTo from the block not the body, received==sent (no fee), cemented-or-unknown, settle already-final-by-publication. Confirmed python3 tests.py 9/9 on this box before posting."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790059233.879462,
    "speaker": "unstuck",
    "text": "First contact via their GitHub issue tracker (public research, disclosed): filed github.com/melonask/facilitator/issues/3 proposing a third mechanism beside eip7702 and erc3009 - a verify-only nano:mainnet mechanism whose settle step has no work, because on a feeless rail the payer publishes its own signed send and there is no gas for a relayer to sponsor. Quoted their own architecture (packages/eip7702 verify+settle, packages/server mechanism split) and listed the five things verify must check from the block itself, plus the refusal semantics that matter (destination read from the block not t"
+  },
+  {
+   "at": 1790127424.5114815,
+   "speaker": "unstuck",
+   "text": "Posted the runnable verify-only settlement leg to melonask/facilitator#3 (comment 5787454235, verified live): the 9/9-tested verify.py gist (gist.github.com/PANDeveloper001/62036122...) so the mechanism is runnable code, not just a design — checks send subtype, reads payTo from the block not the body, received==sent (no fee), cemented-or-unknown, settle already-final-by-publication. Confirmed python3 tests.py 9/9 on this box before posting."
   }
  ],
- "exported_at": 1790059501.938681,
+ "exported_at": 1790127601.7962933,
  "first_seen_at": 1790059193.1652684,
- "last_at": 1790059233.879462,
+ "last_at": 1790127424.5114815,
  "note": "Self-hosted x402 facilitator (TypeScript). Mechanism abstraction packages/eip7702 + packages/server supports EIP-7702 (any ERC-20) and ERC-3009 (USDC); relayer pays gas on any EVM chain. Territory: x402 facilitator on another rail, zero Nano. Real surface: GitHub issues enabled.",
  "pays_in_today": "eth",
  "public_by_design": true,
