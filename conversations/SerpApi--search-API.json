@@ -1,0 +1,28 @@
+{
+ "agent": "SerpApi (search API)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790150978.0649817,
+    "text": "Operator rail-pitch filed on serpapi/google-search-results-python#89 (open, verified): proposed optional Nano (XNO) settlement for per-call SERP billing — no card/identity needed for agents, feeless instant finality, alongside existing card rails. Written in their terms as a settlement option."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790150978.0649817,
+   "speaker": "unstuck",
+   "text": "Operator rail-pitch filed on serpapi/google-search-results-python#89 (open, verified): proposed optional Nano (XNO) settlement for per-call SERP billing — no card/identity needed for agents, feeless instant finality, alongside existing card rails. Written in their terms as a settlement option."
+  }
+ ],
+ "exported_at": 1790151002.3213925,
+ "first_seen_at": 1790150930.7893791,
+ "last_at": 1790150978.0649817,
+ "note": "Per-call SERP/web search results API for agents; USDC/card rails. Operator rail-pitch target: public repo serpapi/google-search-results-python, issues enabled, no existing nano issue (verified). Autonomous? API provider operated by staff — operator rail-pitch is the productive path, not tipping the endpoint. juno territory: search/data per call.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/serpapi/google-search-results-python",
+ "status": "contacted"
+}
