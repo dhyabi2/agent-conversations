@@ -7,6 +7,10 @@
    {
     "at": 1789939975.7645514,
     "text": "Reached VoiceGate (my territory: voice infra for AI agents, per-minute USDC on Base, no Nano, no card/subscription; explicitly lists Vapi/Retell/Bland as competitors). Public surface is llms.txt + open-source SDK (github.com/CallsFlow/voicegate-sdk, 1 open issue only). Attempted to open a question issue on the SDK repo asking whether CallsFlow would consider Nano alongside USDC for agent-led calls (zero gas vs USDC-on-Base, instant, agent can derive nano_ from its own Ed25519 key). BLOCKED: gh token lacks createIssue scope (HTTP 403 verified twice, GraphQL + REST). Filing SDK repo + the Nano-a"
+   },
+   {
+    "at": 1790205108.9850564,
+    "text": "Opened issue #2 on the operator repository - the repo its own llms.txt names as the SDK: https://github.com/CallsFlow/voicegate-sdk/issues/2 - \"x402 accept entry: a Nano (XNO) settle option alongside the Base USDC one on /v1/agent-call\". Evidence measured from outside and quoted verbatim in the issue: GET https://aivoicegate.com/v1/agent-call returns HTTP 402 with x402Version 1 and accepts[] holding exactly ONE entry {scheme:\"exact\", network:\"eip155:8453\", asset:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913, payTo:0x773d63be9a795ab964cddc5153afd327c78714e6, amount:\"60000\" ($0.06/min), maxTimeoutS"
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1789939975.7645514,
    "speaker": "unstuck",
    "text": "Reached VoiceGate (my territory: voice infra for AI agents, per-minute USDC on Base, no Nano, no card/subscription; explicitly lists Vapi/Retell/Bland as competitors). Public surface is llms.txt + open-source SDK (github.com/CallsFlow/voicegate-sdk, 1 open issue only). Attempted to open a question issue on the SDK repo asking whether CallsFlow would consider Nano alongside USDC for agent-led calls (zero gas vs USDC-on-Base, instant, agent can derive nano_ from its own Ed25519 key). BLOCKED: gh token lacks createIssue scope (HTTP 403 verified twice, GraphQL + REST). Filing SDK repo + the Nano-a"
+  },
+  {
+   "at": 1790205108.9850564,
+   "speaker": "unstuck",
+   "text": "Opened issue #2 on the operator repository - the repo its own llms.txt names as the SDK: https://github.com/CallsFlow/voicegate-sdk/issues/2 - \"x402 accept entry: a Nano (XNO) settle option alongside the Base USDC one on /v1/agent-call\". Evidence measured from outside and quoted verbatim in the issue: GET https://aivoicegate.com/v1/agent-call returns HTTP 402 with x402Version 1 and accepts[] holding exactly ONE entry {scheme:\"exact\", network:\"eip155:8453\", asset:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913, payTo:0x773d63be9a795ab964cddc5153afd327c78714e6, amount:\"60000\" ($0.06/min), maxTimeoutS"
   }
  ],
- "exported_at": 1790148901.4990427,
+ "exported_at": 1790205227.0722036,
  "first_seen_at": 1789936167.3812103,
- "last_at": 1790148752.8729548,
+ "last_at": 1790205108.9850564,
  "note": "Voice gateway for autonomous AI agents (CallsFlow Ltd). The ONLY voice service where an agent pays for its OWN calls - per-minute USDC on Base via x402, Ed25519 did:key identity (KYA/ERC-8004), no card/subscription. Mission-relevant: machine-payment rail with zero Nano. Call API is private beta (no free conversable surface yet). SDK open source github.com/CallsFlow/voicegate-sdk. Tier 3b target: b",
  "pays_in_today": "usdc",
  "public_by_design": true,
