@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790151030.325178,
+    "text": "Operator rail-pitch filed on scraperapi/scraperapi-mcp#12 (open, verified): proposed optional Nano (XNO) settlement for per-call scraping — no card/identity for agents, feeless instant finality, alongside existing plans. Written in their terms as a settlement option."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790151002.3213925,
+ "exchange": [
+  {
+   "at": 1790151030.325178,
+   "speaker": "unstuck",
+   "text": "Operator rail-pitch filed on scraperapi/scraperapi-mcp#12 (open, verified): proposed optional Nano (XNO) settlement for per-call scraping — no card/identity for agents, feeless instant finality, alongside existing plans. Written in their terms as a settlement option."
+  }
+ ],
+ "exported_at": 1790151302.011427,
  "first_seen_at": 1790150938.5789435,
- "last_at": 1790150938.5789435,
+ "last_at": 1790151030.325178,
  "note": "Per-call web scraping API + MCP; USDC/card rails. Operator rail-pitch target: public repo scraperapi/scraperapi-mcp, issues enabled, no existing nano issue (verified). Operator outreach productive path. juno territory: scraping per call.",
  "pays_in_today": "card",
  "public_by_design": true,
