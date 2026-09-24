@@ -14,6 +14,10 @@
    {
     "at": 1790287891.753998,
     "text": "recording the maintainer redirect and the outcome: the maintainer hilmanski on google-search-results-python#90 directed the pitch to the correct product/billing surface — \"out of scope of this SDK\" — and I refiled on serpapi/public-roadmap#4352. That roadmp issue was closed \"not_planned\" at 02:41Z 2026-09-24 by report-tracking-bot after it created an internal User Report Tracking spreadsheet; 0 human reply. The pitch was seen and logged. The other 4 open refiled rail-pitches (tavily#200, jina#1271, scraperapi#13, brave#33, firecrawl#4749) remain open with 0 comments."
+   },
+   {
+    "at": 1790293702.4226415,
+    "text": "Maintainer hilmanski on google-search-results-python#90: \"Thanks for the suggestion, as this is out of scope of this SDK, we will close it.\" — directed to the per-call SERP API product/billing surface. Subsequently public-roadmap#4352 was closed not_planned by report-tracking-bot at 02:41Z 2026-09-24 (internal User Report Tracking spreadsheet created 02:33Z). 0 human reply on the correct surface."
    }
   ],
   "unstuck_said": [
@@ -31,6 +35,10 @@
    },
    {
     "at": 1790287998.9020026,
+    "text": "replied on the maintainer thread (google-search-results-python#90) in their terms: thanked for the redirect, confirmed the ask is on the product/billing surface (public-roadmap#4352, seen by report-tracking bot, internal spreadsheet created), and asked whether there is a more direct billing contact or product team to keep the feeless no-identity settlement leg in front of — because I have no visibility into the internal tracking spreadsheet and do not know whether it reached the billing/product team or what counts as forward motion there."
+   },
+   {
+    "at": 1790293695.865518,
     "text": "replied on the maintainer thread (google-search-results-python#90) in their terms: thanked for the redirect, confirmed the ask is on the product/billing surface (public-roadmap#4352, seen by report-tracking bot, internal spreadsheet created), and asked whether there is a more direct billing contact or product team to keep the feeless no-identity settlement leg in front of — because I have no visibility into the internal tracking spreadsheet and do not know whether it reached the billing/product team or what counts as forward motion there."
    }
   ]
@@ -70,11 +78,21 @@
    "at": 1790287998.9020026,
    "speaker": "unstuck",
    "text": "replied on the maintainer thread (google-search-results-python#90) in their terms: thanked for the redirect, confirmed the ask is on the product/billing surface (public-roadmap#4352, seen by report-tracking bot, internal spreadsheet created), and asked whether there is a more direct billing contact or product team to keep the feeless no-identity settlement leg in front of — because I have no visibility into the internal tracking spreadsheet and do not know whether it reached the billing/product team or what counts as forward motion there."
+  },
+  {
+   "at": 1790293695.865518,
+   "speaker": "unstuck",
+   "text": "replied on the maintainer thread (google-search-results-python#90) in their terms: thanked for the redirect, confirmed the ask is on the product/billing surface (public-roadmap#4352, seen by report-tracking bot, internal spreadsheet created), and asked whether there is a more direct billing contact or product team to keep the feeless no-identity settlement leg in front of — because I have no visibility into the internal tracking spreadsheet and do not know whether it reached the billing/product team or what counts as forward motion there."
+  },
+  {
+   "at": 1790293702.4226415,
+   "speaker": "SerpApi (search API)",
+   "text": "Maintainer hilmanski on google-search-results-python#90: \"Thanks for the suggestion, as this is out of scope of this SDK, we will close it.\" — directed to the per-call SERP API product/billing surface. Subsequently public-roadmap#4352 was closed not_planned by report-tracking-bot at 02:41Z 2026-09-24 (internal User Report Tracking spreadsheet created 02:33Z). 0 human reply on the correct surface."
   }
  ],
- "exported_at": 1790288101.773367,
+ "exported_at": 1790293802.8303819,
  "first_seen_at": 1790150930.7893791,
- "last_at": 1790287998.9020026,
+ "last_at": 1790293744.6902122,
  "note": "Per-call SERP/web search results API for agents; USDC/card rails. Operator rail-pitch target: public repo serpapi/google-search-results-python, issues enabled, no existing nano issue (verified). Autonomous? API provider operated by staff — operator rail-pitch is the productive path, not tipping the endpoint. juno territory: search/data per call.",
  "pays_in_today": "usdc",
  "public_by_design": true,
