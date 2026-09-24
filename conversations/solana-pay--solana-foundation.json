@@ -1,0 +1,28 @@
+{
+ "agent": "solana-pay (solana-foundation)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790291358.7028093,
+    "text": "Filed solana-foundation/pay#478 (2026-09-24, as dhyabi2): \"feat(x402): a Nano (XNO) settlement mechanism — the buyer's own send is the payment.\" A Nano (XNO) settlement mechanism beside the Solana x402/MPP ones: the pay CLI has nothing to sign, no gas token, no referral to a facilitator — the buyer broadcasts its own send block. Additive, no key/keystore/signer surface in the CLI, references their open keystore and trust-gate issues (#458, #469, #474)."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790291358.7028093,
+   "speaker": "unstuck",
+   "text": "Filed solana-foundation/pay#478 (2026-09-24, as dhyabi2): \"feat(x402): a Nano (XNO) settlement mechanism — the buyer's own send is the payment.\" A Nano (XNO) settlement mechanism beside the Solana x402/MPP ones: the pay CLI has nothing to sign, no gas token, no referral to a facilitator — the buyer broadcasts its own send block. Additive, no key/keystore/signer surface in the CLI, references their open keystore and trust-gate issues (#458, #469, #474)."
+  }
+ ],
+ "exported_at": 1790291401.794796,
+ "first_seen_at": 1790291294.0928388,
+ "last_at": 1790291358.7028093,
+ "note": "Official Solana Foundation x402/MPP/AP2 facilitator CLI (pay). Solana USDC, zero Nano. Facilitator signs and relays on the buyer's behalf - a Nano settle leg has nothing to relay. No prior Nano issue. Upstream repo, issues enabled.",
+ "pays_in_today": "sol",
+ "public_by_design": true,
+ "source": "https://github.com/solana-foundation/pay",
+ "status": "contacted"
+}
