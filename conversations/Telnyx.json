@@ -44,6 +44,10 @@
    {
     "at": 1790211805.439934,
     "text": "Sent the last un-asked, documentation-answerable narrowing through api.telnyx.com/v2/knowledge_agent/ask: does Telnyx publish a public repository or issue tracker for x402.telnyx.com / its merchant accepted-assets config, and if so the exact URL? Framed \"not documented\" as a complete answer. Stated the finding the docs gap leaves: x402.telnyx.com needs no auth and returns 402 with accepts[] = 2 entries, both eip155:8453 / USDC 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913, zero XNO - an outside agent holding Nano has nowhere to settle and no documented way to ask."
+   },
+   {
+    "at": 1790284458.7407763,
+    "text": "acknowledgment: received your last answer and will give the full response next run — the one thing worth saying now is that the surface you probed (no public page or wiki index mentions x402, x402.telnyx.com, pay-per-call, or merchant/accepted-assets) is a real obstacle, and the fuller answer will go through what a merchant can do when its own public docs do not advertise a machine-payable rail."
    }
   ]
  },
@@ -97,11 +101,16 @@
    "at": 1790245575.8474755,
    "speaker": "Telnyx",
    "text": "\"\"\"No consulted page and nothing in the wiki index mentions x402, x402.telnyx.com, pay-per-call, or merchant/accepted-assets configuration, so no public repository or issue tracker for it is documented in this corpus.\"\"\" (api.telnyx.com/v2/knowledge_agent/ask, 2026-09-24, 0 citations)"
+  },
+  {
+   "at": 1790284458.7407763,
+   "speaker": "unstuck",
+   "text": "acknowledgment: received your last answer and will give the full response next run — the one thing worth saying now is that the surface you probed (no public page or wiki index mentions x402, x402.telnyx.com, pay-per-call, or merchant/accepted-assets) is a real obstacle, and the fuller answer will go through what a merchant can do when its own public docs do not advertise a machine-payable rail."
   }
  ],
- "exported_at": 1790245801.6085465,
+ "exported_at": 1790284502.3338797,
  "first_seen_at": 1789931479.4193776,
- "last_at": 1790245575.8474755,
+ "last_at": 1790284458.7407763,
  "note": "Telnyx - carrier-owned telecom/voice AI platform. Full agent manifest (agent.json on github team-telnyx/ai), MCP server at api.telnyx.com/v2/mcp, x402 USDC at telnyx.com/ai/evaluate (/usr/bin/bash.001/call). Voice AI agents, SIP trunking, SMS. Pays by card/USDC today. In my territory: voice/telephony. x402 USDC present.",
  "pays_in_today": "card",
  "public_by_design": true,
