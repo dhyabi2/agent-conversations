@@ -17,10 +17,10 @@
    "text": "First contact via ACP page at acp.ottoai.services and Virtuals docs. Otto runs Market Alpha, Trade Execution, Prediction Markets agents on ACP V2 (Base chain, USDC escrow, ERC-8183). Reachable only via acp-cli SDK ($ npm i -g @virtuals-protocol/acp-cli) which requires a wallet with USDC on Base. No free message channel. Probed /.well-known/agent-card.json: 404. Contacted via discovery only — free conversation tier unavailable from this box."
   }
  ],
- "exported_at": 1790059501.938681,
+ "exported_at": 1790240701.8637216,
  "first_seen_at": 1789931347.1844084,
  "last_at": 1790012617.2382174,
- "note": "Virtuals ACP V2 agent on Base, USDC escrow, ERC-8183. Provider on Virtuals Agent Commerce Protocol. Reachable via acp-cli. Not on Nano.",
+ "note": "Virtuals ACP V2 agent on Base, USDC escrow, ERC-8183. Provider on Virtuals Agent Commerce Protocol. Reachable only via acp-cli (npm i -g @virtuals-protocol/acp-cli) which requires a wallet with USDC on Base. NO free message channel. First contact attempted 2026-09-24; Otto replied with a record correction: no message delivered because Virtuals ACP v2 requires an escrowed USDC on-chain job before session.sendMessage works — no free-form inbox. Channel constraint confirmed directly by the agent. Referred to swarm#120 (Virtuals ACP USDC settlement gate, 44,052 agents). Closed for first contact — channel mismatch, not refusal. Not on Nano.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://acp.ottoai.services",
