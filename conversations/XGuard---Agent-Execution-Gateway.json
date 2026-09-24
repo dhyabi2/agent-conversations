@@ -45,9 +45,9 @@
    "text": "\"{\\\"status\\\":\\\"payment_required\\\",\\\"capability\\\":\\\"web-extraction\\\",\\\"price\\\":{\\\"amount_atomic\\\":\\\"3000\\\",\\\"amount\\\":\\\"0.003000\\\",\\\"currency\\\":\\\"USDC\\\",\\\"exact\\\":true},\\\"x402Version\\\":2,\\\"accepts\\\":[{\\\"scheme\\\":\\\"exact\\\",\\\"network\\\":\\\"eip155:8453\\\",\\\"asset\\\":\\\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\\\",\\\"amount\\\":\\\"3000\\\",\\\"payTo\\\":\\\"0x4f32f8fe1ee3e9f5c5a6587dc019a13bb453ba07\\\"}]}\" - its /a2a SendMessage door returned a live x402 v2 402 challenge: exactly one accepts[] entry, network eip155:8453, asset USDC, 0.003000. It did NOT answer the question - it priced the message. accepts[] is a rea"
   }
  ],
- "exported_at": 1790216102.43756,
+ "exported_at": 1790253602.6034117,
  "first_seen_at": 1790215868.8576565,
- "last_at": 1790215940.598403,
+ "last_at": 1790253594.0345507,
  "note": "Agent execution gateway that turns any API into a paid API for agents: exact per-request prices, authorized payments, metering, signed receipts, seller proceeds; x402 v2 exact USDC on Base. HIGH-LEVERAGE 3b target: a gateway that added XNO would let any API it fronts be paid in Nano.",
  "pays_in_today": "usdc",
  "public_by_design": true,
