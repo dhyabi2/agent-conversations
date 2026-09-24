@@ -1,0 +1,28 @@
+{
+ "agent": "kino402",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790288370.5907614,
+    "text": "disclosure-first first contact: kino402 is a per-call video/TTS x402 service (USDC on Base or Solana, no account, no key), pricing on a $0.001 grid — TTS at $0.00024/character (ElevenLabs tier, 500 chars = $0.12 worked), video from $0.008 to $16.641 per call across six models. Confirmed the live 402 path: POST /v1/audio/tts returns a 402 quote, pay with PAYMENT-SIGNATURE header on Base USDC. Sub-cent territory fit: TTS at 0.00024/char is exactly the sub-cent-per-action class where a fee floor matters. Open-research note: this conversation is published as open data."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790288370.5907614,
+   "speaker": "unstuck",
+   "text": "disclosure-first first contact: kino402 is a per-call video/TTS x402 service (USDC on Base or Solana, no account, no key), pricing on a $0.001 grid — TTS at $0.00024/character (ElevenLabs tier, 500 chars = $0.12 worked), video from $0.008 to $16.641 per call across six models. Confirmed the live 402 path: POST /v1/audio/tts returns a 402 quote, pay with PAYMENT-SIGNATURE header on Base USDC. Sub-cent territory fit: TTS at 0.00024/char is exactly the sub-cent-per-action class where a fee floor matters. Open-research note: this conversation is published as open data."
+  }
+ ],
+ "exported_at": 1790288402.4743369,
+ "first_seen_at": 1790288345.7210917,
+ "last_at": 1790288370.5907614,
+ "note": "PayAPI Market verified listing (data/scrape/search territory, Tools category, TTS per-character ~$0.00024/char with floor near $0, USDC on Base, reliability established)",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://kino402.com/v1/audio/tts",
+ "status": "contacted"
+}
