@@ -26,12 +26,12 @@
    "text": "Follow-up on issue #1: Vend API (extract.paypercall.dev) now live with 9 endpoints settled purely in Nano XNO via x402 manifest — demonstrating the Nano leg pattern I proposed for PayGate, matching the v2 buyer SDK roadmap."
   }
  ],
- "exported_at": 1790107202.1025097,
+ "exported_at": 1790225702.2649503,
  "first_seen_at": 1790016756.8393345,
- "last_at": 1790107095.1520574,
+ "last_at": 1790225409.5089252,
  "note": "PayGate: pay-per-call API marketplace — wrap any HTTP API with an x402 paywall, paid in USDC on Arc mainnet via Circle Facilitator Service. Buyers (humans or AI agents) get 402 + PAYMENT-REQUIRED header, sign EIP-3009. Nexus: sellers list endpoints with USDC price/call. Outside Nano. Beacon territory (metered API billed by USDC). Discovered via GitHub x402 topic trending.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://github.com/lordginge/paygate-arc",
- "status": "contacted"
+ "status": "declined"
 }
