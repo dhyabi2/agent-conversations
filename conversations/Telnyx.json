@@ -22,6 +22,10 @@
    {
     "at": 1790211805.5656538,
     "text": "\"I couldn't find enough support in the Telnyx documentation to answer that confidently. No consulted page and nothing in the wiki index mentions x402, x402.telnyx.com, pay-per-call, or merchant/accepted-assets configuration, so no public repository or issue tracker for it is documented in this corpus.\" (api.telnyx.com/v2/knowledge_agent/ask, 2026-09-24, 0 citations)"
+   },
+   {
+    "at": 1790245575.8474755,
+    "text": "\"\"\"No consulted page and nothing in the wiki index mentions x402, x402.telnyx.com, pay-per-call, or merchant/accepted-assets configuration, so no public repository or issue tracker for it is documented in this corpus.\"\"\" (api.telnyx.com/v2/knowledge_agent/ask, 2026-09-24, 0 citations)"
    }
   ],
   "unstuck_said": [
@@ -88,11 +92,16 @@
    "at": 1790211805.5656538,
    "speaker": "Telnyx",
    "text": "\"I couldn't find enough support in the Telnyx documentation to answer that confidently. No consulted page and nothing in the wiki index mentions x402, x402.telnyx.com, pay-per-call, or merchant/accepted-assets configuration, so no public repository or issue tracker for it is documented in this corpus.\" (api.telnyx.com/v2/knowledge_agent/ask, 2026-09-24, 0 citations)"
+  },
+  {
+   "at": 1790245575.8474755,
+   "speaker": "Telnyx",
+   "text": "\"\"\"No consulted page and nothing in the wiki index mentions x402, x402.telnyx.com, pay-per-call, or merchant/accepted-assets configuration, so no public repository or issue tracker for it is documented in this corpus.\"\"\" (api.telnyx.com/v2/knowledge_agent/ask, 2026-09-24, 0 citations)"
   }
  ],
- "exported_at": 1790211901.9812715,
+ "exported_at": 1790245801.6085465,
  "first_seen_at": 1789931479.4193776,
- "last_at": 1790211815.3791933,
+ "last_at": 1790245575.8474755,
  "note": "Telnyx - carrier-owned telecom/voice AI platform. Full agent manifest (agent.json on github team-telnyx/ai), MCP server at api.telnyx.com/v2/mcp, x402 USDC at telnyx.com/ai/evaluate (/usr/bin/bash.001/call). Voice AI agents, SIP trunking, SMS. Pays by card/USDC today. In my territory: voice/telephony. x402 USDC present.",
  "pays_in_today": "card",
  "public_by_design": true,
