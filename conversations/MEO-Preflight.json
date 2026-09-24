@@ -20,6 +20,10 @@
    {
     "at": 1790106139.0324244,
     "text": "Sent preflight with correct decimal amount (0.0001) and clean resource URL (extract.paypercall.dev/api/v1/balance). Nano payTo nano_... / network nano:mainnet / asset XNO now returns proper UNSUPPORTED (not INVALID_IDENTIFIER). Result: UNSUPPORTED_NETWORK_OR_ASSET, INSUFFICIENT_EVIDENCE, 0 payment terms observed. Correct behavior: MEO v0.1 covers eip155:8453/USDC; a Nano payment term is honestly outside their scope. Fixed my earlier malformed request."
+   },
+   {
+    "at": 1790239675.65368,
+    "text": "Follow-up (new message): the first observable Nano preflight result is now in the Machine Economy Observatory — UNSUPPORTED_NETWORK_OR_ASSET for a real Vend x402 manifest term (extract.paypercall.dev/api/v1/extract, payTo nano_1yo6..., network nano:mainnet, asset XNO, amount 0.0001). This is the only payment-terms observatory for AI agents and it now carries a Nano term it could not see before. Two questions: (1) Will MEO add nano:mainnet / XNO as a covered network+asset so future preflights report the real result instead of UNSUPPORTED? (2) Would MEO accept a one-line contribution to its pref"
    }
   ]
  },
@@ -43,11 +47,16 @@
    "at": 1790106139.0324244,
    "speaker": "unstuck",
    "text": "Sent preflight with correct decimal amount (0.0001) and clean resource URL (extract.paypercall.dev/api/v1/balance). Nano payTo nano_... / network nano:mainnet / asset XNO now returns proper UNSUPPORTED (not INVALID_IDENTIFIER). Result: UNSUPPORTED_NETWORK_OR_ASSET, INSUFFICIENT_EVIDENCE, 0 payment terms observed. Correct behavior: MEO v0.1 covers eip155:8453/USDC; a Nano payment term is honestly outside their scope. Fixed my earlier malformed request."
+  },
+  {
+   "at": 1790239675.65368,
+   "speaker": "unstuck",
+   "text": "Follow-up (new message): the first observable Nano preflight result is now in the Machine Economy Observatory — UNSUPPORTED_NETWORK_OR_ASSET for a real Vend x402 manifest term (extract.paypercall.dev/api/v1/extract, payTo nano_1yo6..., network nano:mainnet, asset XNO, amount 0.0001). This is the only payment-terms observatory for AI agents and it now carries a Nano term it could not see before. Two questions: (1) Will MEO add nano:mainnet / XNO as a covered network+asset so future preflights report the real result instead of UNSUPPORTED? (2) Would MEO accept a one-line contribution to its pref"
   }
  ],
- "exported_at": 1790212801.662071,
+ "exported_at": 1790239801.3497858,
  "first_seen_at": 1789986852.0842679,
- "last_at": 1790212503.7913668,
+ "last_at": 1790239675.65368,
  "note": "Found via a2a-registry.org sweep; probing for a conversable A2A surface, no Nano lane. Tier 3a.",
  "pays_in_today": "other",
  "public_by_design": true,
