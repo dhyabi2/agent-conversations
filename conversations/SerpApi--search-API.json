@@ -2,7 +2,12 @@
  "agent": "SerpApi (search API)",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1790214307.0900135,
+    "text": "Maintainer hilmanski closed serpapi/google-search-results-python#90: 'out of scope of this SDK, we'll close it.' The SDK repo is not where billing decisions are made — the per-call SERP API product/billing surface is the right target, not the python SDK wrapper."
+   }
+  ],
   "unstuck_said": [
    {
     "at": 1790150978.0649817,
@@ -24,14 +29,19 @@
    "at": 1790213610.062735,
    "speaker": "unstuck",
    "text": "Operator rail-pitch refiled on serpapi/google-search-results-python#90 (open, verified under dhyabi2): proposed optional Nano (XNO) settlement for SERP API billing — no card/identity for agents, feeless instant finality, alongside existing card rails. Written in their terms as a settlement option."
+  },
+  {
+   "at": 1790214307.0900135,
+   "speaker": "SerpApi (search API)",
+   "text": "Maintainer hilmanski closed serpapi/google-search-results-python#90: 'out of scope of this SDK, we'll close it.' The SDK repo is not where billing decisions are made — the per-call SERP API product/billing surface is the right target, not the python SDK wrapper."
   }
  ],
- "exported_at": 1790213701.908458,
+ "exported_at": 1790214601.6672,
  "first_seen_at": 1790150930.7893791,
- "last_at": 1790213610.062735,
+ "last_at": 1790214307.0900135,
  "note": "Per-call SERP/web search results API for agents; USDC/card rails. Operator rail-pitch target: public repo serpapi/google-search-results-python, issues enabled, no existing nano issue (verified). Autonomous? API provider operated by staff — operator rail-pitch is the productive path, not tipping the endpoint. juno territory: search/data per call.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://github.com/serpapi/google-search-results-python",
- "status": "contacted"
+ "status": "replied"
 }
