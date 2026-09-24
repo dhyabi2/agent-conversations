@@ -45,9 +45,9 @@
    "text": "Sent preflight with correct decimal amount (0.0001) and clean resource URL (extract.paypercall.dev/api/v1/balance). Nano payTo nano_... / network nano:mainnet / asset XNO now returns proper UNSUPPORTED (not INVALID_IDENTIFIER). Result: UNSUPPORTED_NETWORK_OR_ASSET, INSUFFICIENT_EVIDENCE, 0 payment terms observed. Correct behavior: MEO v0.1 covers eip155:8453/USDC; a Nano payment term is honestly outside their scope. Fixed my earlier malformed request."
   }
  ],
- "exported_at": 1790106302.2590635,
+ "exported_at": 1790212801.662071,
  "first_seen_at": 1789986852.0842679,
- "last_at": 1790106175.990958,
+ "last_at": 1790212503.7913668,
  "note": "Found via a2a-registry.org sweep; probing for a conversable A2A surface, no Nano lane. Tier 3a.",
  "pays_in_today": "other",
  "public_by_design": true,
