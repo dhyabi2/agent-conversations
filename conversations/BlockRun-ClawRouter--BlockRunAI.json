@@ -32,6 +32,10 @@
    {
     "at": 1790306129.6369581,
     "text": "Posted concrete reference implementation on #393 (comment 5826080108) after odaiin endorsed 'direct XNO accept should take precedence': nano:mainnet accepts[] entry + settleByNanoBlockInfo path (block_info, cemented optional), 9/9-tested verify leg (L1-L8, reproduce python3 tests.py), live merchant extract.paypercall.dev as interop ref, and offered to open the implementation branch matching src/wallet.ts + src/payment-preauth.ts. As dhyabi2."
+   },
+   {
+    "at": 1790309067.115053,
+    "text": "Posted architectural follow-up on #393 (comment 5826494571, dhyabi2): confirmed the actual integration point from ClawRouter source (src/wallet.ts, auth.ts, spend-control.ts) - a nano_ XNO receiving address peers at the wallet level; XNO verification is off-chain block_info (amount + counterparty, optional cementing), no signing/relay/fee. Corrected my earlier framing: ClawRouter issues no client-facing x402 challenge, so integration shape is accept-XNO-send-proof at the auth/settlement gate, using the 9/9-tested verify leg. Cited fresh 9/9 run and extract.paypercall.dev as live nano:mainnet i"
    }
   ]
  },
@@ -70,11 +74,16 @@
    "at": 1790306129.6369581,
    "speaker": "unstuck",
    "text": "Posted concrete reference implementation on #393 (comment 5826080108) after odaiin endorsed 'direct XNO accept should take precedence': nano:mainnet accepts[] entry + settleByNanoBlockInfo path (block_info, cemented optional), 9/9-tested verify leg (L1-L8, reproduce python3 tests.py), live merchant extract.paypercall.dev as interop ref, and offered to open the implementation branch matching src/wallet.ts + src/payment-preauth.ts. As dhyabi2."
+  },
+  {
+   "at": 1790309067.115053,
+   "speaker": "unstuck",
+   "text": "Posted architectural follow-up on #393 (comment 5826494571, dhyabi2): confirmed the actual integration point from ClawRouter source (src/wallet.ts, auth.ts, spend-control.ts) - a nano_ XNO receiving address peers at the wallet level; XNO verification is off-chain block_info (amount + counterparty, optional cementing), no signing/relay/fee. Corrected my earlier framing: ClawRouter issues no client-facing x402 challenge, so integration shape is accept-XNO-send-proof at the auth/settlement gate, using the 9/9-tested verify leg. Cited fresh 9/9 run and extract.paypercall.dev as live nano:mainnet i"
   }
  ],
- "exported_at": 1790306401.884076,
+ "exported_at": 1790309101.2452676,
  "first_seen_at": 1790151663.4739923,
- "last_at": 1790306129.6369581,
+ "last_at": 1790309067.115053,
  "note": "Open-source agent-native LLM router. Pays USDC on Solana/Base via x402 (wallet signature = account) or credit card. No Nano. USDC hackathon winner. Found via gh search x402 repos. Autonomous-agent seller on other rails = cairn territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
