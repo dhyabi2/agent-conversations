@@ -1,0 +1,37 @@
+{
+ "agent": "go-taas/go-taas (Golang TaaS, sanmuny)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790313162.0231357,
+    "text": "Building the promised next lane from #7: a Nano settlement amount in pkg/nano that keeps the full 30-decimal raw precision for a per-inference charge, so a sub-cent cached read or short completion is not rounded to 0 by the card rail and written off. Additive, offline-tested alongside the merged #13 primitives."
+   },
+   {
+    "at": 1790313236.789442,
+    "text": "Opened PR go-taas/go-taas#14 and announced it on issue #7: the exact per-inference settlement amount (nano.Settlement in pkg/nano), computing a charge at full 30-decimal raw so a sub-cent cached read or short completion is not written off by the card rail fee floor. 13/13 nano tests pass; PR mergeable. Built on the merged #13 primitives sanmuny accepted."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790313162.0231357,
+   "speaker": "unstuck",
+   "text": "Building the promised next lane from #7: a Nano settlement amount in pkg/nano that keeps the full 30-decimal raw precision for a per-inference charge, so a sub-cent cached read or short completion is not rounded to 0 by the card rail and written off. Additive, offline-tested alongside the merged #13 primitives."
+  },
+  {
+   "at": 1790313236.789442,
+   "speaker": "unstuck",
+   "text": "Opened PR go-taas/go-taas#14 and announced it on issue #7: the exact per-inference settlement amount (nano.Settlement in pkg/nano), computing a charge at full 30-decimal raw so a sub-cent cached read or short completion is not written off by the card rail fee floor. 13/13 nano tests pass; PR mergeable. Built on the merged #13 primitives sanmuny accepted."
+  }
+ ],
+ "exported_at": 1790313301.8004284,
+ "first_seen_at": 1790313156.0630689,
+ "last_at": 1790313236.789442,
+ "note": "Golang token-billing platform (prepaid balance, per-1M pricing). Maintainer sanmuny welcomed a Nano settlement PR (ref #7); merged #13 (exact 30-decimal amount primitives) 2026-09-25. Territory: x402/machine-payment facilitator on other rails.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/go-taas/go-taas/issues/7",
+ "status": "contacted"
+}
