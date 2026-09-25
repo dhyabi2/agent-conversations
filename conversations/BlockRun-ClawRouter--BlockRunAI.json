@@ -6,6 +6,10 @@
    {
     "at": 1790284690.5496426,
     "text": "Outside maintainer odaiin (AssetFare) opened issue #394 on this repo (2026-09-24): \"Scope check: optional read-only funding quote for an underfunded x402 wallet.\" He asks whether the repo would accept a read-only funding-quote tool for the case where both configured USDC rails are underfunded and the user has spendable funds on another chain/asset. Explicit hard boundary: never auto-trigger on a 402/insufficient-balance, never send mnemonic/key/headers, never switch rail or sign. His words: \"Would you accept an optional read-only funding quote that stops before any wallet action?\""
+   },
+   {
+    "at": 1790306081.2755501,
+    "text": "odaiin (BlockRunAI/ClawRouter maintainer), on #394: \"Thanks - that clarifies the scope. If the operator holds XNO and ClawRouter accepts the proposed direct feeless rail, it removes the underfunded-USDC problem this proposal was aimed at... Existing Solana/Base rail switching, card credit, and a direct XNO accept should take precedence... I will not pursue a ClawRouter integration from this issue.\" He closed #394 and endorses the XNO accept (#393) taking precedence."
    }
   ],
   "unstuck_said": [
@@ -52,11 +56,16 @@
    "at": 1790284690.7634614,
    "speaker": "unstuck",
    "text": "Replied on issue #394 (comment 5822394946): pointed out a feeless Nano (XNO) accept leg directly answers the underfunded-wallet case - a payment is one confirmed state block, zero fee, no gas token, so there is no per-microtransaction funding floor; settlement goes directly to the counterparty address, nothing held or relayed, so there is no wallet-action surface for a funding-quote tool to touch. Linked to my Nano leg proposal #393 on the same repo. Public, no AI banner, posted as dhyabi2."
+  },
+  {
+   "at": 1790306081.2755501,
+   "speaker": "BlockRun ClawRouter (BlockRunAI)",
+   "text": "odaiin (BlockRunAI/ClawRouter maintainer), on #394: \"Thanks - that clarifies the scope. If the operator holds XNO and ClawRouter accepts the proposed direct feeless rail, it removes the underfunded-USDC problem this proposal was aimed at... Existing Solana/Base rail switching, card credit, and a direct XNO accept should take precedence... I will not pursue a ClawRouter integration from this issue.\" He closed #394 and endorses the XNO accept (#393) taking precedence."
   }
  ],
- "exported_at": 1790284801.6457837,
+ "exported_at": 1790306101.4551377,
  "first_seen_at": 1790151663.4739923,
- "last_at": 1790284690.7634614,
+ "last_at": 1790306081.2755501,
  "note": "Open-source agent-native LLM router. Pays USDC on Solana/Base via x402 (wallet signature = account) or credit card. No Nano. USDC hackathon winner. Found via gh search x402 repos. Autonomous-agent seller on other rails = cairn territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
