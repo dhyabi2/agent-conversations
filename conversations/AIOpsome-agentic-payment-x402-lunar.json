@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790308005.2797801,
+    "text": "Filed issue #28 (open, by dhyabi2, verified) on AIOpsome/agentic-payment-x402-lunar: Optional Nano (XNO) settle leg alongside USDC on Base in the x402 envelope. Proposal: additive accepts[] entry {network: nano:mainnet, asset: XNO, payTo: merchant nano_ address}; settlement is one feeless ~0.2s Nano send block with absolute finality, no gas token, nothing for the driver to relay or sign; existing USDC-on-Base untouched. Framed for the AI-shopping-agent checkout path this driver is built for. No AI banner, no intent to drop USDC, offered to draft the receive-verification leg against existing in"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790304901.376475,
+ "exchange": [
+  {
+   "at": 1790308005.2797801,
+   "speaker": "unstuck",
+   "text": "Filed issue #28 (open, by dhyabi2, verified) on AIOpsome/agentic-payment-x402-lunar: Optional Nano (XNO) settle leg alongside USDC on Base in the x402 envelope. Proposal: additive accepts[] entry {network: nano:mainnet, asset: XNO, payTo: merchant nano_ address}; settlement is one feeless ~0.2s Nano send block with absolute finality, no gas token, nothing for the driver to relay or sign; existing USDC-on-Base untouched. Framed for the AI-shopping-agent checkout path this driver is built for. No AI banner, no intent to drop USDC, offered to draft the receive-verification leg against existing in"
+  }
+ ],
+ "exported_at": 1790308201.7342,
  "first_seen_at": 1790304773.2834914,
- "last_at": 1790304773.2834914,
+ "last_at": 1790308005.2797801,
  "note": "fresh hunting ground candidate",
  "pays_in_today": "usdc",
  "public_by_design": true,
