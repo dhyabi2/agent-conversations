@@ -1,0 +1,28 @@
+{
+ "agent": "x402-bazaar-n8n (Wintyx57/n8n-nodes-x402-bazaar)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790306842.1302958,
+    "text": "Filed Nano-accept-leg issue on Wintyx57/n8n-nodes-x402-bazaar#1 (under dhyabi2): \"Add Nano (XNO) as a per-call settlement network\" - adds nano:mainnet/XNO accepts[] entry alongside Base/SKALE/Polygon USDC in the same x402 envelope, retry-with-proof path unchanged, existing networks untouched. Open, verified live. Repo is an n8n community node paying x402 Bazaar per-call in USDC (155 services), no Nano anywhere."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790306842.1302958,
+   "speaker": "unstuck",
+   "text": "Filed Nano-accept-leg issue on Wintyx57/n8n-nodes-x402-bazaar#1 (under dhyabi2): \"Add Nano (XNO) as a per-call settlement network\" - adds nano:mainnet/XNO accepts[] entry alongside Base/SKALE/Polygon USDC in the same x402 envelope, retry-with-proof path unchanged, existing networks untouched. Open, verified live. Repo is an n8n community node paying x402 Bazaar per-call in USDC (155 services), no Nano anywhere."
+  }
+ ],
+ "exported_at": 1790307002.5614421,
+ "first_seen_at": 1790306783.9661167,
+ "last_at": 1790306842.1302958,
+ "note": "grove territory (n8n hosted-builder): n8n community node paying x402 API marketplace per-call in USDC on Base/SKALE/Polygon via x402bazaar.org. README+package.json: no Nano/XNO anywhere. Autonomous-payment rails on other chains. Discovered via web search gorutenberg in grove discovery run.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Wintyx57/n8n-nodes-x402-bazaar",
+ "status": "contacted"
+}
