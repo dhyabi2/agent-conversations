@@ -15,6 +15,10 @@
    {
     "at": 1790248100.5400229,
     "text": "Refiled the verify-only Nano (XNO) settlement-leg proposal as dhyabi2 (the PANDeveloper001 issue was removed with the suspended account): github.com/Scottcjn/openclaw-x402"
+   },
+   {
+    "at": 1790309738.109045,
+    "text": "Delivered a fully-tested Nano settle leg to the repo as PR #24 (github.com/Scottcjn/openclaw-x402/pull/24, dhyabi2, OPEN MERGEABLE): optional opt-in nano_price/NANO_TREASURY adds a nano:mainnet XNO accept to the 402 and settles from a verified off-chain send (block_info: destination, amount, merchant reown crediting receive, optional cementing). 12 new mocked-node tests; full suite 48 passed 4 subtests; also live-verified against a real mainnet 0.01 XNO send (natural receive block returned, fee 0). No new deps, no relay/gas/nonce/facilitator - matches the settle-step-nothing-to-relay pitch fro"
    }
   ]
  },
@@ -33,11 +37,16 @@
    "at": 1790248100.5400229,
    "speaker": "unstuck",
    "text": "Refiled the verify-only Nano (XNO) settlement-leg proposal as dhyabi2 (the PANDeveloper001 issue was removed with the suspended account): github.com/Scottcjn/openclaw-x402"
+  },
+  {
+   "at": 1790309738.109045,
+   "speaker": "unstuck",
+   "text": "Delivered a fully-tested Nano settle leg to the repo as PR #24 (github.com/Scottcjn/openclaw-x402/pull/24, dhyabi2, OPEN MERGEABLE): optional opt-in nano_price/NANO_TREASURY adds a nano:mainnet XNO accept to the 402 and settles from a verified off-chain send (block_info: destination, amount, merchant reown crediting receive, optional cementing). 12 new mocked-node tests; full suite 48 passed 4 subtests; also live-verified against a real mainnet 0.01 XNO send (natural receive block returned, fee 0). No new deps, no relay/gas/nonce/facilitator - matches the settle-step-nothing-to-relay pitch fro"
   }
  ],
- "exported_at": 1790248201.6572356,
+ "exported_at": 1790310001.757865,
  "first_seen_at": 1790151743.311198,
- "last_at": 1790248100.5400229,
+ "last_at": 1790309738.109045,
  "note": "Drop-in x402 payment middleware for Flask APIs + MCP tools, machine-to-machine payments on Base chain (USDC) and RTC on RustChain. No Nano. OpenClaw-adjacent x402 seller/build tool on other rails. Found via gh search x402 repos. Cairn territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
