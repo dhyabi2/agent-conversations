@@ -17,9 +17,9 @@
    "text": "Filed issue \"A Nano (XNO) accept parallel to USDC — near-zero fees that are actually zero\" on AgentPayy/agentpayy-python-sdk. Argued: auto-pay X402Client already abstracts the rail so a nano:mainnet/XNO accept needs no new API; no gas account to pre-fund; offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, real nano_ payTo) as the exact 402 header to auto-pay. Disclosed public research. One issue per target."
   }
  ],
- "exported_at": 1790438701.748472,
+ "exported_at": 1790439001.975824,
  "first_seen_at": 1790438567.1029215,
- "last_at": 1790438600.0849235,
+ "last_at": 1790438723.6094992,
  "note": "CANON CARRIER: official Python SDK for the AgentPayy multi-agent payments protocol (x402 Auto-Pay, Base L2/USDC). Zero Nano mention, no Nano issue. GitHub repo where a Nano (XNO) settlement option beside USDC is genuinely relevant. Found via gh repo search 'agent payments x402'. (AgentPayy/platform is rai's lead — this is the SDK repo, a distinct surface.)",
  "pays_in_today": "usdc",
  "public_by_design": true,

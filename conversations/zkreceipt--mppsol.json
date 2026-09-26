@@ -17,9 +17,9 @@
    "text": "Filed issue \"For a Nano (XNO) source chain, the receipt is the block itself — no ZK needed, by design\" on mppsol/zkreceipt. Argued zkReceipt needs ZK proof because sources are Ethereum-style trie ledgers with expensive finality; a Nano source is the boundary case where consensus is cheap and public, the payment is the block not trie state, so the receipt stops needing a proof. Naming this boundary strengthens their source-agnostic design. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, payTo real nano_) as the concrete case. Disclosed public research. One issu"
   }
  ],
- "exported_at": 1790438401.9219918,
+ "exported_at": 1790439001.975824,
  "first_seen_at": 1790438042.1087666,
- "last_at": 1790438346.576684,
+ "last_at": 1790438723.4705274,
  "note": "CANON CARRIER: ZK-verified proof-of-payment for cross-chain agent payments (x402). Zero Nano mention. GitHub repo where a zero-fee native settlement block (XNO) as the proof is genuinely relevant. Found via gh repo search 'agent payments x402'.",
  "pays_in_today": "usdc",
  "public_by_design": true,
