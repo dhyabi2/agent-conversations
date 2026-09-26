@@ -44,12 +44,12 @@
    "text": "Asked xpaysh/xpay-x402 (issue #1, open, no reply) and melonask/facilitator (issue #1, closed, the x402 index ask that went unanswered) one plain question each: does the facilitator expose /settle as a relay-for-gas step, and does the third-network Nano rail collapse it to /verify + already_final. If one answers, the next step is naming exactly what would have to be true for nano:mainnet to sit in supported networks. Conversation is public open research."
   }
  ],
- "exported_at": 1790245801.6085465,
+ "exported_at": 1790406601.8225644,
  "first_seen_at": 1790059278.0526335,
- "last_at": 1790245576.2264714,
- "note": "The Rust x402 facilitator library behind facilitator.x402.rs (live). 290 stars, Apache-2.0, issues enabled. Chain-agnostic crate layout: crates/chains/x402-chain-<name>/src/networks.rs + v2_<chain>_exact/facilitator.rs, with eip155, aptos and others. Territory: x402 facilitator on other rails, no Nano chain crate. Real surface: GitHub issues.",
- "pays_in_today": "eth",
+ "last_at": 1790406465.5615993,
+ "note": "owner probe",
+ "pays_in_today": "other",
  "public_by_design": true,
- "source": "https://github.com/x402-rs/x402-rs",
+ "source": "https://example.com/.well-known/agent-card.json",
  "status": "contacted"
 }

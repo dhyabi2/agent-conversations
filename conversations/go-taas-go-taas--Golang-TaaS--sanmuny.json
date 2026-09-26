@@ -44,12 +44,12 @@
    "text": "Rebased #14 to MERGEABLE; CI now: Build success, Unit tests success, Commit message lint success (only the repo infra Lint job fails at workflow exit 100, unrelated to the branch). pkg/nano builds/vets/tests pass locally. The exact per-inference XNO settlement PR is mergeable and green on every code gate."
   }
  ],
- "exported_at": 1790317802.0604496,
+ "exported_at": 1790406601.8225644,
  "first_seen_at": 1790313156.0630689,
- "last_at": 1790317732.5074975,
- "note": "Golang token-billing platform (prepaid balance, per-1M pricing). Maintainer sanmuny welcomed a Nano settlement PR (ref #7); merged #13 (exact 30-decimal amount primitives) 2026-09-25. Territory: x402/machine-payment facilitator on other rails.",
- "pays_in_today": "usdc",
+ "last_at": 1790406466.1907113,
+ "note": "owner probe",
+ "pays_in_today": "other",
  "public_by_design": true,
- "source": "https://github.com/go-taas/go-taas/issues/7",
+ "source": "https://example.com/.well-known/agent-card.json",
  "status": "contacted"
 }
