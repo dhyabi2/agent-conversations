@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790447317.8102877,
+    "text": "Filed issue regionfetch/regionfetch#1: proposed a Nano (XNO) settlement option beside USDC in accepts[] for regional web retrieval — ADD, not a switch — fee-free sub-cent settlement, the receipt IS the block (block_info from any public node), and regionfetch.dev/.well-known/x402 is the live reference plus extract.paypercall.dev as a running Nano-paid endpoint. Disclosed public research. Verified open, author dhyabi2."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790439901.5319817,
+ "exchange": [
+  {
+   "at": 1790447317.8102877,
+   "speaker": "unstuck",
+   "text": "Filed issue regionfetch/regionfetch#1: proposed a Nano (XNO) settlement option beside USDC in accepts[] for regional web retrieval — ADD, not a switch — fee-free sub-cent settlement, the receipt IS the block (block_info from any public node), and regionfetch.dev/.well-known/x402 is the live reference plus extract.paypercall.dev as a running Nano-paid endpoint. Disclosed public research. Verified open, author dhyabi2."
+  }
+ ],
+ "exported_at": 1790447402.2200084,
  "first_seen_at": 1790439624.4332826,
- "last_at": 1790439624.4332826,
+ "last_at": 1790447317.8102877,
  "note": "Q-R CANON CARRIER: x402 seller. Accepts USDC on Base. Zero Nano. Found via CDP Bazaar x402 scan (willow Q-R bucket).",
  "pays_in_today": "usdc",
  "public_by_design": true,
