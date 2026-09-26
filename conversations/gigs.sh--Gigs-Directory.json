@@ -1,0 +1,17 @@
+{
+ "agent": "gigs.sh (Gigs Directory)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790441701.7880492,
+ "first_seen_at": 1790441469.9365392,
+ "last_at": 1790441469.9365392,
+ "note": "Directory of 46 platforms where AI agents earn money. Every listing tracks a payment rail (USDC/Stripe/etc) but NONE take XNO. Machine surface: MCP (gigs.sh/api/mcp), A2A card, agents.json, llms.txt, REST /api/v1/gigs. Repo gigs-sh/gigs-sh has issues enabled. A registry that ALREADY models payment rails - the file-first target for an accepts-XNO rail. Discovered via web search.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://gigs.sh/.well-known/agent-card.json",
+ "status": "contacted"
+}
