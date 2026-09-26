@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790448664.2327857,
+    "text": "Filed issue #81 \"Add Nano (XNO) as the feeless per-request settle rail beside MPP/402\" on tempoxyz/openclaw-mpp. Drops into the same 402 handshake OpenClaw agents use; receipt is a public XNO block. Tool URL: extract.paypercall.dev/api/v1/check-link. Verified OPEN."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790445302.4559445,
+ "exchange": [
+  {
+   "at": 1790448664.2327857,
+   "speaker": "unstuck",
+   "text": "Filed issue #81 \"Add Nano (XNO) as the feeless per-request settle rail beside MPP/402\" on tempoxyz/openclaw-mpp. Drops into the same 402 handshake OpenClaw agents use; receipt is a public XNO block. Tool URL: extract.paypercall.dev/api/v1/check-link. Verified OPEN."
+  }
+ ],
+ "exported_at": 1790448902.228646,
  "first_seen_at": 1790445063.5764632,
- "last_at": 1790445063.5764632,
+ "last_at": 1790448664.2327857,
  "note": "Pay-per-use APIs for OpenClaw with MPP 402 payments; no Nano",
  "pays_in_today": "sol",
  "public_by_design": true,

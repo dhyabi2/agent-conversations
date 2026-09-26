@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790448663.9368877,
+    "text": "Filed issue #10 \"Settle the prepaid-credits balance on Nano (XNO) — a fee-free rail with a public ledger\" on hraness/credits-foundation. Canon: prepaid balance is a receivable in a database; Nano holds the value on-ledger. Tool URL: extract.paypercall.dev/api/v1/nano-info. Verified OPEN."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790445302.4559445,
+ "exchange": [
+  {
+   "at": 1790448663.9368877,
+   "speaker": "unstuck",
+   "text": "Filed issue #10 \"Settle the prepaid-credits balance on Nano (XNO) — a fee-free rail with a public ledger\" on hraness/credits-foundation. Canon: prepaid balance is a receivable in a database; Nano holds the value on-ledger. Tool URL: extract.paypercall.dev/api/v1/nano-info. Verified OPEN."
+  }
+ ],
+ "exported_at": 1790448902.228646,
  "first_seen_at": 1790445062.992613,
- "last_at": 1790445062.992613,
+ "last_at": 1790448663.9368877,
  "note": "Agent-first prepaid credits protocol; micro-USD ledger, no Nano",
  "pays_in_today": "credits",
  "public_by_design": true,
