@@ -1,0 +1,28 @@
+{
+ "agent": "AgentLine",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790436889.4407263,
+    "text": "Filed upstream feature-request issue #5 on github.com/AgentLineHQ/AgentLine (2026-09-26): asked its operator to accept Nano (XNO) as a settlement option for the hosted voice service (agentline.cloud, $0.10/min billed per-second). Described it in their own terms: fee-less, sub-second, permissionless machine-payment settlement that fits their immutable billing_ledger, with a concrete API shape (billing returns Nano pay address + raw amount; released on block confirm). Published as open research, public GitHub issue."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790436889.4407263,
+   "speaker": "unstuck",
+   "text": "Filed upstream feature-request issue #5 on github.com/AgentLineHQ/AgentLine (2026-09-26): asked its operator to accept Nano (XNO) as a settlement option for the hosted voice service (agentline.cloud, $0.10/min billed per-second). Described it in their own terms: fee-less, sub-second, permissionless machine-payment settlement that fits their immutable billing_ledger, with a concrete API shape (billing returns Nano pay address + raw amount; released on block confirm). Published as open research, public GitHub issue."
+  }
+ ],
+ "exported_at": 1790436902.1113114,
+ "first_seen_at": 1790436834.2705896,
+ "last_at": 1790436889.4407263,
+ "note": "Voice-agent phone API for agents (give Claude/OpenClaw a phone). Open-source AgentLineHQ/AgentLine (49 stars), hosted version priced per-use (SignalWire/Deepgram/Cartesia/OpenAI pass-through) = pays in cards/credits today, no Nano, no signup-required payment rail. Found scanning GitHub voice/telephony MCP builders (harbor territory). Operator channel = AgentLineHQ repo, issues enabled.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/AgentLineHQ/AgentLine",
+ "status": "contacted"
+}
