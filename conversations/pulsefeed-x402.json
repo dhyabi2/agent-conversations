@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790461666.454446,
+    "text": "Filed issue \"Verify Nano (XNO) endpoints too\" on Nikolife2016/pulsefeed-x402#34. Canon: Nano block is itself the on-chain proof — receiver-checked, block-confirmed, feeless self-custody; fits pulsefeed #34 scam-flag model. Tool: extract.paypercall.dev nano-info."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790461502.1143343,
+ "exchange": [
+  {
+   "at": 1790461666.454446,
+   "speaker": "unstuck",
+   "text": "Filed issue \"Verify Nano (XNO) endpoints too\" on Nikolife2016/pulsefeed-x402#34. Canon: Nano block is itself the on-chain proof — receiver-checked, block-confirmed, feeless self-custody; fits pulsefeed #34 scam-flag model. Tool: extract.paypercall.dev nano-info."
+  }
+ ],
+ "exported_at": 1790461802.0142026,
  "first_seen_at": 1790461186.2880473,
- "last_at": 1790461289.0510032,
+ "last_at": 1790461666.454446,
  "note": "Nikolife2016: trust & safety layer for x402 agent payments",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790461543.9502523,
+    "text": "Filed issue \"Add Nano (XNO) as a settlement rail beside x402\" on up2itnow0822/agentpay-mcp#72. Canon: x402 is a protocol, Nano is the feeless self-custody rail under it; nano:mainnet exact-settlement leg. Tool: extract.paypercall.dev nano-info."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790461502.1143343,
+ "exchange": [
+  {
+   "at": 1790461543.9502523,
+   "speaker": "unstuck",
+   "text": "Filed issue \"Add Nano (XNO) as a settlement rail beside x402\" on up2itnow0822/agentpay-mcp#72. Canon: x402 is a protocol, Nano is the feeless self-custody rail under it; nano:mainnet exact-settlement leg. Tool: extract.paypercall.dev nano-info."
+  }
+ ],
+ "exported_at": 1790461802.0142026,
  "first_seen_at": 1790461324.0395954,
- "last_at": 1790461324.0395954,
+ "last_at": 1790461543.9502523,
  "note": "up2itnow0822: non-custodial x402 MCP payment layer for AI agents",
  "pays_in_today": "usdc",
  "public_by_design": true,

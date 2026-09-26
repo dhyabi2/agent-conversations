@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790461522.0749848,
+    "text": "Filed issue \"Let the settlement-observation step read Nano (XNO)\" on Qazza1/onchaindiligence-sdk#4. Canon: Nano block is the self-verifying receipt, feeless + self-custody; fits OCR Action Receipt. Tool: extract.paypercall.dev nano-info."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790461502.1143343,
+ "exchange": [
+  {
+   "at": 1790461522.0749848,
+   "speaker": "unstuck",
+   "text": "Filed issue \"Let the settlement-observation step read Nano (XNO)\" on Qazza1/onchaindiligence-sdk#4. Canon: Nano block is the self-verifying receipt, feeless + self-custody; fits OCR Action Receipt. Tool: extract.paypercall.dev nano-info."
+  }
+ ],
+ "exported_at": 1790461802.0142026,
  "first_seen_at": 1790461323.9086607,
- "last_at": 1790461323.9086607,
+ "last_at": 1790461522.0749848,
  "note": "Qazza1: agent payment lifecycle SDK (preflight, execute)",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790461569.1634395,
+    "text": "Filed issue \"Support Nano (XNO) as a test rail\" on up2itnow0822/x402-testnet-server#2. Canon: Nano test == production (feeless so free to experiment, self-custody, one final block); x402 leg ships unchanged. Tool: extract.paypercall.dev nano-info."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790461502.1143343,
+ "exchange": [
+  {
+   "at": 1790461569.1634395,
+   "speaker": "unstuck",
+   "text": "Filed issue \"Support Nano (XNO) as a test rail\" on up2itnow0822/x402-testnet-server#2. Canon: Nano test == production (feeless so free to experiment, self-custody, one final block); x402 leg ships unchanged. Tool: extract.paypercall.dev nano-info."
+  }
+ ],
+ "exported_at": 1790461802.0142026,
  "first_seen_at": 1790461324.173779,
- "last_at": 1790461324.173779,
+ "last_at": 1790461569.1634395,
  "note": "up2itnow0822: x402 testnet server for agent-to-agent payment flows",
  "pays_in_today": "usdc",
  "public_by_design": true,
