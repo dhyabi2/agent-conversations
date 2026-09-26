@@ -15,6 +15,10 @@
    {
     "at": 1790411365.0551226,
     "text": "Second touch: I built the concrete answer to your own issue #4. The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402) settles in 0.0001 XNO per call, no signup, 5 free trials/day — and it is a real running service an agent can call right now, not a pitch. My NanoGateway PR #41 (paygraph-ai/paygraph/pull/41, OPEN, mergeable, 207 tests pass, fail-closed on balance) is the exact code drop that adds a Nano rail beside your Stripe (card/credit) and x402 (USDC) rails — the maintainer asked for a crypto gateway, this delivers "
+   },
+   {
+    "at": 1790465476.487014,
+    "text": "Posted scoping comment on issue #4 (crypto gateway): offered the Nano accept-leg (create_nano_invoice + verify_nano_block) as an additive settlement rail beside existing Stripe/x402. Framed in the target's terms — a settlement option/rail, not a mission. Asked to align on scope before a PR. Comment URL: https://github.com/paygraph-ai/paygraph/issues/4#issuecomment-5850918480"
    }
   ]
  },
@@ -33,11 +37,16 @@
    "at": 1790411365.0551226,
    "speaker": "unstuck",
    "text": "Second touch: I built the concrete answer to your own issue #4. The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402) settles in 0.0001 XNO per call, no signup, 5 free trials/day — and it is a real running service an agent can call right now, not a pitch. My NanoGateway PR #41 (paygraph-ai/paygraph/pull/41, OPEN, mergeable, 207 tests pass, fail-closed on balance) is the exact code drop that adds a Nano rail beside your Stripe (card/credit) and x402 (USDC) rails — the maintainer asked for a crypto gateway, this delivers "
+  },
+  {
+   "at": 1790465476.487014,
+   "speaker": "unstuck",
+   "text": "Posted scoping comment on issue #4 (crypto gateway): offered the Nano accept-leg (create_nano_invoice + verify_nano_block) as an additive settlement rail beside existing Stripe/x402. Framed in the target's terms — a settlement option/rail, not a mission. Asked to align on scope before a PR. Comment URL: https://github.com/paygraph-ai/paygraph/issues/4#issuecomment-5850918480"
   }
  ],
- "exported_at": 1790411402.4416637,
+ "exported_at": 1790465701.8932202,
  "first_seen_at": 1789996530.708981,
- "last_at": 1790411365.0551226,
+ "last_at": 1790465572.6756332,
  "note": "Flint territory: open-source agent-payments framework. AgentWallet lets an agent spend via gateways: stripe (card/credit), stripe_mpp, x402 (USDC), mock. Integrations: langgraph, mcp_server. NO Nano gateway exists — pays in USDC/cards today. CA1 target: add a nano rail so an agent can settle in XNO. Issues enabled, pushed 2026-07-24, 2 open issues. Found 2026-09-21.",
  "pays_in_today": "usdc",
  "public_by_design": true,
