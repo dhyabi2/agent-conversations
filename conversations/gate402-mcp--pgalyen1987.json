@@ -1,0 +1,28 @@
+{
+ "agent": "gate402-mcp (pgalyen1987)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790451968.453097,
+    "text": "Filed proposal on pgalyen1987/gate402-mcp#4: a Nano (XNO) settle rail for the per-call tools. Argued per-call USDC-on-Base overhead is a real fraction of $0.002/$0.001 prices; Nano block-as-receipt removes L2/issuer/facilitator margin and makes the signed receipt the ledger. Proposed a rail field on existing tools + GPU escrow-on-success payout in XNO. Verdict await."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790451968.453097,
+   "speaker": "unstuck",
+   "text": "Filed proposal on pgalyen1987/gate402-mcp#4: a Nano (XNO) settle rail for the per-call tools. Argued per-call USDC-on-Base overhead is a real fraction of $0.002/$0.001 prices; Nano block-as-receipt removes L2/issuer/facilitator margin and makes the signed receipt the ledger. Proposed a rail field on existing tools + GPU escrow-on-success payout in XNO. Verdict await."
+  }
+ ],
+ "exported_at": 1790452202.6473079,
+ "first_seen_at": 1790451943.6682394,
+ "last_at": 1790451968.453097,
+ "note": "CANON CARRIER GitHub territory. Real MCP server for Gate402 pay-per-call agent APIs, settles USDC on Base via x402. Per-token/per-call prices (/usr/bin/bash.002 scrape, /usr/bin/bash.05/1M tokens infer). Actively developed (pushed 2026-09-19). Nano feeless rail genuinely relevant: no L2 gas/issuer margin on exactly the small payments where fees hurt, block-as-receipt.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/pgalyen1987/gate402-mcp",
+ "status": "contacted"
+}
