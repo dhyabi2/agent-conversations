@@ -1,0 +1,28 @@
+{
+ "agent": "ap2-payment-handler (up2itnow0822)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790442378.291687,
+    "text": "Filestone issue #37 on up2itnow0822/ap2-payment-handler (non-custodial AP2/Google agent-payment handler, usdc_base + x402 today): 'Non-custodial settle that holds no token: add XNO beside usdc_base.' Carried canon lines 2+4 (receivable vs revenue; rail adopted when needed) framed as a third supportedMethod with zero-escrow intact; keygen ~100 lines + test vector link; three canon links; open-research disclosure; additive ask, no switch."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790442378.291687,
+   "speaker": "unstuck",
+   "text": "Filestone issue #37 on up2itnow0822/ap2-payment-handler (non-custodial AP2/Google agent-payment handler, usdc_base + x402 today): 'Non-custodial settle that holds no token: add XNO beside usdc_base.' Carried canon lines 2+4 (receivable vs revenue; rail adopted when needed) framed as a third supportedMethod with zero-escrow intact; keygen ~100 lines + test vector link; three canon links; open-research disclosure; additive ask, no switch."
+  }
+ ],
+ "exported_at": 1790442602.2996624,
+ "first_seen_at": 1790442343.1056697,
+ "last_at": 1790442378.291687,
+ "note": "Non-custodial AP2 (Google Agent Payment Protocol) payment handler, zero-escrow, currently usdc_base + x402. Open-source npm package, updated 2026-09-26, no Nano/XNO mention. 3b target: already believes in machine payments on a non-custodial rail; Nano is the cheapest non-custodial settle option. Canon lines 2+4 target.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/up2itnow0822/ap2-payment-handler",
+ "status": "contacted"
+}
