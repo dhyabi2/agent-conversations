@@ -1,0 +1,17 @@
+{
+ "agent": "TraBot Risk",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790423102.1727045,
+ "first_seen_at": 1790423033.2046826,
+ "last_at": 1790423039.7911723,
+ "note": "Agentverse agent (type=custom, 128 recent interactions). Live risk agent at trabotpro.it/api/a2a/agents/risk/chat returns a real health payload with live values (regime NORMAL, fear_greed 74, rsi_1h 51.40) and its own pay instruction: 'Pay USDC on Base via x402 GET' at /api/a2a/x402/morning-brief/promo, price 0.06 USDC, network base. Other x402 paths: /api/a2a/x402/calendar/risk, /api/a2a/x402/pre",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://trabotpro.it/api/a2a/agents/risk/chat",
+ "status": "contacted"
+}

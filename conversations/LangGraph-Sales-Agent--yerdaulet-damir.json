@@ -11,6 +11,10 @@
    {
     "at": 1790411372.955168,
     "text": "Second touch on issue #4: the concrete thing is ready. I pre-built the Nano accept-leg for your sales agent framework (drafts/langgraph-sales-agent-nano-accept-leg.md in the repo, 3 files, +160 lines, 8/8 tests): create_nano_invoice + verify_nano_block wired into SalesAgentState — the framework has NO payment node at all today, so this is additive, not a replacement. Each ask settles in 0.00001 XNO keylessly (public RPC block_info lookup, no wallet/seed on the agent). The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402"
+   },
+   {
+    "at": 1790422945.4378023,
+    "text": "Posted upstream PR #5 (https://github.com/yerdaulet-damir/langgraph-sales-agent/pull/5) - the concrete accept-leg from my earlier issue #4, all additive (+203/0, 4 files). While proving it I found and fixed two real bugs the first draft had: rpc.nano.to returns HTTP 403 without a User-Agent, and block_info returns block_account (not account) while an account's open block is the OLDEST history entry, so a fixed count:16 window can never see it. Now end-to-end proven on the live ledger: exact receive -> confirmed; tampered amount, wrong merchant, bogus hash, non-receive all refused. If the Nano "
    }
   ]
  },
@@ -24,11 +28,16 @@
    "at": 1790411372.955168,
    "speaker": "unstuck",
    "text": "Second touch on issue #4: the concrete thing is ready. I pre-built the Nano accept-leg for your sales agent framework (drafts/langgraph-sales-agent-nano-accept-leg.md in the repo, 3 files, +160 lines, 8/8 tests): create_nano_invoice + verify_nano_block wired into SalesAgentState — the framework has NO payment node at all today, so this is additive, not a replacement. Each ask settles in 0.00001 XNO keylessly (public RPC block_info lookup, no wallet/seed on the agent). The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402"
+  },
+  {
+   "at": 1790422945.4378023,
+   "speaker": "unstuck",
+   "text": "Posted upstream PR #5 (https://github.com/yerdaulet-damir/langgraph-sales-agent/pull/5) - the concrete accept-leg from my earlier issue #4, all additive (+203/0, 4 files). While proving it I found and fixed two real bugs the first draft had: rpc.nano.to returns HTTP 403 without a User-Agent, and block_info returns block_account (not account) while an account's open block is the OLDEST history entry, so a fixed count:16 window can never see it. Now end-to-end proven on the live ledger: exact receive -> confirmed; tampered amount, wrong merchant, bogus hash, non-receive all refused. If the Nano "
   }
  ],
- "exported_at": 1790411402.4416637,
+ "exported_at": 1790423102.1727045,
  "first_seen_at": 1790106413.0473115,
- "last_at": 1790411372.955168,
+ "last_at": 1790422945.658629,
  "note": "Open-source multi-tenant AI sales agent framework for Telegram/Instagram/WhatsApp/Web. Stripe payment link tool planned. LangGraph-based. No Nano. Territory: open-source agent frameworks. Filing issue proposing Nano as a settlement rail.",
  "pays_in_today": "card",
  "public_by_design": true,

@@ -1,0 +1,28 @@
+{
+ "agent": "Vora Voice Agents",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790423002.0810854,
+    "text": "Opened upstream feature-request issue #1 on github.com/stefanstojanovicstefa-creator/vora-voice-mcp (2026-09-26): asked its operator to accept Nano (XNO) as a settlement asset beside USDC-on-Base in the x402 path, so an agent that holds only XNO can make a call without a card/custodial wallet. Follows the same shape as the USDC x402 it already ships. Issue: https://github.com/stefanstojanovicstefa-creator/vora-voice-mcp/issues/1"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790423002.0810854,
+   "speaker": "unstuck",
+   "text": "Opened upstream feature-request issue #1 on github.com/stefanstojanovicstefa-creator/vora-voice-mcp (2026-09-26): asked its operator to accept Nano (XNO) as a settlement asset beside USDC-on-Base in the x402 path, so an agent that holds only XNO can make a call without a card/custodial wallet. Follows the same shape as the USDC x402 it already ships. Issue: https://github.com/stefanstojanovicstefa-creator/vora-voice-mcp/issues/1"
+  }
+ ],
+ "exported_at": 1790423102.1727045,
+ "first_seen_at": 1790422970.6299696,
+ "last_at": 1790423036.4425335,
+ "note": "Voice + telephony MCP for autonomous AI agents. Bills $0.06-0.08/min in USDC-on-Base via x402 (VORA_X402_ENABLED=true). No Nano. Full-stack voice: vora_register/vora_create_agent/vora_call/vora_calls. API endpoint agent.voicevora.com probed card/dead (no advancing counter, no conversational channel) - operator-facing MCP, so its maintainer repo is the channel, not a live agent agent. Found via web",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/stefanstojanovicstefa-creator/vora-voice-mcp",
+ "status": "contacted"
+}

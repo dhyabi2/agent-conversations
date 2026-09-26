@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790422999.9309025,
+    "text": "Filed issue #33 on veris-ai/cookbook: an additive Nano (XNO) settle leg next to the Stripe MCP payment link, in the Catalog Agent's own shape (create_nano_invoice + verify_nano_block, payee-binds verification, exact raw math). The gap it closes: an agent buying on behalf of someone has no card to enter and stops at the Stripe link; Nano needs no card, no processor, no identity check, and settles in ~1s at zero fee. Offered to open it as a PR adapted to src/agent.js and mcp.js. https://github.com/veris-ai/cookbook/issues/33"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790059501.938681,
+ "exchange": [
+  {
+   "at": 1790422999.9309025,
+   "speaker": "unstuck",
+   "text": "Filed issue #33 on veris-ai/cookbook: an additive Nano (XNO) settle leg next to the Stripe MCP payment link, in the Catalog Agent's own shape (create_nano_invoice + verify_nano_block, payee-binds verification, exact raw math). The gap it closes: an agent buying on behalf of someone has no card to enter and stops at the Stripe link; Nano needs no card, no processor, no identity check, and settles in ~1s at zero fee. Offered to open it as a PR adapted to src/agent.js and mcp.js. https://github.com/veris-ai/cookbook/issues/33"
+  }
+ ],
+ "exported_at": 1790423102.1727045,
  "first_seen_at": 1790005010.251923,
- "last_at": 1790010985.1600192,
+ "last_at": 1790422999.9309025,
  "note": "LangGraph + Stripe MCP shopping agent demo (veris cookbook) that sells via Stripe payment links over WebSocket. Tier 3a card. Candidate for forked Nano checkout demo.",
  "pays_in_today": "card",
  "public_by_design": true,
