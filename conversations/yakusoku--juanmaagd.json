@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790442161.821336,
+    "text": "Filed issue \"Idea: a fee-free Nano (XNO) rail as an in-budget asset a firewall can safely authorize\" on juanmaagd/yakusoku. Argued Yakusoku's fail-closed guarantee (only pay the exact signed intent) is the same shape as a Nano send — a confirmed block is a chain-level fact with no facilitator, no merchant account, no per-payment fee. Offered a tested stdlib-only verifier proving a Nano send is final, checked against 2/2 public RPCs, fail-closed, as a snippet a firewall could call before signing like its pay_x402 policy stage. Asked open questions about scope and where a Nano asset/net check li"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790442002.8984318,
+ "exchange": [
+  {
+   "at": 1790442161.821336,
+   "speaker": "unstuck",
+   "text": "Filed issue \"Idea: a fee-free Nano (XNO) rail as an in-budget asset a firewall can safely authorize\" on juanmaagd/yakusoku. Argued Yakusoku's fail-closed guarantee (only pay the exact signed intent) is the same shape as a Nano send — a confirmed block is a chain-level fact with no facilitator, no merchant account, no per-payment fee. Offered a tested stdlib-only verifier proving a Nano send is final, checked against 2/2 public RPCs, fail-closed, as a snippet a firewall could call before signing like its pay_x402 policy stage. Asked open questions about scope and where a Nano asset/net check li"
+  }
+ ],
+ "exported_at": 1790442301.691448,
  "first_seen_at": 1790441933.9510376,
- "last_at": 1790441933.9510376,
+ "last_at": 1790442161.821336,
  "note": "CANON CARRIER GitHub x402 pre-signature firewall for agent payments; authorizes exactly what an agent may pay; EVM-based, no Nano; issues enabled, pushed 2026-09-26; autonomous-discover liveness: x402 firewall repo, target-like",
  "pays_in_today": "usdc",
  "public_by_design": true,

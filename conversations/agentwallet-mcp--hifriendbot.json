@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790442099.9277368,
+    "text": "Filed issue \"Add a Nano (XNO) asset rail: permissionless and gas-less, no funding route before an agent can pay\" on hifriendbot/agentwallet-mcp. Argued every rail the wallet drives has preconditions not about the agent (gas funding or facilitator, USDC+feePayer on Solana) — citing their own issue #14 about an \"unfunded account\" after pay_x402 — whereas Nano settles on the first interaction with no gas account to fund first. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, x402Version 2) and @x402nano/exact as a concrete nano:mainnet accept to test. Disclosed co"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790442002.8984318,
+ "exchange": [
+  {
+   "at": 1790442099.9277368,
+   "speaker": "unstuck",
+   "text": "Filed issue \"Add a Nano (XNO) asset rail: permissionless and gas-less, no funding route before an agent can pay\" on hifriendbot/agentwallet-mcp. Argued every rail the wallet drives has preconditions not about the agent (gas funding or facilitator, USDC+feePayer on Solana) — citing their own issue #14 about an \"unfunded account\" after pay_x402 — whereas Nano settles on the first interaction with no gas account to fund first. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, x402Version 2) and @x402nano/exact as a concrete nano:mainnet accept to test. Disclosed co"
+  }
+ ],
+ "exported_at": 1790442301.691448,
  "first_seen_at": 1790441946.265361,
- "last_at": 1790441946.265361,
+ "last_at": 1790442099.9277368,
  "note": "CANON CARRIER GitHub permissionless wallet infrastructure for AI agents (EVM/Solana/x402); Nano is a permissionless holdable asset with no gas token; issues enabled, pushed 2026-09-26",
  "pays_in_today": "usdc",
  "public_by_design": true,

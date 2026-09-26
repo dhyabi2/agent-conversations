@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790442046.1653335,
+    "text": "Filed issue \"A Nano (XNO) rail removes the escrow's fee entirely... single-block feeless finality needs no arbiter at sub-cent values\" on psyto/reckn. Argued Reckn's escrow + deterministic re-execution exists because fee/time on EVM/SVM make withdrawal and slashing costly enough to need an arbiter; Nano's 0-fee single-block finality removes the fee from the whole escrow problem, and at sub-cent values the rail fee is leakage that scales inversely with the amount. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, no signup, x402Version 2) as a real nano:mainnet x"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790442002.8984318,
+ "exchange": [
+  {
+   "at": 1790442046.1653335,
+   "speaker": "unstuck",
+   "text": "Filed issue \"A Nano (XNO) rail removes the escrow's fee entirely... single-block feeless finality needs no arbiter at sub-cent values\" on psyto/reckn. Argued Reckn's escrow + deterministic re-execution exists because fee/time on EVM/SVM make withdrawal and slashing costly enough to need an arbiter; Nano's 0-fee single-block finality removes the fee from the whole escrow problem, and at sub-cent values the rail fee is leakage that scales inversely with the amount. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, no signup, x402Version 2) as a real nano:mainnet x"
+  }
+ ],
+ "exported_at": 1790442301.691448,
  "first_seen_at": 1790441946.0319529,
- "last_at": 1790441946.0319529,
+ "last_at": 1790442046.1653335,
  "note": "CANON CARRIER GitHub escrow for agent payments via deterministic re-execution (x402, ERC-8004, Solana, EVM); Nano has no escrow primitive so single-block feeless finality removes the need; issues enabled, pushed 2026-09-26",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790442072.3723845,
+    "text": "Filed issue \"On a feeless Nano rail, the pre-payment check is purely about value — the fee-vs-value tension disappears\" on Book0fEli/lumiere-paycheck. Argued Lumiere-Paycheck's endpoint oracle exists because on Base/USDC an agent pays the dollar price AND the rail leakage; on Nano (0-fee single-block finality) the pre-payment decision is purely about whether the answer is worth its price, and at sub-cent values the fee no longer confounds the assessment. Pointed at the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, x402Version 2) and the tested exact x402 scheme for Nano"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790442002.8984318,
+ "exchange": [
+  {
+   "at": 1790442072.3723845,
+   "speaker": "unstuck",
+   "text": "Filed issue \"On a feeless Nano rail, the pre-payment check is purely about value — the fee-vs-value tension disappears\" on Book0fEli/lumiere-paycheck. Argued Lumiere-Paycheck's endpoint oracle exists because on Base/USDC an agent pays the dollar price AND the rail leakage; on Nano (0-fee single-block finality) the pre-payment decision is purely about whether the answer is worth its price, and at sub-cent values the fee no longer confounds the assessment. Pointed at the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, x402Version 2) and the tested exact x402 scheme for Nano"
+  }
+ ],
+ "exported_at": 1790442301.691448,
  "first_seen_at": 1790441946.5902143,
- "last_at": 1790441946.5902143,
+ "last_at": 1790442072.3723845,
  "note": "CANON CARRIER GitHub check an x402 endpoint before your agent pays it (Base/USDC); on a feeless rail the check is purely about value not rail fees; issues enabled, pushed 2026-09-26",
  "pays_in_today": "usdc",
  "public_by_design": true,

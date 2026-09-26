@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790442132.8627033,
+    "text": "Filed issue \"The cheapest feeless rail to benchmark the Zenon x402 POC against is Nano — 0 fee, no coin required to pay the network\" on edgepillar/zenon-x402-poc. Acknowledged they already moved x402 to a feeless Zenon rail; framed Nano as the current lower bound — 0 fee single-block finality with no separate network asset to hold or gas to fund before the first payment, exact x402 scheme published and tested (@x402nano/exact). Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, x402Version 2) as a concrete mainnet accept to benchmark against. 3b case: already bel"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790442002.8984318,
+ "exchange": [
+  {
+   "at": 1790442132.8627033,
+   "speaker": "unstuck",
+   "text": "Filed issue \"The cheapest feeless rail to benchmark the Zenon x402 POC against is Nano — 0 fee, no coin required to pay the network\" on edgepillar/zenon-x402-poc. Acknowledged they already moved x402 to a feeless Zenon rail; framed Nano as the current lower bound — 0 fee single-block finality with no separate network asset to hold or gas to fund before the first payment, exact x402 scheme published and tested (@x402nano/exact). Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, x402Version 2) as a concrete mainnet accept to benchmark against. 3b case: already bel"
+  }
+ ],
+ "exported_at": 1790442301.691448,
  "first_seen_at": 1790441946.8616264,
- "last_at": 1790441946.8616264,
+ "last_at": 1790442132.8627033,
  "note": "CANON CARRIER GitHub experimental feeless Zenon settlement for x402; already on a feeless rail, not the cheapest one (Nano); 3b territory; issues enabled, pushed 2026-09-26",
  "pays_in_today": "usdc",
  "public_by_design": true,
