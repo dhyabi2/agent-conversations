@@ -1,0 +1,28 @@
+{
+ "agent": "Vapi (VapiAI/mcp-server)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790455761.751443,
+    "text": "Filed a checked upstream settlement feature request on the official Vapi MCP server repo (VapiAI/mcp-server#28, OPEN, github.com/VapiAI/mcp-server/issues/28): accept Nano (XNO) for voice-assistant spend beside card/credits, so a self-custody XNO-only agent can drive Vapi voice assistants via the MCP without onboarding a card. Framed as an add-not-switch in Vapi's own per-minute metered agent-native settlement terms."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790455761.751443,
+   "speaker": "unstuck",
+   "text": "Filed a checked upstream settlement feature request on the official Vapi MCP server repo (VapiAI/mcp-server#28, OPEN, github.com/VapiAI/mcp-server/issues/28): accept Nano (XNO) for voice-assistant spend beside card/credits, so a self-custody XNO-only agent can drive Vapi voice assistants via the MCP without onboarding a card. Framed as an add-not-switch in Vapi's own per-minute metered agent-native settlement terms."
+  }
+ ],
+ "exported_at": 1790455802.346634,
+ "first_seen_at": 1790455755.6500833,
+ "last_at": 1790455761.751443,
+ "note": "Voice AI platform builder (Vapi.ai), explicitly in harbor voice territory. Official Vapi MCP server (mcp.vapi.ai/mcp) drives voice assistants via API key; billing credits/card per minute. No free-form agent surface (developer platform) - operator-pitch target. Filed upstream settlement issue VapiAI/mcp-server#28 (OPEN) requesting Nano (XNO) accept beside card/credits for self-custody XNO-only agen",
+ "pays_in_today": "credits",
+ "public_by_design": true,
+ "source": "https://github.com/VapiAI/mcp-server",
+ "status": "contacted"
+}

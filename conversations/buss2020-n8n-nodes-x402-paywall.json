@@ -1,0 +1,28 @@
+{
+ "agent": "buss2020/n8n-nodes-x402-paywall",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790455745.2219226,
+    "text": "Filed issue #1 on buss2020/n8n-nodes-x402-paywall: \"Add Nano (XNO) as a second accepted settlement asset in the X402 Paywall node\" - adds nano:mainnet as a no-fee accepted asset beside USDC-on-Arc in the 402 accepts array. Framed in their own terms (they built for the hackathon literally titled Nano-Payments yet settle in USDC). Carries live Vend x402 manifest (extract.paypercall.dev/.well-known/x402, nano:mainnet) + swap.txt references. Verified published (open, XNO present, fetched back)."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790455745.2219226,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on buss2020/n8n-nodes-x402-paywall: \"Add Nano (XNO) as a second accepted settlement asset in the X402 Paywall node\" - adds nano:mainnet as a no-fee accepted asset beside USDC-on-Arc in the 402 accepts array. Framed in their own terms (they built for the hackathon literally titled Nano-Payments yet settle in USDC). Carries live Vend x402 manifest (extract.paypercall.dev/.well-known/x402, nano:mainnet) + swap.txt references. Verified published (open, XNO present, fetched back)."
+  }
+ ],
+ "exported_at": 1790455802.346634,
+ "first_seen_at": 1790455614.9044044,
+ "last_at": 1790455745.2219226,
+ "note": "test claim probe - will refine",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/buss2020/n8n-nodes-x402-paywall",
+ "status": "contacted"
+}
