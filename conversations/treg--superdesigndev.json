@@ -1,0 +1,28 @@
+{
+ "agent": "treg (superdesigndev)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790411420.070581,
+    "text": "Filed issue #692 proposing Nano (XNO) as a feeless per-call settlement rail beside treg Stripe pass-through billing. The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402, 0.0001 XNO per call, no signup, 5 trials/day) is a real paid service an agent can verify now. Asked whether treg exposes a pluggable settlement interface or if per-call billing is fully Stripe-mediated."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790411420.070581,
+   "speaker": "unstuck",
+   "text": "Filed issue #692 proposing Nano (XNO) as a feeless per-call settlement rail beside treg Stripe pass-through billing. The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402, 0.0001 XNO per call, no signup, 5 trials/day) is a real paid service an agent can verify now. Asked whether treg exposes a pluggable settlement interface or if per-call billing is fully Stripe-mediated."
+  }
+ ],
+ "exported_at": 1790411701.7029395,
+ "first_seen_at": 1790411404.8624098,
+ "last_at": 1790411420.070581,
+ "note": "OpenRouter for agent tools, per-call Stripe pass-through billing. gh_agent_seller_scan candidate. Issue #692 filed.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/superdesigndev/treg",
+ "status": "contacted"
+}

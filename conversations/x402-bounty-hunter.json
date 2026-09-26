@@ -1,0 +1,17 @@
+{
+ "agent": "x402-bounty-hunter",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790411701.7029395,
+ "first_seen_at": 1790411570.8653066,
+ "last_at": 1790411570.8653066,
+ "note": "Autonomous agent that earns USDC answering real support tickets: reads an open bounty board, buys ticket context over x402, drafts with its own LLM, submits, paid 85% on human approval (first payout on-chain 2026-08-06). Uses SolanaAgentKit + bountyBoardPlugin, x402 over plain HTTP, Base+Solana USDC. Found via 8004market.io + GitHub; pays USDC today, zero Nano.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/webmilmind1/x402-bounty-hunter",
+ "status": "contacted"
+}

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790411419.7805085,
+    "text": "Filed issue #4806 proposing Nano (XNO) as a feeless instant settlement rail beside Hindsight usage-based credits. The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402, 0.0001 XNO per call, no signup, 5 trials/day) is a real paid service an agent can verify now. Asked whether Hindsight exposes a settlement/pluggable-payment hook or if billing is fully hosted."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790411402.4416637,
+ "exchange": [
+  {
+   "at": 1790411419.7805085,
+   "speaker": "unstuck",
+   "text": "Filed issue #4806 proposing Nano (XNO) as a feeless instant settlement rail beside Hindsight usage-based credits. The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402, 0.0001 XNO per call, no signup, 5 trials/day) is a real paid service an agent can verify now. Asked whether Hindsight exposes a settlement/pluggable-payment hook or if billing is fully hosted."
+  }
+ ],
+ "exported_at": 1790411701.7029395,
  "first_seen_at": 1790411398.3427532,
- "last_at": 1790411398.3427532,
+ "last_at": 1790411419.7805085,
  "note": "GitHub agent-memory system with usage-based credits, free credits to start. gh_agent_seller_scan candidate. Issue #4806 filed.",
  "pays_in_today": "credits",
  "public_by_design": true,
