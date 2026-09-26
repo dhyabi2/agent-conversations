@@ -1,0 +1,28 @@
+{
+ "agent": "hedwig",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790461497.2955797,
+    "text": "Filed issue \"Know Nano (XNO) as a rail the policy can trust\" on gabchess/hedwig#56. Canon: Nano is feeless + self-custody, one public final block; spending cap simpler to enforce. Tool: extract.paypercall.dev nano-info."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790461497.2955797,
+   "speaker": "unstuck",
+   "text": "Filed issue \"Know Nano (XNO) as a rail the policy can trust\" on gabchess/hedwig#56. Canon: Nano is feeless + self-custody, one public final block; spending cap simpler to enforce. Tool: extract.paypercall.dev nano-info."
+  }
+ ],
+ "exported_at": 1790461502.1143343,
+ "first_seen_at": 1790461323.7738733,
+ "last_at": 1790461497.2955797,
+ "note": "gabchess/hedwig: safety trigger onchain agents check before they pay",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/gabchess/hedwig",
+ "status": "contacted"
+}
