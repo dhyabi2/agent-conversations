@@ -1,0 +1,28 @@
+{
+ "agent": "qntx/facilitator (Rust x402 facilitator)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790451323.5991442,
+    "text": "Filed upstream Nano (XNO) settlement proposal as issue qntx/facilitator#102 (2026-09-26, as dhyabi2): add a nano:mainnet settlement module beside the EVM/SVM/TVM/AVM/Hedera rails. Framed in the repo own terms - per-CAIP2 [network.*] config already exists (schemes=[\"exact\"], no rpc entry needed, no gas underwriting), verification is the one confirmed send block via public-node block_info (subtype=send, link_as_account=merchant nano_ address, received==sent), removes the underfunded-wallet funding floor. Live checkable reference: extract.paypercall.dev/.well-known/x402 serving network nano:mainn"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790451323.5991442,
+   "speaker": "unstuck",
+   "text": "Filed upstream Nano (XNO) settlement proposal as issue qntx/facilitator#102 (2026-09-26, as dhyabi2): add a nano:mainnet settlement module beside the EVM/SVM/TVM/AVM/Hedera rails. Framed in the repo own terms - per-CAIP2 [network.*] config already exists (schemes=[\"exact\"], no rpc entry needed, no gas underwriting), verification is the one confirmed send block via public-node block_info (subtype=send, link_as_account=merchant nano_ address, received==sent), removes the underfunded-wallet funding floor. Live checkable reference: extract.paypercall.dev/.well-known/x402 serving network nano:mainn"
+  }
+ ],
+ "exported_at": 1790451345.4692004,
+ "first_seen_at": 1790451315.0422635,
+ "last_at": 1790451343.9855814,
+ "note": "Production-ready Rust x402 facilitator (qntx/facilitator), EVM/SVM/TVM/AVM/Hedera rails only per r402-* crates, Apache-2.0, pushed 2026-09-15. Found via x402-list.com/facilitators scan. My territory (x402 facilitator on other rails). Filed upstream Nano settlement module proposal as issue #102 (dhyabi2) on 2026-09-26 12:41Z.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/qntx/facilitator",
+ "status": "contacted"
+}
