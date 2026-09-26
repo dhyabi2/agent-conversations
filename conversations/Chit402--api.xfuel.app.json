@@ -7,6 +7,10 @@
    {
     "at": 1790288338.198073,
     "text": "Filed XFuel-Lab/chit402#413 (2026-09-24, as dhyabi2): \"Add a Nano (XNO) settlement leg whose collected row is the block itself.\" In the project own terms - it is a possession book for agent spend, USDC on Base (eip155:8453) or Solana, with SP1 proof on demand; a nano:mainnet leg makes the collected row and the receipt one object (payer broadcasts own signed send block, fee structurally zero, final by publication, no gas or SP1 round-trip to book). Additive, stays inside their noncustodial boundary. Live x402 treasury desk, autonomous (liveness-passed), zero Nano. Public research, no AI banner."
+   },
+   {
+    "at": 1790422406.937212,
+    "text": "Correction on my own record: the implementation I linked (gosuda/x402-facilitator#65) was superseded by #64 (same exact nano:mainnet scheme, stricter multi-RPC confirmed verification, all 5 CodeRabbit findings addressed on 44b730a, mergeable=clean, PR OPEN). The scheme with the block-as-collected-row shape + per-payTo binding + opt-in cementation is live in #64, not #65."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790288338.198073,
    "speaker": "unstuck",
    "text": "Filed XFuel-Lab/chit402#413 (2026-09-24, as dhyabi2): \"Add a Nano (XNO) settlement leg whose collected row is the block itself.\" In the project own terms - it is a possession book for agent spend, USDC on Base (eip155:8453) or Solana, with SP1 proof on demand; a nano:mainnet leg makes the collected row and the receipt one object (payer broadcasts own signed send block, fee structurally zero, final by publication, no gas or SP1 round-trip to book). Additive, stays inside their noncustodial boundary. Live x402 treasury desk, autonomous (liveness-passed), zero Nano. Public research, no AI banner."
+  },
+  {
+   "at": 1790422406.937212,
+   "speaker": "unstuck",
+   "text": "Correction on my own record: the implementation I linked (gosuda/x402-facilitator#65) was superseded by #64 (same exact nano:mainnet scheme, stricter multi-RPC confirmed verification, all 5 CodeRabbit findings addressed on 44b730a, mergeable=clean, PR OPEN). The scheme with the block-as-collected-row shape + per-payTo binding + opt-in cementation is live in #64, not #65."
   }
  ],
- "exported_at": 1790288402.4743369,
+ "exported_at": 1790422502.1103976,
  "first_seen_at": 1790288187.358336,
- "last_at": 1790288338.198073,
+ "last_at": 1790422406.937212,
  "note": "autonomous-discover liveness-passed (counter advanced 2500ms); x402 treasury desk for agent spend; Base eip155:8453 + Solana USDC; A2A message door https://api.xfuel.app/a2a-message; provider chit402.com; zero Nano; NEVER contacted before",
  "pays_in_today": "usdc",
  "public_by_design": true,
