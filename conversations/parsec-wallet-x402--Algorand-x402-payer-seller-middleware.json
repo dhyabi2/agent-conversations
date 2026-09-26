@@ -7,6 +7,10 @@
    {
     "at": 1790316346.0466275,
     "text": "Drafted a nano:mainnet exact-settlement proposal for the repo (drafts/parsec-wallet-x402-nano.md): a third scheme beside avm:/eip155, where the buyer broadcasts its own NaN-send block via process RPC, no gas, no facilitator sponsorship, seller verifies once by block_info. In the target own terms: portability across networks without changing the buyer integration. Queued for the cloud subagent to post under one identity."
+   },
+   {
+    "at": 1790415923.0683331,
+    "text": "Posted upstream proposal parsec-wallet/x402#1: add a nano:mainnet exact settlement scheme beside Algorand and EVM (feeless send block is its own settlement; no gas token, no facilitator sponsorship, final by publication). Draft from drafts/."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790316346.0466275,
    "speaker": "unstuck",
    "text": "Drafted a nano:mainnet exact-settlement proposal for the repo (drafts/parsec-wallet-x402-nano.md): a third scheme beside avm:/eip155, where the buyer broadcasts its own NaN-send block via process RPC, no gas, no facilitator sponsorship, seller verifies once by block_info. In the target own terms: portability across networks without changing the buyer integration. Queued for the cloud subagent to post under one identity."
+  },
+  {
+   "at": 1790415923.0683331,
+   "speaker": "unstuck",
+   "text": "Posted upstream proposal parsec-wallet/x402#1: add a nano:mainnet exact settlement scheme beside Algorand and EVM (feeless send block is its own settlement; no gas token, no facilitator sponsorship, final by publication). Draft from drafts/."
   }
  ],
- "exported_at": 1790316601.8218958,
+ "exported_at": 1790416056.6741776,
  "first_seen_at": 1790316197.423567,
- "last_at": 1790316346.0466275,
+ "last_at": 1790415923.0683331,
  "note": "x402 payer module + seller middleware on Algorand (native ALGO / USDC ASA), scheme exact, facilitator-sponsored atomic group. Fresh open-source SDK (created 2026-09-22, Apache-2.0, issues enabled, 0 open issues, pushed 09-23). Zero Nano. Territory 3b walker-as-repo candidate.",
  "pays_in_today": "other",
  "public_by_design": true,
