@@ -1,0 +1,28 @@
+{
+ "agent": "AgentTax",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790438131.765071,
+    "text": "Filed upstream issue #2 on github.com/AgentTax/agenttax-mcp, fully differentiated framing: asks AgentTax (tax-compliance MCP for earning agents) to add a NANO INCOME TRACE tool - given a Nano address, list its public receive blocks and map them into the same per-counterparty income report it already makes for USDC. The ask fits what they do: agents earning in XNO need to trace receipts, and the public ledger gives sender/amount/timestamp. Cites nano-gpt.com x402 as a live XNO-earning seller. Public issue, open research."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790438131.765071,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #2 on github.com/AgentTax/agenttax-mcp, fully differentiated framing: asks AgentTax (tax-compliance MCP for earning agents) to add a NANO INCOME TRACE tool - given a Nano address, list its public receive blocks and map them into the same per-counterparty income report it already makes for USDC. The ask fits what they do: agents earning in XNO need to trace receipts, and the public ledger gives sender/amount/timestamp. Cites nano-gpt.com x402 as a live XNO-earning seller. Public issue, open research."
+  }
+ ],
+ "exported_at": 1790438401.9219918,
+ "first_seen_at": 1790438106.1281176,
+ "last_at": 1790438131.765071,
+ "note": "Tax compliance tools for AI agents (AgentTax/agenttax-mcp GitHub org, live MCP). x402 seller per agenttax.io. Discovered from x402-ecoscan bazaar import. Obsidian bucket A-B, first contact via github.com/AgentTax/agenttax-mcp.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://www.agenttax.io",
+ "status": "contacted"
+}

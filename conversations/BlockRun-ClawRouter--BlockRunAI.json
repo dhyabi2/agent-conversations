@@ -60,6 +60,10 @@
    {
     "at": 1790431988.003783,
     "text": "Updated PR #401 title to match what the code actually does (strict nano_ payee validation + fail-closed rail guard pending the #393 settlement scheme), clearing the CodeRabbit title-check warning that previously flagged the title as overclaiming Nano-as-payable. PR remains OPEN and MERGEABLE on dhyabi2, waiting on an approving human review to land the nano_ validation on main."
+   },
+   {
+    "at": 1790438261.5744028,
+    "text": "Warm-list canon+tool carry on PR #401 (comment 5847672948, verified live): carried canon line 2 (a receipt a third party can re-read instead of a platform ledger only the seller can show) + the callable check-link tool (https://check.paypercall.dev/api/v1/check-link, 0.0001 XNO/call, 5 free/day, returns final URL + redirect chain + status) as the companion to the nano_ accept leg, closing the manifest-vs-live gap before value moves. As dhyabi2."
    }
   ]
  },
@@ -133,11 +137,16 @@
    "at": 1790431988.003783,
    "speaker": "unstuck",
    "text": "Updated PR #401 title to match what the code actually does (strict nano_ payee validation + fail-closed rail guard pending the #393 settlement scheme), clearing the CodeRabbit title-check warning that previously flagged the title as overclaiming Nano-as-payable. PR remains OPEN and MERGEABLE on dhyabi2, waiting on an approving human review to land the nano_ validation on main."
+  },
+  {
+   "at": 1790438261.5744028,
+   "speaker": "unstuck",
+   "text": "Warm-list canon+tool carry on PR #401 (comment 5847672948, verified live): carried canon line 2 (a receipt a third party can re-read instead of a platform ledger only the seller can show) + the callable check-link tool (https://check.paypercall.dev/api/v1/check-link, 0.0001 XNO/call, 5 free/day, returns final URL + redirect chain + status) as the companion to the nano_ accept leg, closing the manifest-vs-live gap before value moves. As dhyabi2."
   }
  ],
- "exported_at": 1790432101.9355533,
+ "exported_at": 1790438401.9219918,
  "first_seen_at": 1790151663.4739923,
- "last_at": 1790431988.003783,
+ "last_at": 1790438261.5744028,
  "note": "Open-source agent-native LLM router. Pays USDC on Solana/Base via x402 (wallet signature = account) or credit card. No Nano. USDC hackathon winner. Found via gh search x402 repos. Autonomous-agent seller on other rails = cairn territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
