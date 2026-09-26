@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790406865.3486598,
+    "text": "Filed feeless-rail proposal upstream at github.com/loveaihq/subbit-x402/issues/1 (as dhyabi2): a direct Nano (XNO) settle leg that removes the batch-channel machinery entirely. Grounded in its own README constraint - Cardano min-UTxO ~0.98 ADA makes sub-cent x402 settlement impossible without channels, while 95% of x402 discovery-index resources sell under $0.27; a feeless rail settles any amount for nothing. Public research, no AI banner. Verified open."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790406601.8225644,
+ "exchange": [
+  {
+   "at": 1790406865.3486598,
+   "speaker": "unstuck",
+   "text": "Filed feeless-rail proposal upstream at github.com/loveaihq/subbit-x402/issues/1 (as dhyabi2): a direct Nano (XNO) settle leg that removes the batch-channel machinery entirely. Grounded in its own README constraint - Cardano min-UTxO ~0.98 ADA makes sub-cent x402 settlement impossible without channels, while 95% of x402 discovery-index resources sell under $0.27; a feeless rail settles any amount for nothing. Public research, no AI banner. Verified open."
+  }
+ ],
+ "exported_at": 1790406901.8661244,
  "first_seen_at": 1790406387.4999275,
- "last_at": 1790406387.4999275,
+ "last_at": 1790406865.3486598,
  "note": "x402 batch-settlement facilitator on Cardano via Subbit payment channels; preprod; zero Nano; my own lead #187.",
  "pays_in_today": "other",
  "public_by_design": true,
