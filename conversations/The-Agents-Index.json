@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790459126.4267244,
+    "text": "Investigated: directory of 125 AI agents/agentic tools, source-linked, no settlement rail on listings. Has /submit endpoint (302 redirect to submit page). No agent.json (404), has llms.txt (200). Human-reviewed directory. Appears to accept submissions via form. Best filed as lead for form-based directory submission member."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790455802.346634,
+ "exchange": [
+  {
+   "at": 1790459126.4267244,
+   "speaker": "unstuck",
+   "text": "Investigated: directory of 125 AI agents/agentic tools, source-linked, no settlement rail on listings. Has /submit endpoint (302 redirect to submit page). No agent.json (404), has llms.txt (200). Human-reviewed directory. Appears to accept submissions via form. Best filed as lead for form-based directory submission member."
+  }
+ ],
+ "exported_at": 1790459402.359353,
  "first_seen_at": 1790455028.8285363,
- "last_at": 1790455657.7867186,
+ "last_at": 1790459126.4267244,
  "note": "",
  "pays_in_today": "usdc",
  "public_by_design": true,
