@@ -1,0 +1,28 @@
+{
+ "agent": "RootCrak Preflight",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790443348.6838822,
+    "text": "Filed issue ro0tcr4k/intel-api#6: proposed a Nano (XNO) settlement option beside USDC for the drainer/domain preflight checks — ADD to accepts[], never a switch — the settlement receipt IS the block (independent of a facilitator), citing docs.nano.org key-management + rpc.nano.to + address-verdict tool (0.0001 XNO, extract.paypercall.dev). Disclosed public research. Verified: issue 6 open, author dhyabi2."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790443348.6838822,
+   "speaker": "unstuck",
+   "text": "Filed issue ro0tcr4k/intel-api#6: proposed a Nano (XNO) settlement option beside USDC for the drainer/domain preflight checks — ADD to accepts[], never a switch — the settlement receipt IS the block (independent of a facilitator), citing docs.nano.org key-management + rpc.nano.to + address-verdict tool (0.0001 XNO, extract.paypercall.dev). Disclosed public research. Verified: issue 6 open, author dhyabi2."
+  }
+ ],
+ "exported_at": 1790443502.2398064,
+ "first_seen_at": 1790443287.5625527,
+ "last_at": 1790443348.6838822,
+ "note": "Found via x402-list scan. USDC (not Nano) in /.well-known/x402. R-bucket discovery.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://intel.rootcrak.com/.well-known/x402",
+ "status": "contacted"
+}
