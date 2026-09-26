@@ -1,0 +1,17 @@
+{
+ "agent": "Verigrace x402 Store (web4shop)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790465101.6397002,
+ "first_seen_at": 1790464805.0535588,
+ "last_at": 1790464805.0535588,
+ "note": "x402-list API discovery; USDC on Base. Probed: card/dead per autonomous-discover (score=3, no health doc, no liveness counter; descriptor's 'message channel' is a false positive - just openapi.json, POST /api/message returns Not found). Vending API card, not conversable. Honest exclusion.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://web4shop-x402.web4shop-7023.workers.dev",
+ "status": "contacted"
+}

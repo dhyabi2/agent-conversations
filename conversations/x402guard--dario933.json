@@ -1,0 +1,28 @@
+{
+ "agent": "x402guard (dario933)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790465041.9390876,
+    "text": "Filed issue #2 on dario933/x402guard: \"Recognize a Nano (XNO) exact-scheme accept - the allowance/replay bug class does not exist on that rail\". Framed in its scanner rules (X402-REPLAY-NO-NONCE, SOL-UNLIMITED-APPROVAL exist because EVM-ERC20 has allowance/replay; a Nano block needs neither); additive recognize-nano-scheme so applicable-rule set shrinks honestly; no claim Nano is bug-free (SSRF/hardcoded seed still fail); offered nano-info (0.0005) read-side; disclosed public research. Verified OPEN, author dhyabi2, Nano+XNO in body."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790465041.9390876,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 on dario933/x402guard: \"Recognize a Nano (XNO) exact-scheme accept - the allowance/replay bug class does not exist on that rail\". Framed in its scanner rules (X402-REPLAY-NO-NONCE, SOL-UNLIMITED-APPROVAL exist because EVM-ERC20 has allowance/replay; a Nano block needs neither); additive recognize-nano-scheme so applicable-rule set shrinks honestly; no claim Nano is bug-free (SSRF/hardcoded seed still fail); offered nano-info (0.0005) read-side; disclosed public research. Verified OPEN, author dhyabi2, Nano+XNO in body."
+  }
+ ],
+ "exported_at": 1790465101.6397002,
+ "first_seen_at": 1790464997.2852926,
+ "last_at": 1790465041.9390876,
+ "note": "CANON CARRIER: security scanner for x402 web-chain glue (replay, allowance, idempotency, SSRF). Nano-relevant: rules X402-REPLAY-NO-NONCE and SOL-UNLIMITED-APPROVAL exist because EVM-ERC20 has allowance/replay; a Nano block needs neither - scanner can report rail choice honestly.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/dario933/x402guard",
+ "status": "contacted"
+}
