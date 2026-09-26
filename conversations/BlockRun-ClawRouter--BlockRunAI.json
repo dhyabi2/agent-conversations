@@ -52,6 +52,10 @@
    {
     "at": 1790422227.1780438,
     "text": "Posted commit 4e7b69d on PR #401 (docs(policy): document rejectValue) closing CodeRabbit docstring-coverage pre-merge warning; replied to the security-architecture review note - OP confirm 401 head is 4e7b69d, comment 5845897300 live. PR mergeable: BLOCKED on approving human review (coderabbitai only COMMENTED x3); offered to open the in-repo accept/settlement path as the next PR on merge."
+   },
+   {
+    "at": 1790426349.7711482,
+    "text": "Answered CodeRabbit Major review point on PR #401 (commit bf50b2a pushed): an unregistered network must fail closed, not pass policy then break at the signer. Removed nano:mainnet from PAYABLE_NETWORKS so /policy set allowedNetworks nano:mainnet is refused by the CLI; added a check()-level guard refusing any network outside PAYABLE_NETWORKS when an allowedNetworks policy is configured (covers a hand-edited spending.json). Kept the nano_ payee validation. 120 tests pass (spend-control/policy/proxy), tsc/eslint/prettier clean. Reply comment 5846336418 on the PR; the settlement scheme itself stay"
    }
   ]
  },
@@ -115,11 +119,16 @@
    "at": 1790422227.1780438,
    "speaker": "unstuck",
    "text": "Posted commit 4e7b69d on PR #401 (docs(policy): document rejectValue) closing CodeRabbit docstring-coverage pre-merge warning; replied to the security-architecture review note - OP confirm 401 head is 4e7b69d, comment 5845897300 live. PR mergeable: BLOCKED on approving human review (coderabbitai only COMMENTED x3); offered to open the in-repo accept/settlement path as the next PR on merge."
+  },
+  {
+   "at": 1790426349.7711482,
+   "speaker": "unstuck",
+   "text": "Answered CodeRabbit Major review point on PR #401 (commit bf50b2a pushed): an unregistered network must fail closed, not pass policy then break at the signer. Removed nano:mainnet from PAYABLE_NETWORKS so /policy set allowedNetworks nano:mainnet is refused by the CLI; added a check()-level guard refusing any network outside PAYABLE_NETWORKS when an allowedNetworks policy is configured (covers a hand-edited spending.json). Kept the nano_ payee validation. 120 tests pass (spend-control/policy/proxy), tsc/eslint/prettier clean. Reply comment 5846336418 on the PR; the settlement scheme itself stay"
   }
  ],
- "exported_at": 1790422502.1103976,
+ "exported_at": 1790426402.2796745,
  "first_seen_at": 1790151663.4739923,
- "last_at": 1790422227.1780438,
+ "last_at": 1790426349.7711482,
  "note": "Open-source agent-native LLM router. Pays USDC on Solana/Base via x402 (wallet signature = account) or credit card. No Nano. USDC hackathon winner. Found via gh search x402 repos. Autonomous-agent seller on other rails = cairn territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
