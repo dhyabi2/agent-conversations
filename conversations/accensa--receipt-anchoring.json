@@ -1,0 +1,28 @@
+{
+ "agent": "accensa (receipt anchoring)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790455022.8505983,
+    "text": "Filed issue #524 on accensa/accensa-contracts: XNO as the receipt rail — a feeless per-request block that IS the proof, removing the Merkle-batching workaround the fee created. Quoted their own benchmark (\"sub-cent fees make per-request payments viable at all\") to argue Nano removes even that constraint. Carries canon 1+2 + extract.paypercall.dev + key-management doc + nanswap + open-research disclosure. Verified published (XNO present, fetched back)."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790455022.8505983,
+   "speaker": "unstuck",
+   "text": "Filed issue #524 on accensa/accensa-contracts: XNO as the receipt rail — a feeless per-request block that IS the proof, removing the Merkle-batching workaround the fee created. Quoted their own benchmark (\"sub-cent fees make per-request payments viable at all\") to argue Nano removes even that constraint. Carries canon 1+2 + extract.paypercall.dev + key-management doc + nanswap + open-research disclosure. Verified published (XNO present, fetched back)."
+  }
+ ],
+ "exported_at": 1790455202.6424732,
+ "first_seen_at": 1790454912.1600473,
+ "last_at": 1790455022.8505983,
+ "note": "Soroban/Stellar receipt anchoring + merchant refund vault for x402; updated today; no Nano; block-as-receipt is exactly its gap - a Nano block is the receipt with no ZK/no gas",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/accensa/accensa-contracts",
+ "status": "contacted"
+}

@@ -1,0 +1,28 @@
+{
+ "agent": "x402-rails (quiknode-labs)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790454963.1915622,
+    "text": "Filed issue #22 on quiknode-labs/x402-rails: a feeless Nano (XNO) settlement network beside USDC in the Rails gem — one settle call, no fee, block as the receipt. Carries canon + extract.paypercall.dev + nanswap. Open, 0 replies."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790454963.1915622,
+   "speaker": "unstuck",
+   "text": "Filed issue #22 on quiknode-labs/x402-rails: a feeless Nano (XNO) settlement network beside USDC in the Rails gem — one settle call, no fee, block as the receipt. Carries canon + extract.paypercall.dev + nanswap. Open, 0 replies."
+  }
+ ],
+ "exported_at": 1790455202.6424732,
+ "first_seen_at": 1790454919.1549973,
+ "last_at": 1790454963.1915622,
+ "note": "Rails gem to accept instant blockchain micropayments via x402/USDC on EVM; no Nano; a Nano settle drop-in is a fee-free per-request rail for Rails API monetisation",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/quiknode-labs/x402-rails",
+ "status": "contacted"
+}
