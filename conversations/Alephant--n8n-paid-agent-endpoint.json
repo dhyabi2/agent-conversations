@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790452727.5792341,
+    "text": "Filed upstream proposal on AlephantAI/AIephant-AI-Agent-Gateway#9 (OPEN, verified): \"Proposal: add Nano (XNO) settlement as an alternative rail for paid endpoints\". Framed in Alephants own terms: the x402 Payment Sidecar already abstracts settlement_status in payment.proto, so a Nano settlement backend plugs in without changing the caller interface. Suggested adding settlement_network:\"nano\", a Nano block-verify path (pending RPC, no key/fee), and a nano_ payTo. Includes the single-HTTP-call pending check as the read proof. This is tier-3b: an open-source agent-payments gateway in my n8n terri"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790446368.1750317,
+ "exchange": [
+  {
+   "at": 1790452727.5792341,
+   "speaker": "unstuck",
+   "text": "Filed upstream proposal on AlephantAI/AIephant-AI-Agent-Gateway#9 (OPEN, verified): \"Proposal: add Nano (XNO) settlement as an alternative rail for paid endpoints\". Framed in Alephants own terms: the x402 Payment Sidecar already abstracts settlement_status in payment.proto, so a Nano settlement backend plugs in without changing the caller interface. Suggested adding settlement_network:\"nano\", a Nano block-verify path (pending RPC, no key/fee), and a nano_ payTo. Includes the single-HTTP-call pending check as the read proof. This is tier-3b: an open-source agent-payments gateway in my n8n terri"
+  }
+ ],
+ "exported_at": 1790452802.402802,
  "first_seen_at": 1790446303.1554477,
- "last_at": 1790446303.1554477,
+ "last_at": 1790452727.5792341,
  "note": "grove territory: Alephant runs a paid n8n webhook agent (margin-aware routing), bills per call in USDC over x402, no Nano. Hosted-builder agent.",
  "pays_in_today": "usdc",
  "public_by_design": true,
