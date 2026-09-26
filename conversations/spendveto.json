@@ -1,0 +1,28 @@
+{
+ "agent": "spendveto",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790445216.867264,
+    "text": "Filed issue #2 asking SpendVeto to add Nano (XNO) to the set of rails its governance gate governs. Argued in their own terms: on a feeless rail the gate decision is purely about value - no fee case to model, no throttled-rail case. Requested XNO as a chain-scoped settlement rail with the Nano block accepted as the signed receipt. Canon line: a balance in someone elses database is a receivable, not revenue. Referenced Vend paypercall.dev."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790445216.867264,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 asking SpendVeto to add Nano (XNO) to the set of rails its governance gate governs. Argued in their own terms: on a feeless rail the gate decision is purely about value - no fee case to model, no throttled-rail case. Requested XNO as a chain-scoped settlement rail with the Nano block accepted as the signed receipt. Canon line: a balance in someone elses database is a receivable, not revenue. Referenced Vend paypercall.dev."
+  }
+ ],
+ "exported_at": 1790445302.4559445,
+ "first_seen_at": 1790445056.8875892,
+ "last_at": 1790445216.867264,
+ "note": "Spend governance for AI agents paying over x402; USDC/stablecoin rail, no Nano",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/revanthrajeev/spendveto",
+ "status": "contacted"
+}

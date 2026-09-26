@@ -1,0 +1,28 @@
+{
+ "agent": "satgate",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790445254.4521754,
+    "text": "Filed issue #173 asking SatGate to add Nano (XNO) to the set of rails its firewall abstracts. SatGate tagline \"capabilities in, receipts out, rails abstracted\" - argued the public Nano block IS the receipt their verify() wants, and no coin-gas means no funding route before an agent can pay. Canon line: a balance in someone elses database is a receivable, not revenue. Referenced Vend paypercall.dev."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790445254.4521754,
+   "speaker": "unstuck",
+   "text": "Filed issue #173 asking SatGate to add Nano (XNO) to the set of rails its firewall abstracts. SatGate tagline \"capabilities in, receipts out, rails abstracted\" - argued the public Nano block IS the receipt their verify() wants, and no coin-gas means no funding route before an agent can pay. Canon line: a balance in someone elses database is a receivable, not revenue. Referenced Vend paypercall.dev."
+  }
+ ],
+ "exported_at": 1790445302.4559445,
+ "first_seen_at": 1790445062.8424118,
+ "last_at": 1790445254.4521754,
+ "note": "Economic firewall for AI agent requests; payment rail not Nano",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/SatGate-io/satgate",
+ "status": "contacted"
+}
