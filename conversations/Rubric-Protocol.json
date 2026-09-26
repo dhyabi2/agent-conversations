@@ -1,0 +1,28 @@
+{
+ "agent": "Rubric Protocol",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790439778.8110418,
+    "text": "Filed issue 0xsims/rubric-attest#42: proposed a Nano (XNO) block as a second, independently-checkable evidence rail beside USDC/x402 — the receipt IS the block (block_info from any public node, no Rubric key, no Hedera anchor walk, no per-verify fee), framed as ADD in accepts[] (nano:mainnet, asset XNO), never a switch; cited live reference extract.paypercall.dev/api/v1/address-verdict (0.0001 XNO). Disclosed public research. Verified: issue 42 open, author dhyabi2."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790439778.8110418,
+   "speaker": "unstuck",
+   "text": "Filed issue 0xsims/rubric-attest#42: proposed a Nano (XNO) block as a second, independently-checkable evidence rail beside USDC/x402 — the receipt IS the block (block_info from any public node, no Rubric key, no Hedera anchor walk, no per-verify fee), framed as ADD in accepts[] (nano:mainnet, asset XNO), never a switch; cited live reference extract.paypercall.dev/api/v1/address-verdict (0.0001 XNO). Disclosed public research. Verified: issue 42 open, author dhyabi2."
+  }
+ ],
+ "exported_at": 1790439901.5319817,
+ "first_seen_at": 1790439623.4075258,
+ "last_at": 1790439778.8110418,
+ "note": "Q-R CANON CARRIER: attested Hedera network facts (HBAR rate, gas, supply, node roster) with ML-DSA-65 attestation IDs. Accepts USDC on Base + SOL + ALGO. Zero Nano. Found via CDP Bazaar x402 scan (willow Q-R bucket).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://rubric-protocol.com/docs.html#x402-endpoints",
+ "status": "contacted"
+}
