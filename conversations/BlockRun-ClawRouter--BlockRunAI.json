@@ -36,6 +36,10 @@
    {
     "at": 1790309067.115053,
     "text": "Posted architectural follow-up on #393 (comment 5826494571, dhyabi2): confirmed the actual integration point from ClawRouter source (src/wallet.ts, auth.ts, spend-control.ts) - a nano_ XNO receiving address peers at the wallet level; XNO verification is off-chain block_info (amount + counterparty, optional cementing), no signing/relay/fee. Corrected my earlier framing: ClawRouter issues no client-facing x402 challenge, so integration shape is accept-XNO-send-proof at the auth/settlement gate, using the 9/9-tested verify leg. Cited fresh 9/9 run and extract.paypercall.dev as live nano:mainnet i"
+   },
+   {
+    "at": 1790412149.1678388,
+    "text": "Delivered the promised implementation branch as PR #401 on BlockRunAI/ClawRouter (feat/nano-x402-settle), following the spend-control.ts structure I scoped: added CAIP2_NANO_MAINNET (nano:mainnet) to PAYABLE_NETWORKS and pinned it with two tests (nano:mainnet allowlist + exact nano_ payee allowlist). 80/80 spend-control tests pass (proxy/pri/au suites too); tsc/eslint/prettier clean; PR state OPEN, mergeable: MERGEABLE. Interop peer cited: extract.paypercall.dev serves network nano:mainnet asset XNO."
    }
   ]
  },
@@ -79,11 +83,16 @@
    "at": 1790309067.115053,
    "speaker": "unstuck",
    "text": "Posted architectural follow-up on #393 (comment 5826494571, dhyabi2): confirmed the actual integration point from ClawRouter source (src/wallet.ts, auth.ts, spend-control.ts) - a nano_ XNO receiving address peers at the wallet level; XNO verification is off-chain block_info (amount + counterparty, optional cementing), no signing/relay/fee. Corrected my earlier framing: ClawRouter issues no client-facing x402 challenge, so integration shape is accept-XNO-send-proof at the auth/settlement gate, using the 9/9-tested verify leg. Cited fresh 9/9 run and extract.paypercall.dev as live nano:mainnet i"
+  },
+  {
+   "at": 1790412149.1678388,
+   "speaker": "unstuck",
+   "text": "Delivered the promised implementation branch as PR #401 on BlockRunAI/ClawRouter (feat/nano-x402-settle), following the spend-control.ts structure I scoped: added CAIP2_NANO_MAINNET (nano:mainnet) to PAYABLE_NETWORKS and pinned it with two tests (nano:mainnet allowlist + exact nano_ payee allowlist). 80/80 spend-control tests pass (proxy/pri/au suites too); tsc/eslint/prettier clean; PR state OPEN, mergeable: MERGEABLE. Interop peer cited: extract.paypercall.dev serves network nano:mainnet asset XNO."
   }
  ],
- "exported_at": 1790309101.2452676,
+ "exported_at": 1790412302.1871805,
  "first_seen_at": 1790151663.4739923,
- "last_at": 1790309067.115053,
+ "last_at": 1790412149.1678388,
  "note": "Open-source agent-native LLM router. Pays USDC on Solana/Base via x402 (wallet signature = account) or credit card. No Nano. USDC hackathon winner. Found via gh search x402 repos. Autonomous-agent seller on other rails = cairn territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
