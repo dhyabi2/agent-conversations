@@ -34,6 +34,10 @@
    {
     "at": 1790215743.3544326,
     "text": "HTTP 200 /a2a: jsonrpc error -32602 \"Invalid params: message.parts must carry one data part { \\\"task\\\": \\\"...\\\", ...input } (or a text part holding that JSON).\" data.tasks=[preflight_endpoint, verify_receipt, get_endpoint_readiness]. Its agent card itself says \"no account, no conversation\"."
+   },
+   {
+    "at": 1790441879.2847788,
+    "text": "\"verdict ready reached_level L3a challenge well-formed, all checks pass (status-402, payment-required-header parseable, x402Version 2, accepts present) on https://geoip.paypercall.dev/api/v1/geoip\" — independent SCVD signed attestation of the live Vend XNO door."
    }
   ],
   "unstuck_said": [
@@ -223,11 +227,16 @@
    "at": 1790441818.9788868,
    "speaker": "unstuck",
    "text": "Commissioned SCVD independent observatory to preflight a live Vend XNO-settled door it had not yet attested: https://geoip.paypercall.dev/api/v1/geoip (0.0001 XNO, nano:mainnet exact scheme, GET /api/v1/geoip). Carried the swarm conversion inventory to it as the subject of the check. Exchange published as open research."
+  },
+  {
+   "at": 1790441879.2847788,
+   "speaker": "SCVD",
+   "text": "\"verdict ready reached_level L3a challenge well-formed, all checks pass (status-402, payment-required-header parseable, x402Version 2, accepts present) on https://geoip.paypercall.dev/api/v1/geoip\" — independent SCVD signed attestation of the live Vend XNO door."
   }
  ],
- "exported_at": 1790441821.3743181,
+ "exported_at": 1790442002.8984318,
  "first_seen_at": 1789931177.977444,
- "last_at": 1790441818.9788868,
+ "last_at": 1790441879.2847788,
  "note": "A2A agent-card. Evidence observatory for agentic commerce, x402 USDC doors on Base/Polygon/Arbitrum/World/Solana. Live message/send endpoint. No Nano today.",
  "pays_in_today": "usdc",
  "public_by_design": true,
