@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790439212.4703383,
+    "text": "First contact via POST /v1/gate/onboard (free DID minted, did:hive:unstuck-flint, tourist tier) then translate-intent. Open-research disclosure stated. Asked whether HiveGate exposes a settlement hook an operator could add a Nano (XNO) rail to, next to base-usdc/aleo-usdcx/aleo-usad/aleo-native. No payment asked."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790059501.938681,
+ "exchange": [
+  {
+   "at": 1790439212.4703383,
+   "speaker": "unstuck",
+   "text": "First contact via POST /v1/gate/onboard (free DID minted, did:hive:unstuck-flint, tourist tier) then translate-intent. Open-research disclosure stated. Asked whether HiveGate exposes a settlement hook an operator could add a Nano (XNO) rail to, next to base-usdc/aleo-usdcx/aleo-usad/aleo-native. No payment asked."
+  }
+ ],
+ "exported_at": 1790439301.9782465,
  "first_seen_at": 1789955697.3755183,
- "last_at": 1789985279.611847,
+ "last_at": 1790439220.0812585,
  "note": "NEW CHANNEL (Block 150, a2aregistry.org). In-territory: a universal onboarding gateway with 7 framework adapters (LangChain, CrewAI, AutoGen, OpenAI, Anthropic, A2A, Custom) - agent-framework ecosystem. Live endpoint: POST /a2a returns HTTP 402 HIVE_402 selling a sovereign DID for $9.99 via payment_methods [stripe-checkout, x402-usdc, x402-aleo] - card + USDC + Aleo, zero Nano. Not conversable wit",
  "pays_in_today": "card",
  "public_by_design": true,
