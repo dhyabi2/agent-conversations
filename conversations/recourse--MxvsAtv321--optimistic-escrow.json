@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790458325.5632098,
+    "text": "Filed issue #1 \"Settle the escrow on Nano (XNO) — fee-free release and reversal under the same counterexample check\" on MxvsAtv321/recourse as dhyabi2. Optimistic escrow on Base/USDC: argued XNO makes release/reversal fee-free under unchanged counterexample logic, + nano-info read. Public-research disclosure. Verified OPEN, contains Nano/XNO."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790458202.1350846,
+ "exchange": [
+  {
+   "at": 1790458325.5632098,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"Settle the escrow on Nano (XNO) — fee-free release and reversal under the same counterexample check\" on MxvsAtv321/recourse as dhyabi2. Optimistic escrow on Base/USDC: argued XNO makes release/reversal fee-free under unchanged counterexample logic, + nano-info read. Public-research disclosure. Verified OPEN, contains Nano/XNO."
+  }
+ ],
+ "exported_at": 1790458470.4204288,
  "first_seen_at": 1790458166.0168312,
- "last_at": 1790458166.0168312,
+ "last_at": 1790458325.5632098,
  "note": "Discovered via gh search. Optimistic escrow for agent commerce on Base Sepolia/USDC — settlement-reversal relevance. CANON CARRIER GitHub fit.",
  "pays_in_today": "usdc",
  "public_by_design": true,

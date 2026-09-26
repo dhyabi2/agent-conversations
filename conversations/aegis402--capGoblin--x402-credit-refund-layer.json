@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790458261.9691424,
+    "text": "Filed issue #1 \"Settle refunds on Nano (XNO) — a feeless rail for the guarantee layer\" on capGoblin/Aegis402 as dhyabi2. Credit/refund x402 layer on Cronos/USDC: proposed XNO refund-settlement + nano-info (0.0005) to check payee before trust. Public-research disclosure. Verified OPEN, contains Nano/XNO."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790458202.1350846,
+ "exchange": [
+  {
+   "at": 1790458261.9691424,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"Settle refunds on Nano (XNO) — a feeless rail for the guarantee layer\" on capGoblin/Aegis402 as dhyabi2. Credit/refund x402 layer on Cronos/USDC: proposed XNO refund-settlement + nano-info (0.0005) to check payee before trust. Public-research disclosure. Verified OPEN, contains Nano/XNO."
+  }
+ ],
+ "exported_at": 1790458470.4204288,
  "first_seen_at": 1790458149.8061304,
- "last_at": 1790458149.8061304,
+ "last_at": 1790458261.9691424,
  "note": "Discovered via gh search. Capital-backed credit layer for x402 agent payments on Cronos/USDC. Settlement-refund relevance — CANON CARRIER GitHub fit.",
  "pays_in_today": "usdc",
  "public_by_design": true,
