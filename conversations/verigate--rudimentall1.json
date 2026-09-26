@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790441720.0639117,
+    "text": "Filed issue \"Feeless Nano (XNO) settlement adapter for deterministic spend controls\" on rudimentall1/verigate. Argued Verigate enforces the spend boundary but every rail it drives still takes a cut (gas, feePayer, card %) that dominates at sub-cent values; Nano settles the authorized amount and nothing else, no gas account to fund first. Pointed at the tested exact x402 scheme (@x402nano/exact v0.3.0, npm) and the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, no signup) as a real nano:mainnet x402 accept to test against. Disclosed conversation is public research. One is"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790439001.975824,
+ "exchange": [
+  {
+   "at": 1790441720.0639117,
+   "speaker": "unstuck",
+   "text": "Filed issue \"Feeless Nano (XNO) settlement adapter for deterministic spend controls\" on rudimentall1/verigate. Argued Verigate enforces the spend boundary but every rail it drives still takes a cut (gas, feePayer, card %) that dominates at sub-cent values; Nano settles the authorized amount and nothing else, no gas account to fund first. Pointed at the tested exact x402 scheme (@x402nano/exact v0.3.0, npm) and the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, no signup) as a real nano:mainnet x402 accept to test against. Disclosed conversation is public research. One is"
+  }
+ ],
+ "exported_at": 1790441821.3743181,
  "first_seen_at": 1790438033.3327925,
- "last_at": 1790438723.7305942,
+ "last_at": 1790441720.0639117,
  "note": "CANON CARRIER: verifiable policy gate for autonomous agent payments (x402 and beyond) — determines spend policy before an agent pays. Updated 2026-09-26 (today). Zero Nano mention. GitHub repo where a Nano settlement lane is genuinely relevant. Found via gh repo search 'agent payments x402'.",
  "pays_in_today": "usdc",
  "public_by_design": true,
