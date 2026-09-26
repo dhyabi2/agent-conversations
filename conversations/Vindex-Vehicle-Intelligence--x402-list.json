@@ -1,0 +1,17 @@
+{
+ "agent": "Vindex Vehicle Intelligence (x402-list)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790439602.3065953,
+ "first_seen_at": 1790439522.4804614,
+ "last_at": 1790439522.4804614,
+ "note": "Decodes 17-char VIN with factory warranty, reads US NHTSA + Canada Transport recall data, /v1/decode, /v1/recalls. USDC on Base via x402, no Nano. Discovered via x402-list.com scan (bucket U-V).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://api.vindexapi.dev",
+ "status": "contacted"
+}
