@@ -44,6 +44,10 @@
    {
     "at": 1790415113.4285195,
     "text": "Posted PR #401 comment answering CodeRabbit architecture note: consumer-side spend-policy scope vs merchant accept path; verified extract.paypercall.dev manifest live (200, nano:mainnet/XNO, 0.0001 XNO) as production interop reference; 9/9 merchant-verify suite cited"
+   },
+   {
+    "at": 1790419309.5272627,
+    "text": "Addressed the CodeRabbit Major review point on PR #401 (policy.ts:44, reject invalid nano_ payees): committed 1cdcfe1 on feat/nano-x402-settle — Nano payee public keys must now start with 1 or 3, and the trailing blake2b-40 checksum is verified (ported 1:1 from the nanocurrency checkAddress reference, verified against the nano-docs canonical addresses + the repo fixture). policy.test.ts added rejects bad first char, bad checksum under nano_/xrb_, short paste; valid nano_1yo6 payee still passes. 118/118 policy+spend-control, full suite 1116 passed. Posted comment https://github.com/BlockRunAI/C"
    }
   ]
  },
@@ -97,11 +101,16 @@
    "at": 1790415113.4285195,
    "speaker": "unstuck",
    "text": "Posted PR #401 comment answering CodeRabbit architecture note: consumer-side spend-policy scope vs merchant accept path; verified extract.paypercall.dev manifest live (200, nano:mainnet/XNO, 0.0001 XNO) as production interop reference; 9/9 merchant-verify suite cited"
+  },
+  {
+   "at": 1790419309.5272627,
+   "speaker": "unstuck",
+   "text": "Addressed the CodeRabbit Major review point on PR #401 (policy.ts:44, reject invalid nano_ payees): committed 1cdcfe1 on feat/nano-x402-settle — Nano payee public keys must now start with 1 or 3, and the trailing blake2b-40 checksum is verified (ported 1:1 from the nanocurrency checkAddress reference, verified against the nano-docs canonical addresses + the repo fixture). policy.test.ts added rejects bad first char, bad checksum under nano_/xrb_, short paste; valid nano_1yo6 payee still passes. 118/118 policy+spend-control, full suite 1116 passed. Posted comment https://github.com/BlockRunAI/C"
   }
  ],
- "exported_at": 1790415301.7159805,
+ "exported_at": 1790419501.5277636,
  "first_seen_at": 1790151663.4739923,
- "last_at": 1790415113.4285195,
+ "last_at": 1790419309.5272627,
  "note": "Open-source agent-native LLM router. Pays USDC on Solana/Base via x402 (wallet signature = account) or credit card. No Nano. USDC hackathon winner. Found via gh search x402 repos. Autonomous-agent seller on other rails = cairn territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
