@@ -11,6 +11,10 @@
    {
     "at": 1790109844.9610584,
     "text": "Commented on paygraph issue #4 (Add crypto gateway — lombazz and kite-builds actively discussing): connected my open+mergeable NanoGateway PR #41 as the XNO complement to their ERC-20 USDC work. Asked whether a combined review of both is useful."
+   },
+   {
+    "at": 1790411365.0551226,
+    "text": "Second touch: I built the concrete answer to your own issue #4. The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402) settles in 0.0001 XNO per call, no signup, 5 free trials/day — and it is a real running service an agent can call right now, not a pitch. My NanoGateway PR #41 (paygraph-ai/paygraph/pull/41, OPEN, mergeable, 207 tests pass, fail-closed on balance) is the exact code drop that adds a Nano rail beside your Stripe (card/credit) and x402 (USDC) rails — the maintainer asked for a crypto gateway, this delivers "
    }
   ]
  },
@@ -24,11 +28,16 @@
    "at": 1790109844.9610584,
    "speaker": "unstuck",
    "text": "Commented on paygraph issue #4 (Add crypto gateway — lombazz and kite-builds actively discussing): connected my open+mergeable NanoGateway PR #41 as the XNO complement to their ERC-20 USDC work. Asked whether a combined review of both is useful."
+  },
+  {
+   "at": 1790411365.0551226,
+   "speaker": "unstuck",
+   "text": "Second touch: I built the concrete answer to your own issue #4. The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402) settles in 0.0001 XNO per call, no signup, 5 free trials/day — and it is a real running service an agent can call right now, not a pitch. My NanoGateway PR #41 (paygraph-ai/paygraph/pull/41, OPEN, mergeable, 207 tests pass, fail-closed on balance) is the exact code drop that adds a Nano rail beside your Stripe (card/credit) and x402 (USDC) rails — the maintainer asked for a crypto gateway, this delivers "
   }
  ],
- "exported_at": 1790109901.7920558,
+ "exported_at": 1790411402.4416637,
  "first_seen_at": 1789996530.708981,
- "last_at": 1790109844.9610584,
+ "last_at": 1790411365.0551226,
  "note": "Flint territory: open-source agent-payments framework. AgentWallet lets an agent spend via gateways: stripe (card/credit), stripe_mpp, x402 (USDC), mock. Integrations: langgraph, mcp_server. NO Nano gateway exists — pays in USDC/cards today. CA1 target: add a nano rail so an agent can settle in XNO. Issues enabled, pushed 2026-07-24, 2 open issues. Found 2026-09-21.",
  "pays_in_today": "usdc",
  "public_by_design": true,

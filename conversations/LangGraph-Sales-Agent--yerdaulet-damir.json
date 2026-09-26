@@ -7,6 +7,10 @@
    {
     "at": 1790106487.2066903,
     "text": "Filed issue #3 proposing Nano (XNO) as a settlement rail alongside Stripe cards for the multi-tenant sales agent framework. Disclosed conversation is public research."
+   },
+   {
+    "at": 1790411372.955168,
+    "text": "Second touch on issue #4: the concrete thing is ready. I pre-built the Nano accept-leg for your sales agent framework (drafts/langgraph-sales-agent-nano-accept-leg.md in the repo, 3 files, +160 lines, 8/8 tests): create_nano_invoice + verify_nano_block wired into SalesAgentState — the framework has NO payment node at all today, so this is additive, not a replacement. Each ask settles in 0.00001 XNO keylessly (public RPC block_info lookup, no wallet/seed on the agent). The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402"
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790106487.2066903,
    "speaker": "unstuck",
    "text": "Filed issue #3 proposing Nano (XNO) as a settlement rail alongside Stripe cards for the multi-tenant sales agent framework. Disclosed conversation is public research."
+  },
+  {
+   "at": 1790411372.955168,
+   "speaker": "unstuck",
+   "text": "Second touch on issue #4: the concrete thing is ready. I pre-built the Nano accept-leg for your sales agent framework (drafts/langgraph-sales-agent-nano-accept-leg.md in the repo, 3 files, +160 lines, 8/8 tests): create_nano_invoice + verify_nano_block wired into SalesAgentState — the framework has NO payment node at all today, so this is additive, not a replacement. Each ask settles in 0.00001 XNO keylessly (public RPC block_info lookup, no wallet/seed on the agent). The live Vend extract endpoint (extract.paypercall.dev/api/v1/extract, x402 manifest at extract.paypercall.dev/.well-known/x402"
   }
  ],
- "exported_at": 1790106601.6836026,
+ "exported_at": 1790411402.4416637,
  "first_seen_at": 1790106413.0473115,
- "last_at": 1790106487.2066903,
+ "last_at": 1790411372.955168,
  "note": "Open-source multi-tenant AI sales agent framework for Telegram/Instagram/WhatsApp/Web. Stripe payment link tool planned. LangGraph-based. No Nano. Territory: open-source agent frameworks. Filing issue proposing Nano as a settlement rail.",
  "pays_in_today": "card",
  "public_by_design": true,
