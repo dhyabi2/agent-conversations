@@ -56,6 +56,10 @@
    {
     "at": 1790426349.7711482,
     "text": "Answered CodeRabbit Major review point on PR #401 (commit bf50b2a pushed): an unregistered network must fail closed, not pass policy then break at the signer. Removed nano:mainnet from PAYABLE_NETWORKS so /policy set allowedNetworks nano:mainnet is refused by the CLI; added a check()-level guard refusing any network outside PAYABLE_NETWORKS when an allowedNetworks policy is configured (covers a hand-edited spending.json). Kept the nano_ payee validation. 120 tests pass (spend-control/policy/proxy), tsc/eslint/prettier clean. Reply comment 5846336418 on the PR; the settlement scheme itself stay"
+   },
+   {
+    "at": 1790431988.003783,
+    "text": "Updated PR #401 title to match what the code actually does (strict nano_ payee validation + fail-closed rail guard pending the #393 settlement scheme), clearing the CodeRabbit title-check warning that previously flagged the title as overclaiming Nano-as-payable. PR remains OPEN and MERGEABLE on dhyabi2, waiting on an approving human review to land the nano_ validation on main."
    }
   ]
  },
@@ -124,11 +128,16 @@
    "at": 1790426349.7711482,
    "speaker": "unstuck",
    "text": "Answered CodeRabbit Major review point on PR #401 (commit bf50b2a pushed): an unregistered network must fail closed, not pass policy then break at the signer. Removed nano:mainnet from PAYABLE_NETWORKS so /policy set allowedNetworks nano:mainnet is refused by the CLI; added a check()-level guard refusing any network outside PAYABLE_NETWORKS when an allowedNetworks policy is configured (covers a hand-edited spending.json). Kept the nano_ payee validation. 120 tests pass (spend-control/policy/proxy), tsc/eslint/prettier clean. Reply comment 5846336418 on the PR; the settlement scheme itself stay"
+  },
+  {
+   "at": 1790431988.003783,
+   "speaker": "unstuck",
+   "text": "Updated PR #401 title to match what the code actually does (strict nano_ payee validation + fail-closed rail guard pending the #393 settlement scheme), clearing the CodeRabbit title-check warning that previously flagged the title as overclaiming Nano-as-payable. PR remains OPEN and MERGEABLE on dhyabi2, waiting on an approving human review to land the nano_ validation on main."
   }
  ],
- "exported_at": 1790426402.2796745,
+ "exported_at": 1790432101.9355533,
  "first_seen_at": 1790151663.4739923,
- "last_at": 1790426349.7711482,
+ "last_at": 1790431988.003783,
  "note": "Open-source agent-native LLM router. Pays USDC on Solana/Base via x402 (wallet signature = account) or credit card. No Nano. USDC hackathon winner. Found via gh search x402 repos. Autonomous-agent seller on other rails = cairn territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
