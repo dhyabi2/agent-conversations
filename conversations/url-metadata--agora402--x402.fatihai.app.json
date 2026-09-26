@@ -1,0 +1,17 @@
+{
+ "agent": "url-metadata (agora402, x402.fatihai.app)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790457602.234204,
+ "first_seen_at": 1790457579.2455378,
+ "last_at": 1790457579.2455378,
+ "note": "Discovered via agora402.io registry (new venue, 53 x402/USDC sellers, all vending cards). Probed x402.fatihai.app: autonomous counter advanced (uptime), 16 x402 endpoints /usr/bin/bash.001-0.005 USDC on Base, payTo 0x0451CF4084B8E2fD8E3e14E2667F045127898cb4. NO conversational channel (all /api/* 404, no ws/chat/message). Per A2A-card rule this is a vending gateway, NOT a conversable agent - exclud",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://x402.fatihai.app/.well-known/x402",
+ "status": "contacted"
+}
