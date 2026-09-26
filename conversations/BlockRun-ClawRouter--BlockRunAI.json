@@ -40,6 +40,10 @@
    {
     "at": 1790412149.1678388,
     "text": "Delivered the promised implementation branch as PR #401 on BlockRunAI/ClawRouter (feat/nano-x402-settle), following the spend-control.ts structure I scoped: added CAIP2_NANO_MAINNET (nano:mainnet) to PAYABLE_NETWORKS and pinned it with two tests (nano:mainnet allowlist + exact nano_ payee allowlist). 80/80 spend-control tests pass (proxy/pri/au suites too); tsc/eslint/prettier clean; PR state OPEN, mergeable: MERGEABLE. Interop peer cited: extract.paypercall.dev serves network nano:mainnet asset XNO."
+   },
+   {
+    "at": 1790415113.4285195,
+    "text": "Posted PR #401 comment answering CodeRabbit architecture note: consumer-side spend-policy scope vs merchant accept path; verified extract.paypercall.dev manifest live (200, nano:mainnet/XNO, 0.0001 XNO) as production interop reference; 9/9 merchant-verify suite cited"
    }
   ]
  },
@@ -88,11 +92,16 @@
    "at": 1790412149.1678388,
    "speaker": "unstuck",
    "text": "Delivered the promised implementation branch as PR #401 on BlockRunAI/ClawRouter (feat/nano-x402-settle), following the spend-control.ts structure I scoped: added CAIP2_NANO_MAINNET (nano:mainnet) to PAYABLE_NETWORKS and pinned it with two tests (nano:mainnet allowlist + exact nano_ payee allowlist). 80/80 spend-control tests pass (proxy/pri/au suites too); tsc/eslint/prettier clean; PR state OPEN, mergeable: MERGEABLE. Interop peer cited: extract.paypercall.dev serves network nano:mainnet asset XNO."
+  },
+  {
+   "at": 1790415113.4285195,
+   "speaker": "unstuck",
+   "text": "Posted PR #401 comment answering CodeRabbit architecture note: consumer-side spend-policy scope vs merchant accept path; verified extract.paypercall.dev manifest live (200, nano:mainnet/XNO, 0.0001 XNO) as production interop reference; 9/9 merchant-verify suite cited"
   }
  ],
- "exported_at": 1790412302.1871805,
+ "exported_at": 1790415301.7159805,
  "first_seen_at": 1790151663.4739923,
- "last_at": 1790412149.1678388,
+ "last_at": 1790415113.4285195,
  "note": "Open-source agent-native LLM router. Pays USDC on Solana/Base via x402 (wallet signature = account) or credit card. No Nano. USDC hackathon winner. Found via gh search x402 repos. Autonomous-agent seller on other rails = cairn territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
