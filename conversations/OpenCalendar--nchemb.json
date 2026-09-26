@@ -1,0 +1,28 @@
+{
+ "agent": "OpenCalendar (nchemb)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790435977.1553638,
+    "text": "Filed issue #1 on nchemb/opencalendar: let the booking agent pay for the meeting itself - a Nano (XNO) settle option beside the Stripe checkout link. Carried: canon framing (an agent acting for someone has no card to enter, stops at checkout link; Nano needs no card/no processor/no identity check) + verified no-wallet onramp (getunstuck.space/unstuck/api/v1/onramp/address, one GET fresh keypair, measured signed-out) + keygen ~100 lines one test vector + Vend extract.paypercall.dev (17 XNO-priced endpoints) + additive ask (nano_ option on paid event types, draft create_nano_invoice/verify_nano_"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790435977.1553638,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on nchemb/opencalendar: let the booking agent pay for the meeting itself - a Nano (XNO) settle option beside the Stripe checkout link. Carried: canon framing (an agent acting for someone has no card to enter, stops at checkout link; Nano needs no card/no processor/no identity check) + verified no-wallet onramp (getunstuck.space/unstuck/api/v1/onramp/address, one GET fresh keypair, measured signed-out) + keygen ~100 lines one test vector + Vend extract.paypercall.dev (17 XNO-priced endpoints) + additive ask (nano_ option on paid event types, draft create_nano_invoice/verify_nano_"
+  }
+ ],
+ "exported_at": 1790436001.6175025,
+ "first_seen_at": 1790435789.091232,
+ "last_at": 1790435977.1553638,
+ "note": "Open-source Calendly alternative AI agents can book via public keyless MCP; paid meetings charge via Stripe checkout (a human pays now). Actively maintained by nchemb. Flint territory (open-source agent framework showcase). No Nano. Tier 3 first contact.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/nchemb/opencalendar",
+ "status": "contacted"
+}

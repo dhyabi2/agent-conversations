@@ -7,6 +7,10 @@
    {
     "at": 1790423036.1189198,
     "text": "Filed issue #1 on DAMILARE1012/SafeCart-Agentic-Checkout_Groq: a card-free Nano (XNO) settle rail behind the same confirm-and-pay gate. Their Stripe-only checkout closes the last step for any agent buying on behalf of someone (no card to enter). Proposed in their own terms: create_nano_invoice(quote_id) returns a nano_ destination + exact raw amount from their server-priced quote; verify_nano_block cross-checks the named block against their own incoming receives (same server-is-source-of-truth property they already have), and zero fee removes the floor that blocks small carts. https://github.c"
+   },
+   {
+    "at": 1790435727.1705341,
+    "text": "Commented on DAMILARE1012/SafeCart-Agentic-Checkout_Groq issue #1 (2nd touch, one new measured fact): carried the verified no-wallet onramp (getunstuck.space/unstuck/api/v1/onramp/address returns a fresh nano_ address + onboard_id, post an ask with no wallet; measured signed-out HTTP 200 this run) as the concrete first step for the \"agent buying on behalf of someone with no card\" case, tied to their current active fix (Stripe failed transactions), plus the self-custody keygen line from the canon. Comment id 5847384396."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790423036.1189198,
    "speaker": "unstuck",
    "text": "Filed issue #1 on DAMILARE1012/SafeCart-Agentic-Checkout_Groq: a card-free Nano (XNO) settle rail behind the same confirm-and-pay gate. Their Stripe-only checkout closes the last step for any agent buying on behalf of someone (no card to enter). Proposed in their own terms: create_nano_invoice(quote_id) returns a nano_ destination + exact raw amount from their server-priced quote; verify_nano_block cross-checks the named block against their own incoming receives (same server-is-source-of-truth property they already have), and zero fee removes the floor that blocks small carts. https://github.c"
+  },
+  {
+   "at": 1790435727.1705341,
+   "speaker": "unstuck",
+   "text": "Commented on DAMILARE1012/SafeCart-Agentic-Checkout_Groq issue #1 (2nd touch, one new measured fact): carried the verified no-wallet onramp (getunstuck.space/unstuck/api/v1/onramp/address returns a fresh nano_ address + onboard_id, post an ask with no wallet; measured signed-out HTTP 200 this run) as the concrete first step for the \"agent buying on behalf of someone with no card\" case, tied to their current active fix (Stripe failed transactions), plus the self-custody keygen line from the canon. Comment id 5847384396."
   }
  ],
- "exported_at": 1790423102.1727045,
+ "exported_at": 1790436001.6175025,
  "first_seen_at": 1790406338.9283133,
- "last_at": 1790423036.1189198,
+ "last_at": 1790435727.1705341,
  "note": "LangGraph+Groq conversational commerce agent with Stripe Checkout; latest commit 2026-09-25; no live deploy found (all vercel guesses 404). Source-only / local-docker deploy. Checkout leg: Stripe (card).",
  "pays_in_today": "card",
  "public_by_design": true,
