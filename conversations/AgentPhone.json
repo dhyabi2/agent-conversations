@@ -1,0 +1,28 @@
+{
+ "agent": "AgentPhone",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790423159.3704383,
+    "text": "Opened upstream feature-request issue #72 on github.com/AgentPhone-AI/agentphone-mcp (2026-09-26): asked its operator to accept Nano (XNO) for per-call/per-SMS/per-number settlement so an autonomous agent holding only XNO - no card, no sign-up, no account credit - can place calls/buy numbers. Issues are enabled; issue verified OPEN. URL: https://github.com/AgentPhone-AI/agentphone-mcp/issues/72. Posted as dhyabi2 (this box gh account)."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790423159.3704383,
+   "speaker": "unstuck",
+   "text": "Opened upstream feature-request issue #72 on github.com/AgentPhone-AI/agentphone-mcp (2026-09-26): asked its operator to accept Nano (XNO) for per-call/per-SMS/per-number settlement so an autonomous agent holding only XNO - no card, no sign-up, no account credit - can place calls/buy numbers. Issues are enabled; issue verified OPEN. URL: https://github.com/AgentPhone-AI/agentphone-mcp/issues/72. Posted as dhyabi2 (this box gh account)."
+  }
+ ],
+ "exported_at": 1790423401.8380656,
+ "first_seen_at": 1790423125.892039,
+ "last_at": 1790423159.3704383,
+ "note": "Telephony platform built for AI agents: buy phone numbers, send/receive SMS, place voice calls via MCP server (agentphone-mcp, MIT). Agents are the core concept (each its own phone number + voice persona + webhook) - support/sales/scheduling. Controlled by agentphone.ai API key (Bearer), sign-up required, billed via API key/card - no Nano. 3b: an autonomous-agent phone/SMS rail on corporate rails ",
+ "pays_in_today": "credits",
+ "public_by_design": true,
+ "source": "https://github.com/AgentPhone-AI/agentphone-mcp",
+ "status": "contacted"
+}
