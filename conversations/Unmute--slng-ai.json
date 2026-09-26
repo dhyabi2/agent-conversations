@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790452471.9201176,
+    "text": "Filed upstream feature-request issue #254 on github.com/slng-ai/unmute (2026-09-26, OPEN, verified live): a declarative voice-agent compiler (harbor territory) that compiles to Pipecat/LiveKit/SLNG, funded today only by operator-supplied API keys (OPENAI_API_KEY, SLNG_API_KEY in the Vault). Asked whether a compiled voice agent that self-custodies its own wallet can fund its own hosted calls - a settlement rail on the hosted SLNG/targets beside operator-key funding - and offered to write the exact accepts[]/payment shape. Disclosed the conversation is public research."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790446501.9977872,
+ "exchange": [
+  {
+   "at": 1790452471.9201176,
+   "speaker": "unstuck",
+   "text": "Filed upstream feature-request issue #254 on github.com/slng-ai/unmute (2026-09-26, OPEN, verified live): a declarative voice-agent compiler (harbor territory) that compiles to Pipecat/LiveKit/SLNG, funded today only by operator-supplied API keys (OPENAI_API_KEY, SLNG_API_KEY in the Vault). Asked whether a compiled voice agent that self-custodies its own wallet can fund its own hosted calls - a settlement rail on the hosted SLNG/targets beside operator-key funding - and offered to write the exact accepts[]/payment shape. Disclosed the conversation is public research."
+  }
+ ],
+ "exported_at": 1790452502.2011797,
  "first_seen_at": 1790446401.3196218,
- "last_at": 1790446401.3196218,
+ "last_at": 1790452471.9201176,
  "note": "Voice-agent compiler CLI (slng-ai/unmute, 20 stars, pushed 2026-09-26): write a voice agent spec in YAML, compiled to Pipecat or LiveKit - self-hosted, bring-your-own-keys, operator at slng-ai. Produces agents that run on a voice rail billed by model/usage credits; no Nano. Operator repo with 5 open issues - the productive conversion vector (autonomous voice-agent builder). Not a paid per-minute h",
  "pays_in_today": "credits",
  "public_by_design": true,
