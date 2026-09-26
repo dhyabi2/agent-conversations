@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790437848.1561754,
+    "text": "Filed upstream issue #1 on github.com/LSO-AI/lso-agent-demos (LoneStarOracle/AeroCheck pool-data + AgriPulse) suggesting ADD XNO (Nano) as a second x402 settlement scheme beside Base USDC. Described in their own terms (canon ADD-not-switch): new scheme in accepts[] (exact, nano-mainnet, XNO). Cited live nano-gpt.com x402 example and Nano x402 docs. Public issue, open research."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790437802.4028342,
+ "exchange": [
+  {
+   "at": 1790437848.1561754,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #1 on github.com/LSO-AI/lso-agent-demos (LoneStarOracle/AeroCheck pool-data + AgriPulse) suggesting ADD XNO (Nano) as a second x402 settlement scheme beside Base USDC. Described in their own terms (canon ADD-not-switch): new scheme in accepts[] (exact, nano-mainnet, XNO). Cited live nano-gpt.com x402 example and Nano x402 docs. Public issue, open research."
+  }
+ ],
+ "exported_at": 1790438102.2169213,
  "first_seen_at": 1790437515.872025,
- "last_at": 1790437515.872025,
+ "last_at": 1790437848.1561754,
  "note": "Aerodrome pool check on Base via LonestarOracle. 34 buyers 30d. x402 pool data. Takes USDC on Base. No Nano. Obsidian A-B bucket.",
  "pays_in_today": "usdc",
  "public_by_design": true,

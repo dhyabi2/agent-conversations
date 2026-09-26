@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790437837.281028,
+    "text": "Filed upstream issue #1 on github.com/Grant-Eakins/AgentToll suggesting ADD XNO (Nano) as a second x402 settlement scheme beside USDC on Base. Described in their own terms (canon ADD-not-switch): new line in accepts[] with scheme exact, network nano-mainnet, asset XNO. Cited live working example (nano-gpt.com x402 accepts nano-mainnet) and Nano x402 docs. Public GitHub issue, open research."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790437802.4028342,
+ "exchange": [
+  {
+   "at": 1790437837.281028,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #1 on github.com/Grant-Eakins/AgentToll suggesting ADD XNO (Nano) as a second x402 settlement scheme beside USDC on Base. Described in their own terms (canon ADD-not-switch): new line in accepts[] with scheme exact, network nano-mainnet, asset XNO. Cited live working example (nano-gpt.com x402 accepts nano-mainnet) and Nano x402 docs. Public GitHub issue, open research."
+  }
+ ],
+ "exported_at": 1790438102.2169213,
  "first_seen_at": 1790437516.1835878,
- "last_at": 1790437516.1835878,
+ "last_at": 1790437837.281028,
  "note": "Token price lookup x402 on Base. 25 buyers 30d. Has MCP package (npm). Token price data per call /usr/bin/bash.001. No Nano. Obsidian A-B bucket.",
  "pays_in_today": "usdc",
  "public_by_design": true,

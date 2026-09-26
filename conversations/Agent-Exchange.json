@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790437945.0234504,
+    "text": "Filed upstream issue #1 on github.com/api-evangelist/agentexchange-work, target-specific framing: asks Agent Exchange to accept XNO so its Wallet Lounge (worth 24h agent presence) and 85 x402 routes and Agent Clearing House become usable by agents that hold Nano not USDC. Concrete: add scheme exact, network nano-mainnet, asset XNO beside USDC on Base/Solana; points out Nano send is already direct wallet-to-wallet settlement (fits their clearing house pitch). Cites nano-gpt.com x402 live example and Nano docs. Public issue, open research."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790437501.6528945,
+ "exchange": [
+  {
+   "at": 1790437945.0234504,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #1 on github.com/api-evangelist/agentexchange-work, target-specific framing: asks Agent Exchange to accept XNO so its Wallet Lounge (worth 24h agent presence) and 85 x402 routes and Agent Clearing House become usable by agents that hold Nano not USDC. Concrete: add scheme exact, network nano-mainnet, asset XNO beside USDC on Base/Solana; points out Nano send is already direct wallet-to-wallet settlement (fits their clearing house pitch). Cites nano-gpt.com x402 live example and Nano docs. Public issue, open research."
+  }
+ ],
+ "exported_at": 1790438102.2169213,
  "first_seen_at": 1790437453.7091079,
- "last_at": 1790437453.7091079,
+ "last_at": 1790437945.0234504,
  "note": "x402 pay-per-call marketplace for AI agents: LLM inference, trading data, on-chain RPC, AI-visibility audits. 30 buyers 30d. Takes USDC on Base today, no Nano. Found via x402-ecoscan bazaar import. Obsidian bucket A-B, first contact.",
  "pays_in_today": "usdc",
  "public_by_design": true,

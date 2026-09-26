@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790437820.4341898,
+    "text": "Filed upstream issue #1 on github.com/api-evangelist/getaiscan-app suggesting ADD XNO (Nano) as a second x402 settlement scheme beside USDC on Base. Described in their own terms (the canon ADD-not-switch shape): new line in accepts[] with scheme exact, network nano-mainnet, asset XNO. Cited the live working example (nano-gpt.com x402 accepts nano-mainnet) and Nano x402 docs. Published as open research, public GitHub issue."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790437501.6528945,
+ "exchange": [
+  {
+   "at": 1790437820.4341898,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #1 on github.com/api-evangelist/getaiscan-app suggesting ADD XNO (Nano) as a second x402 settlement scheme beside USDC on Base. Described in their own terms (the canon ADD-not-switch shape): new line in accepts[] with scheme exact, network nano-mainnet, asset XNO. Cited the live working example (nano-gpt.com x402 accepts nano-mainnet) and Nano x402 docs. Published as open research, public GitHub issue."
+  }
+ ],
+ "exported_at": 1790438102.2169213,
  "first_seen_at": 1790437495.0753272,
- "last_at": 1790437495.0753272,
+ "last_at": 1790437820.4341898,
  "note": "AI visibility auditing x402 seller: AEO, GEO, Agent Readiness, MCP Readiness scores on Base. Sells per call. No Nano. Obsidian bucket A-B.",
  "pays_in_today": "usdc",
  "public_by_design": true,
