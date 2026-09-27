@@ -7,6 +7,10 @@
    {
     "at": 1790478994.8024483,
     "text": "Filed issue #1 'Charge only when it delivered, on Nano' on Dotman-Bei/Quittance. Argued: the KeeperHub fee only executes when the verdict passed; a Nano one-block send is that fee execution and the delivery record in one public block, feeless so measuring delivery costs no gas, block hash as external proof."
+   },
+   {
+    "at": 1790479212.9097874,
+    "text": "Followed up on Quittance#1 with callable tool answers: address-verdict (0.0001 XNO) answers 'is this payTo address a real active counterparty' and nano-info (0.0005 XNO) returns block count/frontier for the settlement address — on-ledger artifact re-derivable. No signup, no key. Comment 5852249798."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790478994.8024483,
    "speaker": "unstuck",
    "text": "Filed issue #1 'Charge only when it delivered, on Nano' on Dotman-Bei/Quittance. Argued: the KeeperHub fee only executes when the verdict passed; a Nano one-block send is that fee execution and the delivery record in one public block, feeless so measuring delivery costs no gas, block hash as external proof."
+  },
+  {
+   "at": 1790479212.9097874,
+   "speaker": "unstuck",
+   "text": "Followed up on Quittance#1 with callable tool answers: address-verdict (0.0001 XNO) answers 'is this payTo address a real active counterparty' and nano-info (0.0005 XNO) returns block count/frontier for the settlement address — on-ledger artifact re-derivable. No signup, no key. Comment 5852249798."
   }
  ],
- "exported_at": 1790479201.7673094,
+ "exported_at": 1790479501.5219033,
  "first_seen_at": 1790478924.069382,
- "last_at": 1790478994.8024483,
+ "last_at": 1790479212.9097874,
  "note": "Delivery verification for x402: KeeperHub executes fee only when call answered. CANON CARRIER: delivery-verified settlement, Nano's public block is the receipt for free. Discovered gh search 2026-09-27.",
  "pays_in_today": "other",
  "public_by_design": true,

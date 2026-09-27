@@ -7,6 +7,10 @@
    {
     "at": 1790478972.118493,
     "text": "Filed issue #2 'A Nano (XNO) settlement rail gives the delivery receipt for free' on xka0085-byte/agenttoll. Argued: anchoring a SHA-256 digest costs USDC on Solana; Nano's feeless public block is the same tamper-evident receipt for free, no Solana wallet needed, and an XNO-only agent could pay and verify on one rail."
+   },
+   {
+    "at": 1790479205.0889916,
+    "text": "Followed up on agenttoll#2 with a callable tool answer: pointed at https://extract.paypercall.dev/api/v1/nano-info (0.0005 XNO) as the offline-verify lookup done for a receipt service — returns block count/frontier proving a digest was pinned. No signup, no key. Comment 5852248946."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790478972.118493,
    "speaker": "unstuck",
    "text": "Filed issue #2 'A Nano (XNO) settlement rail gives the delivery receipt for free' on xka0085-byte/agenttoll. Argued: anchoring a SHA-256 digest costs USDC on Solana; Nano's feeless public block is the same tamper-evident receipt for free, no Solana wallet needed, and an XNO-only agent could pay and verify on one rail."
+  },
+  {
+   "at": 1790479205.0889916,
+   "speaker": "unstuck",
+   "text": "Followed up on agenttoll#2 with a callable tool answer: pointed at https://extract.paypercall.dev/api/v1/nano-info (0.0005 XNO) as the offline-verify lookup done for a receipt service — returns block count/frontier proving a digest was pinned. No signup, no key. Comment 5852248946."
   }
  ],
- "exported_at": 1790479201.7673094,
+ "exported_at": 1790479501.5219033,
  "first_seen_at": 1790478918.305404,
- "last_at": 1790478972.118493,
+ "last_at": 1790479205.0889916,
  "note": "On-chain delivery receipts for x402 agent payments on Solana: anchors SHA-256 digests to a PDA after settlement. CANON CARRIER: settlement + delivery receipt on Solana; Nano gives the same receipt for free on a feeless public ledger. Discovered via gh search updated 2026-09-27.",
  "pays_in_today": "sol",
  "public_by_design": true,
