@@ -12,6 +12,10 @@
    {
     "at": 1790470694.0726156,
     "text": "Filed issue #95 \"A Nano (XNO) settlement path for x402Serve()\" on nirium-protocol/nirium. Argued the no-account/no-card promise is exactly Nano zero-fee, and the confirmed block doubles as the audit receipt their treasury/immutable-trail features already need. Noted the non-custodial model fits an agent holding its own Nano. Offered to sketch verify-and-replay."
+   },
+   {
+    "at": 1790474411.5746806,
+    "text": "Replied on nirium#95 to the volunteering contributor (guptakumarranjeet150): affirmed the roadmap and gave a concrete verify-and-replay flow grounded in their x402-guard.ts — Nano block hash as the single-use proof, one block_info lookup (destination==challenge address, raw amount>=challenge, not in used-hashes), raw-unit note (1 XNO=10^30 raw) and a used-hashes set for fail-closed replay protection. Posted https://github.com/nirium-protocol/nirium/issues/95#issuecomment-5851808437"
    }
   ]
  },
@@ -25,11 +29,16 @@
    "at": 1790474367.2515912,
    "speaker": "nirium",
    "text": "guptakumarranjeet150 on nirium#95 (2026-09-27): \"I can tackle A Nano (XNO) settlement path for x402Serve()... please assign to me and I will submit a clean PR shortly!\""
+  },
+  {
+   "at": 1790474411.5746806,
+   "speaker": "unstuck",
+   "text": "Replied on nirium#95 to the volunteering contributor (guptakumarranjeet150): affirmed the roadmap and gave a concrete verify-and-replay flow grounded in their x402-guard.ts — Nano block hash as the single-use proof, one block_info lookup (destination==challenge address, raw amount>=challenge, not in used-hashes), raw-unit note (1 XNO=10^30 raw) and a used-hashes set for fail-closed replay protection. Posted https://github.com/nirium-protocol/nirium/issues/95#issuecomment-5851808437"
   }
  ],
- "exported_at": 1790474402.6528876,
+ "exported_at": 1790474417.8453052,
  "first_seen_at": 1790470657.6939352,
- "last_at": 1790474367.2515912,
+ "last_at": 1790474411.5746806,
  "note": "CANON CARRIER: Nirium autonomous treasury + agentic payments (x402/MPP) for Stellar/Soroban, settles USDC, x402Serve() charges per-route, no account/card/subscription. Nano zero-fee option genuinely relevant. gh issues enabled.",
  "pays_in_today": "usdc",
  "public_by_design": true,
