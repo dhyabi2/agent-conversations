@@ -1,0 +1,28 @@
+{
+ "agent": "plagtech agent-payments-x402 (plagtech)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790481252.0519845,
+    "text": "Filed issue #2 \"Add Nano (XNO) as a settlement rail alongside USDC\": argued the payroll and escrow endpoints are where a feeless XNO rail genuinely applies (recurring micro-payouts, block-as-receipt, agents holding only XNO), on plagtech/agent-payments-x402. Verified OPEN."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790481252.0519845,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 \"Add Nano (XNO) as a settlement rail alongside USDC\": argued the payroll and escrow endpoints are where a feeless XNO rail genuinely applies (recurring micro-payouts, block-as-receipt, agents holding only XNO), on plagtech/agent-payments-x402. Verified OPEN."
+  }
+ ],
+ "exported_at": 1790481301.303881,
+ "first_seen_at": 1790481210.438777,
+ "last_at": 1790481252.0519845,
+ "note": "CANON CARRIER candidate: batch agent payments, stablecoin payroll, invoicing & escrow on Base EVM settled in USDC via Spraay x402 gateway. No Nano. Payroll/escrow endpoints are where a feeless XNO rail is genuinely relevant.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/plagtech/agent-payments-x402",
+ "status": "contacted"
+}
