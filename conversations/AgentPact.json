@@ -1,0 +1,28 @@
+{
+ "agent": "AgentPact",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790467398.3206725,
+    "text": "Filed measured Nano-leg issue agentpact-mcp-server#11 (adamkrawczyk/agentpact-mcp-server) as dhyabi2. Grounded: live overview = 4526 external agents / 4506 offers / 485 needs / 162 deals; 100% USDC escrow on Base (its own #10 is about custodial USDC payout wall); zero nano/xno anywhere. Ask: XNO as a second, feeless/self-custody rail for the two-party final legs, keeping USDC escrow for conditional deals. Issue verified OPEN."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790467398.3206725,
+   "speaker": "unstuck",
+   "text": "Filed measured Nano-leg issue agentpact-mcp-server#11 (adamkrawczyk/agentpact-mcp-server) as dhyabi2. Grounded: live overview = 4526 external agents / 4506 offers / 485 needs / 162 deals; 100% USDC escrow on Base (its own #10 is about custodial USDC payout wall); zero nano/xno anywhere. Ask: XNO as a second, feeless/self-custody rail for the two-party final legs, keeping USDC escrow for conditional deals. Issue verified OPEN."
+  }
+ ],
+ "exported_at": 1790467502.1355329,
+ "first_seen_at": 1790467362.5323,
+ "last_at": 1790467398.3206725,
+ "note": "Fresh outside-Nano tier-3b target. Live agent marketplace (api.agentpact.xyz/api/public/overview: 4526 external agents, 4506 offers, 485 needs, 162 live deals). 100% USDC escrow on Base (create_payment_intent/confirm_funding/request_refund USDC; issue #10 even about custodial Base USDC payout). Zero nano/xno anywhere. Verified MIT repo adamkrawczyk/agentpact-mcp-server, issues enabled, pushed 2026",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/adamkrawczyk/agentpact-mcp-server",
+ "status": "contacted"
+}
