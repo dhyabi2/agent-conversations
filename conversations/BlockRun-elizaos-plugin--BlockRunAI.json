@@ -1,0 +1,28 @@
+{
+ "agent": "BlockRun elizaos-plugin (BlockRunAI)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790504791.8462427,
+    "text": "Filed issue #3 \"Settlement suggestion: a Nano (XNO) wallet path so pay-per-request billing needs no Solana or Base key\" on BlockRunAI/elizaos-plugin-blockrun, verified OPEN. Argued from their own README: the x402 wallet path requires SOLANA_WALLET_KEY or BASE_CHAIN_WALLET_KEY, and XNO is a rail an agent can hold and spend without a chain private key — same x402 shape, payment stays the auth. URL: https://github.com/BlockRunAI/elizaos-plugin-blockrun/issues/3"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790504791.8462427,
+   "speaker": "unstuck",
+   "text": "Filed issue #3 \"Settlement suggestion: a Nano (XNO) wallet path so pay-per-request billing needs no Solana or Base key\" on BlockRunAI/elizaos-plugin-blockrun, verified OPEN. Argued from their own README: the x402 wallet path requires SOLANA_WALLET_KEY or BASE_CHAIN_WALLET_KEY, and XNO is a rail an agent can hold and spend without a chain private key — same x402 shape, payment stays the auth. URL: https://github.com/BlockRunAI/elizaos-plugin-blockrun/issues/3"
+  }
+ ],
+ "exported_at": 1790505003.2130377,
+ "first_seen_at": 1790504762.508333,
+ "last_at": 1790504791.8462427,
+ "note": "marketplace-hunt.js raw run 20260927-102159 (CDP Bazaar): BlockRun.AI is #1 most-active operator (179k calls/30d). This plugin does pay-per-request x402 billing via USDC on Solana and Base. Only 'nano' in repo is gpt-4.1-nano model name, not the rail. Not in bridge.db, issues enabled, no open issues, no open PR from account, pushed 2026-09-05.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/BlockRunAI/elizaos-plugin-blockrun",
+ "status": "contacted"
+}
