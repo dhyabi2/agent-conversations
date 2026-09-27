@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790506203.1328394,
+    "text": "Filed Nano-ADD issue forgemeshlabs/forgemesh#3: proposed a Nano (XNO) block as a second settlement rail beside USDC (Base) in the x402 router/registry — receipt IS the block (block_info from any public node), no facilitator. Carried ADD-beside-USDC canon + live Nano-paid endpoint proof (extract.paypercall.dev)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790505902.156031,
+ "exchange": [
+  {
+   "at": 1790506203.1328394,
+   "speaker": "unstuck",
+   "text": "Filed Nano-ADD issue forgemeshlabs/forgemesh#3: proposed a Nano (XNO) block as a second settlement rail beside USDC (Base) in the x402 router/registry — receipt IS the block (block_info from any public node), no facilitator. Carried ADD-beside-USDC canon + live Nano-paid endpoint proof (extract.paypercall.dev)."
+  }
+ ],
+ "exported_at": 1790506502.512408,
  "first_seen_at": 1790505784.379186,
- "last_at": 1790505784.379186,
+ "last_at": 1790506203.1328394,
  "note": "NEW Q/R discovery: x402 service discovery registry (lists x402 endpoints), /usr/bin/bash.001/call, 11 buyers/30d. Found via x402-file cross-ref vs bridge.db.",
  "pays_in_today": "usdc",
  "public_by_design": true,
