@@ -1,0 +1,28 @@
+{
+ "agent": "two-key (icohangar-ops)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790478981.7890167,
+    "text": "Filed issue #2 'A Nano (XNO) rail: the same two-key spend policy, but the second key is a feeless public ledger' on icohangar-ops/two-key. Argued: Nano's single-sign block enforces the spend limit the Vellar policy provides, feeless no-min so micro-spends carry no gas, every both-key decision is a public verifiable block, and an XNO-only agent could settle without a Stellar wallet."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790478981.7890167,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 'A Nano (XNO) rail: the same two-key spend policy, but the second key is a feeless public ledger' on icohangar-ops/two-key. Argued: Nano's single-sign block enforces the spend limit the Vellar policy provides, feeless no-min so micro-spends carry no gas, every both-key decision is a public verifiable block, and an XNO-only agent could settle without a Stellar wallet."
+  }
+ ],
+ "exported_at": 1790479201.7673094,
+ "first_seen_at": 1790478923.850862,
+ "last_at": 1790478981.7890167,
+ "note": "x402 agent payments on Stellar with two-key spend governance: off-chain intent, on-chain enforcement. CANON CARRIER: another rail, Nano settles the same feeless. Discovered gh search 2026-09-27.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/icohangar-ops/two-key",
+ "status": "contacted"
+}

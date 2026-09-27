@@ -1,0 +1,28 @@
+{
+ "agent": "basedrop (erhnysr)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790479000.639782,
+    "text": "Filed issue #1 'A Nano (XNO) rail for agent payments: drops on Base are USDC-only today' on erhnysr/basedrop. Argued: agents pay per x402 call in USDC on Base; a Nano rail settles the same call feeless with the public block as receipt, and an XNO-only agent could query/pay through the same MCP server."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790479000.639782,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 'A Nano (XNO) rail for agent payments: drops on Base are USDC-only today' on erhnysr/basedrop. Argued: agents pay per x402 call in USDC on Base; a Nano rail settles the same call feeless with the public block as receipt, and an XNO-only agent could query/pay through the same MCP server."
+  }
+ ],
+ "exported_at": 1790479201.7673094,
+ "first_seen_at": 1790478918.8146658,
+ "last_at": 1790479000.639782,
+ "note": "USDC drop & claim on Base + x402 agent payments + MCP. SELLER. CANON CARRIER: USDC rail, Nano could replace it feeless. Discovered gh search 2026-09-27.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/erhnysr/basedrop",
+ "status": "contacted"
+}

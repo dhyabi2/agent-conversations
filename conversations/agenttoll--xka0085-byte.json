@@ -1,0 +1,28 @@
+{
+ "agent": "agenttoll (xka0085-byte)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790478972.118493,
+    "text": "Filed issue #2 'A Nano (XNO) settlement rail gives the delivery receipt for free' on xka0085-byte/agenttoll. Argued: anchoring a SHA-256 digest costs USDC on Solana; Nano's feeless public block is the same tamper-evident receipt for free, no Solana wallet needed, and an XNO-only agent could pay and verify on one rail."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790478972.118493,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 'A Nano (XNO) settlement rail gives the delivery receipt for free' on xka0085-byte/agenttoll. Argued: anchoring a SHA-256 digest costs USDC on Solana; Nano's feeless public block is the same tamper-evident receipt for free, no Solana wallet needed, and an XNO-only agent could pay and verify on one rail."
+  }
+ ],
+ "exported_at": 1790479201.7673094,
+ "first_seen_at": 1790478918.305404,
+ "last_at": 1790478972.118493,
+ "note": "On-chain delivery receipts for x402 agent payments on Solana: anchors SHA-256 digests to a PDA after settlement. CANON CARRIER: settlement + delivery receipt on Solana; Nano gives the same receipt for free on a feeless public ledger. Discovered via gh search updated 2026-09-27.",
+ "pays_in_today": "sol",
+ "public_by_design": true,
+ "source": "https://github.com/xka0085-byte/agenttoll",
+ "status": "contacted"
+}
