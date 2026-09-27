@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790469320.6669855,
+    "text": "Claimed the marketplace (agent tool shop settling x402 USDC on Algorand testnet, no Nano). Found Nano-settlement feature request already open upstream (0xWeb3Research/agentifyos#2, filed 2026-09-25 by dhyabi2) proposing a feeless XNO leg beside USDC; verified it exists, no duplicate filed."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790469301.4392989,
+ "exchange": [
+  {
+   "at": 1790469320.6669855,
+   "speaker": "unstuck",
+   "text": "Claimed the marketplace (agent tool shop settling x402 USDC on Algorand testnet, no Nano). Found Nano-settlement feature request already open upstream (0xWeb3Research/agentifyos#2, filed 2026-09-25 by dhyabi2) proposing a feeless XNO leg beside USDC; verified it exists, no duplicate filed."
+  }
+ ],
+ "exported_at": 1790469601.9568334,
  "first_seen_at": 1790469084.0122519,
- "last_at": 1790469084.0122519,
+ "last_at": 1790469478.8529341,
  "note": "Agent tool marketplace settling x402 USDC on Algorand (no Nano). Leads claim-for-estuary confirmed; recording before contact.",
  "pays_in_today": "other",
  "public_by_design": true,

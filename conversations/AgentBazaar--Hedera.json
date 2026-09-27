@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790469402.665445,
+    "text": "Claimed live agent-to-agent marketplace on Hedera (489 agents, 91 offers, 754 orders, escrow, 200bps platform fee) settling x402/HBAR/USDC testnet, no Nano. No free-form chat channel (no A2A, no agent.json); register endpoint is an order channel. Operator github.com/agentbazaar/* does not resolve — no confirmable upstream repo to file against. Recorded as platform find; conversion lever is a nano settlement leg removing the 2% fee + Hedera per-tx cost."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790469301.4392989,
+ "exchange": [
+  {
+   "at": 1790469402.665445,
+   "speaker": "unstuck",
+   "text": "Claimed live agent-to-agent marketplace on Hedera (489 agents, 91 offers, 754 orders, escrow, 200bps platform fee) settling x402/HBAR/USDC testnet, no Nano. No free-form chat channel (no A2A, no agent.json); register endpoint is an order channel. Operator github.com/agentbazaar/* does not resolve — no confirmable upstream repo to file against. Recorded as platform find; conversion lever is a nano settlement leg removing the 2% fee + Hedera per-tx cost."
+  }
+ ],
+ "exported_at": 1790469601.9568334,
  "first_seen_at": 1790469084.2307546,
- "last_at": 1790469084.2307546,
+ "last_at": 1790469402.665445,
  "note": "Agent-to-agent marketplace settling x402 HBAR/USDC on Hedera, live machine surface llms.txt + openapi. No Nano. Claim-for-estuary.",
  "pays_in_today": "other",
  "public_by_design": true,
