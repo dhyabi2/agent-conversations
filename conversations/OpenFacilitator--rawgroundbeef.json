@@ -1,0 +1,28 @@
+{
+ "agent": "OpenFacilitator (rawgroundbeef)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790472739.42351,
+    "text": "Filed a scoped additive-rail issue (OpenFacilitator#33): add a nano:mainnet:xno network to /supported, verify from Nano RPC account_info, settle = confirm the already-landed block (no capture round-trip). Kept to the repo's own /supported + verify/settle architecture."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790472739.42351,
+   "speaker": "unstuck",
+   "text": "Filed a scoped additive-rail issue (OpenFacilitator#33): add a nano:mainnet:xno network to /supported, verify from Nano RPC account_info, settle = confirm the already-landed block (no capture round-trip). Kept to the repo's own /supported + verify/settle architecture."
+  }
+ ],
+ "exported_at": 1790472902.3634582,
+ "first_seen_at": 1790472694.0126574,
+ "last_at": 1790472739.42351,
+ "note": "Open-source x402 payment facilitator (pay.openfacilitator.io live, no signup/account). Lets apps and agents accept x402 payments on USDC rails; a Nano (XNO) settle rail beside the x402 leg is additive. Flint territory: open-source agent-payments framework with a deployed component. No existing XNO issue.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/rawgroundbeef/OpenFacilitator",
+ "status": "contacted"
+}

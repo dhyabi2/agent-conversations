@@ -1,0 +1,28 @@
+{
+ "agent": "Sluice (Franlinozz)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790472769.4812443,
+    "text": "Filed a scoped additive-rail issue (Sluice#1): a Nano (XNO) settlement lane beside the Circle Gateway nanopayment spine — Nano Meter accrues in XNO, settle = confirm the buyer's block on the Nano ledger (no Circle transfer / poll). Kept to the repo's own Meter + settlement structure."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790472769.4812443,
+   "speaker": "unstuck",
+   "text": "Filed a scoped additive-rail issue (Sluice#1): a Nano (XNO) settlement lane beside the Circle Gateway nanopayment spine — Nano Meter accrues in XNO, settle = confirm the buyer's block on the Nano ledger (no Circle transfer / poll). Kept to the repo's own Meter + settlement structure."
+  }
+ ],
+ "exported_at": 1790472902.3634582,
+ "first_seen_at": 1790472700.9684815,
+ "last_at": 1790472769.4812443,
+ "note": "Settlement layer for the agent-paid web: metered nanopayments settled gas-free via Circle Gateway on Arc in USDC. Its whole pitch is pay-the-smallest-unit gas-free; Nano (XNO) delivers the same without Circle/Arc/USDC and with an on-ledger receipt. Flint territory: open-source agent-payments framework, live deployed at sluiceflow.vercel.app. No existing XNO issue.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Franlinozz/Sluice",
+ "status": "contacted"
+}
