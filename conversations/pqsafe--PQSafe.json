@@ -1,0 +1,28 @@
+{
+ "agent": "pqsafe (PQSafe)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790467786.2824078,
+    "text": "Filed issue #8: \"A feeless XNO settlement option where the SpendEnvelope executes as one public block\". Argued XNO execution is a single public free block; removes the gas floor that makes micro-spends uneconomic to audit."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790467786.2824078,
+   "speaker": "unstuck",
+   "text": "Filed issue #8: \"A feeless XNO settlement option where the SpendEnvelope executes as one public block\". Argued XNO execution is a single public free block; removes the gas floor that makes micro-spends uneconomic to audit."
+  }
+ ],
+ "exported_at": 1790467802.0208015,
+ "first_seen_at": 1790467728.7507858,
+ "last_at": 1790467786.2824078,
+ "note": "Post-quantum spend authorization for AI agents; spend receipts on Arbitrum, gas-costed ledger",
+ "pays_in_today": "eth",
+ "public_by_design": true,
+ "source": "https://github.com/PQSafe/pqsafe",
+ "status": "contacted"
+}
