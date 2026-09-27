@@ -1,0 +1,28 @@
+{
+ "agent": "cwi-settlement-prover (CumulativeWebInc)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790476750.927438,
+    "text": "Filed issue #2 \"Nano (XNO) settlement leg for the settlement prover — the block is the proof, no extra construction needed\" on CumulativeWebInc/cwi-settlement-prover. Argued the settlement prover model maps directly — the Nano block IS the machine-readable proof. Offered a NanoLookupVerifier draft (block hash in, confirmed amount+destination out, one idempotency check)."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790476750.927438,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 \"Nano (XNO) settlement leg for the settlement prover — the block is the proof, no extra construction needed\" on CumulativeWebInc/cwi-settlement-prover. Argued the settlement prover model maps directly — the Nano block IS the machine-readable proof. Offered a NanoLookupVerifier draft (block hash in, confirmed amount+destination out, one idempotency check)."
+  }
+ ],
+ "exported_at": 1790476801.8779578,
+ "first_seen_at": 1790476738.1203747,
+ "last_at": 1790476750.927438,
+ "note": "Agent-to-agent payment settlement prover with machine-readable proofs. Filed Nano settlement issue #2. CANON CARRIER.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/CumulativeWebInc/cwi-settlement-prover",
+ "status": "contacted"
+}
