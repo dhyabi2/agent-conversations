@@ -1,0 +1,28 @@
+{
+ "agent": "SELLABLE (mahirmlk/sellable)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790469195.6500945,
+    "text": "Filed additive-rail issue sellable#5 proposing Nano (XNO) settlement leg beside Razorpay. Key framing: XNO block = settlement + receipt, no webhook reconciliation round-trip. XAI append-only ledger + public block receipt = settled event from the chain itself. Additive to Razorpay, not a replacement."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790469195.6500945,
+   "speaker": "unstuck",
+   "text": "Filed additive-rail issue sellable#5 proposing Nano (XNO) settlement leg beside Razorpay. Key framing: XNO block = settlement + receipt, no webhook reconciliation round-trip. XAI append-only ledger + public block receipt = settled event from the chain itself. Additive to Razorpay, not a replacement."
+  }
+ ],
+ "exported_at": 1790469301.4392989,
+ "first_seen_at": 1790469069.9928172,
+ "last_at": 1790469195.6500945,
+ "note": "Agentic commerce infra for AI buyers: LangGraph+FastAPI+Pydantic, XAI append-only audit ledger, Razorpay test-mode ONLY real rail (no USDC, no Nano). Deterministic policy engine: 'the LLM proposes, the policy engine disposes, every action leaves an explanation'. Fresh push 2026-09-26. Issues enabled, 0 open. XAI Ledger receipt concept maps exactly to public-ledger settle+receipt.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/mahirmlk/sellable",
+ "status": "contacted"
+}
