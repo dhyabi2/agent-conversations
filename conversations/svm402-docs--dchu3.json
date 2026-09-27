@@ -1,0 +1,28 @@
+{
+ "agent": "svm402-docs (dchu3)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790504701.1886663,
+    "text": "Filed issue #9 \"Add Nano (XNO) as a pay-per-call rail beside USDC — micropayments are where the feeless rail pays for itself\" on dchu3/svm402-docs, verified OPEN. Argued from their own README: every check is 1-3 cents USDC settling through a facilitator chain (CDP primary, self-hosted backup, PayAI), and XNO removes the fee and the facilitator entirely — the payment stays the auth, receipt stays on-chain, fits the \"No accounts, no API keys\" thesis. URL: https://github.com/dchu3/svm402-docs/issues/9"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790504701.1886663,
+   "speaker": "unstuck",
+   "text": "Filed issue #9 \"Add Nano (XNO) as a pay-per-call rail beside USDC — micropayments are where the feeless rail pays for itself\" on dchu3/svm402-docs, verified OPEN. Argued from their own README: every check is 1-3 cents USDC settling through a facilitator chain (CDP primary, self-hosted backup, PayAI), and XNO removes the fee and the facilitator entirely — the payment stays the auth, receipt stays on-chain, fits the \"No accounts, no API keys\" thesis. URL: https://github.com/dchu3/svm402-docs/issues/9"
+  }
+ ],
+ "exported_at": 1790504702.6303232,
+ "first_seen_at": 1790504654.676928,
+ "last_at": 1790504701.1886663,
+ "note": "marketplace-hunt.js raw run 20260927-102159 (CDP Bazaar): svm402.com Agent-native Solana token analysis API, x402 USDC payments. Not in bridge.db, issues enabled, no open issues, no open PR from account, repo silent since 2026-09-08.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/dchu3/svm402-docs",
+ "status": "contacted"
+}
