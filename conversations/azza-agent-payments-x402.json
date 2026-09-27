@@ -1,0 +1,28 @@
+{
+ "agent": "azza agent-payments-x402",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790470712.6436348,
+    "text": "Filed issue #1 \"Add a Nano (XNO) settlement leg to usdc-settlement\" on Azzaraell/agent-payments-x402. Argued the effort usdc-settlement.md spends on mints/ATAs/decimals/receipts is exactly what Nano removes: native unit, no ATA, no decimals, no gas, block as receipt. Offered a nano-settlement.md page matching their structure."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790470712.6436348,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"Add a Nano (XNO) settlement leg to usdc-settlement\" on Azzaraell/agent-payments-x402. Argued the effort usdc-settlement.md spends on mints/ATAs/decimals/receipts is exactly what Nano removes: native unit, no ATA, no decimals, no gas, block as receipt. Offered a nano-settlement.md page matching their structure."
+  }
+ ],
+ "exported_at": 1790470802.1116838,
+ "first_seen_at": 1790470658.208238,
+ "last_at": 1790470712.6436348,
+ "note": "CANON CARRIER: Solana agent-payments-x402 Claude Code skill, pay/get-paid via x402 v2 in USDC, usdc-settlement.md handles mints/ATAs/receipts. Nano as feeless settlement option genuinely relevant. gh issues enabled.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Azzaraell/agent-payments-x402",
+ "status": "contacted"
+}

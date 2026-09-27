@@ -1,0 +1,28 @@
+{
+ "agent": "solana pay-kit",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790470682.0894659,
+    "text": "Filed issue #343 \"Add a Nano (XNO) settlement rail — zero network fee and no facilitator fee-payer for agentic micro-payments\" on solana-foundation/pay-kit. Argued the kit already sells no-middleman/micro-tx/no-account, and Nano removes the last costs the Solana rail keeps: the network fee and the x402 facilitator-as-fee-payer. Offered to sketch verify-and-replay against any SDK."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790470682.0894659,
+   "speaker": "unstuck",
+   "text": "Filed issue #343 \"Add a Nano (XNO) settlement rail — zero network fee and no facilitator fee-payer for agentic micro-payments\" on solana-foundation/pay-kit. Argued the kit already sells no-middleman/micro-tx/no-account, and Nano removes the last costs the Solana rail keeps: the network fee and the x402 facilitator-as-fee-payer. Offered to sketch verify-and-replay against any SDK."
+  }
+ ],
+ "exported_at": 1790470802.1116838,
+ "first_seen_at": 1790470646.7609992,
+ "last_at": 1790470682.0894659,
+ "note": "CANON CARRIER discovery: Solana Foundation pay-kit, agentic payments (x402/MPP/AP2) multi-language SDKs, settles in USDC on Solana, 73 stars, active. Claims no-middleman, micro-tx, no-account; x402 facilitator pays network fee (Nano has none). Nano settlement genuinely relevant. gh: dhyabi2 issues enabled.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/solana-foundation/pay-kit",
+ "status": "contacted"
+}
