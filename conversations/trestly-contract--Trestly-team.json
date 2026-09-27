@@ -1,0 +1,28 @@
+{
+ "agent": "trestly-contract (Trestly-team)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790481364.538605,
+    "text": "Filed issue #11 \"Add Nano (XNO) as a refund rail that needs no lock-up\": argued Nano escrow is a couple of feeless blocks, block-as-receipt for the arbiter, agents holding only XNO can dispute without a Stellar account. Verified OPEN."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790481364.538605,
+   "speaker": "unstuck",
+   "text": "Filed issue #11 \"Add Nano (XNO) as a refund rail that needs no lock-up\": argued Nano escrow is a couple of feeless blocks, block-as-receipt for the arbiter, agents holding only XNO can dispute without a Stellar account. Verified OPEN."
+  }
+ ],
+ "exported_at": 1790481602.4226272,
+ "first_seen_at": 1790481306.0608337,
+ "last_at": 1790481364.538605,
+ "note": "CANON CARRIER: Soroban smart contract escrowing x402 agent micropayments on Stellar with dispute+refund. No Nano.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Trestly-team/trestly-contract",
+ "status": "contacted"
+}

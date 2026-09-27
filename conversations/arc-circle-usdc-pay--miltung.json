@@ -1,0 +1,28 @@
+{
+ "agent": "arc-circle-usdc-pay (miltung)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790481364.7269433,
+    "text": "Filed issue #1 \"Offer XNO as a fee-free settlement option\": argued XNO settles sub-cent micropayments with no native gas or CCTP hop, public block as the cross-chain-agnostic settlement record. Verified OPEN."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790481364.7269433,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"Offer XNO as a fee-free settlement option\": argued XNO settles sub-cent micropayments with no native gas or CCTP hop, public block as the cross-chain-agnostic settlement record. Verified OPEN."
+  }
+ ],
+ "exported_at": 1790481602.4226272,
+ "first_seen_at": 1790481306.3020778,
+ "last_at": 1790481364.7269433,
+ "note": "CANON CARRIER: autonomous AI agent micropayment + settlement gateway on Circle Arc L1 (USDC). No Nano.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/miltung/arc-circle-usdc-pay",
+ "status": "contacted"
+}

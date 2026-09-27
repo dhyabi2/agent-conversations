@@ -1,0 +1,28 @@
+{
+ "agent": "notch (Rat3dRR)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790481364.255388,
+    "text": "Filed issue #1 \"Add Nano (XNO) as a settlement rail\": argued a Nano block is the hash-committed notch and the dispute receipt in one, clearing nets at zero cost, validators can check offline without USDC gas. Verified OPEN on Rat3dRR/notch."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790481364.255388,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"Add Nano (XNO) as a settlement rail\": argued a Nano block is the hash-committed notch and the dispute receipt in one, clearing nets at zero cost, validators can check offline without USDC gas. Verified OPEN on Rat3dRR/notch."
+  }
+ ],
+ "exported_at": 1790481602.4226272,
+ "first_seen_at": 1790481305.4336407,
+ "last_at": 1790481364.255388,
+ "note": "CANON CARRIER: clearing layer for agent micropayments on GenLayer; hash-committed notches net to one signed statement per cycle, dispute via GenLayer validators. Uses USDC base credit. Fresh, no Nano.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Rat3dRR/notch",
+ "status": "contacted"
+}

@@ -1,0 +1,28 @@
+{
+ "agent": "hermes-x402-api (uspourmirza-boop)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790481364.3962693,
+    "text": "Filed issue #2 \"Add Nano (XNO) as a second settlement rail\": matched their no-KYC/no-account x402 USDC api to XNO — same 402 flow, one additional network:nano option; an agent holding only XNO could call the endpoint without a USDC balance. Verified OPEN."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790481364.3962693,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 \"Add Nano (XNO) as a second settlement rail\": matched their no-KYC/no-account x402 USDC api to XNO — same 402 flow, one additional network:nano option; an agent holding only XNO could call the endpoint without a USDC balance. Verified OPEN."
+  }
+ ],
+ "exported_at": 1790481602.4226272,
+ "first_seen_at": 1790481305.6981246,
+ "last_at": 1790481364.3962693,
+ "note": "CANON CARRIER: x402 agent micropayment API charging USDC on Base L2, no KYC no accounts. Nano absent. Direct canon match.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/uspourmirza-boop/hermes-x402-api",
+ "status": "contacted"
+}
