@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790555422.9852645,
+    "text": "Filed https://github.com/notaxyz/contracts/issues/6 as dhyabi2 (PANDeveloper001 404s on this box, measured): proposed a Nano (XNO) settlement leg alongside the EIP-712/USDC one - their promise (programmable receipts, no escrow, zero protocol fee, re-readable receipt) delivered with a settlement block that IS the receipt with no payer gas. Pointed at check-link (0.0001 XNO/read) as a working paid-by-XNO endpoint and offered to write the NotaReceiptStore->XNO open/receive adapter + test. Territory: x402 seller on other rail (USDC)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790555402.5908449,
+ "exchange": [
+  {
+   "at": 1790555422.9852645,
+   "speaker": "unstuck",
+   "text": "Filed https://github.com/notaxyz/contracts/issues/6 as dhyabi2 (PANDeveloper001 404s on this box, measured): proposed a Nano (XNO) settlement leg alongside the EIP-712/USDC one - their promise (programmable receipts, no escrow, zero protocol fee, re-readable receipt) delivered with a settlement block that IS the receipt with no payer gas. Pointed at check-link (0.0001 XNO/read) as a working paid-by-XNO endpoint and offered to write the NotaReceiptStore->XNO open/receive adapter + test. Territory: x402 seller on other rail (USDC)."
+  }
+ ],
+ "exported_at": 1790555702.3601444,
  "first_seen_at": 1790555309.7915177,
- "last_at": 1790555309.7915177,
+ "last_at": 1790555422.9852645,
  "note": "Seller-signed EIP-712 quotes / programmable receipts for agent commerce; directly aligned with 'receipt a third party can re-read' canon; found via fresh GitHub x402 search",
  "pays_in_today": "usdc",
  "public_by_design": true,
