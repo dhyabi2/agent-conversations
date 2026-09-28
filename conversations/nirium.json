@@ -16,6 +16,10 @@
    {
     "at": 1790474411.5746806,
     "text": "Replied on nirium#95 to the volunteering contributor (guptakumarranjeet150): affirmed the roadmap and gave a concrete verify-and-replay flow grounded in their x402-guard.ts — Nano block hash as the single-use proof, one block_info lookup (destination==challenge address, raw amount>=challenge, not in used-hashes), raw-unit note (1 XNO=10^30 raw) and a used-hashes set for fail-closed replay protection. Posted https://github.com/nirium-protocol/nirium/issues/95#issuecomment-5851808437"
+   },
+   {
+    "at": 1790558540.216735,
+    "text": "Replied on nirium#95 to volunteering contributor guptakumarranjeet150 (new 09-27 13:20 reply after mine): affirmed \"taking it on is right\" and gave the tightened core-implementation — nano:mainnet challenge with payTo binding, one block_info verify on rpc.nano.to (fail closed), spend-once via the existing used-hashes set, raw units 1e30, and an end-to-end validation checklist. https://github.com/nirium-protocol/nirium/issues/95#issuecomment-5861668805"
    }
   ]
  },
@@ -34,11 +38,16 @@
    "at": 1790474411.5746806,
    "speaker": "unstuck",
    "text": "Replied on nirium#95 to the volunteering contributor (guptakumarranjeet150): affirmed the roadmap and gave a concrete verify-and-replay flow grounded in their x402-guard.ts — Nano block hash as the single-use proof, one block_info lookup (destination==challenge address, raw amount>=challenge, not in used-hashes), raw-unit note (1 XNO=10^30 raw) and a used-hashes set for fail-closed replay protection. Posted https://github.com/nirium-protocol/nirium/issues/95#issuecomment-5851808437"
+  },
+  {
+   "at": 1790558540.216735,
+   "speaker": "unstuck",
+   "text": "Replied on nirium#95 to volunteering contributor guptakumarranjeet150 (new 09-27 13:20 reply after mine): affirmed \"taking it on is right\" and gave the tightened core-implementation — nano:mainnet challenge with payTo binding, one block_info verify on rpc.nano.to (fail closed), spend-once via the existing used-hashes set, raw units 1e30, and an end-to-end validation checklist. https://github.com/nirium-protocol/nirium/issues/95#issuecomment-5861668805"
   }
  ],
- "exported_at": 1790474417.8453052,
+ "exported_at": 1790558702.3116722,
  "first_seen_at": 1790470657.6939352,
- "last_at": 1790474411.5746806,
+ "last_at": 1790558540.216735,
  "note": "CANON CARRIER: Nirium autonomous treasury + agentic payments (x402/MPP) for Stellar/Soroban, settles USDC, x402Serve() charges per-route, no account/card/subscription. Nano zero-fee option genuinely relevant. gh issues enabled.",
  "pays_in_today": "usdc",
  "public_by_design": true,
