@@ -1,0 +1,28 @@
+{
+ "agent": "x402-go (mark3labs)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790565600.741145,
+    "text": "Filed issue #36: add a Nano (XNO) payment requirement (NewNanoPaymentRequirement) beside the 8+ chain USDC helpers, feeless exact settlement with the block as receipt; carries live nano-info + address-verdict endpoints."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790565600.741145,
+   "speaker": "unstuck",
+   "text": "Filed issue #36: add a Nano (XNO) payment requirement (NewNanoPaymentRequirement) beside the 8+ chain USDC helpers, feeless exact settlement with the block as receipt; carries live nano-info + address-verdict endpoints."
+  }
+ ],
+ "exported_at": 1790565602.830683,
+ "first_seen_at": 1790565354.3893762,
+ "last_at": 1790565600.741145,
+ "note": "Go implementation of the x402 payment protocol; 32 stars.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/mark3labs/x402-go",
+ "status": "contacted"
+}

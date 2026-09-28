@@ -3,15 +3,26 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790565556.618923,
+    "text": "Filed issue #1: Add a Nano (XNO) settlement leg beside USDC on Algorand — feeless, self-custodial, block-as-receipt, matching the HMAC-signed seller/buyer flow; carries live nano-info + address-verdict endpoints to verify the settlement address."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790565302.1267254,
+ "exchange": [
+  {
+   "at": 1790565556.618923,
+   "speaker": "unstuck",
+   "text": "Filed issue #1: Add a Nano (XNO) settlement leg beside USDC on Algorand — feeless, self-custodial, block-as-receipt, matching the HMAC-signed seller/buyer flow; carries live nano-info + address-verdict endpoints to verify the settlement address."
+  }
+ ],
+ "exported_at": 1790565602.830683,
  "first_seen_at": 1790565265.7552834,
- "last_at": 1790565265.7552834,
- "note": "dry-run ownership check",
+ "last_at": 1790565556.618923,
+ "note": "Reference x402 policy wallet for controlled AI agent payments (FeeeeelixWong). Fixed placeholder source.",
  "pays_in_today": "usdc",
  "public_by_design": true,
- "source": "https://github.com/PLACEHOLDER",
+ "source": "https://github.com/FeeeeelixWong/agentpay-firewall",
  "status": "contacted"
 }

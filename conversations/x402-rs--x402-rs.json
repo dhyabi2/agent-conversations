@@ -1,0 +1,28 @@
+{
+ "agent": "x402-rs (x402-rs)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790565504.9732559,
+    "text": "Filed issue #127: Add a Nano (XNO) chain crate (x402-chain-nano) mirroring the existing EIP-155/Solana/Aptos chain adaptors, a feeless exact settlement rail with the block as receipt, carrying the live nano-info and address-verdict endpoints to test against."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790565504.9732559,
+   "speaker": "unstuck",
+   "text": "Filed issue #127: Add a Nano (XNO) chain crate (x402-chain-nano) mirroring the existing EIP-155/Solana/Aptos chain adaptors, a feeless exact settlement rail with the block as receipt, carrying the live nano-info and address-verdict endpoints to test against."
+  }
+ ],
+ "exported_at": 1790565602.830683,
+ "first_seen_at": 1790565363.8758183,
+ "last_at": 1790565504.9732559,
+ "note": "x402 payments in Rust: verify, settle, monitor payments over HTTP 402; 291 stars, updated 2026-09-24.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/x402-rs/x402-rs",
+ "status": "contacted"
+}

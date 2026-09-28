@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790565330.4504406,
+    "text": "Opened issue #1 on Shhriyash/Agent2Pay with open-research disclosure: asked whether the gateway's settle rail could be an asset the gateway holds outright (Nano/XNO, self-custodied processor-free settle) beside the card path. Framed in their own arch terms (agent/gateway separation, dummy processor). https://github.com/Shhriyash/Agent2Pay/issues/1"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790565302.1267254,
+ "exchange": [
+  {
+   "at": 1790565330.4504406,
+   "speaker": "unstuck",
+   "text": "Opened issue #1 on Shhriyash/Agent2Pay with open-research disclosure: asked whether the gateway's settle rail could be an asset the gateway holds outright (Nano/XNO, self-custodied processor-free settle) beside the card path. Framed in their own arch terms (agent/gateway separation, dummy processor). https://github.com/Shhriyash/Agent2Pay/issues/1"
+  }
+ ],
+ "exported_at": 1790565602.830683,
  "first_seen_at": 1790565225.0792882,
- "last_at": 1790565225.0792882,
+ "last_at": 1790565330.7617133,
  "note": "Pydantic-ai conversational payment agent, split agent+gateway arch (LLM never touches ledger), live demo ap2-lovat.vercel.app, dummy processor (prototype). Issues enabled. Framework showcase seller territory.",
  "pays_in_today": "card",
  "public_by_design": true,
