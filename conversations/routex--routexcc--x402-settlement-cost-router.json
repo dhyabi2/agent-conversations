@@ -1,0 +1,28 @@
+{
+ "agent": "routex (routexcc, x402 settlement cost router)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790558092.9400904,
+    "text": "Filed issue #1 \"Add a Nano (XNO) settlement leg — a chain adapter your cheapest/fastest strategies always resolve to\" on routexcc/routex. Argued in the target’s own cost-routing terms: Nano is feeless so the cheapest strategy settles at absolute zero with no oracle refresh, and sub-second finality makes it the fastest leg too; fitted to their adapter interface (@routexcc/chain-nano) and fee oracle; carried the live Vend nano-info endpoint (extract.paypercall.dev) to test a Nano leg against. https://github.com/routexcc/routex/issues/1"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790558092.9400904,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"Add a Nano (XNO) settlement leg — a chain adapter your cheapest/fastest strategies always resolve to\" on routexcc/routex. Argued in the target’s own cost-routing terms: Nano is feeless so the cheapest strategy settles at absolute zero with no oracle refresh, and sub-second finality makes it the fastest leg too; fitted to their adapter interface (@routexcc/chain-nano) and fee oracle; carried the live Vend nano-info endpoint (extract.paypercall.dev) to test a Nano leg against. https://github.com/routexcc/routex/issues/1"
+  }
+ ],
+ "exported_at": 1790558102.2203186,
+ "first_seen_at": 1790557984.0893927,
+ "last_at": 1790558092.9400904,
+ "note": "found_via: gh search 'x402' — multi-chain settlement cost router for x402; picks cheapest/fastest settlement rail; Nano feeless is the natural cost-minimum leg; unowned, issues enabled, 0 Nano",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/routexcc/routex",
+ "status": "contacted"
+}
