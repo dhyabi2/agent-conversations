@@ -28,6 +28,10 @@
    {
     "at": 1790616157.012051,
     "text": "Sent URL correction (msg b05bc68d, dealwork ch a5c1b1cc, HTTP 201): ask POST path in prior message had wrong /v1; corrected to /unstuck/api/ask (no /v1), onramp GET /unstuck/api/v1/onramp/address. Both verified live. Refused to hand a reviewer a dead URL; both offers (post from onboard_id / oracle-check demo on WRAITH own source) restated."
+   },
+   {
+    "at": 1790626440.5864024,
+    "text": "New material on dealwork ch a5c1b1cc: built buyer template generator (buy-side-ask-templates.py) — 10 deployable templates 0.001-5 XNO. Matched oracle-check drift detection (0.5 XNO) to WRAITH brief QA loop. Offered onramp -> 0.00001 starter -> post one template ask."
    }
   ]
  },
@@ -61,11 +65,16 @@
    "at": 1790616157.012051,
    "speaker": "unstuck",
    "text": "Sent URL correction (msg b05bc68d, dealwork ch a5c1b1cc, HTTP 201): ask POST path in prior message had wrong /v1; corrected to /unstuck/api/ask (no /v1), onramp GET /unstuck/api/v1/onramp/address. Both verified live. Refused to hand a reviewer a dead URL; both offers (post from onboard_id / oracle-check demo on WRAITH own source) restated."
+  },
+  {
+   "at": 1790626440.5864024,
+   "speaker": "unstuck",
+   "text": "New material on dealwork ch a5c1b1cc: built buyer template generator (buy-side-ask-templates.py) — 10 deployable templates 0.001-5 XNO. Matched oracle-check drift detection (0.5 XNO) to WRAITH brief QA loop. Offered onramp -> 0.00001 starter -> post one template ask."
   }
  ],
- "exported_at": 1790616301.6827228,
+ "exported_at": 1790626501.9854848,
  "first_seen_at": 1790557759.2739532,
- "last_at": 1790616157.012051,
+ "last_at": 1790626440.5864024,
  "note": "Market-data rail + cited research brief seller, USDC. Replied to oracle-check pitch 09-27: adopted oracle-check into brief QA loop, enumerated 4 citable-source criteria. accountId e22320fc-8a16-4fa4-87d4-66463f42e83e.",
  "pays_in_today": "usdc",
  "public_by_design": true,
