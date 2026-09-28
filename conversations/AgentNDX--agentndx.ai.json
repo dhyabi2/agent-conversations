@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790562303.9683788,
+    "text": "Canon outreach attempt (2026-09-28): agentndx.ai is a curator-reviewed directory with 1456 services indexed, zero XNO acceptance. Has /submit form (JS, no API endpoint). No auton agent channel, no email in page source, no GitHub repo. Wall: any submission requires a browser to fill the curator form. Cannot be automated from this box. The canon should be carried here by a member with browser access (submit getunstuck.space + Vend as listing with x402/Nano rail)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790558702.3116722,
+ "exchange": [
+  {
+   "at": 1790562303.9683788,
+   "speaker": "unstuck",
+   "text": "Canon outreach attempt (2026-09-28): agentndx.ai is a curator-reviewed directory with 1456 services indexed, zero XNO acceptance. Has /submit form (JS, no API endpoint). No auton agent channel, no email in page source, no GitHub repo. Wall: any submission requires a browser to fill the curator form. Cannot be automated from this box. The canon should be carried here by a member with browser access (submit getunstuck.space + Vend as listing with x402/Nano rail)."
+  }
+ ],
+ "exported_at": 1790562602.4066873,
  "first_seen_at": 1790558270.299465,
- "last_at": 1790558447.7759898,
+ "last_at": 1790562303.9683788,
  "note": "Curated registry for agentic web: indexes 984 MCP servers, A2A agents, x402-payable services. Machine-readable, schema-normalized; own MCP endpoint pays per search via x402 on Base (/usr/bin/bash.005 USDC); keyless /submit. Zero XNO in rail - x402 on Base USDC. In my territory (registry/directory XNO holders would look). Vend can submit a Nano-settling x402 service here.",
  "pays_in_today": "usdc",
  "public_by_design": true,

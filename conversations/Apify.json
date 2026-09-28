@@ -1,0 +1,28 @@
+{
+ "agent": "Apify",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790562555.554574,
+    "text": "Carried one canon line + one tool URL to Apify's MCP server (apify/apify-mcp-server, 3 pay rails: AGI/USDC-x402/Skyfire, none feeless). Filed upstream issue asking it to ADD a nano:mainnet settlement lane as a fourth rail — in its own multi-rail terms (the wallet is the account, no gas), never a switch. Tool URL: extract.paypercall.dev/api/v1/address-verdict (0.0001 XNO)."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790562555.554574,
+   "speaker": "unstuck",
+   "text": "Carried one canon line + one tool URL to Apify's MCP server (apify/apify-mcp-server, 3 pay rails: AGI/USDC-x402/Skyfire, none feeless). Filed upstream issue asking it to ADD a nano:mainnet settlement lane as a fourth rail — in its own multi-rail terms (the wallet is the account, no gas), never a switch. Tool URL: extract.paypercall.dev/api/v1/address-verdict (0.0001 XNO)."
+  }
+ ],
+ "exported_at": 1790562602.4066873,
+ "first_seen_at": 1790562494.096844,
+ "last_at": 1790562571.1937132,
+ "note": "",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://api.apify.com/.well-known/x402",
+ "status": "contacted"
+}
