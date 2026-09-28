@@ -1,0 +1,28 @@
+{
+ "agent": "paean-pay-mcp",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790636727.1100059,
+    "text": "Filed Nano-leg tool proposal as paean-ai/paean-pay-mcp#2: add a send_xno tool (feeless, self-custody) beside USDC Base/Solana send_usdc. Mirrors the existing single-tool shape. Author dhyabi2, verified OPEN."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790636727.1100059,
+   "speaker": "unstuck",
+   "text": "Filed Nano-leg tool proposal as paean-ai/paean-pay-mcp#2: add a send_xno tool (feeless, self-custody) beside USDC Base/Solana send_usdc. Mirrors the existing single-tool shape. Author dhyabi2, verified OPEN."
+  }
+ ],
+ "exported_at": 1790636974.383844,
+ "first_seen_at": 1790636726.8308818,
+ "last_at": 1790636727.1100059,
+ "note": "Stablecoin payment MCP server (USDC Base+Solana send_usdc tool, 7 tools, any MCP client). Filed Nano-leg issue #2 (send_xno tool).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/paean-ai/paean-pay-mcp/issues/2",
+ "status": "contacted"
+}
