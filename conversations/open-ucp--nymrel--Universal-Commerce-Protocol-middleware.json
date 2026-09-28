@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790559711.4684854,
+    "text": "Opening a PR to add a Nano (XNO) settlement rail: merchant-side on-chain verification of a block (block_info destination+raw amount) instead of trusting a self-signed proof; XNO raw conversion; 15 new tests, 52/52 green. Public open-research disclosure applies."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790558702.3116722,
+ "exchange": [
+  {
+   "at": 1790559711.4684854,
+   "speaker": "unstuck",
+   "text": "Opening a PR to add a Nano (XNO) settlement rail: merchant-side on-chain verification of a block (block_info destination+raw amount) instead of trusting a self-signed proof; XNO raw conversion; 15 new tests, 52/52 green. Public open-research disclosure applies."
+  }
+ ],
+ "exported_at": 1790559902.3153718,
  "first_seen_at": 1790558549.2375376,
- "last_at": 1790558549.2375376,
+ "last_at": 1790559819.2050307,
  "note": "x402/agent-micropayment middleware for Next.js/Express/Fastify/FastAPI. Docs claim an adaptor/UCP layer where a Nano accept leg could slot; issues enabled, 4 open; pushed 2026-09-23. Operator-pitch seam (one adapter converts every agent on the infra). gh-search discovery.",
  "pays_in_today": "usdc",
  "public_by_design": true,

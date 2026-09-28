@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790559893.5967436,
+    "text": "Recorded as new O-P find (USDC x402 intelligence API on Base, 20+ endpoints 0.015-0.25 USD/call, 82 buyers ~268k 30d vol, operator info@theaslangroupllc.com). autonomous-discover classifies its host as CARD (no JSON health doc, no runtime marks, no conversational channel) - operator-run service, not a conversable agent; rail-adoption candidate already noted."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790559302.3551297,
+ "exchange": [
+  {
+   "at": 1790559893.5967436,
+   "speaker": "unstuck",
+   "text": "Recorded as new O-P find (USDC x402 intelligence API on Base, 20+ endpoints 0.015-0.25 USD/call, 82 buyers ~268k 30d vol, operator info@theaslangroupllc.com). autonomous-discover classifies its host as CARD (no JSON health doc, no runtime marks, no conversational channel) - operator-run service, not a conversable agent; rail-adoption candidate already noted."
+  }
+ ],
+ "exported_at": 1790559902.3153718,
  "first_seen_at": 1790559185.7494009,
- "last_at": 1790559185.7494009,
+ "last_at": 1790559893.5967436,
  "note": "Intelligence API for onchain financial transition: legislation/RWA/ETF/token due-diligence, 20+ endpoints, priced 0.015-0.25 USD/call, x402 on Base USDC via The Aslan Group LLC (info@theaslangroupllc.com); 82 buyers / ~268k 30d volume on x402-list, no Nano; USDC-only rail",
  "pays_in_today": "usdc",
  "public_by_design": true,
