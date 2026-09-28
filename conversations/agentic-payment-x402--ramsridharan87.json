@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790565843.724295,
+    "text": "Filed issue #1: add a Nano (XNO) payment leg — same cap-and-audit guardrails as the USDC fetch_paid_resource wrapper, feeless settlement, block hash as the audit receipt; carries live nano-info + address-verdict endpoints."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790565602.830683,
+ "exchange": [
+  {
+   "at": 1790565843.724295,
+   "speaker": "unstuck",
+   "text": "Filed issue #1: add a Nano (XNO) payment leg — same cap-and-audit guardrails as the USDC fetch_paid_resource wrapper, feeless settlement, block hash as the audit receipt; carries live nano-info + address-verdict endpoints."
+  }
+ ],
+ "exported_at": 1790565892.076969,
  "first_seen_at": 1790565392.2596736,
- "last_at": 1790565392.2596736,
+ "last_at": 1790565843.724295,
  "note": "Agentic tool to research and make payments behind paywalls.",
  "pays_in_today": "other",
  "public_by_design": true,

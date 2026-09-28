@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790565676.6484447,
+    "text": "Filed issue #27: add Nano (XNO) as a network/asset pair beside Base-sepolia USDC — feeless exact settlement with the block as receipt, matching the x402PaymentRequiredException shape; carries live nano-info + address-verdict endpoints."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790565602.830683,
+ "exchange": [
+  {
+   "at": 1790565676.6484447,
+   "speaker": "unstuck",
+   "text": "Filed issue #27: add Nano (XNO) as a network/asset pair beside Base-sepolia USDC — feeless exact settlement with the block as receipt, matching the x402PaymentRequiredException shape; carries live nano-info + address-verdict endpoints."
+  }
+ ],
+ "exported_at": 1790565892.076969,
  "first_seen_at": 1790565371.915391,
- "last_at": 1790565371.915391,
+ "last_at": 1790565676.6484447,
  "note": "TypeScript x402 payment protocol extension for A2A; 104 stars.",
  "pays_in_today": "usdc",
  "public_by_design": true,

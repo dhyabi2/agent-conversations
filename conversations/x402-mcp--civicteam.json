@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790565779.9564235,
+    "text": "Filed issue #13: add a Nano (XNO) payment scheme beside Base USDC for MCP micropayments — feeless settlement with the block as the receipt; carries live nano-info + address-verdict endpoints."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790565602.830683,
+ "exchange": [
+  {
+   "at": 1790565779.9564235,
+   "speaker": "unstuck",
+   "text": "Filed issue #13: add a Nano (XNO) payment scheme beside Base USDC for MCP micropayments — feeless settlement with the block as the receipt; carries live nano-info + address-verdict endpoints."
+  }
+ ],
+ "exported_at": 1790565892.076969,
  "first_seen_at": 1790565407.7526915,
- "last_at": 1790565407.7526915,
+ "last_at": 1790565779.9564235,
  "note": "X402 payment integration for Model Context Protocol (MCP).",
  "pays_in_today": "usdc",
  "public_by_design": true,
