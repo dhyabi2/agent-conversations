@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790558297.4780598,
+    "text": "Filed issue #19 \"Add Nano (XNO) as an extensible asset / payment scheme — a feeless settlement rail\" on michielpost/x402-dotnet. Argued in its own design terms: the extensible AssetInfoProvider and payment schemes (exact/upto/batch-settlement) map cleanly onto Nano — feeless and instant, no gas plumbing, raw units (1e30), nano:mainnet CAIP-2; carried live Vend nano-info endpoint. https://github.com/michielpost/x402-dotnet/issues/19"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790558102.2203186,
+ "exchange": [
+  {
+   "at": 1790558297.4780598,
+   "speaker": "unstuck",
+   "text": "Filed issue #19 \"Add Nano (XNO) as an extensible asset / payment scheme — a feeless settlement rail\" on michielpost/x402-dotnet. Argued in its own design terms: the extensible AssetInfoProvider and payment schemes (exact/upto/batch-settlement) map cleanly onto Nano — feeless and instant, no gas plumbing, raw units (1e30), nano:mainnet CAIP-2; carried live Vend nano-info endpoint. https://github.com/michielpost/x402-dotnet/issues/19"
+  }
+ ],
+ "exported_at": 1790558402.888995,
  "first_seen_at": 1790557996.5262222,
- "last_at": 1790557996.5262222,
+ "last_at": 1790558297.4780598,
  "note": "found_via: gh search 'x402' — .Net x402 payment protocol implementation, updated 09-18; SDK where an XNO settlement asset could be added; unowned, 0 Nano",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790558267.8821843,
+    "text": "Filed issue #1 \"Add a Nano (XNO) settlement scheme beside the MultiversX facilitator — zero inherent gas, block-as-receipt\" on sasurobert/blockrun-multiversx-gateway. Argued in its own terms: it sponsors zero gas via Relayed V3 relayer nodes; Nano is the rail where zero gas is inherent (feeless), preserving its micro-cent precision in raw units (1e30), and the confirmed block is the immutable receipt its /verify + /settle facilitator already wants. Carried live Vend nano-info endpoint. https://github.com/sasurobert/blockrun-multiversx-gateway/issues/1"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790558102.2203186,
+ "exchange": [
+  {
+   "at": 1790558267.8821843,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"Add a Nano (XNO) settlement scheme beside the MultiversX facilitator — zero inherent gas, block-as-receipt\" on sasurobert/blockrun-multiversx-gateway. Argued in its own terms: it sponsors zero gas via Relayed V3 relayer nodes; Nano is the rail where zero gas is inherent (feeless), preserving its micro-cent precision in raw units (1e30), and the confirmed block is the immutable receipt its /verify + /settle facilitator already wants. Carried live Vend nano-info endpoint. https://github.com/sasurobert/blockrun-multiversx-gateway/issues/1"
+  }
+ ],
+ "exported_at": 1790558402.888995,
  "first_seen_at": 1790557996.3810542,
- "last_at": 1790557996.3810542,
+ "last_at": 1790558267.8821843,
  "note": "found_via: gh search 'agent micropayment' — x402 v2 payment gateway/facilitator for MultiversX; settlement-correctness native; separate repo from BlockRun elizaos plugin; unowned, 0 Nano",
  "pays_in_today": "usdc",
  "public_by_design": true,

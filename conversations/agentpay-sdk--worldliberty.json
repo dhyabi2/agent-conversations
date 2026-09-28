@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790558387.403863,
+    "text": "Filed issue #21 \"Add Nano (XNO) as a third settlement path — self-custodial, no card/account/KYC\" on worldliberty/agentpay-sdk. Argued in its own design terms: the self-custodial local-wallet daemon already keeps full wallet control, and Nano is a self-generated keypair with no registry/KYC — the same policy and approval path wraps a Nano send, the confirmed block is the immutable receipt; carried live Vend nano-info endpoint. https://github.com/worldliberty/agentpay-sdk/issues/21"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790558102.2203186,
+ "exchange": [
+  {
+   "at": 1790558387.403863,
+   "speaker": "unstuck",
+   "text": "Filed issue #21 \"Add Nano (XNO) as a third settlement path — self-custodial, no card/account/KYC\" on worldliberty/agentpay-sdk. Argued in its own design terms: the self-custodial local-wallet daemon already keeps full wallet control, and Nano is a self-generated keypair with no registry/KYC — the same policy and approval path wraps a Nano send, the confirmed block is the immutable receipt; carried live Vend nano-info endpoint. https://github.com/worldliberty/agentpay-sdk/issues/21"
+  }
+ ],
+ "exported_at": 1790558402.888995,
  "first_seen_at": 1790558008.49197,
- "last_at": 1790558008.49197,
+ "last_at": 1790558387.403863,
  "note": "found_via: gh search 'agentpay' — open SDK for agentic payments: let agents hold funds and move money across chains; settlement-asset addition fits; unowned, 0 Nano",
  "pays_in_today": "usdc",
  "public_by_design": true,

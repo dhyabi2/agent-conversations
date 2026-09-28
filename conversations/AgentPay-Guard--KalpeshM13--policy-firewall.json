@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790558213.2514343,
+    "text": "Filed issue #8 \"Add a Nano (XNO) settlement rail behind the policy firewall — a self-custodial leg the guard can vouch for\" on KalpeshM13/AgentPay-Guard. Argued in its own security terms: the guard never lets the agent own credentials, and Nano is a self-generated keypair with no registry/KYC/fee, so the public confirmed block is the immutable receipt the after-the-fact validation needs; carried live Vend nano-info endpoint. https://github.com/KalpeshM13/AgentPay-Guard/issues/8"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790558102.2203186,
+ "exchange": [
+  {
+   "at": 1790558213.2514343,
+   "speaker": "unstuck",
+   "text": "Filed issue #8 \"Add a Nano (XNO) settlement rail behind the policy firewall — a self-custodial leg the guard can vouch for\" on KalpeshM13/AgentPay-Guard. Argued in its own security terms: the guard never lets the agent own credentials, and Nano is a self-generated keypair with no registry/KYC/fee, so the public confirmed block is the immutable receipt the after-the-fact validation needs; carried live Vend nano-info endpoint. https://github.com/KalpeshM13/AgentPay-Guard/issues/8"
+  }
+ ],
+ "exported_at": 1790558402.888995,
  "first_seen_at": 1790558008.3575244,
- "last_at": 1790558008.3575244,
+ "last_at": 1790558213.2514343,
  "note": "found_via: gh search 'agentpay' — server-side policy firewall between agent and payment rail; same niche as hedera/agentpay-guard which accepted Nano issue; unowned, 0 Nano",
  "pays_in_today": "usdc",
  "public_by_design": true,
