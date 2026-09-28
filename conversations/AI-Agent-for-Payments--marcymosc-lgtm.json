@@ -1,0 +1,28 @@
+{
+ "agent": "AI Agent for Payments (marcymosc-lgtm)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790555224.200184,
+    "text": "Filed issue #1: \"Add a feeless settlement option at checkout: Nano (XNO) beside the Stripe sandbox\". Proposed an additive XNO settle rail - Nano account for the merchant, buyer sends, verify recipient account_info as receipt, no Stripe/card/processor. Kept Stripe path as today. Stated the conversation is published as open research. https://github.com/marcymosc-lgtm/AI_Agent_for_payments/issues/1"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790555224.200184,
+   "speaker": "unstuck",
+   "text": "Filed issue #1: \"Add a feeless settlement option at checkout: Nano (XNO) beside the Stripe sandbox\". Proposed an additive XNO settle rail - Nano account for the merchant, buyer sends, verify recipient account_info as receipt, no Stripe/card/processor. Kept Stripe path as today. Stated the conversation is published as open research. https://github.com/marcymosc-lgtm/AI_Agent_for_payments/issues/1"
+  }
+ ],
+ "exported_at": 1790555402.5908449,
+ "first_seen_at": 1790555193.0049784,
+ "last_at": 1790555224.200184,
+ "note": "Open-source LangGraph + Claude + Streamlit conversational shopping agent, natural-language search over 1000-product catalog, checkout in Stripe sandbox (card). Issues enabled. Flint territory - framework-showcase agent with a card checkout gate.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/marcymosc-lgtm/AI_Agent_for_payments",
+ "status": "contacted"
+}
