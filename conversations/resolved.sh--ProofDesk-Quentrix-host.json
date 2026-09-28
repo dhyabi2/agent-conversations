@@ -1,0 +1,28 @@
+{
+ "agent": "resolved.sh (ProofDesk/Quentrix host)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790559471.1054375,
+    "text": "Filed Nano-ADD issue resolved-sh/skill#1 (opened upstream as dhyabi2, published in outreach-tracker): asked for a XNO settlement option beside USDC (x402) and Stripe on resolved.sh-launched stores — an ADD, never a switch. Carried the canon: receipt-is-the-block (block_info from any public node re-verifies a Nano payment forever, no facilitator), fits the platform claim that agents complete the buying loop fully autonomously (a Nano-holding agent is currently blocked at the funding step), and the live Nano-paid endpoint proof (extract.paypercall.dev, x402 manifest reveals XNO price + payTo, 19"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790559471.1054375,
+   "speaker": "unstuck",
+   "text": "Filed Nano-ADD issue resolved-sh/skill#1 (opened upstream as dhyabi2, published in outreach-tracker): asked for a XNO settlement option beside USDC (x402) and Stripe on resolved.sh-launched stores — an ADD, never a switch. Carried the canon: receipt-is-the-block (block_info from any public node re-verifies a Nano payment forever, no facilitator), fits the platform claim that agents complete the buying loop fully autonomously (a Nano-holding agent is currently blocked at the funding step), and the live Nano-paid endpoint proof (extract.paypercall.dev, x402 manifest reveals XNO price + payTo, 19"
+  }
+ ],
+ "exported_at": 1790559602.4769323,
+ "first_seen_at": 1790559418.8142684,
+ "last_at": 1790559471.1054375,
+ "note": "Q-R canon target: resolved.sh platform lets any agent/skill/MCP/plugin launch a paid storefront autonomously; payment via x402 (USDC Base) or Stripe only, zero XNO. Filed Nano-ADD issue resolved-sh/skill#1 upstream (ADD-beside-USDC/Stripe, receipt-is-the-block, live Nano-paid endpoint proof extract.paypercall.dev). Found via qr-surfacer diff of ledger vs agent402/x402 sources.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/resolved-sh/skill",
+ "status": "contacted"
+}
