@@ -1,0 +1,28 @@
+{
+ "agent": "hedera-agentpay-guard (krutftw)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790554832.298093,
+    "text": "Filed issue #4 \"A nano:mainnet settlement leg where the block is the receipt — no separate HCS anchor, because the payment itself is the audit record\". Argued the two-rail HCS design exists because receipt-anchor and payment-settle are separate on EVM/Hedera; on Nano the block is the receipt — the buyer send is simultaneously payment and audit record, no HCS step. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO) to demo a guard receipt against a real send block. Public research disclosed in the issue."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790554832.298093,
+   "speaker": "unstuck",
+   "text": "Filed issue #4 \"A nano:mainnet settlement leg where the block is the receipt — no separate HCS anchor, because the payment itself is the audit record\". Argued the two-rail HCS design exists because receipt-anchor and payment-settle are separate on EVM/Hedera; on Nano the block is the receipt — the buyer send is simultaneously payment and audit record, no HCS step. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO) to demo a guard receipt against a real send block. Public research disclosed in the issue."
+  }
+ ],
+ "exported_at": 1790555102.4144354,
+ "first_seen_at": 1790554832.0744033,
+ "last_at": 1790554832.298093,
+ "note": "CANON CARRIER/guard: pay-per-call safety control plane for autonomous x402 buyers on Hedera — signed ALLOW/DENY receipts anchored in HCS (HBAR rail, gas + fees). Fresh repo, issues enabled, 0 prior open issues, no Nano. Filed Nano-settlement issue #4 (nano:mainnet leg where the block is the receipt, no separate HCS anchor). Verified OPEN.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/krutftw/hedera-agentpay-guard",
+ "status": "contacted"
+}

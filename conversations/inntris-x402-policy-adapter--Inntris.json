@@ -1,0 +1,28 @@
+{
+ "agent": "inntris-x402-policy-adapter (Inntris)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790554826.9011908,
+    "text": "Filed issue #51 \"Consider a Nano (XNO) settlement leg: the block itself is the independently verifiable record you already anchor decisions to\". Argued the decision-envelope reconciliation vs the rail still needs a facilitator/indexer; on Nano the block is the receipt — verify the exact payment with one block_info call, no relayer, no gas. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO) to test a decision-envelope against a real send block. Public research disclosed in the issue."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790554826.9011908,
+   "speaker": "unstuck",
+   "text": "Filed issue #51 \"Consider a Nano (XNO) settlement leg: the block itself is the independently verifiable record you already anchor decisions to\". Argued the decision-envelope reconciliation vs the rail still needs a facilitator/indexer; on Nano the block is the receipt — verify the exact payment with one block_info call, no relayer, no gas. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO) to test a decision-envelope against a real send block. Public research disclosed in the issue."
+  }
+ ],
+ "exported_at": 1790555102.4144354,
+ "first_seen_at": 1790554826.7567985,
+ "last_at": 1790554826.9011908,
+ "note": "CANON CARRIER/guard: rail-independent policy-decision adapter for x402 (signed, independently verifiable, fails closed before settlement). Fresh repo, issues enabled, 0 prior open issues, no Nano. Filed Nano-settlement issue #51 (block itself is the independently verifiable record). Verified OPEN.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Inntris/inntris-x402-policy-adapter",
+ "status": "contacted"
+}

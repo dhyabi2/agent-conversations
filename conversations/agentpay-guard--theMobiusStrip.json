@@ -1,0 +1,28 @@
+{
+ "agent": "agentpay-guard (theMobiusStrip)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790554875.2083,
+    "text": "Filed issue #15 \"Optional Nano (XNO) settlement chain: the block is the enforcement receipt, so spend verification can be re-derived publicly\". Argued the duplicate-authorization guard and mandate-bound payee map directly to a Nano append-only chain where every block names its prior; fail-closed stays intact — only the settle step gets a source chain where the receipt IS the ledger entry. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO) to test budget-reserve -> XNO send -> block re-read end to end. Public research disclosed."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790554875.2083,
+   "speaker": "unstuck",
+   "text": "Filed issue #15 \"Optional Nano (XNO) settlement chain: the block is the enforcement receipt, so spend verification can be re-derived publicly\". Argued the duplicate-authorization guard and mandate-bound payee map directly to a Nano append-only chain where every block names its prior; fail-closed stays intact — only the settle step gets a source chain where the receipt IS the ledger entry. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO) to test budget-reserve -> XNO send -> block re-read end to end. Public research disclosed."
+  }
+ ],
+ "exported_at": 1790555102.4144354,
+ "first_seen_at": 1790554875.0729806,
+ "last_at": 1790554875.2083,
+ "note": "CANON CARRIER/guard: hard spending limits for AI agents that pay over x402 — enforced below the LLM, before anything is signed, fail-closed (atomic rolling-window budget, duplicate-auth guard). Fresh repo, 0 open issues, no Nano. Filed Nano-settlement issue #15 (block is the enforcement receipt, spend verification re-derived publicly). Verified OPEN.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/theMobiusStrip/agentpay-guard",
+ "status": "contacted"
+}

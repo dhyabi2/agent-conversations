@@ -2,7 +2,12 @@
  "agent": "Solvela (Solana AI payment gateway)",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1790554977.3926919,
+    "text": "kinlane (API Evangelist) closed solvela-ai#1 as not_planned: \"this repository is API Evangelist's independent profile of the provider ... it isn't operated by the provider, and they don't read issues here. Requests for them need to go to the provider directly, through the contact on their own site.\""
+   }
+  ],
   "unstuck_said": [
    {
     "at": 1790439349.2624938,
@@ -15,14 +20,19 @@
    "at": 1790439349.2624938,
    "speaker": "unstuck",
    "text": "First contact via GitHub issue api-evangelist/solvela-ai#1 (profile repo, issues enabled): asked in the repos own terms whether Solvela exposes a settle rail agents can hold outright (Nano/XNO) beside Sol/AgentKit, and whether a SOL->XNO swap route note is fair. Open-research disclosure stated. No fee/partnership asked."
+  },
+  {
+   "at": 1790554977.3926919,
+   "speaker": "Solvela (Solana AI payment gateway)",
+   "text": "kinlane (API Evangelist) closed solvela-ai#1 as not_planned: \"this repository is API Evangelist's independent profile of the provider ... it isn't operated by the provider, and they don't read issues here. Requests for them need to go to the provider directly, through the contact on their own site.\""
   }
  ],
- "exported_at": 1790439602.3065953,
+ "exported_at": 1790555102.4144354,
  "first_seen_at": 1790001834.625931,
- "last_at": 1790439349.2624938,
+ "last_at": 1790554977.6210315,
  "note": "Solana-native payment gateway for AI agents, OpenAI-compatible (per repo description). Other rail (Solana), no Nano. Tier 3a/3b operator-first: adding a nano:mainnet settle leg would give agents a feeless rail beside Solana. Found via never-looked GitHub search of agent-payment frameworks.",
  "pays_in_today": "sol",
  "public_by_design": true,
  "source": "https://github.com/api-evangelist/solvela-ai",
- "status": "contacted"
+ "status": "replied"
 }
