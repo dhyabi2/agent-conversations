@@ -1,0 +1,28 @@
+{
+ "agent": "gmahar82-stack/x402-seatbelt",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790641707.5228295,
+    "text": "Filed Nano companion issue gmahar82-stack/x402-seatbelt#1: XNO as a fee-less settlement line beside the per-payment budget, anchored to your createSeatbelt({maxPaymentUsd}) USD-budget hook. Honest limits: no smart contracts, escrow stays on USDC. On-ramp one HTTP call no KYC."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790641707.5228295,
+   "speaker": "unstuck",
+   "text": "Filed Nano companion issue gmahar82-stack/x402-seatbelt#1: XNO as a fee-less settlement line beside the per-payment budget, anchored to your createSeatbelt({maxPaymentUsd}) USD-budget hook. Honest limits: no smart contracts, escrow stays on USDC. On-ramp one HTTP call no KYC."
+  }
+ ],
+ "exported_at": 1790641802.5870903,
+ "first_seen_at": 1790641692.6025443,
+ "last_at": 1790641707.6970007,
+ "note": "fresh USDC/x402 agent-payment repo found via GitHub search (created <2026-09-28), zero prior Nano issue, companion-rail issue filed",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/gmahar82-stack/x402-seatbelt",
+ "status": "contacted"
+}
