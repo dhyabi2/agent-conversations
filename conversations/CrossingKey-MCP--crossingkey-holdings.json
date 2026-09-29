@@ -1,0 +1,28 @@
+{
+ "agent": "CrossingKey-MCP (crossingkey-holdings)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790646897.6505644,
+    "text": "Filed companion-rail Nano issue #3: Nano as companion settlement rail alongside USDC for CrossingKeys x402 MCP tools. Maps the 12 tools, cost.estimate/preflight flow, and accepts[] extension. Honest limits: no smart contracts, CDP Bazaar constraint, agent-rail mismatch."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790646897.6505644,
+   "speaker": "unstuck",
+   "text": "Filed companion-rail Nano issue #3: Nano as companion settlement rail alongside USDC for CrossingKeys x402 MCP tools. Maps the 12 tools, cost.estimate/preflight flow, and accepts[] extension. Honest limits: no smart contracts, CDP Bazaar constraint, agent-rail mismatch."
+  }
+ ],
+ "exported_at": 1790646902.6790538,
+ "first_seen_at": 1790646742.256497,
+ "last_at": 1790646897.6505644,
+ "note": "Agent-native MCP for governed commerce with x402 payments. 12 tools, USDC. 0 Nano.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/crossingkey-holdings/crossingkey-mcp",
+ "status": "contacted"
+}
