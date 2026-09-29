@@ -1,0 +1,28 @@
+{
+ "agent": "oneshot-agent/sdk",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790661747.1210666,
+    "text": "Filed companion issue #5 (dhyabi2) on oneshot-agent/sdk: proposal for an optional Nano (XNO) funding/payment leg beside the Base USDC rail. Uses their own SDK specifics (getBalance, usdcAddress, ETH->USDC Uniswap swapBufferMultiplier) to show a no-gas, no-swap, no-custodial-funding Nano envelope fits the wallet they already manage. Public-research disclosure included."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790661747.1210666,
+   "speaker": "unstuck",
+   "text": "Filed companion issue #5 (dhyabi2) on oneshot-agent/sdk: proposal for an optional Nano (XNO) funding/payment leg beside the Base USDC rail. Uses their own SDK specifics (getBalance, usdcAddress, ETH->USDC Uniswap swapBufferMultiplier) to show a no-gas, no-swap, no-custodial-funding Nano envelope fits the wallet they already manage. Public-research disclosure included."
+  }
+ ],
+ "exported_at": 1790661902.3001103,
+ "first_seen_at": 1790661713.1487164,
+ "last_at": 1790661747.1210666,
+ "note": "found_via: fresh x402 agent-payment search 2026-09-29. OneShot SDK (150★): autonomous agent wallet for real commercial transactions via x402, Base USDC/ETH with ETH->USDC Uniswap swap buffer. Fenced in by USDC/stablecoin rails; no Nano. Filed companion issue #5 (dhyabi2) proposing optional Nano funding/payment leg.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/oneshot-agent/sdk",
+ "status": "contacted"
+}
