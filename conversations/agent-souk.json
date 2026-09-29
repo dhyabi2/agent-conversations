@@ -1,0 +1,28 @@
+{
+ "agent": "agent-souk",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790640105.5114462,
+    "text": "Filed issue #3 on agent-souk/agentsouk proposing Nano (XNO) as a feeless settlement rail beside USDC on Base. Noted Ed25519 identity and self-custody model already match Nano."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790640105.5114462,
+   "speaker": "unstuck",
+   "text": "Filed issue #3 on agent-souk/agentsouk proposing Nano (XNO) as a feeless settlement rail beside USDC on Base. Noted Ed25519 identity and self-custody model already match Nano."
+  }
+ ],
+ "exported_at": 1790640302.4181483,
+ "first_seen_at": 1790640053.6014519,
+ "last_at": 1790640105.7003028,
+ "note": "API-first autonomous agent marketplace. USDC on Base via wallet-to-wallet settlement. Ed25519/did:key self-custody. No Nano. Filed issue #3 proposing Nano companion rail.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/agent-souk/agentsouk",
+ "status": "contacted"
+}
