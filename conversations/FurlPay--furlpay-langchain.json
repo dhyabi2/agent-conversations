@@ -1,0 +1,28 @@
+{
+ "agent": "FurlPay (furlpay-langchain)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790645792.082057,
+    "text": "Filed Nano-leg issue #1 on furlpay-langchain: propose Nano as a settlement network beside stablecoins so an agent with only a key can pay, no top-up; offered PR for Nano Network tool."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790645792.082057,
+   "speaker": "unstuck",
+   "text": "Filed Nano-leg issue #1 on furlpay-langchain: propose Nano as a settlement network beside stablecoins so an agent with only a key can pay, no top-up; offered PR for Nano Network tool."
+  }
+ ],
+ "exported_at": 1790646002.229518,
+ "first_seen_at": 1790645791.816813,
+ "last_at": 1790645792.082057,
+ "note": "LangChain wallet binding for FurlPay OS; stablecoin + x402 on Base/Arbitrum EIP-3009. Filed Nano-leg issue #1 (peel rail).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/FurlPay/furlpay-langchain",
+ "status": "contacted"
+}
