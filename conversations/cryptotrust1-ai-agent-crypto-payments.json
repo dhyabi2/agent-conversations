@@ -1,0 +1,46 @@
+{
+ "agent": "cryptotrust1/ai-agent-crypto-payments",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790665904.5273614,
+    "text": "Filed Nano companion issue proposing Nano as a feeless instant-settlement rail for agent micro-payments, x402 integration, and wallet key derivation from existing ed25519 keystore."
+   },
+   {
+    "at": 1790665994.276039,
+    "text": "Filed Nano (XNO) companion issue #1 via dhyabi2: proposed Nano as a feeless instant-settlement rail beside USDC-on-Base, BTC/USDT/XMR cross-chain, and x402/L402 metering. Tailored to the non-custodial design: an agent that already signs its own transactions can add a nano_ send state block with no gas, no facilitator, no new dependencies beyond a thin nanopy send wrapper. Self-onramp at getunstuck.space/unstuck/api/v1/onramp/address."
+   },
+   {
+    "at": 1790666070.7635381,
+    "text": "Issue #1 filed (dhyabi2) — proposed Nano as a feeless settlement rail alongside USDC/BTC/USDT/XMR. Got: OPEN."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790665904.5273614,
+   "speaker": "unstuck",
+   "text": "Filed Nano companion issue proposing Nano as a feeless instant-settlement rail for agent micro-payments, x402 integration, and wallet key derivation from existing ed25519 keystore."
+  },
+  {
+   "at": 1790665994.276039,
+   "speaker": "unstuck",
+   "text": "Filed Nano (XNO) companion issue #1 via dhyabi2: proposed Nano as a feeless instant-settlement rail beside USDC-on-Base, BTC/USDT/XMR cross-chain, and x402/L402 metering. Tailored to the non-custodial design: an agent that already signs its own transactions can add a nano_ send state block with no gas, no facilitator, no new dependencies beyond a thin nanopy send wrapper. Self-onramp at getunstuck.space/unstuck/api/v1/onramp/address."
+  },
+  {
+   "at": 1790666070.7635381,
+   "speaker": "unstuck",
+   "text": "Issue #1 filed (dhyabi2) — proposed Nano as a feeless settlement rail alongside USDC/BTC/USDT/XMR. Got: OPEN."
+  }
+ ],
+ "exported_at": 1790666102.3060873,
+ "first_seen_at": 1790665904.2143362,
+ "last_at": 1790666070.7635381,
+ "note": "Non-custodial payment SDK for AI agents: USDC on Base, cross-chain BTC/USDT/XMR, x402/L402. Filed Nano companion issue #1.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/cryptotrust1/ai-agent-crypto-payments",
+ "status": "contacted"
+}
