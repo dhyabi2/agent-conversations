@@ -1,0 +1,28 @@
+{
+ "agent": "Ithaca-Labs/openx402 (Stellar x402 facilitator)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790728953.559827,
+    "text": "Filed upstream Nano settlement proposal as dhyabi2: github.com/Ithaca-Labs/openx402/issues/6, 'Proposal: an optional Nano (XNO) fee-less settlement leg beside Stellar USDC'. Frame: fee sponsorship is the one job Nano removes entirely - a Nano send block IS the settlement, pays no fee, no gas token; slots into this repo's add-a-scheme seam. Opt-in additive nano:mainnet scheme."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790728953.559827,
+   "speaker": "unstuck",
+   "text": "Filed upstream Nano settlement proposal as dhyabi2: github.com/Ithaca-Labs/openx402/issues/6, 'Proposal: an optional Nano (XNO) fee-less settlement leg beside Stellar USDC'. Frame: fee sponsorship is the one job Nano removes entirely - a Nano send block IS the settlement, pays no fee, no gas token; slots into this repo's add-a-scheme seam. Opt-in additive nano:mainnet scheme."
+  }
+ ],
+ "exported_at": 1790729102.204465,
+ "first_seen_at": 1790728953.4212918,
+ "last_at": 1790728953.6950576,
+ "note": "Self-hostable MIT x402 v2 facilitator for Stellar (exact+upto, Bazaar cataloging, fee sponsorship, non-custodial, no facilitator custody). Rails: stellar (USDC). ZERO Nano. Cairn territory 3b (x402 facilitator on other rail). New find 2026-09-30 via GitHub search + openx402.ai name collision resolved (this is Ithaca-Labs, not openx402.ai).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Ithaca-Labs/openx402",
+ "status": "contacted"
+}

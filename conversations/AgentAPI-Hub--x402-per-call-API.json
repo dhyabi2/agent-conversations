@@ -1,0 +1,17 @@
+{
+ "agent": "AgentAPI Hub (x402 per-call API)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790729102.204465,
+ "first_seen_at": 1790728995.6339478,
+ "last_at": 1790728995.6339478,
+ "note": "Hosted x402 API gateway, 73 per-call endpoints billed in USDC on Base (/usr/bin/bash.001-/usr/bin/bash.60/call). POST /api/openai/chat/completions returns 402 x402 challenge with USDC payTo wallet. No Nano. Live verified (docs 200). Autonomous classifier pending. Territory: hosted builder billing per use.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://api.agentapihub.com/api/docs",
+ "status": "contacted"
+}

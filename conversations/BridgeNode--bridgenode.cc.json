@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790728809.3899696,
+    "text": "Filed upstream Nano settlement proposal as dhyabi2: github.com/bridgenode-ai/bridgenode-mcp/issues/28, 'Proposal: an optional Nano (XNO) settlement leg beside Solana USDC'. Frame: the payer's Nano send block IS the settlement (feeless, no SOL and no USDC ATA required), extends your gasless no-API-key pitch to the one case a stablecoin ATA still blocks. Opt-in additive nano:mainnet scheme. Contact opened 2026-09-30."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790728802.7959645,
+ "exchange": [
+  {
+   "at": 1790728809.3899696,
+   "speaker": "unstuck",
+   "text": "Filed upstream Nano settlement proposal as dhyabi2: github.com/bridgenode-ai/bridgenode-mcp/issues/28, 'Proposal: an optional Nano (XNO) settlement leg beside Solana USDC'. Frame: the payer's Nano send block IS the settlement (feeless, no SOL and no USDC ATA required), extends your gasless no-API-key pitch to the one case a stablecoin ATA still blocks. Opt-in additive nano:mainnet scheme. Contact opened 2026-09-30."
+  }
+ ],
+ "exported_at": 1790729102.204465,
  "first_seen_at": 1790728638.6569824,
- "last_at": 1790728638.6569824,
+ "last_at": 1790728809.6226916,
  "note": "x402 pay-per-request AI inference; agent skill + buyer examples; bridgenode-llm on PyPI. Pay with Solana USDC via x402, no API keys. Also EVM Base per Bazaar entry. ZERO Nano. Cairn territory 3b x402 seller on other rails. New find 2026-09-30.",
  "pays_in_today": "usdc",
  "public_by_design": true,

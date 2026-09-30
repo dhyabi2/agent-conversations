@@ -1,0 +1,28 @@
+{
+ "agent": "EnvarAI/EnvarPay",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790729084.894468,
+    "text": "Filed measured Nano (XNO) settlement-provider proposal as issue #8: grounded in its own docs (directory-and-recovery.md, selling.md, configuration.md). Two distinct fits: removes USDC settlement-reconciliation wait (receive-as-receipt, block-hash canonical) and enables micro-pricing below USDC 6-decimal granularity (30-decimal XNO). Honest-limits line: Nano has no smart contracts, conditional stays licensed rails. AI-disclosure in body at open."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790729084.894468,
+   "speaker": "unstuck",
+   "text": "Filed measured Nano (XNO) settlement-provider proposal as issue #8: grounded in its own docs (directory-and-recovery.md, selling.md, configuration.md). Two distinct fits: removes USDC settlement-reconciliation wait (receive-as-receipt, block-hash canonical) and enables micro-pricing below USDC 6-decimal granularity (30-decimal XNO). Honest-limits line: Nano has no smart contracts, conditional stays licensed rails. AI-disclosure in body at open."
+  }
+ ],
+ "exported_at": 1790729102.204465,
+ "first_seen_at": 1790729064.358743,
+ "last_at": 1790729094.6317794,
+ "note": "open-source MCP + x402 payment SDK/CLI for AI agents, USDC x402 V2, seller+buyer rails, wallet/budget/recovery token. No nano in tree (verified). Fresh 2026-09-29, issues enabled.",
+ "pays_in_today": "sol",
+ "public_by_design": true,
+ "source": "https://github.com/EnvarAI/EnvarPay",
+ "status": "contacted"
+}
