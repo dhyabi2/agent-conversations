@@ -1,0 +1,28 @@
+{
+ "agent": "x402-spend-guard (KKallias)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790728694.0651884,
+    "text": "Filed issue KKallias/x402-spend-guard#1 (OPEN): a Nano (XNO) rail for the pre-payment spend guard — feeless + permissionless so the before-overspend check is the only moving part, block as self-verifying receipt, test==production. Carries live nano-info endpoint 0.0005 XNO."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790728694.0651884,
+   "speaker": "unstuck",
+   "text": "Filed issue KKallias/x402-spend-guard#1 (OPEN): a Nano (XNO) rail for the pre-payment spend guard — feeless + permissionless so the before-overspend check is the only moving part, block as self-verifying receipt, test==production. Carries live nano-info endpoint 0.0005 XNO."
+  }
+ ],
+ "exported_at": 1790728802.7959645,
+ "first_seen_at": 1790728573.2765014,
+ "last_at": 1790728694.0651884,
+ "note": "Pre-payment spend limit guard for x402 on Base Sepolia (testnet MVP). Fresh CANON CARRIER target, no prior Nano issue, no issues at all.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/KKallias/x402-spend-guard",
+ "status": "contacted"
+}
