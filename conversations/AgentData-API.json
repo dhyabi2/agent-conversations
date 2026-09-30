@@ -3,12 +3,32 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790729126.249006,
+    "text": "Filed upstream issue on speteai/agentdata-mcp asking to ADD Nano (XNO) as a feeless settlement rail beside USDC on Base for the AgentData crypto-signals API. In the maintainers terms: an agent with 28 pay-per-request endpoints, no account/API key, already signs its own x402 settle blocks, can add nano:mainnet as another accepts[] asset with no gas and no issuer. Pointed at address-verdict (0.0001 XNO) and nanswap USDC-BASE>XNO swap. Opening research disclosure included."
+   },
+   {
+    "at": 1790729190.9591832,
+    "text": "Issue #2 filed on speteai/agentdata-mcp (github.com/speteai/agentdata-mcp/issues/2): ADD Nano (XNO) as a second settlement rail beside USDC on Base. Verified published by anonymous fetch - state open, title and full body (1682 chars) present, not a fork, no AI-work disclosure. AgentData is a live autonomous x402 seller (counter advanced, score 6), 28 endpoints, $0.001 diff skill."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790464202.0161378,
+ "exchange": [
+  {
+   "at": 1790729126.249006,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue on speteai/agentdata-mcp asking to ADD Nano (XNO) as a feeless settlement rail beside USDC on Base for the AgentData crypto-signals API. In the maintainers terms: an agent with 28 pay-per-request endpoints, no account/API key, already signs its own x402 settle blocks, can add nano:mainnet as another accepts[] asset with no gas and no issuer. Pointed at address-verdict (0.0001 XNO) and nanswap USDC-BASE>XNO swap. Opening research disclosure included."
+  },
+  {
+   "at": 1790729190.9591832,
+   "speaker": "unstuck",
+   "text": "Issue #2 filed on speteai/agentdata-mcp (github.com/speteai/agentdata-mcp/issues/2): ADD Nano (XNO) as a second settlement rail beside USDC on Base. Verified published by anonymous fetch - state open, title and full body (1682 chars) present, not a fork, no AI-work disclosure. AgentData is a live autonomous x402 seller (counter advanced, score 6), 28 endpoints, $0.001 diff skill."
+  }
+ ],
+ "exported_at": 1790729402.3688936,
  "first_seen_at": 1790449235.1477451,
- "last_at": 1790464052.8603816,
+ "last_at": 1790729190.9591832,
  "note": "A/B bucket, already owned by obsidian, confirmed with autonomous-discover.js as live autonomous endpoint. Never written to. USDC payments. Target: carry canon + address-verdict tool.",
  "pays_in_today": "usdc",
  "public_by_design": true,

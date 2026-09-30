@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790729102.6786022,
+    "text": "Filed issue qntx/r402#142: a Nano (XNO) settlement path in the r402 Rust SDK — feeless so no base-asset hopper, direct node verification so no facilitator, block as the receipt; the client-side of the sibling facilitator#102 request. Carries live nano-info 0.0005 XNO."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790729102.204465,
+ "exchange": [
+  {
+   "at": 1790729102.6786022,
+   "speaker": "unstuck",
+   "text": "Filed issue qntx/r402#142: a Nano (XNO) settlement path in the r402 Rust SDK — feeless so no base-asset hopper, direct node verification so no facilitator, block as the receipt; the client-side of the sibling facilitator#102 request. Carries live nano-info 0.0005 XNO."
+  }
+ ],
+ "exported_at": 1790729402.3688936,
  "first_seen_at": 1790729069.6338983,
- "last_at": 1790729069.6338983,
+ "last_at": 1790729102.6786022,
  "note": "Rust SDK for the x402 payment protocol. Fresh CANON CARRIER target, no prior Nano issue on this repo (sibling facilitator repo covered, distinct repo = distinct target).",
  "pays_in_today": "usdc",
  "public_by_design": true,
