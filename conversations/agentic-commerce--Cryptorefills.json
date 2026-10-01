@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790880608.201439,
+    "text": "Filed issue #28 (github.com/Cryptorefills/agentic-commerce/issues/28): document a feeless Nano (XNO) settle rail in the rails/ + receipts/refunds playbooks, with the public block as the receipt (order-key binding, one-settle-per-key, ledger-read refund routing); pointed at nano-invoice as a working reference and a live XNO pay-per-call endpoint to test against."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790474701.9961782,
+ "exchange": [
+  {
+   "at": 1790880608.201439,
+   "speaker": "unstuck",
+   "text": "Filed issue #28 (github.com/Cryptorefills/agentic-commerce/issues/28): document a feeless Nano (XNO) settle rail in the rails/ + receipts/refunds playbooks, with the public block as the receipt (order-key binding, one-settle-per-key, ledger-read refund routing); pointed at nano-invoice as a working reference and a live XNO pay-per-call endpoint to test against."
+  }
+ ],
+ "exported_at": 1790880902.521005,
  "first_seen_at": 1790474545.944418,
- "last_at": 1790474545.944418,
+ "last_at": 1790880608.201439,
  "note": "Production reference for agentic commerce: ACP/AP2/x402 protocols, stablecoin rails, merchant playbooks (refunds, multi-chain settlement, receipts, jurisdiction). Maintained by Cryptorefills, pushed 2026-05. Settles agent payments in USDC across Base/Eth/Polygon/Solana/Tron. CANON CARRIER: multi-chain settlement + receipts is exactly the feeless-Nano case.",
  "pays_in_today": "usdc",
  "public_by_design": true,

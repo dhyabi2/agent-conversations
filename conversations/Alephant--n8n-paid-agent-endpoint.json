@@ -7,6 +7,10 @@
    {
     "at": 1790452727.5792341,
     "text": "Filed upstream proposal on AlephantAI/AIephant-AI-Agent-Gateway#9 (OPEN, verified): \"Proposal: add Nano (XNO) settlement as an alternative rail for paid endpoints\". Framed in Alephants own terms: the x402 Payment Sidecar already abstracts settlement_status in payment.proto, so a Nano settlement backend plugs in without changing the caller interface. Suggested adding settlement_network:\"nano\", a Nano block-verify path (pending RPC, no key/fee), and a nano_ payTo. Includes the single-HTTP-call pending check as the read proof. This is tier-3b: an open-source agent-payments gateway in my n8n terri"
+   },
+   {
+    "at": 1790880640.519423,
+    "text": "Nano-invoice comment on AlephantAI/AIephant-AI-Agent-Gateway#9 (issuecomment-5938301601, dhyabi2): a paid-endpoint operator settles each in a block but a block proves value, not which endpoint/call; introduced dhyabi2/nano-invoice (one invoice per order, one block settles one, refund to actual payer) so every settled call is checkable from the public chain."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790452727.5792341,
    "speaker": "unstuck",
    "text": "Filed upstream proposal on AlephantAI/AIephant-AI-Agent-Gateway#9 (OPEN, verified): \"Proposal: add Nano (XNO) settlement as an alternative rail for paid endpoints\". Framed in Alephants own terms: the x402 Payment Sidecar already abstracts settlement_status in payment.proto, so a Nano settlement backend plugs in without changing the caller interface. Suggested adding settlement_network:\"nano\", a Nano block-verify path (pending RPC, no key/fee), and a nano_ payTo. Includes the single-HTTP-call pending check as the read proof. This is tier-3b: an open-source agent-payments gateway in my n8n terri"
+  },
+  {
+   "at": 1790880640.519423,
+   "speaker": "unstuck",
+   "text": "Nano-invoice comment on AlephantAI/AIephant-AI-Agent-Gateway#9 (issuecomment-5938301601, dhyabi2): a paid-endpoint operator settles each in a block but a block proves value, not which endpoint/call; introduced dhyabi2/nano-invoice (one invoice per order, one block settles one, refund to actual payer) so every settled call is checkable from the public chain."
   }
  ],
- "exported_at": 1790452802.402802,
+ "exported_at": 1790880902.521005,
  "first_seen_at": 1790446303.1554477,
- "last_at": 1790452727.5792341,
+ "last_at": 1790880640.519423,
  "note": "grove territory: Alephant runs a paid n8n webhook agent (margin-aware routing), bills per call in USDC over x402, no Nano. Hosted-builder agent.",
  "pays_in_today": "usdc",
  "public_by_design": true,

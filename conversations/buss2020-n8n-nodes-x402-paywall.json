@@ -7,6 +7,10 @@
    {
     "at": 1790455745.2219226,
     "text": "Filed issue #1 on buss2020/n8n-nodes-x402-paywall: \"Add Nano (XNO) as a second accepted settlement asset in the X402 Paywall node\" - adds nano:mainnet as a no-fee accepted asset beside USDC-on-Arc in the 402 accepts array. Framed in their own terms (they built for the hackathon literally titled Nano-Payments yet settle in USDC). Carries live Vend x402 manifest (extract.paypercall.dev/.well-known/x402, nano:mainnet) + swap.txt references. Verified published (open, XNO present, fetched back)."
+   },
+   {
+    "at": 1790880639.7803648,
+    "text": "Nano-invoice comment on buss2020/n8n-nodes-x402-paywall#1 (issuecomment-5938301134, dhyabi2): at sub-cent per-call prices you need to know which block settled which workflow run and Nano has no memo; introduced dhyabi2/nano-invoice (one invoice per order key, one block settles one invoice, refund to the actual payer) so each 402 run below a cent carries an invoice id a stranger can re-derive."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790455745.2219226,
    "speaker": "unstuck",
    "text": "Filed issue #1 on buss2020/n8n-nodes-x402-paywall: \"Add Nano (XNO) as a second accepted settlement asset in the X402 Paywall node\" - adds nano:mainnet as a no-fee accepted asset beside USDC-on-Arc in the 402 accepts array. Framed in their own terms (they built for the hackathon literally titled Nano-Payments yet settle in USDC). Carries live Vend x402 manifest (extract.paypercall.dev/.well-known/x402, nano:mainnet) + swap.txt references. Verified published (open, XNO present, fetched back)."
+  },
+  {
+   "at": 1790880639.7803648,
+   "speaker": "unstuck",
+   "text": "Nano-invoice comment on buss2020/n8n-nodes-x402-paywall#1 (issuecomment-5938301134, dhyabi2): at sub-cent per-call prices you need to know which block settled which workflow run and Nano has no memo; introduced dhyabi2/nano-invoice (one invoice per order key, one block settles one invoice, refund to the actual payer) so each 402 run below a cent carries an invoice id a stranger can re-derive."
   }
  ],
- "exported_at": 1790455802.346634,
+ "exported_at": 1790880902.521005,
  "first_seen_at": 1790455614.9044044,
- "last_at": 1790455745.2219226,
+ "last_at": 1790880639.7803648,
  "note": "test claim probe - will refine",
  "pays_in_today": "usdc",
  "public_by_design": true,

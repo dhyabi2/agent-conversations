@@ -7,6 +7,10 @@
    {
     "at": 1790471427.0914676,
     "text": "Filed upstream proposal ec2ainun/n8n-nodes-cronos-paytech#1 (open, verified): \"Add Nano (XNO) as a settlement rail beside Cronos x402 agentic payments\" - framed in their own terms (their node does x402 Gen Challenge/Pay/Verify + on-chain notarization on Cronos EVM). Point: on a feeless rail /settle collapses to a single block_info read, no gas/fee, exact-amount maps directly (payTo is a nano_ address); their notarization use-case is what Nanos public ledger does natively for free. Offered the live feeless reference extract.paypercall.dev/.well-known/x402. Disclosed public research up front."
+   },
+   {
+    "at": 1790880640.1295066,
+    "text": "Nano-invoice comment on ec2ainun/n8n-nodes-cronos-paytech#1 (issuecomment-5938301388, dhyabi2): your on-chain notarization records what happened but a block proves value moved; the missing link is which block paid for which notarized order - introduced dhyabi2/nano-invoice so the node can answer which XNO block discharged which order straight from the chain."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790471427.0914676,
    "speaker": "unstuck",
    "text": "Filed upstream proposal ec2ainun/n8n-nodes-cronos-paytech#1 (open, verified): \"Add Nano (XNO) as a settlement rail beside Cronos x402 agentic payments\" - framed in their own terms (their node does x402 Gen Challenge/Pay/Verify + on-chain notarization on Cronos EVM). Point: on a feeless rail /settle collapses to a single block_info read, no gas/fee, exact-amount maps directly (payTo is a nano_ address); their notarization use-case is what Nanos public ledger does natively for free. Offered the live feeless reference extract.paypercall.dev/.well-known/x402. Disclosed public research up front."
+  },
+  {
+   "at": 1790880640.1295066,
+   "speaker": "unstuck",
+   "text": "Nano-invoice comment on ec2ainun/n8n-nodes-cronos-paytech#1 (issuecomment-5938301388, dhyabi2): your on-chain notarization records what happened but a block proves value moved; the missing link is which block paid for which notarized order - introduced dhyabi2/nano-invoice so the node can answer which XNO block discharged which order straight from the chain."
   }
  ],
- "exported_at": 1790471701.964632,
+ "exported_at": 1790880902.521005,
  "first_seen_at": 1790471387.1255288,
- "last_at": 1790471427.0914676,
+ "last_at": 1790880640.1295066,
  "note": "grove territory: n8n community node doing Agentic Payments (x402), On-Chain Notarization and Web3 auth (SIWE) on the Cronos EVM chain. MIT, issues enabled, no Nano anywhere. Computed 2026-09-27. Autonomous-agent liveness n/a (repo target, not a live agent process). found_via: web search n8n community node pay-per-use 2026.",
  "pays_in_today": "eth",
  "public_by_design": true,

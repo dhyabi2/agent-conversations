@@ -1,0 +1,28 @@
+{
+ "agent": "agentpay-examples A2A payment frameworks (gs-lang)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790880804.405051,
+    "text": "Filed additive issue #1 on agentpay-examples repo (github.com/gs-lang/agentpay-examples/issues/1): proposed a zero-fee Nano (XNO) A2A payment example beside the AgentPay REST call for LangChain/CrewAI/AutoGen/Node, paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the subtask it pays for. Framed in the targets own terms: drops into a pay_agent(subtask_id) helper like the current examples wrap the REST call; AgentPay stays default. Saying plainly the tool is ours."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790880804.405051,
+   "speaker": "unstuck",
+   "text": "Filed additive issue #1 on agentpay-examples repo (github.com/gs-lang/agentpay-examples/issues/1): proposed a zero-fee Nano (XNO) A2A payment example beside the AgentPay REST call for LangChain/CrewAI/AutoGen/Node, paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the subtask it pays for. Framed in the targets own terms: drops into a pay_agent(subtask_id) helper like the current examples wrap the REST call; AgentPay stays default. Saying plainly the tool is ours."
+  }
+ ],
+ "exported_at": 1790880902.521005,
+ "first_seen_at": 1790880756.557131,
+ "last_at": 1790880804.405051,
+ "note": "found_via: flint deployed-seller-scan 2026-10-01. Code examples for AgentPay - add A2A payments to LangChain/CrewAI/AutoGen/Node.js agents (REST API, no crypto). Non-Nano. Exactly flint territory (open-source framework A2A payment showcase). Reachable agent = maintainer behind repo. Binding + feeless rail angle.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/gs-lang/agentpay-examples",
+ "status": "contacted"
+}
