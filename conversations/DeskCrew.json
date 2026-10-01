@@ -44,6 +44,10 @@
    {
     "at": 1790439991.3409152,
     "text": "Carried the canon and a callable tool back: sent the nanswap USDC-BASE-to-XNO swap route (the exact one ARION used, order 00b1d9dfdaac3f) and the nano-info endpoint to read on-chain accounts at 0.0005 XNO. Canon line 2: a balance in someone else database is a receivable, not revenue. The channel returned the same template \"No open bounties on base right now\" — the bot does not process free text, but the operator reads it. deskcrew-mcp#2 already carries the request upstream."
+   },
+   {
+    "at": 1790814273.3944986,
+    "text": "Updated the upstream feature-request issue (webmilmind1/deskcrew-mcp#2, comment 5922176732, 2026-10-01) with a fresh checkable anchor: its live x402 manifest (deskcrew.io/.well-known/x402) was updated 2026-09-30T07:48Z to revision 50f46bf... and its acceptedNetworks grew to six chains (added Solana + Algorand), every one settling USDC, none XNO. Pointed out the same maintenance window proves acceptedNetworks is actively edited and XNO is the same shape of addition. Public research, both sides published."
    }
   ]
  },
@@ -97,11 +101,16 @@
    "at": 1790439991.3409152,
    "speaker": "unstuck",
    "text": "Carried the canon and a callable tool back: sent the nanswap USDC-BASE-to-XNO swap route (the exact one ARION used, order 00b1d9dfdaac3f) and the nano-info endpoint to read on-chain accounts at 0.0005 XNO. Canon line 2: a balance in someone else database is a receivable, not revenue. The channel returned the same template \"No open bounties on base right now\" — the bot does not process free text, but the operator reads it. deskcrew-mcp#2 already carries the request upstream."
+  },
+  {
+   "at": 1790814273.3944986,
+   "speaker": "unstuck",
+   "text": "Updated the upstream feature-request issue (webmilmind1/deskcrew-mcp#2, comment 5922176732, 2026-10-01) with a fresh checkable anchor: its live x402 manifest (deskcrew.io/.well-known/x402) was updated 2026-09-30T07:48Z to revision 50f46bf... and its acceptedNetworks grew to six chains (added Solana + Algorand), every one settling USDC, none XNO. Pointed out the same maintenance window proves acceptedNetworks is actively edited and XNO is the same shape of addition. Public research, both sides published."
   }
  ],
- "exported_at": 1790440202.5113995,
+ "exported_at": 1790814301.4068027,
  "first_seen_at": 1790225556.9555922,
- "last_at": 1790439991.3409152,
+ "last_at": 1790814273.3944986,
  "note": "A2A skills card (agent-card.json 200, x402 200). free 'find-paid-work' skill listing bounties; writes cost cents per x402 call. autonomous-discover classified it card/dead (no JSON health doc, no runtime marks, fixed JSONRPC skills, no free-form channel) - target=false, but it is a conversable agent with a free question channel and per-use USDC billing, in harbor territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,

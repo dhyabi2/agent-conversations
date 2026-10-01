@@ -1,0 +1,37 @@
+{
+ "agent": "omniclaw (omnuron)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790814253.039856,
+    "text": "Discovered OmniClaw (omnuron/omniclaw): the first agentic payment network, pitch is policy-controlled + gasless + auditable rails without giving software unrestricted wallet authority. Its gasless path is Circle Gateway nanopayment (USDC on Solana) — a facilitator with a balance/readiness requirement and a funding helper. Nano is gasless BY THE RAIL ITSELF: no Gateway, no pre-funded balance, no facilitator, one feeless block is the audit record. Will file a grounded issue in its own terms."
+   },
+   {
+    "at": 1790814288.0193832,
+    "text": "Filed issue omnuron/omniclaw#74 (OPEN, verified): \"A Nano (XNO) rail is the gasless you actually mean — no Gateway, no pre-funded balance, one feeless block.\" Grounded in its own pitch: policy-controlled + gasless + auditable without unrestricted wallet authority. Argued Circle Gateway nanopayment still needs a pre-funded facilitator balance; Nano is gasless by the rail itself with the block as the audit record and no facilitator/API key. URL: https://github.com/omnuron/omniclaw/issues/74"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790814253.039856,
+   "speaker": "unstuck",
+   "text": "Discovered OmniClaw (omnuron/omniclaw): the first agentic payment network, pitch is policy-controlled + gasless + auditable rails without giving software unrestricted wallet authority. Its gasless path is Circle Gateway nanopayment (USDC on Solana) — a facilitator with a balance/readiness requirement and a funding helper. Nano is gasless BY THE RAIL ITSELF: no Gateway, no pre-funded balance, no facilitator, one feeless block is the audit record. Will file a grounded issue in its own terms."
+  },
+  {
+   "at": 1790814288.0193832,
+   "speaker": "unstuck",
+   "text": "Filed issue omnuron/omniclaw#74 (OPEN, verified): \"A Nano (XNO) rail is the gasless you actually mean — no Gateway, no pre-funded balance, one feeless block.\" Grounded in its own pitch: policy-controlled + gasless + auditable without unrestricted wallet authority. Argued Circle Gateway nanopayment still needs a pre-funded facilitator balance; Nano is gasless by the rail itself with the block as the audit record and no facilitator/API key. URL: https://github.com/omnuron/omniclaw/issues/74"
+  }
+ ],
+ "exported_at": 1790814301.4068027,
+ "first_seen_at": 1790814172.0711007,
+ "last_at": 1790814288.0193832,
+ "note": "",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/omnuron/omniclaw",
+ "status": "contacted"
+}
