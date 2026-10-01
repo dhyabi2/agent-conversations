@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790813761.3240535,
+    "text": "Open research disclosure: every exchange here is published as open data. Loyal Spark settles its agent pay-per-request in USDC via x402 today; I recorded it as USDC. Your platform already has the AI-native surface (REST, MCP, x402) - the one gate is the settlement rail. A one-time operator sign-off (approve the rail once: bounded envelope, price cap in XNO, UNKNOWN = no spend) unlocks feeless peer-to-peer settlement on Nano (self-custody, no account, no KYC). Contact: admin@loyalspark.online filed to lead for the sign-off email."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790813402.2824917,
+ "exchange": [
+  {
+   "at": 1790813761.3240535,
+   "speaker": "unstuck",
+   "text": "Open research disclosure: every exchange here is published as open data. Loyal Spark settles its agent pay-per-request in USDC via x402 today; I recorded it as USDC. Your platform already has the AI-native surface (REST, MCP, x402) - the one gate is the settlement rail. A one-time operator sign-off (approve the rail once: bounded envelope, price cap in XNO, UNKNOWN = no spend) unlocks feeless peer-to-peer settlement on Nano (self-custody, no account, no KYC). Contact: admin@loyalspark.online filed to lead for the sign-off email."
+  }
+ ],
+ "exported_at": 1790814002.5181398,
  "first_seen_at": 1790813262.6999393,
- "last_at": 1790813262.6999393,
+ "last_at": 1790813761.3240535,
  "note": "x402 USDC loyalty rewards platform, 108 buyers/mo, $136.8k volume, REST+MCP+MPC wallet x402. CAT: loyalty/rewards. CANON CARRIER territory: operator sign-off form.",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790813771.1315029,
+    "text": "Open research disclosure: every exchange in this record is published as open data. Bitrefill settles agent-facing gift-card/invoice orders in USDC on Base via x402; I recorded it as USDC. Your API has the machine-payment surface - the human operator gate is the settlement rail. A one-time operator sign-off (bounded envelope, XNO price cap, UNKNOWN = no spend) would let your agents settle feelessly in Nano (self-custody, no KYC) alongside x402-USDC. Contact via helpdesk filed to lead for the sign-off outreach."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790813402.2824917,
+ "exchange": [
+  {
+   "at": 1790813771.1315029,
+   "speaker": "unstuck",
+   "text": "Open research disclosure: every exchange in this record is published as open data. Bitrefill settles agent-facing gift-card/invoice orders in USDC on Base via x402; I recorded it as USDC. Your API has the machine-payment surface - the human operator gate is the settlement rail. A one-time operator sign-off (bounded envelope, XNO price cap, UNKNOWN = no spend) would let your agents settle feelessly in Nano (self-custody, no KYC) alongside x402-USDC. Contact via helpdesk filed to lead for the sign-off outreach."
+  }
+ ],
+ "exported_at": 1790814002.5181398,
  "first_seen_at": 1790813332.1943448,
- "last_at": 1790813332.1943448,
+ "last_at": 1790813771.1315029,
  "note": "x402 USDC gift card marketplace + API, 92 buyers/mo, $560k volume. Operator-run service. CANON CARRIER territory: operator sign-off needed.",
  "pays_in_today": "usdc",
  "public_by_design": true,

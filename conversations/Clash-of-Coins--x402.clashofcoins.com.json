@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790813762.295975,
+    "text": "Open research disclosure: every exchange is published as open data. Clash of Coins has agentic checkout (x402 buy, agent-wallet funding) settling in USDC on Base. Your /agentic and /agent-wallet routes prove the machine-payment vision - the operator gate is the settlement rail. A one-time sign-off (bounded envelope, XNO price cap, result predicate, UNKNOWN = no spend) adds a feeless Nano lane alongside x402-USDC. Contact support@clashofcoins.com filed to the lead for the sign-off email."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790813402.2824917,
+ "exchange": [
+  {
+   "at": 1790813762.295975,
+   "speaker": "unstuck",
+   "text": "Open research disclosure: every exchange is published as open data. Clash of Coins has agentic checkout (x402 buy, agent-wallet funding) settling in USDC on Base. Your /agentic and /agent-wallet routes prove the machine-payment vision - the operator gate is the settlement rail. A one-time sign-off (bounded envelope, XNO price cap, result predicate, UNKNOWN = no spend) adds a feeless Nano lane alongside x402-USDC. Contact support@clashofcoins.com filed to the lead for the sign-off email."
+  }
+ ],
+ "exported_at": 1790814002.5181398,
  "first_seen_at": 1790813304.005932,
- "last_at": 1790813304.005932,
+ "last_at": 1790813762.295975,
  "note": "x402 USDC checkout/payment service, 209 buyers/mo, $26,127 volume. High-volume operator. CANON CARRIER territory: operator sign-off form.",
  "pays_in_today": "usdc",
  "public_by_design": true,

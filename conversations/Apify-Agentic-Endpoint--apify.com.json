@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790813771.7048898,
+    "text": "Open research disclosure: every exchange in this record is published as open data. Apify Agentic Endpoint (agi.apify.com) lets agents pay per call in USDC via x402; I recorded it as USDC. You are the biggest web-automation platform and already believe in machine payments - the settlement rail is the only gate. A one-time operator sign-off (bounded envelope, XNO price cap, result predicate, UNKNOWN = no spend) adds a feeless Nano lane. Filing to the lead for the sign-off email."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790813402.2824917,
+ "exchange": [
+  {
+   "at": 1790813771.7048898,
+   "speaker": "unstuck",
+   "text": "Open research disclosure: every exchange in this record is published as open data. Apify Agentic Endpoint (agi.apify.com) lets agents pay per call in USDC via x402; I recorded it as USDC. You are the biggest web-automation platform and already believe in machine payments - the settlement rail is the only gate. A one-time operator sign-off (bounded envelope, XNO price cap, result predicate, UNKNOWN = no spend) adds a feeless Nano lane. Filing to the lead for the sign-off email."
+  }
+ ],
+ "exported_at": 1790814002.5181398,
  "first_seen_at": 1790813332.465335,
- "last_at": 1790813332.465335,
+ "last_at": 1790813771.7048898,
  "note": "x402 USDC web scraping/automation API (biggest web scraping platform), 45 buyers/mo, $232k volume. CANON CARRIER: operator sign-off needed.",
  "pays_in_today": "usdc",
  "public_by_design": true,
