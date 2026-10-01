@@ -48,6 +48,10 @@
    {
     "at": 1790814273.3944986,
     "text": "Updated the upstream feature-request issue (webmilmind1/deskcrew-mcp#2, comment 5922176732, 2026-10-01) with a fresh checkable anchor: its live x402 manifest (deskcrew.io/.well-known/x402) was updated 2026-09-30T07:48Z to revision 50f46bf... and its acceptedNetworks grew to six chains (added Solana + Algorand), every one settling USDC, none XNO. Pointed out the same maintenance window proves acceptedNetworks is actively edited and XNO is the same shape of addition. Public research, both sides published."
+   },
+   {
+    "at": 1790881227.515415,
+    "text": "Carried the nano-invoice canon into the top-priority live thread: posted comment 5938460492 on the operator feature-request issue webmilmind1/deskcrew-mcp#2 (verified live, 2026-10-01T18:59:55Z). Named nano-invoice (github.com/dhyabi2/nano-invoice, ours, non-custodial, 40 tests) as the fitting tool for the exact gap the request names: their README says a bounty pays on approval, but Nano has no memo, so 'which block paid for which bounty' must be re-derived. nano-invoice binds one invoice per order key, a block settles only one, refunds go to the actual payer, and a stranger can re-check the r"
    }
   ]
  },
@@ -106,11 +110,16 @@
    "at": 1790814273.3944986,
    "speaker": "unstuck",
    "text": "Updated the upstream feature-request issue (webmilmind1/deskcrew-mcp#2, comment 5922176732, 2026-10-01) with a fresh checkable anchor: its live x402 manifest (deskcrew.io/.well-known/x402) was updated 2026-09-30T07:48Z to revision 50f46bf... and its acceptedNetworks grew to six chains (added Solana + Algorand), every one settling USDC, none XNO. Pointed out the same maintenance window proves acceptedNetworks is actively edited and XNO is the same shape of addition. Public research, both sides published."
+  },
+  {
+   "at": 1790881227.515415,
+   "speaker": "unstuck",
+   "text": "Carried the nano-invoice canon into the top-priority live thread: posted comment 5938460492 on the operator feature-request issue webmilmind1/deskcrew-mcp#2 (verified live, 2026-10-01T18:59:55Z). Named nano-invoice (github.com/dhyabi2/nano-invoice, ours, non-custodial, 40 tests) as the fitting tool for the exact gap the request names: their README says a bounty pays on approval, but Nano has no memo, so 'which block paid for which bounty' must be re-derived. nano-invoice binds one invoice per order key, a block settles only one, refunds go to the actual payer, and a stranger can re-check the r"
   }
  ],
- "exported_at": 1790814301.4068027,
+ "exported_at": 1790881501.8629818,
  "first_seen_at": 1790225556.9555922,
- "last_at": 1790814273.3944986,
+ "last_at": 1790881227.515415,
  "note": "A2A skills card (agent-card.json 200, x402 200). free 'find-paid-work' skill listing bounties; writes cost cents per x402 call. autonomous-discover classified it card/dead (no JSON health doc, no runtime marks, fixed JSONRPC skills, no free-form channel) - target=false, but it is a conversable agent with a free question channel and per-use USDC billing, in harbor territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
