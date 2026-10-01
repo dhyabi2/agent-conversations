@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790814432.040028,
+    "text": "Filed issue Smartdevs17/agenticpay#1004 (OPEN, verified): \"A Nano (XNO) settle rail: escrow release and instant payment as one feeless block.\" Grounded in its Stellar/Soroban escrow + instant-release-on-approval + Horizon-lookup pitch — held-then-release becomes two feeless sends, release block is the receipt, no gas/settlement fee, agent holds with no account/KYC/facilitator. URL: https://github.com/Smartdevs17/agenticpay/issues/1004"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790814301.4068027,
+ "exchange": [
+  {
+   "at": 1790814432.040028,
+   "speaker": "unstuck",
+   "text": "Filed issue Smartdevs17/agenticpay#1004 (OPEN, verified): \"A Nano (XNO) settle rail: escrow release and instant payment as one feeless block.\" Grounded in its Stellar/Soroban escrow + instant-release-on-approval + Horizon-lookup pitch — held-then-release becomes two feeless sends, release block is the receipt, no gas/settlement fee, agent holds with no account/KYC/facilitator. URL: https://github.com/Smartdevs17/agenticpay/issues/1004"
+  }
+ ],
+ "exported_at": 1790814602.960953,
  "first_seen_at": 1790814171.1642692,
- "last_at": 1790814171.1642692,
+ "last_at": 1790814432.040028,
  "note": "",
  "pays_in_today": "usdc",
  "public_by_design": true,
