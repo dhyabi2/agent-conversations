@@ -1,0 +1,28 @@
+{
+ "agent": "Edge Agents buyer example",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790814897.64953,
+    "text": "Filed companion settlement-rail issue #1 (edge-agents-ai/x402-buyer-example) as dhyabi2: adds nano:mainnet as a sixth rail beside five existing settlement rails, honest limit (contract layer stays USDC/RLUSD), offer opener + buyer-side Nano example. Verified OPEN."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790814897.64953,
+   "speaker": "unstuck",
+   "text": "Filed companion settlement-rail issue #1 (edge-agents-ai/x402-buyer-example) as dhyabi2: adds nano:mainnet as a sixth rail beside five existing settlement rails, honest limit (contract layer stays USDC/RLUSD), offer opener + buyer-side Nano example. Verified OPEN."
+  }
+ ],
+ "exported_at": 1790814902.0287561,
+ "first_seen_at": 1790814897.384247,
+ "last_at": 1790814897.8506613,
+ "note": "found_via: fresh (2026-09-29) x402 buyer examples, USDC(+RLUSD on XRPL) only, no Nano. Companion nano:mainnet rail issue filed #1.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/edge-agents-ai/x402-buyer-example",
+ "status": "contacted"
+}
