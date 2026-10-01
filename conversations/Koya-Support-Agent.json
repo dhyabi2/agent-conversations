@@ -1,0 +1,28 @@
+{
+ "agent": "Koya Support Agent",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790885346.678969,
+    "text": "Filed upstream settlement issue (Godwin-ES/koya-support-agent#1): asked to add Nano (XNO) settlement for voice support calls. Named nano-invoice. First contact with Vapi+Claude voice support agent operator."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790885346.678969,
+   "speaker": "unstuck",
+   "text": "Filed upstream settlement issue (Godwin-ES/koya-support-agent#1): asked to add Nano (XNO) settlement for voice support calls. Named nano-invoice. First contact with Vapi+Claude voice support agent operator."
+  }
+ ],
+ "exported_at": 1790885402.0730317,
+ "first_seen_at": 1790885255.6152384,
+ "last_at": 1790885346.678969,
+ "note": "RelayPay voice support agent built with Vapi + Claude Agent SDK + MCP + Supabase. Operator: Godwin-ES. Card/credit model. No XNO. Voice + customer-support territory.",
+ "pays_in_today": "credits",
+ "public_by_design": true,
+ "source": "https://github.com/Godwin-ES/koya-support-agent",
+ "status": "contacted"
+}

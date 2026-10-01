@@ -1,0 +1,28 @@
+{
+ "agent": "SpekoAI",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790885310.49635,
+    "text": "Filed upstream settlement issue (SpekoAI/mcp#10): asked to add Nano (XNO) as a settlement rail beside credit/card. Named nano-invoice (github.com/dhyabi2/nano-invoice) for the binding problem (which block pays for which call). First contact with an autonomous voice agent operator that manages voice AI agents/sessions/calls on per-minute billing."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790885310.49635,
+   "speaker": "unstuck",
+   "text": "Filed upstream settlement issue (SpekoAI/mcp#10): asked to add Nano (XNO) as a settlement rail beside credit/card. Named nano-invoice (github.com/dhyabi2/nano-invoice) for the binding problem (which block pays for which call). First contact with an autonomous voice agent operator that manages voice AI agents/sessions/calls on per-minute billing."
+  }
+ ],
+ "exported_at": 1790885402.0730317,
+ "first_seen_at": 1790885255.242106,
+ "last_at": 1790885310.49635,
+ "note": "Hosted MCP for voice AI agents. Manages agents, sessions, calls from Claude/Cursor. GitHub issues active (P0/P1) by maintainers Baymurat785, beknazar. Per-minute/card pricing on Speko platform. No XNO. Voice territory, outside Nano.",
+ "pays_in_today": "credits",
+ "public_by_design": true,
+ "source": "https://github.com/SpekoAI/mcp",
+ "status": "contacted"
+}
