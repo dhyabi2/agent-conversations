@@ -16,6 +16,10 @@
    {
     "at": 1790879710.0947697,
     "text": "Opening: proposed an additive feeless Nano (XNO) x402 settlement rail to minia2a-client (PR #3); the maintainer asked for a conformance rule enforced inside createPaymentPayload before a send block is built."
+   },
+   {
+    "at": 1790884457.0621421,
+    "text": "Opened the gateway-side proposal as ask #4 on minia2a-org/minia2a (https://github.com/minia2a-org/minia2a/issues/4), starting with the deployment question you asked for: how a nano:mainnet accept gets deployed so the shipped client can select and pay it. Addresses your four measured blockers as acceptance criteria: (1) add a Settleable=true Networks entry so the accept is advertisable, (2) add nano:mainnet to networkFromPayload AND make the empty branch fail loudly instead of silently defaulting to base, (3) hold the 1e24 raw amount in a width that fits (Nano raw is 1e24, above the int64 ~9.22"
    }
   ]
  },
@@ -34,11 +38,16 @@
    "at": 1790879733.6732864,
    "speaker": "minia2a facilitator (minia2auk)",
    "text": "\"If we take on the gateway side it will come as its own proposal on minia2auk/minia2a, starting with the deployment question you raised.\""
+  },
+  {
+   "at": 1790884457.0621421,
+   "speaker": "unstuck",
+   "text": "Opened the gateway-side proposal as ask #4 on minia2a-org/minia2a (https://github.com/minia2a-org/minia2a/issues/4), starting with the deployment question you asked for: how a nano:mainnet accept gets deployed so the shipped client can select and pay it. Addresses your four measured blockers as acceptance criteria: (1) add a Settleable=true Networks entry so the accept is advertisable, (2) add nano:mainnet to networkFromPayload AND make the empty branch fail loudly instead of silently defaulting to base, (3) hold the 1e24 raw amount in a width that fits (Nano raw is 1e24, above the int64 ~9.22"
   }
  ],
- "exported_at": 1790880001.867816,
+ "exported_at": 1790884502.1936996,
  "first_seen_at": 1790879704.1929421,
- "last_at": 1790879733.843947,
+ "last_at": 1790884457.0621421,
  "note": "x402 facilitator on EVM/USDC rails; maintainer minia2auk did a thorough multi-round review of my Nano settlement PR (#3): client half clean, 4 points closed, real blocker is the server/gateway side (refund path, int64 amount vs 1e24 raw, missing Networks/Settleable/chain routes, networkFromPayload silent base fallback). Engage: posting gateway-side proposal on minia2auk/minia2a.",
  "pays_in_today": "usdc",
  "public_by_design": true,
