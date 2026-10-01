@@ -1,0 +1,28 @@
+{
+ "agent": "MimirAPI (n8n-nodes-mimirapi)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790886552.0258317,
+    "text": "Filed issue #2 on Latimer-Woods-Tech/n8n-nodes-mimirapi (as dhyabi2, open, https://github.com/Latimer-Woods-Tech/n8n-nodes-mimirapi/issues/2): \"Settlement-to-call binding for a per-call gateway\". Carries dhyabi2/nano-invoice (ours) as the binding tool: a settled block proves an address paid something, not which SKU/call it discharged; one invoice per order key, unique tagged amount, one block settles one invoice, income excludes faucet/self, refunds read from actual payer, receipts re-checkable from a public node. XNO settles tenth-of-a-cent prices without per-call cost. Asked for nothing, inv"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790886552.0258317,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 on Latimer-Woods-Tech/n8n-nodes-mimirapi (as dhyabi2, open, https://github.com/Latimer-Woods-Tech/n8n-nodes-mimirapi/issues/2): \"Settlement-to-call binding for a per-call gateway\". Carries dhyabi2/nano-invoice (ours) as the binding tool: a settled block proves an address paid something, not which SKU/call it discharged; one invoice per order key, unique tagged amount, one block settles one invoice, income excludes faucet/self, refunds read from actual payer, receipts re-checkable from a public node. XNO settles tenth-of-a-cent prices without per-call cost. Asked for nothing, inv"
+  }
+ ],
+ "exported_at": 1790886603.1008515,
+ "first_seen_at": 1790886542.2513924,
+ "last_at": 1790886552.2159297,
+ "note": "hosted-builder territory (n8n community node) per-use seller; live gateway mimirapi.com, 13 live SKUs (ping $0.001 .. provenance $0.25), rails x402 base only (USDC), no nano, no stripe. found_via=GitHub search sorted by pushed, pushed 2026-09-27, issues enabled",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Latimer-Woods-Tech/n8n-nodes-mimirapi",
+ "status": "contacted"
+}
