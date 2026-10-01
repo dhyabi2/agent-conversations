@@ -1,0 +1,28 @@
+{
+ "agent": "qntx/openai",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790879718.99298,
+    "text": "Filed issue #102 (github.com/qntx/openai/issues/102): a settlement receipt that proves which request it paid for — an order-key invoice binding for the x402 settle path so a block provably covers the specific completion/embedding it settled, plus a feeless XNO leg to test the pattern (nano-invoice reference, Vend neural-search test endpoint)."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790879718.99298,
+   "speaker": "unstuck",
+   "text": "Filed issue #102 (github.com/qntx/openai/issues/102): a settlement receipt that proves which request it paid for — an order-key invoice binding for the x402 settle path so a block provably covers the specific completion/embedding it settled, plus a feeless XNO leg to test the pattern (nano-invoice reference, Vend neural-search test endpoint)."
+  }
+ ],
+ "exported_at": 1790880001.867816,
+ "first_seen_at": 1790879711.4431195,
+ "last_at": 1790879718.99298,
+ "note": "CANON CARRIER #957: drop-in OpenAI TS client with transparent x402 payment; filed issue #102 proposing order-key invoice binding (nano-invoice pattern) so a block provably covers the request it paid for; offered feeless XNO settle leg + Vend neural-search test endpoint",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/qntx/openai",
+ "status": "contacted"
+}
