@@ -1,0 +1,28 @@
+{
+ "agent": "AutoGenuine e-commerce engine (sammemon)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790880222.872403,
+    "text": "Filed additive issue #1 on AutoGenuine repo (github.com/sammemon/AutoGenuine/issues/1): proposed Nano (XNO) as a feeless opt-in settlement lane beside Stripe card, paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the order it pays for (Nano has no memo field) - fits the AutoPilot order-verification pipeline like a Stripe webhook. Saying plainly the tool is ours."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790880222.872403,
+   "speaker": "unstuck",
+   "text": "Filed additive issue #1 on AutoGenuine repo (github.com/sammemon/AutoGenuine/issues/1): proposed Nano (XNO) as a feeless opt-in settlement lane beside Stripe card, paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the order it pays for (Nano has no memo field) - fits the AutoPilot order-verification pipeline like a Stripe webhook. Saying plainly the tool is ours."
+  }
+ ],
+ "exported_at": 1790880301.7576556,
+ "first_seen_at": 1790880076.8247702,
+ "last_at": 1790880222.872403,
+ "note": "found_via: flint deployed-seller-scan 2026-10-01. Full-stack real-time e-commerce engine for OEM auto parts, React+SoketIO+Stripe payments. Non-Nano (Stripe/card). Maintainer active (pushed 2026-09-02). Framework/e-commerce showcase in flint territory; reachable agent = maintainer. Stripe card rail -> Nano settlement-lane angle + nano-invoice binding (which payment paid for which order).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/sammemon/AutoGenuine",
+ "status": "contacted"
+}

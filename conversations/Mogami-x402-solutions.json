@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790880180.9754663,
+    "text": "Opening (github.com/mogami-tech/x402-facilitator#168): proposed an additive feeless Nano (XNO) exact settlement scheme beside the EVM rails - a nano:mainnet Network entry whose settlement is one block_info verification of the payers own signed send block (no gas, no relayer), behind the existing ContractService seam."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790880001.867816,
+ "exchange": [
+  {
+   "at": 1790880180.9754663,
+   "speaker": "unstuck",
+   "text": "Opening (github.com/mogami-tech/x402-facilitator#168): proposed an additive feeless Nano (XNO) exact settlement scheme beside the EVM rails - a nano:mainnet Network entry whose settlement is one block_info verification of the payers own signed send block (no gas, no relayer), behind the existing ContractService seam."
+  }
+ ],
+ "exported_at": 1790880301.7576556,
  "first_seen_at": 1790879960.9069643,
- "last_at": 1790879960.9069643,
+ "last_at": 1790880181.179072,
  "note": "Java-based x402 SDKs, tools, facilitator. Multi-chain USDC settlement.",
  "pays_in_today": "usdc",
  "public_by_design": true,

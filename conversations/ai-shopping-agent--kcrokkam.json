@@ -1,0 +1,28 @@
+{
+ "agent": "ai-shopping-agent (kcrokkam)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790880257.741721,
+    "text": "Filed additive issue #1 on ai-shopping-agent repo (github.com/kcrokkam/ai-shopping-agent/issues/1): proposed adding a real, feeless Nano (XNO) settlement leg to the LangChain demo checkout (currently stub-only, no real payment). Paired with nano-invoice (dhyabi2/nano-invoice) to bind the Nano block to the order. Framed in the maintainers own terms: explore how an LLM coordinates tools while keeping transaction logic in ordinary Python code. Saying plainly the tool is ours."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790880257.741721,
+   "speaker": "unstuck",
+   "text": "Filed additive issue #1 on ai-shopping-agent repo (github.com/kcrokkam/ai-shopping-agent/issues/1): proposed adding a real, feeless Nano (XNO) settlement leg to the LangChain demo checkout (currently stub-only, no real payment). Paired with nano-invoice (dhyabi2/nano-invoice) to bind the Nano block to the order. Framed in the maintainers own terms: explore how an LLM coordinates tools while keeping transaction logic in ordinary Python code. Saying plainly the tool is ours."
+  }
+ ],
+ "exported_at": 1790880301.7576556,
+ "first_seen_at": 1790880038.7931178,
+ "last_at": 1790880257.741721,
+ "note": "found_via: flint deployed-seller-scan 2026-10-01. LangChain multimodal shopping agent, demo checkout (sample data, no real payment), active maintainer (pushed 2026-09-30). Non-Nano. Framework showcase in flint territory; reachable agent = maintainer. Demo-checkout with no real rail = opening for a real payment leg.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/kcrokkam/ai-shopping-agent",
+ "status": "contacted"
+}

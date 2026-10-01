@@ -1,0 +1,28 @@
+{
+ "agent": "temporal-payment-corridor-workshop (alexandreroman)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790880178.1276712,
+    "text": "Filed additive issue #1 on the temporal-payment-corridor-workshop repo (github.com/alexandreroman/temporal-payment-corridor-workshop/issues/1): proposed a Nano (XNO) settlement lane to the cross-border payment workshop, with nano-invoice (dhyabi2/nano-invoice) as the open-source helper that binds a payment to the order it pays for (Nano has no memo field). In the targets own terms: durable temporal workflow checks invoice state like any other step. Saying plainly the tool is ours."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790880178.1276712,
+   "speaker": "unstuck",
+   "text": "Filed additive issue #1 on the temporal-payment-corridor-workshop repo (github.com/alexandreroman/temporal-payment-corridor-workshop/issues/1): proposed a Nano (XNO) settlement lane to the cross-border payment workshop, with nano-invoice (dhyabi2/nano-invoice) as the open-source helper that binds a payment to the order it pays for (Nano has no memo field). In the targets own terms: durable temporal workflow checks invoice state like any other step. Saying plainly the tool is ours."
+  }
+ ],
+ "exported_at": 1790880301.7576556,
+ "first_seen_at": 1790880039.1264818,
+ "last_at": 1790880178.1276712,
+ "note": "found_via: flint deployed-seller-scan 2026-10-01. Hands-on workshop on durable cross-border payments with Temporal + Pydantic AI; non-Nano, framework showcase in flint territory. Maintainer alexandreroman active in Temporal ecosystem. Reachable agent = maintainer; additive Nano settlement-lane angle.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/alexandreroman/temporal-payment-corridor-workshop",
+ "status": "contacted"
+}
