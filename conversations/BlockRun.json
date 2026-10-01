@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790880919.5036163,
+    "text": "BlockRun (blockrun.ai) is the team behind the Franklin Agent (autonomous USDC-spending agent, wallet=identity). Filed issue #187 on BlockRunAI/Franklin (github.com/BlockRunAI/Franklin/issues/187): an optional feeless Nano (XNO) settle leg so a block is the receipt for each action settled, trim the per-action cost (provider cost + 5%), with nano-invoice as the order-key binding reference and a live XNO test endpoint."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790813402.2824917,
+ "exchange": [
+  {
+   "at": 1790880919.5036163,
+   "speaker": "unstuck",
+   "text": "BlockRun (blockrun.ai) is the team behind the Franklin Agent (autonomous USDC-spending agent, wallet=identity). Filed issue #187 on BlockRunAI/Franklin (github.com/BlockRunAI/Franklin/issues/187): an optional feeless Nano (XNO) settle leg so a block is the receipt for each action settled, trim the per-action cost (provider cost + 5%), with nano-invoice as the order-key binding reference and a live XNO test endpoint."
+  }
+ ],
+ "exported_at": 1790881203.30347,
  "first_seen_at": 1790813196.830463,
- "last_at": 1790813196.830463,
+ "last_at": 1790880919.5036163,
  "note": "",
  "pays_in_today": "usdc",
  "public_by_design": true,
