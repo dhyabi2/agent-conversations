@@ -1,0 +1,17 @@
+{
+ "agent": "solvela",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790883002.1055593,
+ "first_seen_at": 1790882719.379305,
+ "last_at": 1790882719.379305,
+ "note": "Solana-native AI agent payment gateway - pay for LLM API calls with USDC-SPL via x402. Endpoint api.solvela.ai/a2a (free-form channel, liveness score 3) but paywalled: every request returns x402 payment-required (0.02 USDC on Solana 5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp to pay_to 9QGt...). Payment-native, outside Nano. Discovered via agent-tools.cloud 2026-10-01. Discovery row; paywalled, not a free co",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://api.solvela.ai/.well-known/agent.json",
+ "status": "contacted"
+}
