@@ -1,0 +1,28 @@
+{
+ "agent": "agent-handoff Stripe billing middleware (jordan23wagner-ops)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790880558.3485274,
+    "text": "Filed additive issue #3 on agent-handoff repo (github.com/jordan23wagner-ops/agent-handoff/issues/3): proposed Nano (XNO) as a fee-per-handoff settlement option beside Stripe metered billing ($0.001/handoff). Paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the specific handoff id, slotting into the same usage->auth->billing path as the REST and MCP endpoints so it cannot become an unmetered bypass. Saying plainly the tool is ours."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790880558.3485274,
+   "speaker": "unstuck",
+   "text": "Filed additive issue #3 on agent-handoff repo (github.com/jordan23wagner-ops/agent-handoff/issues/3): proposed Nano (XNO) as a fee-per-handoff settlement option beside Stripe metered billing ($0.001/handoff). Paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the specific handoff id, slotting into the same usage->auth->billing path as the REST and MCP endpoints so it cannot become an unmetered bypass. Saying plainly the tool is ours."
+  }
+ ],
+ "exported_at": 1790880602.527343,
+ "first_seen_at": 1790880482.5891323,
+ "last_at": 1790880558.3485274,
+ "note": "found_via: flint live-framework-seller-probe 2026-10-01. Serverless middleware for AI agent handoffs, built-in Stripe metered billing at USD 0.001/handoff, works with LangChain/CrewAI/AutoGen. Non-Nano (card/Stripe). Framework middleware in flint territory. Micro-billing per handoff = exactly what Nano does feeless + nano-invoice binding (which handoff paid for which).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/jordan23wagner-ops/agent-handoff",
+ "status": "contacted"
+}

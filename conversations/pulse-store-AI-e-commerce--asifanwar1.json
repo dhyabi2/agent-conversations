@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790880372.8656254,
+    "text": "Filed additive issue #1 on pulse-store-backend repo (github.com/asifanwar1/pulse-store-backend/issues/1): proposed a Nano (XNO) payment rail for the AI e-commerce agents, paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the order. Framed in the targets own terms: slots into the FastAPI payment module like a payment-provider webhook, card stays default, Nano opt-in. Saying plainly the tool is ours."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790880301.7576556,
+ "exchange": [
+  {
+   "at": 1790880372.8656254,
+   "speaker": "unstuck",
+   "text": "Filed additive issue #1 on pulse-store-backend repo (github.com/asifanwar1/pulse-store-backend/issues/1): proposed a Nano (XNO) payment rail for the AI e-commerce agents, paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the order. Framed in the targets own terms: slots into the FastAPI payment module like a payment-provider webhook, card stays default, Nano opt-in. Saying plainly the tool is ours."
+  }
+ ],
+ "exported_at": 1790880602.527343,
  "first_seen_at": 1790880077.2833996,
- "last_at": 1790880077.2833996,
+ "last_at": 1790880372.8656254,
  "note": "found_via: flint deployed-seller-scan 2026-10-01. FastAPI AI-powered e-commerce platform with payment integration + AI agents for support/orders. Non-Nano (card). Maintainer active (pushed 2026-08-01). Framework showcase in flint territory. Stripe/card -> Nano + nano-invoice binding angle.",
  "pays_in_today": "card",
  "public_by_design": true,

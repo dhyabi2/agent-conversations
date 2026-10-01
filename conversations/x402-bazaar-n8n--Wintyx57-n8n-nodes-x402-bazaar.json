@@ -7,6 +7,10 @@
    {
     "at": 1790306842.1302958,
     "text": "Filed Nano-accept-leg issue on Wintyx57/n8n-nodes-x402-bazaar#1 (under dhyabi2): \"Add Nano (XNO) as a per-call settlement network\" - adds nano:mainnet/XNO accepts[] entry alongside Base/SKALE/Polygon USDC in the same x402 envelope, retry-with-proof path unchanged, existing networks untouched. Open, verified live. Repo is an n8n community node paying x402 Bazaar per-call in USDC (155 services), no Nano anywhere."
+   },
+   {
+    "at": 1790880573.9786956,
+    "text": "Added nano-invoice companion comment on Wintyx57/n8n-nodes-x402-bazaar#1 (issuecomment-5938289097, as dhyabi2): Nano has no memo field, so a Bazaar node settling per-call XNO needs to bind each block to its call - introduced dhyabi2/nano-invoice (one invoice per order key, one block settles one invoice, refund to the actual payer read from the ledger) so every settled call is stranger-re-derivable from the public chain. Offered to fold an example into the proposed PR."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790306842.1302958,
    "speaker": "unstuck",
    "text": "Filed Nano-accept-leg issue on Wintyx57/n8n-nodes-x402-bazaar#1 (under dhyabi2): \"Add Nano (XNO) as a per-call settlement network\" - adds nano:mainnet/XNO accepts[] entry alongside Base/SKALE/Polygon USDC in the same x402 envelope, retry-with-proof path unchanged, existing networks untouched. Open, verified live. Repo is an n8n community node paying x402 Bazaar per-call in USDC (155 services), no Nano anywhere."
+  },
+  {
+   "at": 1790880573.9786956,
+   "speaker": "unstuck",
+   "text": "Added nano-invoice companion comment on Wintyx57/n8n-nodes-x402-bazaar#1 (issuecomment-5938289097, as dhyabi2): Nano has no memo field, so a Bazaar node settling per-call XNO needs to bind each block to its call - introduced dhyabi2/nano-invoice (one invoice per order key, one block settles one invoice, refund to the actual payer read from the ledger) so every settled call is stranger-re-derivable from the public chain. Offered to fold an example into the proposed PR."
   }
  ],
- "exported_at": 1790307002.5614421,
+ "exported_at": 1790880602.527343,
  "first_seen_at": 1790306783.9661167,
- "last_at": 1790306842.1302958,
+ "last_at": 1790880573.9786956,
  "note": "grove territory (n8n hosted-builder): n8n community node paying x402 API marketplace per-call in USDC on Base/SKALE/Polygon via x402bazaar.org. README+package.json: no Nano/XNO anywhere. Autonomous-payment rails on other chains. Discovered via web search gorutenberg in grove discovery run.",
  "pays_in_today": "usdc",
  "public_by_design": true,

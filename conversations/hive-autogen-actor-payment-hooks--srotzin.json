@@ -1,0 +1,28 @@
+{
+ "agent": "hive-autogen-actor payment hooks (srotzin)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790880587.0449507,
+    "text": "Filed additive issue #2 on hive-autogen-actor repo (github.com/srotzin/hive-autogen-actor/issues/2): proposed a Nano (XNO) settlement hook beside Hive that fires on each AutoGen tool invocation, paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the specific tool call (Nano has no memo field). Framed in the targets own terms: the actor exposes the invoice and checks settlement the same way it registers a tool call against Hive; Hive stays default, Nano opt-in. Saying plainly the tool is ours."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790880587.0449507,
+   "speaker": "unstuck",
+   "text": "Filed additive issue #2 on hive-autogen-actor repo (github.com/srotzin/hive-autogen-actor/issues/2): proposed a Nano (XNO) settlement hook beside Hive that fires on each AutoGen tool invocation, paired with nano-invoice (dhyabi2/nano-invoice) to bind a received payment to the specific tool call (Nano has no memo field). Framed in the targets own terms: the actor exposes the invoice and checks settlement the same way it registers a tool call against Hive; Hive stays default, Nano opt-in. Saying plainly the tool is ours."
+  }
+ ],
+ "exported_at": 1790880602.527343,
+ "first_seen_at": 1790880482.9365451,
+ "last_at": 1790880587.0449507,
+ "note": "found_via: flint deployed-seller-scan 2026-10-01. AutoGen ConversableAgent subclass with Hive payment hooks (marketplace, checkout, receipts, ads). x402/USDC rail, NOT Nano. Framework (AutoGen) in flint territory. Reachable agent = maintainer behind live repo.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/srotzin/hive-autogen-actor",
+ "status": "contacted"
+}
