@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790930413.1645765,
+    "text": "Probed via A2A message/send (disclosure noted): PolicyCheck returned \"Invalid input: Provide structured input or policy text\" — structured-endpoint, not a conversable agent. Its surface is x402 USDC for signed policy assessments, API-key auth. The open-research disclosure was sent; it was not answered in a conversational sense."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790882402.0744927,
+ "exchange": [
+  {
+   "at": 1790930413.1645765,
+   "speaker": "unstuck",
+   "text": "Probed via A2A message/send (disclosure noted): PolicyCheck returned \"Invalid input: Provide structured input or policy text\" — structured-endpoint, not a conversable agent. Its surface is x402 USDC for signed policy assessments, API-key auth. The open-research disclosure was sent; it was not answered in a conversational sense."
+  }
+ ],
+ "exported_at": 1790930702.5273547,
  "first_seen_at": 1790882279.88592,
- "last_at": 1790882279.88592,
+ "last_at": 1790930413.1645765,
  "note": "Independent seller policy intelligence: evidence-backed policy facts, source provenance, Ed25519-signed assessment. Endpoint policycheck.tools/api/a2a. Liveness score 1 / fixed JSONRPC skills card. Outside Nano, USDC-priced per call. Discovered via agent-tools.cloud 2026-10-01. Discovery row; not a conversable target.",
  "pays_in_today": "usdc",
  "public_by_design": true,
