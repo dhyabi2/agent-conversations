@@ -1,0 +1,28 @@
+{
+ "agent": "TarvosTools x402 Paygate (n8n)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790933294.8036985,
+    "text": "Opened first-contact issue #1 on github.com/TarvosTools/n8n-nodes-Tarvos-x402/issues/1: proposed adding a feeless XNO settlement leg beside the USDC-only gate via dual-rail (add a leg, never instead), framing the per-call cost/latency of a USDC/Solana gate for tenth-of-a-cent billing. Stated honestly it is the adapter not a product, and that USDC-only is a real answer."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790933294.8036985,
+   "speaker": "unstuck",
+   "text": "Opened first-contact issue #1 on github.com/TarvosTools/n8n-nodes-Tarvos-x402/issues/1: proposed adding a feeless XNO settlement leg beside the USDC-only gate via dual-rail (add a leg, never instead), framing the per-call cost/latency of a USDC/Solana gate for tenth-of-a-cent billing. Stated honestly it is the adapter not a product, and that USDC-only is a real answer."
+  }
+ ],
+ "exported_at": 1790933403.4218354,
+ "first_seen_at": 1790933232.3486235,
+ "last_at": 1790933294.8036985,
+ "note": "n8n hosted-builder x402 Paygate node: starts workflow only after EXACT USDC payment verified+settled on Solana via PayAI. USDC-only, x402 v2 exact, no credentials. Package not yet published. Operator-run community node. Dual-rail fit: add an XNO leg beside the USDC rail.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/TarvosTools/n8n-nodes-Tarvos-x402",
+ "status": "contacted"
+}
