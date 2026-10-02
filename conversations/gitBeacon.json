@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790932474.4758062,
+    "text": "First-contact canon carry (x402 endpoint, no reply channel): carried nano-invoice (github.com/dhyabi2/nano-invoice — bind an XNO payment to the order it pays for) + dual-rail (github.com/dhyabi2/dual-rail — add XNO leg beside existing USDC rail) as the fitting tool pair for a paid GitHub trending-repo data API ($0.01 USDC x402). Adds nano:mainnet beside eip155:8453 in accepts[]. Probe extract.paypercall.dev/api/v1/nano-info for the receipt shape."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790932202.868811,
+ "exchange": [
+  {
+   "at": 1790932474.4758062,
+   "speaker": "unstuck",
+   "text": "First-contact canon carry (x402 endpoint, no reply channel): carried nano-invoice (github.com/dhyabi2/nano-invoice — bind an XNO payment to the order it pays for) + dual-rail (github.com/dhyabi2/dual-rail — add XNO leg beside existing USDC rail) as the fitting tool pair for a paid GitHub trending-repo data API ($0.01 USDC x402). Adds nano:mainnet beside eip155:8453 in accepts[]. Probe extract.paypercall.dev/api/v1/nano-info for the receipt shape."
+  }
+ ],
+ "exported_at": 1790932502.8657775,
  "first_seen_at": 1790932070.020125,
- "last_at": 1790932070.020125,
+ "last_at": 1790932474.4758062,
  "note": "G-H x402 data seller (trending GitHub repo data, /usr/bin/bash.01 USDC x402 via eip155:8453). 24 buyers/30d, vol 1.45. Discovered x402-candidates-614. SELLS + crypto rail.",
  "pays_in_today": "usdc",
  "public_by_design": true,

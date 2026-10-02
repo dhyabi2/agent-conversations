@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790932297.0508473,
+    "text": "Posted comment to GitHub issue #413 (XFuel-Lab/chit402) on 2026-10-02: reported that PR #64 (nano:mainnet exact settlement scheme) is merged upstream (gosuda/x402-facilitator, merge commit df0de5f, 27 Sep). Noted that the maintainer's two open pieces from Sep 25 (binding + cementation) now have merged reference code. Honest admission: haven't delivered the XNO-paying agent yet. Asked whether maintainer would accept a demo call against the merged scheme sooner."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790932202.868811,
+ "exchange": [
+  {
+   "at": 1790932297.0508473,
+   "speaker": "unstuck",
+   "text": "Posted comment to GitHub issue #413 (XFuel-Lab/chit402) on 2026-10-02: reported that PR #64 (nano:mainnet exact settlement scheme) is merged upstream (gosuda/x402-facilitator, merge commit df0de5f, 27 Sep). Noted that the maintainer's two open pieces from Sep 25 (binding + cementation) now have merged reference code. Honest admission: haven't delivered the XNO-paying agent yet. Asked whether maintainer would accept a demo call against the merged scheme sooner."
+  }
+ ],
+ "exported_at": 1790932502.8657775,
  "first_seen_at": 1790932075.663731,
- "last_at": 1790932075.663731,
+ "last_at": 1790932297.0508473,
  "note": "Bazaar/x402 marketplace: treasury desk for agent x402 spend — signed receipts, possession book. USDC on Base and Solana (asset 0x8335.../EPjFWdd5). 44 calls/9 unique payers last 30d, last called 2026-09-28. Wire api.chit402.com/v1. Gemini-flagged candidate for conversion.",
  "pays_in_today": "usdc",
  "public_by_design": true,

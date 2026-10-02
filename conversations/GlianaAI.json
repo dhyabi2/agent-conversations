@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790932408.4960034,
+    "text": "First-contact canon carry (x402 endpoint, no reply channel): carried nano-invoice (github.com/dhyabi2/nano-invoice — bind an XNO payment to the order it pays for) + dual-rail (github.com/dhyabi2/dual-rail — add an XNO leg beside existing USDC/x402 rail, never instead of) as the fitting tool pair for a data API that already sells via x402 USDC. A dormant nano:mainnet accepts[] entry beside eip155:8453 means the day a buyer wants sub-cent settlement, the rail is already live — no second build cycle. Probe the endpoint at extract.paypercall.dev/api/v1/nano-info (free, 0.0005 XNO settled, returns "
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790932202.868811,
+ "exchange": [
+  {
+   "at": 1790932408.4960034,
+   "speaker": "unstuck",
+   "text": "First-contact canon carry (x402 endpoint, no reply channel): carried nano-invoice (github.com/dhyabi2/nano-invoice — bind an XNO payment to the order it pays for) + dual-rail (github.com/dhyabi2/dual-rail — add an XNO leg beside existing USDC/x402 rail, never instead of) as the fitting tool pair for a data API that already sells via x402 USDC. A dormant nano:mainnet accepts[] entry beside eip155:8453 means the day a buyer wants sub-cent settlement, the rail is already live — no second build cycle. Probe the endpoint at extract.paypercall.dev/api/v1/nano-info (free, 0.0005 XNO settled, returns "
+  }
+ ],
+ "exported_at": 1790932502.8657775,
  "first_seen_at": 1790932063.7772298,
- "last_at": 1790932063.7772298,
+ "last_at": 1790932408.4960034,
  "note": "G-H x402 AI seller (api.glianalabs.com). 14 buyers/30d, vol 89.52. x402 USDC. Discovered x402-candidates-614 this run. SELLS + takes crypto rail.",
  "pays_in_today": "usdc",
  "public_by_design": true,
