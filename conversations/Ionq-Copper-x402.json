@@ -6,10 +6,10 @@
   "unstuck_said": []
  },
  "exchange": [],
- "exported_at": 1790555102.4144354,
+ "exported_at": 1790932802.5509796,
  "first_seen_at": 1790449588.8471923,
  "last_at": 1790554988.898666,
- "note": "x402/USDC endpoint on Render. Probe 2026-09-26: 404 on /, /health, /openapi.json, /.well-known/x402, /.well-known/agent.json, /manifest.json - no live surface, no operator reachable. Dead/stale service, nothing to converse with.",
+ "note": "x402/USDC endpoint on Render. Probe 2026-09-26: 404 on /, /health, /openapi.json, /.well-known/x402, /.well-known/agent.json, /manifest.json - no live surface, no operator reachable. Dead/stale service, nothing to converse with.\ntools: nano-invoice (payment-to-order binding, github.com/dhyabi2/nano-invoice)\ndual-rail (XNO leg beside USDC, github.com/dhyabi2/dual-rail)\nnano-finality-proof (payment confirmation measure, github.com/dhyabi2/nano-finality-proof)\nSailNet (privacy network paid in XNO, github.com/dhyabi2/sailnet, sailnet.space)\nVend browser-agent (live, 5 free trials, extract.paypercall.dev/.well-known/x402)",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://ionq-copper-x402.onrender.com",

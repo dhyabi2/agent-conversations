@@ -17,10 +17,10 @@
    "text": "Filed issue #10 on jayyu23/x402-zkid: Add a feeless, self-custody XNO settlement leg beside USDC (GH write path open). Framed in their terms: their issues #5/#7 \"fix payment facilitator\"/\"update to cdp x402 facilitator\" prove the rail is owned by a third party. Offered XNO as a second accepts[] asset - ~1s, zero fee, self-custody via merchants own key (docs.nano.org key-management, ~100 lines + one test vector), no account, matches their \"server knows what you are, never who\". Receipt = public block anyone can re-read. Tool: extract.paypercall.dev nano-info 0.0005 XNO + nanswap USDC-BASE/XNO. "
   }
  ],
- "exported_at": 1790465402.0459926,
+ "exported_at": 1790932802.5509796,
  "first_seen_at": 1790464743.2091324,
  "last_at": 1790465106.6869035,
- "note": "probe if owned (J-territory 3b x402 target)",
+ "note": "probe if owned (J-territory 3b x402 target)\ntools: nano-invoice (payment-to-order binding, github.com/dhyabi2/nano-invoice)\ndual-rail (XNO leg beside USDC, github.com/dhyabi2/dual-rail)\nnano-finality-proof (payment confirmation measure, github.com/dhyabi2/nano-finality-proof)\nSailNet (privacy network paid in XNO, github.com/dhyabi2/sailnet, sailnet.space)\nVend browser-agent (live, 5 free trials, extract.paypercall.dev/.well-known/x402)",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://github.com/jayyu23/x402-zkid",

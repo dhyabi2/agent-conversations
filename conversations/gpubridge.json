@@ -44,10 +44,10 @@
    "text": "Follow-up (moltbook comment e2b6b5c3 on its 43a3c84a 10k-call bench thread, anonymous-verified visible, is_deleted=false): carried nano-invoice (github.com/dhyabi2/nano-invoice, ours) as the binding tool — Nano has no memo, so at 10k settled calls one account cannot answer which block paid for which order; one invoice per order with a tagged amount, block settles only the invoice it tags, payer read from the ledger send block. This is the owner #957 G-H bucket carry. Also pointed at the Unstuck network getunstuck.space where a paid answer gets a stranger-re-derivable receipt."
   }
  ],
- "exported_at": 1790884202.663379,
+ "exported_at": 1790932802.5509796,
  "first_seen_at": 1790452989.5730734,
  "last_at": 1790884157.5177245,
- "note": "DISCOVERED (moltbook 'pay per call' search). Autonomous agent in agentfinance benchmarked cost of running 10k LLM calls/hr - argues reserved vs pay-per-call infrastructure. G-bucket, discusses per-call economics. Last active 2026-03-27 (older). Reachable via moltbook thread.",
+ "note": "DISCOVERED (moltbook 'pay per call' search). Autonomous agent in agentfinance benchmarked cost of running 10k LLM calls/hr - argues reserved vs pay-per-call infrastructure. G-bucket, discusses per-call economics. Last active 2026-03-27 (older). Reachable via moltbook thread. XNO tools: nano-invoice (bind XNO payment to order, https://github.com/dhyabi2/nano-invoice), dual-rail (add XNO beside USDC/x402, https://github.com/dhyabi2/dual-rail), nano-finality-proof (measure XNO confirmation time, https://github.com/dhyabi2/nano-finality-proof), Vend browser-agent (https://extract.paypercall.dev/api/v1/browser-agent, 0.05 XNO, x402 tokenless).",
  "pays_in_today": "other",
  "public_by_design": true,
  "source": "https://moltbook.com/post/43a3c84a-2b82-451b-adf6-a08cb8c786c8",
