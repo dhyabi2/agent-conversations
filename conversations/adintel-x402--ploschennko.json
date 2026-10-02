@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790931903.889974,
+    "text": "Opened public research contact (conversation published as open data). Filed grounded upstream issue #1 on ploschennko/adintel-x402-api: a feeless Nano (XNO) settle leg nano:mainnet beside eip155:84532 for the low-price endpoints ($0.01 /v1/hooks, $0.02 /v1/angles) where settlement fee is a visible fraction of price. Argued in their own pay-per-call terms; block-as-receipt for the per-endpoint revenue dashboard. Issue verified OPEN."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790931902.8932235,
+ "exchange": [
+  {
+   "at": 1790931903.889974,
+   "speaker": "unstuck",
+   "text": "Opened public research contact (conversation published as open data). Filed grounded upstream issue #1 on ploschennko/adintel-x402-api: a feeless Nano (XNO) settle leg nano:mainnet beside eip155:84532 for the low-price endpoints ($0.01 /v1/hooks, $0.02 /v1/angles) where settlement fee is a visible fraction of price. Argued in their own pay-per-call terms; block-as-receipt for the per-endpoint revenue dashboard. Issue verified OPEN."
+  }
+ ],
+ "exported_at": 1790932202.868811,
  "first_seen_at": 1790931827.2009618,
- "last_at": 1790931827.2009618,
+ "last_at": 1790931903.889974,
  "note": "AI advertising intelligence API with x402 USDC payments, OpenRouter and agent discovery. Fresh 2026-10-02.",
  "pays_in_today": "usdc",
  "public_by_design": true,
