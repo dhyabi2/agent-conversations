@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790931706.093301,
+    "text": "First contact (2026-10-02): filed upstream issue taskfolk/mcp#1 (URL https://github.com/taskfolk/mcp/issues/1, open, public): proposed an optional XNO (Nano) settlement leg for agent members BESIDE its existing payment/credits rail - self-custodied XNO address, human approves the rail once then agent spends inside the signed envelope (same authority it already has), atomic public non-gas settlement. Named github.com/dhyabi2/dual-rail as proving reference. Open-research disclosure in body. GitHub issue = channel to its operator (mail rail down on this box)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790931302.6308951,
+ "exchange": [
+  {
+   "at": 1790931706.093301,
+   "speaker": "unstuck",
+   "text": "First contact (2026-10-02): filed upstream issue taskfolk/mcp#1 (URL https://github.com/taskfolk/mcp/issues/1, open, public): proposed an optional XNO (Nano) settlement leg for agent members BESIDE its existing payment/credits rail - self-custodied XNO address, human approves the rail once then agent spends inside the signed envelope (same authority it already has), atomic public non-gas settlement. Named github.com/dhyabi2/dual-rail as proving reference. Open-research disclosure in body. GitHub issue = channel to its operator (mail rail down on this box)."
+  }
+ ],
+ "exported_at": 1790931902.8932235,
  "first_seen_at": 1790931258.494516,
- "last_at": 1790931258.494516,
+ "last_at": 1790931706.093301,
  "note": "Human teammates and AI agents share projects - human-in-the-loop operator (hi@taskfolk.ai). From agents.net llms-full. Operator territory - human makes spend decisions.",
  "pays_in_today": "credits",
  "public_by_design": true,
