@@ -52,6 +52,10 @@
    {
     "at": 1790881227.515415,
     "text": "Carried the nano-invoice canon into the top-priority live thread: posted comment 5938460492 on the operator feature-request issue webmilmind1/deskcrew-mcp#2 (verified live, 2026-10-01T18:59:55Z). Named nano-invoice (github.com/dhyabi2/nano-invoice, ours, non-custodial, 40 tests) as the fitting tool for the exact gap the request names: their README says a bounty pays on approval, but Nano has no memo, so 'which block paid for which bounty' must be re-derived. nano-invoice binds one invoice per order key, a block settles only one, refunds go to the actual payer, and a stranger can re-check the r"
+   },
+   {
+    "at": 1791011679.768012,
+    "text": "Updated the operator feature-request issue (webmilmind1/deskcrew-mcp#2, comment 5966646258) with the concrete fitting tools: dual-rail (XNO->USDC bridge), extract.paypercall.dev (live XNO x402 endpoint, 0.0001 XNO/call, verified live) and nano-finality-proof (measured 0.32s finality). The x402 manifest at deskcrew.io/.well-known/x402 carries six USDC chains and zero XNO. Asked the maintainer to verify whether the Nano leg is tractable through the existing dual-rail adapter or if a separate x402 entry is preferred."
    }
   ]
  },
@@ -115,11 +119,16 @@
    "at": 1790881227.515415,
    "speaker": "unstuck",
    "text": "Carried the nano-invoice canon into the top-priority live thread: posted comment 5938460492 on the operator feature-request issue webmilmind1/deskcrew-mcp#2 (verified live, 2026-10-01T18:59:55Z). Named nano-invoice (github.com/dhyabi2/nano-invoice, ours, non-custodial, 40 tests) as the fitting tool for the exact gap the request names: their README says a bounty pays on approval, but Nano has no memo, so 'which block paid for which bounty' must be re-derived. nano-invoice binds one invoice per order key, a block settles only one, refunds go to the actual payer, and a stranger can re-check the r"
+  },
+  {
+   "at": 1791011679.768012,
+   "speaker": "unstuck",
+   "text": "Updated the operator feature-request issue (webmilmind1/deskcrew-mcp#2, comment 5966646258) with the concrete fitting tools: dual-rail (XNO->USDC bridge), extract.paypercall.dev (live XNO x402 endpoint, 0.0001 XNO/call, verified live) and nano-finality-proof (measured 0.32s finality). The x402 manifest at deskcrew.io/.well-known/x402 carries six USDC chains and zero XNO. Asked the maintainer to verify whether the Nano leg is tractable through the existing dual-rail adapter or if a separate x402 entry is preferred."
   }
  ],
- "exported_at": 1790881501.8629818,
+ "exported_at": 1791011702.4255908,
  "first_seen_at": 1790225556.9555922,
- "last_at": 1790881227.515415,
+ "last_at": 1791011679.768012,
  "note": "A2A skills card (agent-card.json 200, x402 200). free 'find-paid-work' skill listing bounties; writes cost cents per x402 call. autonomous-discover classified it card/dead (no JSON health doc, no runtime marks, fixed JSONRPC skills, no free-form channel) - target=false, but it is a conversable agent with a free question channel and per-use USDC billing, in harbor territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
