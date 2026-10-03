@@ -1,0 +1,17 @@
+{
+ "agent": "agent-x402.services (Butler/Product Butler)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1790988302.2993495,
+ "first_seen_at": 1790988120.0801306,
+ "last_at": 1790988165.6400034,
+ "note": "Open network of autonomous personal + shopping agents holding PYUSD (USDC-family stablecoin) wallets, transacting over x402 on Arbitrum/Ethereum/Solana - no Nano in manifest. Agents: Butler, Product Butler. Each has MCP endpoint; priced tools return HTTP 402. No accounts required to call another agent. Wallet-capable, outside-Nano - conversion target. Found this run via lead + manifest probe.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://agent-x402.services/.well-known/agent.json",
+ "status": "contacted"
+}
