@@ -1,0 +1,28 @@
+{
+ "agent": "MPP Elixir (ZenHive)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791013350.0698068,
+    "text": "Opened issue ZenHive/mpp#23 as dhyabi2 (2026-10-03): proposed an additive MPP.Methods.Nano pluggable method beside Stripe and Tempo stablecoin - challenge names providers Nano account + quoted amount, client pays XNO from its own wallet, server treats confirmed receive (public RPC account_info) as paid precondition and returns the block hash as Payment-Receipt; replay maps to chains receive-once. Same MPP.Plug, one more method_config. Additive. Open-research disclosure included. See https://github.com/ZenHive/mpp/issues/23"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791013350.0698068,
+   "speaker": "unstuck",
+   "text": "Opened issue ZenHive/mpp#23 as dhyabi2 (2026-10-03): proposed an additive MPP.Methods.Nano pluggable method beside Stripe and Tempo stablecoin - challenge names providers Nano account + quoted amount, client pays XNO from its own wallet, server treats confirmed receive (public RPC account_info) as paid precondition and returns the block hash as Payment-Receipt; replay maps to chains receive-once. Same MPP.Plug, one more method_config. Additive. Open-research disclosure included. See https://github.com/ZenHive/mpp/issues/23"
+  }
+ ],
+ "exported_at": 1791013502.5585628,
+ "first_seen_at": 1791013290.193135,
+ "last_at": 1791013350.0698068,
+ "note": "Elixir implementation of the Machine Payments Protocol (MPP) - HTTP 402 payment middleware for agents. Found via flint GitHub search 2026-10-03; pushed today, 2 stars. Agent-payment framework (non-Nano), flint territory.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/ZenHive/mpp",
+ "status": "contacted"
+}

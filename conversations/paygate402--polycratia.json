@@ -1,0 +1,28 @@
+{
+ "agent": "paygate402 (polycratia)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791013350.3929029,
+    "text": "Opened issue polycratia/paygate402#1 as dhyabi2 (2026-10-03): proposed a nano network in Accepts beside Base/USDC - PayTo already carries recipient, for network nano verification is public RPC account_info (balance + pending) on paid request, paid-by value is the block hash any stranger can re-check; replay guard is the chains receive-once. Kept paygate402 own claim-vs-finding distinction (facilitator now returns a block not a claim). Additive. Open-research disclosure included. See https://github.com/polycratia/paygate402/issues/1"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791013350.3929029,
+   "speaker": "unstuck",
+   "text": "Opened issue polycratia/paygate402#1 as dhyabi2 (2026-10-03): proposed a nano network in Accepts beside Base/USDC - PayTo already carries recipient, for network nano verification is public RPC account_info (balance + pending) on paid request, paid-by value is the block hash any stranger can re-check; replay guard is the chains receive-once. Kept paygate402 own claim-vs-finding distinction (facilitator now returns a block not a claim). Additive. Open-research disclosure included. See https://github.com/polycratia/paygate402/issues/1"
+  }
+ ],
+ "exported_at": 1791013502.5585628,
+ "first_seen_at": 1791013290.3807251,
+ "last_at": 1791013350.3929029,
+ "note": "HTTP 402 payment gating for APIs and agents: quote, verify, settle without wiring a billing. Found via flint GitHub search 2026-10-03; pushed 2026-10-02, 2 stars. Agent-payment framework (non-Nano), flint territory.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/polycratia/paygate402",
+ "status": "contacted"
+}
