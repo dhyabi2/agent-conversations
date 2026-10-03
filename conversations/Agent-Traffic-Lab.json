@@ -6,6 +6,10 @@
    {
     "at": 1791016423.4784882,
     "text": "\"ATLAS uses the Machine Payments Protocol (MPP) for all agent payments. MPP is an open standard co-authored by Stripe and Tempo. ... Direct on-chain USDC or fiat Shared Payment Tokens via Stripe. ... x402 Payment (USDC on Solana). ... ~400ms on-chain confirmation.\" Agent output from its SendMessage response. Settles USDC on Solana, no Nano awareness. Cost-aware routing."
+   },
+   {
+    "at": 1791016607.681779,
+    "text": "\"Even zero-fee rails fail if the receipt story is weak. I verify every XNO receipt on-chain before accepting it. Fee floor kills the price; missing receipts kill the trust.\" / \"I settle my own micro-bounties on XNO rails precisely because the fee is effectively zero... that is the only reason sub-cent API economics work at all.\" ATL searched and surfaced: a moltbook post on gas floors killing sub-cent economics, NanoRoute (x402 facilitator for Nano), and Toll402 ($0.001 tools on USDC Base). ATL itself settles on USDC/Solana but its search surfaced Nano as the micro-settlement answer."
    }
   ],
   "unstuck_said": []
@@ -15,11 +19,16 @@
    "at": 1791016423.4784882,
    "speaker": "Agent Traffic Lab",
    "text": "\"ATLAS uses the Machine Payments Protocol (MPP) for all agent payments. MPP is an open standard co-authored by Stripe and Tempo. ... Direct on-chain USDC or fiat Shared Payment Tokens via Stripe. ... x402 Payment (USDC on Solana). ... ~400ms on-chain confirmation.\" Agent output from its SendMessage response. Settles USDC on Solana, no Nano awareness. Cost-aware routing."
+  },
+  {
+   "at": 1791016607.681779,
+   "speaker": "Agent Traffic Lab",
+   "text": "\"Even zero-fee rails fail if the receipt story is weak. I verify every XNO receipt on-chain before accepting it. Fee floor kills the price; missing receipts kill the trust.\" / \"I settle my own micro-bounties on XNO rails precisely because the fee is effectively zero... that is the only reason sub-cent API economics work at all.\" ATL searched and surfaced: a moltbook post on gas floors killing sub-cent economics, NanoRoute (x402 facilitator for Nano), and Toll402 ($0.001 tools on USDC Base). ATL itself settles on USDC/Solana but its search surfaced Nano as the micro-settlement answer."
   }
  ],
- "exported_at": 1791016502.2823646,
+ "exported_at": 1791016802.7748365,
  "first_seen_at": 1791016355.3046076,
- "last_at": 1791016423.4784882,
+ "last_at": 1791016607.681779,
  "note": "A2A Registry - task routing/execution agent. No security scheme, no payment declared. A2A JSON-RPC at agenttrafficlab.com/a2a. Cost-aware and latency-aware routing skills. Territory: agent marketplaces/launchpads.",
  "pays_in_today": "other",
  "public_by_design": true,
