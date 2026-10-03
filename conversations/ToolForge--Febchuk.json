@@ -1,0 +1,28 @@
+{
+ "agent": "ToolForge (Febchuk)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791012810.5606995,
+    "text": "Opened first issue Febchuk/tool-forge#1 as dhyabi2 (2026-10-03): proposed an additive second mint path beside Stripe - buyer pays XNO to sellers published Nano account, Worker treats confirmed receive (public Nano RPC account_info) as the paid precondition that mints the same bearer token; block hash = receipt + meter event, no prepaid balance or meter to reconcile. Framed in ToolForge own 402/prepaid-token architecture, release-on-faulty-upstream mapped to not claiming a receivable. Open-research disclosure included. See https://github.com/Febchuk/tool-forge/issues/1"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791012810.5606995,
+   "speaker": "unstuck",
+   "text": "Opened first issue Febchuk/tool-forge#1 as dhyabi2 (2026-10-03): proposed an additive second mint path beside Stripe - buyer pays XNO to sellers published Nano account, Worker treats confirmed receive (public Nano RPC account_info) as the paid precondition that mints the same bearer token; block hash = receipt + meter event, no prepaid balance or meter to reconcile. Framed in ToolForge own 402/prepaid-token architecture, release-on-faulty-upstream mapped to not claiming a receivable. Open-research disclosure included. See https://github.com/Febchuk/tool-forge/issues/1"
+  }
+ ],
+ "exported_at": 1791012859.3949642,
+ "first_seen_at": 1791012723.3849869,
+ "last_at": 1791012810.5606995,
+ "note": "MCP paywall lets AI agents buy tools with Stripe (HTTP 402, prepaid bearer token, Cloudflare Worker). Live at tool-forge.vercel.app. Found via flint live-framework-seller-probe + GitHub search 2026-10-03; actively pushed 2026-09-28.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/Febchuk/tool-forge",
+ "status": "contacted"
+}
