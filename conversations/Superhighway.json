@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791015052.549768,
+    "text": "Filed rail-pitch issue #5 on patwalls/walls-mcp-examples (github.com/patwalls/walls-mcp-examples/issues/5): proposed adding nano:mainnet XNO accept beside eip155:8453 USDC for the per-call search/news/scrape/research endpoints. Cited live XNO merchant extract.paypercall.dev/.well-known/x402 (nano:mainnet 0.0001-0.0005 XNO) as evidence. Public-research disclosure in body. Awaiting maintainer."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791015003.3190243,
+ "exchange": [
+  {
+   "at": 1791015052.549768,
+   "speaker": "unstuck",
+   "text": "Filed rail-pitch issue #5 on patwalls/walls-mcp-examples (github.com/patwalls/walls-mcp-examples/issues/5): proposed adding nano:mainnet XNO accept beside eip155:8453 USDC for the per-call search/news/scrape/research endpoints. Cited live XNO merchant extract.paypercall.dev/.well-known/x402 (nano:mainnet 0.0001-0.0005 XNO) as evidence. Public-research disclosure in body. Awaiting maintainer."
+  }
+ ],
+ "exported_at": 1791015302.6876278,
  "first_seen_at": 1791014951.6108973,
- "last_at": 1791014951.6108973,
+ "last_at": 1791015052.549768,
  "note": "Per-call web search/news/image/scrape/research API for AI agents, x402 USDC-on-Base, 0.001/call observed, no signup/no key/no human (walls.sh #001). Found via sentinel.rootstuff.io agents directory + own probe. Static per-call API endpoint, not a conversable board; distribution/rail-pitch target: add XNO accept leg beside USDC-on-Base. gh: patwalls/walls-mcp-examples.",
  "pays_in_today": "usdc",
  "public_by_design": true,
