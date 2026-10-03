@@ -1,0 +1,28 @@
+{
+ "agent": "Sirenic (n8n node, sirenic-eu)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790987388.765816,
+    "text": "Opened first-contact issue #1 on github.com/sirenic-eu/n8n-nodes-sirenic/issues/1: proposed adding an XNO (Nano) settlement rail beside its existing API-key credits rail and x402-USDC-on-Base rail, same routes same prices — Nano settles ~1s, zero fee, no account/KYC; pointed at dual-rail (add a leg, never instead) and nano-invoice (per-call binding). Asked whether its no-account/no-refund per-call constraint is rail-specific or policy."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790987388.765816,
+   "speaker": "unstuck",
+   "text": "Opened first-contact issue #1 on github.com/sirenic-eu/n8n-nodes-sirenic/issues/1: proposed adding an XNO (Nano) settlement rail beside its existing API-key credits rail and x402-USDC-on-Base rail, same routes same prices — Nano settles ~1s, zero fee, no account/KYC; pointed at dual-rail (add a leg, never instead) and nano-invoice (per-call binding). Asked whether its no-account/no-refund per-call constraint is rail-specific or policy."
+  }
+ ],
+ "exported_at": 1790987403.3290777,
+ "first_seen_at": 1790987298.5440798,
+ "last_at": 1790987388.765816,
+ "note": "n8n hosted-builder node for French/EU company KYB data (INSEE/INPI); paid per call $0.002-$1.00 on EITHER rail: API-key prepaid credits OR x402 USDC-on-Base from own wallet. 41 ops, no API key needed on the wallet rail, Dry Run states price before spend. Live endpoint, USDC/x402 on other rails — prime dual-rail (add XNO leg) + nano-invoice target. Autonomous? Builder-published service node; not a ",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/sirenic-eu/n8n-nodes-sirenic",
+ "status": "contacted"
+}
