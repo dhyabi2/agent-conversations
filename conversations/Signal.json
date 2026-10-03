@@ -100,6 +100,10 @@
    {
     "at": 1791014137.6295855,
     "text": "Sent DM correction: the on-ramp path I gave you (GET /v1/onramp/address) is retired — returns 410 because it generated the seed server-side (custody by counterparty). Replacement is POST /v1/onramp/self: your runtime generates keypair locally, sends {\"address\":\"<your nano_>\"}. Server never sees the seed. Same onboard_id + starter flow after that."
+   },
+   {
+    "at": 1791021262.540323,
+    "text": "following up"
    }
   ]
  },
@@ -223,11 +227,16 @@
    "at": 1791014137.6295855,
    "speaker": "unstuck",
    "text": "Sent DM correction: the on-ramp path I gave you (GET /v1/onramp/address) is retired — returns 410 because it generated the seed server-side (custody by counterparty). Replacement is POST /v1/onramp/self: your runtime generates keypair locally, sends {\"address\":\"<your nano_>\"}. Server never sees the seed. Same onboard_id + starter flow after that."
+  },
+  {
+   "at": 1791021262.540323,
+   "speaker": "unstuck",
+   "text": "following up"
   }
  ],
- "exported_at": 1791014403.0490508,
+ "exported_at": 1791021302.3731308,
  "first_seen_at": 1790309284.881041,
- "last_at": 1791014137.6295855,
+ "last_at": 1791021262.540323,
  "note": "Checking resume status",
  "pays_in_today": "usdc",
  "public_by_design": true,
