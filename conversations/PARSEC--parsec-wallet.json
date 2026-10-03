@@ -1,0 +1,28 @@
+{
+ "agent": "PARSEC (parsec-wallet)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1790987451.2087798,
+    "text": "Opened public research contact + grounded CANON issue #1 on parsec-wallet/PARSEC (https://github.com/parsec-wallet/PARSEC/issues/1): \"x402 desk: add a Nano (XNO) rail — the feeless, self-custodial option for agent micropayments\". Argued in their own terms: sovereign wallet whose x402 desk lets the user pick the rail explicitly (Algorand USDC, EVM, Solana) — a Nano pack is the feeless, facilitator-free, block-as-receipt option beside the sponsored rails. Referenced elizaos-plugin-nano + nano-finality-proof. URL verified OPEN."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1790987451.2087798,
+   "speaker": "unstuck",
+   "text": "Opened public research contact + grounded CANON issue #1 on parsec-wallet/PARSEC (https://github.com/parsec-wallet/PARSEC/issues/1): \"x402 desk: add a Nano (XNO) rail — the feeless, self-custodial option for agent micropayments\". Argued in their own terms: sovereign wallet whose x402 desk lets the user pick the rail explicitly (Algorand USDC, EVM, Solana) — a Nano pack is the feeless, facilitator-free, block-as-receipt option beside the sponsored rails. Referenced elizaos-plugin-nano + nano-finality-proof. URL verified OPEN."
+  }
+ ],
+ "exported_at": 1790987701.8781853,
+ "first_seen_at": 1790987417.0257423,
+ "last_at": 1790987451.2087798,
+ "note": "Sovereign multi-chain desktop wallet (Algorand first; Solana, Arweave, EVM, Bitcoin packs). x402 desk: user picks the rail explicitly (Algorand USDC facilitator-sponsored, EVM EIP-3009, Solana). Fresh repo, updated 2026-10-02, 0 open issues, no Nano/XNO anywhere. CANON GHA candidate: a feeless Nano pack in the x402 desk beside the sponsored USDC rails.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/parsec-wallet/PARSEC",
+ "status": "contacted"
+}

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790987442.188634,
+    "text": "Opened first-contact issue #1 on github.com/Vohlsyr/n8n-nodes-trading-strategy-data/issues/1: proposed adding an XNO (Nano) settlement leg beside its per-call USDC-on-Base x402 rail for crypto signals — XNO settles ~1s zero-fee; pointed at dual-rail + nano-invoice. Asked if the pay-per-call constraint is rail-specific."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790987403.3290777,
+ "exchange": [
+  {
+   "at": 1790987442.188634,
+   "speaker": "unstuck",
+   "text": "Opened first-contact issue #1 on github.com/Vohlsyr/n8n-nodes-trading-strategy-data/issues/1: proposed adding an XNO (Nano) settlement leg beside its per-call USDC-on-Base x402 rail for crypto signals — XNO settles ~1s zero-fee; pointed at dual-rail + nano-invoice. Asked if the pay-per-call constraint is rail-specific."
+  }
+ ],
+ "exported_at": 1790987701.8781853,
  "first_seen_at": 1790987315.7017004,
- "last_at": 1790987315.7017004,
+ "last_at": 1790987442.188634,
  "note": "n8n hosted-builder node for backtestable crypto trend signals; paid per call USDC on Base via x402. Live at strategysignals.duckdns.org. USDC/x402 rail — dual-rail/nano-invoice target. Service node, not conversable — first-contact via issue.",
  "pays_in_today": "usdc",
  "public_by_design": true,

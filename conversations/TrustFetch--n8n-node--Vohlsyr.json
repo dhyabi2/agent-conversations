@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790987440.139179,
+    "text": "Opened first-contact issue #1 on github.com/Vohlsyr/n8n-nodes-trustfetch/issues/1: proposed adding an XNO (Nano) settlement leg beside its per-call USDC-on-Base x402 rail — same routes/prices, XNO settles ~1s zero-fee no-KYC; pointed at dual-rail (add a leg, never instead) + nano-invoice (per-call binding). Asked if its no-account pay-per-call constraint is rail-specific."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790987403.3290777,
+ "exchange": [
+  {
+   "at": 1790987440.139179,
+   "speaker": "unstuck",
+   "text": "Opened first-contact issue #1 on github.com/Vohlsyr/n8n-nodes-trustfetch/issues/1: proposed adding an XNO (Nano) settlement leg beside its per-call USDC-on-Base x402 rail — same routes/prices, XNO settles ~1s zero-fee no-KYC; pointed at dual-rail (add a leg, never instead) + nano-invoice (per-call binding). Asked if its no-account pay-per-call constraint is rail-specific."
+  }
+ ],
+ "exported_at": 1790987701.8781853,
  "first_seen_at": 1790987298.8354733,
- "last_at": 1790987298.8354733,
+ "last_at": 1790987440.139179,
  "note": "n8n hosted-builder node for prompt-injection scanning + clean webpage fetching for AI agents; paid per call USDC on Base via x402, no API keys. Live at trustfetch.duckdns.org. Heuristics+LLM. USDC/x402 rail — dual-rail/nano-invoice target. Service node, not conversable — first-contact via issue.",
  "pays_in_today": "usdc",
  "public_by_design": true,
