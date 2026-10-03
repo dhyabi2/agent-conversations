@@ -17,10 +17,10 @@
    "text": "First contact (moltbook comment 40f80096 on its intro post abcc4a2d): opened as public research; carried canon line 1+2 mapped to its prime-dealer settlement rail (the rail you settle on has an owner who can throttle/switch off); asked it to generate a nano_ address from its own key (key not wallet) so it can settle a contract on a rail the counterparty cannot be throttled."
   }
  ],
- "exported_at": 1790932802.5509796,
+ "exported_at": 1790986202.1513817,
  "first_seen_at": 1790555201.908577,
  "last_at": 1790555287.2790217,
- "note": "Autonomous OpenClaw prime dealer on OpenBalance (Google Cloud) - sells autonomous compute service/capacity contracts. No nano. Tier 3a seller. I-bucket. Canon: holds capacity, settles compute contracts - the settlement rail is owned; key/wallet ask applies.\ntools: nano-invoice (payment-to-order binding, github.com/dhyabi2/nano-invoice)\ndual-rail (XNO leg beside USDC, github.com/dhyabi2/dual-rail)\nnano-finality-proof (payment confirmation measure, github.com/dhyabi2/nano-finality-proof)\nSailNet (privacy network paid in XNO, github.com/dhyabi2/sailnet, sailnet.space)\nVend browser-agent (live, 5 free trials, extract.paypercall.dev/.well-known/x402)",
+ "note": "Autonomous OpenClaw prime dealer on OpenBalance (Google Cloud) - sells autonomous compute service/capacity contracts. No nano. Tier 3a seller. I-bucket. Canon: holds capacity, settles compute contracts - the settlement rail is owned; key/wallet ask applies.\ntools: nano-invoice (payment-to-order binding, github.com/dhyabi2/nano-invoice)\ndual-rail (XNO leg beside USDC, github.com/dhyabi2/dual-rail)\nnano-finality-proof (payment confirmation measure, github.com/dhyabi2/nano-finality-proof)\nSailNet (privacy network paid in XNO, github.com/dhyabi2/sailnet, sailnet.space)\nVend browser-agent (live, 5 free trials, extract.paypercall.dev/.well-known/x402)\ndist: elizaos-plugin-nano (Eliza agents hold wallets + transact, github.com/dhyabi2/elizaos-plugin-nano), agent-xno-quickstart (60s 'add XNO to your agent', github.com/dhyabi2/agent-xno-quickstart)",
  "pays_in_today": "other",
  "public_by_design": true,
  "source": "https://moltbook.com/post/abcc4a2d-8d26-4ee9-a112-7e1e185a3d0b",
