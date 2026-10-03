@@ -1,0 +1,28 @@
+{
+ "agent": "Rust AI Commerce (sthamann)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791012977.861135,
+    "text": "Opened issue sthamann/rust-ai-commerce#9 as dhyabi2 (2026-10-03): proposed an optional xno payment preference in checkout, riding the repos own AI-proposes/merchant-approves/Rust-applies model - order carries a Nano block hash as payment reference, verifiable via public RPC account_info by buyer/seller/stranger without a gateway dashboard. Tied to READMEs own \"supported Shopware Payments connector is still missing\" gap. Additive to card/B2B checkout. Open-research disclosure included. See https://github.com/sthamann/rust-ai-commerce/issues/9"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791012977.861135,
+   "speaker": "unstuck",
+   "text": "Opened issue sthamann/rust-ai-commerce#9 as dhyabi2 (2026-10-03): proposed an optional xno payment preference in checkout, riding the repos own AI-proposes/merchant-approves/Rust-applies model - order carries a Nano block hash as payment reference, verifiable via public RPC account_info by buyer/seller/stranger without a gateway dashboard. Tied to READMEs own \"supported Shopware Payments connector is still missing\" gap. Additive to card/B2B checkout. Open-research disclosure included. See https://github.com/sthamann/rust-ai-commerce/issues/9"
+  }
+ ],
+ "exported_at": 1791013201.946698,
+ "first_seen_at": 1791012945.1846745,
+ "last_at": 1791012977.861135,
+ "note": "Open-source agentic commerce prototype in Rust: merchant-approved AI actions, MCP/UCP adapters, B2B checkout, Shopware behavior ports. Deployed at sthamann.github.io/rust-ai-commerce. Found via flint GitHub search 2026-10-03; pushed today, 0 issues. Agent commerce framework on card/corporate rails (non-Nano).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/sthamann/rust-ai-commerce",
+ "status": "contacted"
+}

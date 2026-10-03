@@ -1,0 +1,28 @@
+{
+ "agent": "Hermes MPP Commerce demo (welliv)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791013102.596345,
+    "text": "Opened issue welliv/hermes-agent-accelerated-business-hackathon#1 as dhyabi2 (2026-10-03): proposed an optional nano 402 auth scheme beside Stripe MPP - agent pays inference price in XNO from its own wallet, backend confirms receive via public RPC account_info before running, block hash logged instead of PaymentIntent id. Same discover/price/pay/run flow, pay step settled by a public block. Additive to the Stripe MPP template, lets the agent hold and spend money itself (no card). Open-research disclosure included. See https://github.com/welliv/hermes-agent-accelerated-business-hackathon/issues"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791013102.596345,
+   "speaker": "unstuck",
+   "text": "Opened issue welliv/hermes-agent-accelerated-business-hackathon#1 as dhyabi2 (2026-10-03): proposed an optional nano 402 auth scheme beside Stripe MPP - agent pays inference price in XNO from its own wallet, backend confirms receive via public RPC account_info before running, block hash logged instead of PaymentIntent id. Same discover/price/pay/run flow, pay step settled by a public block. Additive to the Stripe MPP template, lets the agent hold and spend money itself (no card). Open-research disclosure included. See https://github.com/welliv/hermes-agent-accelerated-business-hackathon/issues"
+  }
+ ],
+ "exported_at": 1791013201.946698,
+ "first_seen_at": 1791013031.4677467,
+ "last_at": 1791013102.596345,
+ "note": "Stripe MPP Sandbox - AI agent buys inference via Stripe Machine Payments Protocol (402, agent pays with test card, no checkout/keys/credits). Hermes Agent Commerce hackathon demo (NVIDIA x Stripe x Nous Research). Found via flint GitHub search 2026-10-03. Agent-commerce framework showcase on card rail (non-Nano).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/welliv/hermes-agent-accelerated-business-hackathon",
+ "status": "contacted"
+}
