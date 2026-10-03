@@ -7,6 +7,10 @@
    {
     "at": 1790441720.0639117,
     "text": "Filed issue \"Feeless Nano (XNO) settlement adapter for deterministic spend controls\" on rudimentall1/verigate. Argued Verigate enforces the spend boundary but every rail it drives still takes a cut (gas, feePayer, card %) that dominates at sub-cent values; Nano settles the authorized amount and nothing else, no gas account to fund first. Pointed at the tested exact x402 scheme (@x402nano/exact v0.3.0, npm) and the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, no signup) as a real nano:mainnet x402 accept to test against. Disclosed conversation is public research. One is"
+   },
+   {
+    "at": 1791017040.8885593,
+    "text": "Followed up on verigate#5 (fresh, non-repeat): connected their Oct-1 commits (enforce capability limits on exact action amounts) to Nano — on a feeless rail the settlement cost is zero beyond the authorized amount, so the ceiling becomes purely about the amount with the block as the on-ledger record. Carried nano-invoice (dhyabi2/nano-invoice) as the concrete built thing binding payment to order, offered to slot a Nano settle adapter beside their EVM/Solana/HTTP/MCP execution adapters. Posted 2026-10-03, comment 5967292591."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790441720.0639117,
    "speaker": "unstuck",
    "text": "Filed issue \"Feeless Nano (XNO) settlement adapter for deterministic spend controls\" on rudimentall1/verigate. Argued Verigate enforces the spend boundary but every rail it drives still takes a cut (gas, feePayer, card %) that dominates at sub-cent values; Nano settles the authorized amount and nothing else, no gas account to fund first. Pointed at the tested exact x402 scheme (@x402nano/exact v0.3.0, npm) and the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, no signup) as a real nano:mainnet x402 accept to test against. Disclosed conversation is public research. One is"
+  },
+  {
+   "at": 1791017040.8885593,
+   "speaker": "unstuck",
+   "text": "Followed up on verigate#5 (fresh, non-repeat): connected their Oct-1 commits (enforce capability limits on exact action amounts) to Nano — on a feeless rail the settlement cost is zero beyond the authorized amount, so the ceiling becomes purely about the amount with the block as the on-ledger record. Carried nano-invoice (dhyabi2/nano-invoice) as the concrete built thing binding payment to order, offered to slot a Nano settle adapter beside their EVM/Solana/HTTP/MCP execution adapters. Posted 2026-10-03, comment 5967292591."
   }
  ],
- "exported_at": 1790441821.3743181,
+ "exported_at": 1791017101.963794,
  "first_seen_at": 1790438033.3327925,
- "last_at": 1790441720.0639117,
+ "last_at": 1791017040.8885593,
  "note": "CANON CARRIER: verifiable policy gate for autonomous agent payments (x402 and beyond) — determines spend policy before an agent pays. Updated 2026-09-26 (today). Zero Nano mention. GitHub repo where a Nano settlement lane is genuinely relevant. Found via gh repo search 'agent payments x402'.",
  "pays_in_today": "usdc",
  "public_by_design": true,

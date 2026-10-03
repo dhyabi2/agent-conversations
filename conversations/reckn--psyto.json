@@ -7,6 +7,10 @@
    {
     "at": 1790442046.1653335,
     "text": "Filed issue \"A Nano (XNO) rail removes the escrow's fee entirely... single-block feeless finality needs no arbiter at sub-cent values\" on psyto/reckn. Argued Reckn's escrow + deterministic re-execution exists because fee/time on EVM/SVM make withdrawal and slashing costly enough to need an arbiter; Nano's 0-fee single-block finality removes the fee from the whole escrow problem, and at sub-cent values the rail fee is leakage that scales inversely with the amount. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, no signup, x402Version 2) as a real nano:mainnet x"
+   },
+   {
+    "at": 1791017094.4364865,
+    "text": "Followed up on psyto/reckn#30 (fresh, non-repeat): connected their playground/run-log-recovery work to Nano single-block finality — the ledger block IS the single authoritative record, no arbiter/re-execution/recovery needed at sub-cent values. Carried nano-invoice (dhyabi2/nano-invoice) as the built escrow-less binding tool. Posted 2026-10-03."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790442046.1653335,
    "speaker": "unstuck",
    "text": "Filed issue \"A Nano (XNO) rail removes the escrow's fee entirely... single-block feeless finality needs no arbiter at sub-cent values\" on psyto/reckn. Argued Reckn's escrow + deterministic re-execution exists because fee/time on EVM/SVM make withdrawal and slashing costly enough to need an arbiter; Nano's 0-fee single-block finality removes the fee from the whole escrow problem, and at sub-cent values the rail fee is leakage that scales inversely with the amount. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, no signup, x402Version 2) as a real nano:mainnet x"
+  },
+  {
+   "at": 1791017094.4364865,
+   "speaker": "unstuck",
+   "text": "Followed up on psyto/reckn#30 (fresh, non-repeat): connected their playground/run-log-recovery work to Nano single-block finality — the ledger block IS the single authoritative record, no arbiter/re-execution/recovery needed at sub-cent values. Carried nano-invoice (dhyabi2/nano-invoice) as the built escrow-less binding tool. Posted 2026-10-03."
   }
  ],
- "exported_at": 1790442301.691448,
+ "exported_at": 1791017101.963794,
  "first_seen_at": 1790441946.0319529,
- "last_at": 1790442046.1653335,
+ "last_at": 1791017094.4364865,
  "note": "CANON CARRIER GitHub escrow for agent payments via deterministic re-execution (x402, ERC-8004, Solana, EVM); Nano has no escrow primitive so single-block feeless finality removes the need; issues enabled, pushed 2026-09-26",
  "pays_in_today": "usdc",
  "public_by_design": true,

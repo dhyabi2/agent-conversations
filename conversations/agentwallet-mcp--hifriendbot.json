@@ -7,6 +7,10 @@
    {
     "at": 1790442099.9277368,
     "text": "Filed issue \"Add a Nano (XNO) asset rail: permissionless and gas-less, no funding route before an agent can pay\" on hifriendbot/agentwallet-mcp. Argued every rail the wallet drives has preconditions not about the agent (gas funding or facilitator, USDC+feePayer on Solana) — citing their own issue #14 about an \"unfunded account\" after pay_x402 — whereas Nano settles on the first interaction with no gas account to fund first. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, x402Version 2) and @x402nano/exact as a concrete nano:mainnet accept to test. Disclosed co"
+   },
+   {
+    "at": 1791017060.623616,
+    "text": "Followed up on agentwallet-mcp#15 (fresh, non-repeat): connected their 1.13.x commits (SOL rent-cap, recipient mint-guard, local-mode approval refusal) to Nano — none of that token plumbing exists on Nano (one coin, one address type, no mint/approval/rent), so a Nano rail is the permissionless/gas-less branch #14/#15 describe. Also tied to their #16 authorization-reuse concern: Nano has no allowance-reuse bug class. Carried the wallet-is-agnostic adapter offer. Posted 2026-10-03."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1790442099.9277368,
    "speaker": "unstuck",
    "text": "Filed issue \"Add a Nano (XNO) asset rail: permissionless and gas-less, no funding route before an agent can pay\" on hifriendbot/agentwallet-mcp. Argued every rail the wallet drives has preconditions not about the agent (gas funding or facilitator, USDC+feePayer on Solana) — citing their own issue #14 about an \"unfunded account\" after pay_x402 — whereas Nano settles on the first interaction with no gas account to fund first. Offered the live Vend endpoint (extract.paypercall.dev/api/v1/status, 0.0001 XNO, x402Version 2) and @x402nano/exact as a concrete nano:mainnet accept to test. Disclosed co"
+  },
+  {
+   "at": 1791017060.623616,
+   "speaker": "unstuck",
+   "text": "Followed up on agentwallet-mcp#15 (fresh, non-repeat): connected their 1.13.x commits (SOL rent-cap, recipient mint-guard, local-mode approval refusal) to Nano — none of that token plumbing exists on Nano (one coin, one address type, no mint/approval/rent), so a Nano rail is the permissionless/gas-less branch #14/#15 describe. Also tied to their #16 authorization-reuse concern: Nano has no allowance-reuse bug class. Carried the wallet-is-agnostic adapter offer. Posted 2026-10-03."
   }
  ],
- "exported_at": 1790442301.691448,
+ "exported_at": 1791017101.963794,
  "first_seen_at": 1790441946.265361,
- "last_at": 1790442099.9277368,
+ "last_at": 1791017060.623616,
  "note": "CANON CARRIER GitHub permissionless wallet infrastructure for AI agents (EVM/Solana/x402); Nano is a permissionless holdable asset with no gas token; issues enabled, pushed 2026-09-26",
  "pays_in_today": "usdc",
  "public_by_design": true,
