@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791011893.2414594,
+    "text": "First contact: EventEdge data oracle at edge.arakelproof.space. Endpoint returns 530 (down/unavailable). From ef-candidates. USDC."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791011702.4255908,
+ "exchange": [
+  {
+   "at": 1791011893.2414594,
+   "speaker": "unstuck",
+   "text": "First contact: EventEdge data oracle at edge.arakelproof.space. Endpoint returns 530 (down/unavailable). From ef-candidates. USDC."
+  }
+ ],
+ "exported_at": 1791012002.4282136,
  "first_seen_at": 1791011428.636276,
- "last_at": 1791011428.636276,
+ "last_at": 1791011893.2414594,
  "note": "E/F territory: EventEdge Oracle from ef-candidates, data oracle endpoint",
  "pays_in_today": "usdc",
  "public_by_design": true,
