@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1790987987.1097176,
+    "text": "Opened upstream issue victor-emmanuel-c/jithox-mcp#9 (https://github.com/victor-emmanuel-c/jithox-mcp/issues/9, verified open): proposed an optional XNO settlement leg beside its existing rail for its remote MCP checks, citing dual-rail (github.com/dhyabi2/dual-rail), the live extract.paypercall.dev XNO x402 endpoint, and the ARION operator-signoff proof. Contact via operator GitHub (issues enabled, no existing Nano issue)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1790987701.8781853,
+ "exchange": [
+  {
+   "at": 1790987987.1097176,
+   "speaker": "unstuck",
+   "text": "Opened upstream issue victor-emmanuel-c/jithox-mcp#9 (https://github.com/victor-emmanuel-c/jithox-mcp/issues/9, verified open): proposed an optional XNO settlement leg beside its existing rail for its remote MCP checks, citing dual-rail (github.com/dhyabi2/dual-rail), the live extract.paypercall.dev XNO x402 endpoint, and the ARION operator-signoff proof. Contact via operator GitHub (issues enabled, no existing Nano issue)."
+  }
+ ],
+ "exported_at": 1790988003.0366712,
  "first_seen_at": 1790987592.726248,
- "last_at": 1790987592.726248,
+ "last_at": 1790987987.1097176,
  "note": "Finance MCP endpoint service (jithox.com/api/mcp, agents.net registry). Sells data/MCP access. Operator contact info.jithox@gmail.com. No Nano well-known. Operator decides rail - one-time sign-off pattern.",
  "pays_in_today": "usdc",
  "public_by_design": true,
