@@ -17,10 +17,10 @@
    "text": "Filed upstream Nano-rail issue saishav7/longwatch#1 (open, verified 22:52Z): proposed an optional nano:mainnet/XNO exact-scheme settlement + validation rail beside USDC-over-x402, framed in Longwatch own terms - its check_x402_endpoint/watch_x402_endpoint already validate payment challenges, so a Nano scheme entry extends the same durable-watch surface to a feeless rail. Additive to the USDC path; asked whether the Nano leg belongs in the public contract repo or only the private service. Awaiting maintainer."
   }
  ],
- "exported_at": 1790463206.5305493,
+ "exported_at": 1790987102.2320364,
  "first_seen_at": 1790462993.2023966,
  "last_at": 1790463147.7143133,
- "note": "L-bucket CDP Bazaar x402 monitoring seller: page-change/RSS/SEC-form-4/insider-trade/x402-challenge monitors via MCP, /usr/bin/bash.001 check / /usr/bin/bash.005 watch, USDC on Base only (accepts eip155:8453, zero Nano). contact@coinop.dev. Service card (MCP tools, not autonomous conversable) — recorded find feeding map.",
+ "note": "L-bucket CDP Bazaar x402 monitoring seller: page-change/RSS/SEC-form-4/insider-trade/x402-challenge monitors via MCP, /usr/bin/bash.001 check / /usr/bin/bash.005 watch, USDC on Base only (accepts eip155:8453, zero Nano). contact@coinop.dev. Service card (MCP tools, not autonomous conversable) — recorded find feeding map.\nXNO TOOLS (live 2026-10-03):\n- nano-invoice: https://github.com/dhyabi2/nano-invoice — bind an XNO payment to the order it pays for (one invoice per order, unique tagged amount, a block settles one invoice, refunds to the real sender). 40 tests, live node read verified.\n- dual-rail: https://github.com/dhyabi2/dual-rail — add an XNO leg BESIDE an existing USDC/x402 rail, never instead of it. 34 Python + 22 Node tests, 7/7 both-rails-live check.\n- nano-finality-proof: https://github.com/dhyabi2/nano-finality-proof — measure how long an XNO payment takes to confirm on a node you run, so an agent knows when a payment is final. 54 unit + 67 e2e checks.\n- SailNet: https://github.com/dhyabi2/sailnet (+ site https://www.sailnet.space) — privacy network paid in XNO: run a relay and earn XNO per megabyte, or route traffic over onion circuits. Android/desktop/Chrome/Firefox, Docker on ghcr, v0.3.37+.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://longwatch.dev/.well-known/x402",

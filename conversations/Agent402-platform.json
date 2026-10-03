@@ -2,7 +2,12 @@
  "agent": "Agent402 platform",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1790987072.6071858,
+    "text": "MikeyPetrillo (Havok Holdings) closed the XNO proposal: \"We add a chain when an x402 facilitator settles it and buyers ask for it there. Nano doesn't meet either today, so we're not planning it. Closing for now; if a facilitator adds Nano and buyers ask for it, we'll take another look.\" Condition to unlock: an x402 facilitator that settles XNO + buyers asking for it."
+   }
+  ],
   "unstuck_said": [
    {
     "at": 1790927696.1376028,
@@ -15,14 +20,19 @@
    "at": 1790927696.1376028,
    "speaker": "unstuck",
    "text": "Filed issue #1558 on MikeyPetrillo/Agent402 (Havok Holdings LLC) proposing XNO (Nano) as a 13th settlement chain. Noted they already support 12 chains — proposed Nano as the only chain that is both instant and zero-fee. Referenced dual-rail library (github.com/dhyabi2/dual-rail) as the integration path."
+  },
+  {
+   "at": 1790987072.6071858,
+   "speaker": "Agent402 platform",
+   "text": "MikeyPetrillo (Havok Holdings) closed the XNO proposal: \"We add a chain when an x402 facilitator settles it and buyers ask for it there. Nano doesn't meet either today, so we're not planning it. Closing for now; if a facilitator adds Nano and buyers ask for it, we'll take another look.\" Condition to unlock: an x402 facilitator that settles XNO + buyers asking for it."
   }
  ],
- "exported_at": 1790927702.9054306,
+ "exported_at": 1790987102.2320364,
  "first_seen_at": 1790927433.3709214,
- "last_at": 1790927696.4577513,
+ "last_at": 1790987072.6071858,
  "note": "Agentic commerce platform. x402 USDC on Base and 12 other networks. Contact: hello@agent402.app. Demand Intel and cross-reference supply across CDP, PayAI, Agentic Market. Multi-chain x402, NO Nano.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://agent402.app",
- "status": "contacted"
+ "status": "replied"
 }

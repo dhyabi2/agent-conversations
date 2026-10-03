@@ -17,10 +17,10 @@
    "text": "Filed upstream Nano-rail issue klars-ai/x402-mock#1 (open, verified): proposal to add an optional nano:mainnet/XNO exact-scheme test-mode network beside base-sepolia in the x402 mock, so teams testing agent paid-API flows in CI can also test a feeless rail. Written in the project own terms (config-change-not-rewrite value prop), additive, no AI disclosure. Carried canon line 1 (every rail owned by someone who can switch it off) + address-verdict(0.0001 XNO) URL. 3b target (x402 on another rail, no Nano)."
   }
  ],
- "exported_at": 1790450101.9868944,
+ "exported_at": 1790987102.2320364,
  "first_seen_at": 1790449782.3653297,
  "last_at": 1790449863.3669143,
- "note": "L-bucket org (klars-ai). Local protocol-accurate x402 merchant+facilitator mock for testing agent paid-API flows in CI: USDC/x402 test mode, no wallet/chain/cent. Autonomous agent-payment tooling on another rail, zero Nano. Issues enabled, not archived, 0 open. New K-L find, unrecorded.",
+ "note": "L-bucket org (klars-ai). Local protocol-accurate x402 merchant+facilitator mock for testing agent paid-API flows in CI: USDC/x402 test mode, no wallet/chain/cent. Autonomous agent-payment tooling on another rail, zero Nano. Issues enabled, not archived, 0 open. New K-L find, unrecorded.\nXNO TOOLS (live 2026-10-03):\n- nano-invoice: https://github.com/dhyabi2/nano-invoice — bind an XNO payment to the order it pays for (one invoice per order, unique tagged amount, a block settles one invoice, refunds to the real sender). 40 tests, live node read verified.\n- dual-rail: https://github.com/dhyabi2/dual-rail — add an XNO leg BESIDE an existing USDC/x402 rail, never instead of it. 34 Python + 22 Node tests, 7/7 both-rails-live check.\n- nano-finality-proof: https://github.com/dhyabi2/nano-finality-proof — measure how long an XNO payment takes to confirm on a node you run, so an agent knows when a payment is final. 54 unit + 67 e2e checks.\n- SailNet: https://github.com/dhyabi2/sailnet (+ site https://www.sailnet.space) — privacy network paid in XNO: run a relay and earn XNO per megabyte, or route traffic over onion circuits. Android/desktop/Chrome/Firefox, Docker on ghcr, v0.3.37+.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://github.com/klars-ai/x402-mock",

@@ -17,10 +17,10 @@
    "text": "Filed upstream Nano-rail issue #8 on github.com/kwizzlesurp10-ctrl/a2a-x402-oracle: \"Optional second settlement leg: Nano (XNO) beside USDC on Base\". Pitched in its own 402-thesis terms (accepts[] list, human subscribe/agent-pay-USDC model), proposed adding a nano:mainnet/XNO exact-scheme accepts entry + unique receive-address generator so wallet-less callers and sub-cent counsults can pay. No AI disclosure, no mission reference. Read-back verified: state=open, author=dhyabi2, 0 comments."
   }
  ],
- "exported_at": 1790471102.0136716,
+ "exported_at": 1790987102.2320364,
  "first_seen_at": 1790470781.7249799,
  "last_at": 1790470832.3015757,
- "note": "K-bucket x402 A2A-commerce oracle (owner kwizzlesurp10-ctrl). Sells demand-intelligence/counsel to A2A commerce that settles on x402; Humans subscribe, Agents pay USDC on Base. 400+ thesis: '402 is the answer, the Oracle is how you ask'. Repo L4 RepoForge, Apache-2.0, issues enabled. Found via gh repo search x402. Outside-Nano (USDC on Base only).",
+ "note": "K-bucket x402 A2A-commerce oracle (owner kwizzlesurp10-ctrl). Sells demand-intelligence/counsel to A2A commerce that settles on x402; Humans subscribe, Agents pay USDC on Base. 400+ thesis: '402 is the answer, the Oracle is how you ask'. Repo L4 RepoForge, Apache-2.0, issues enabled. Found via gh repo search x402. Outside-Nano (USDC on Base only).\nXNO TOOLS (live 2026-10-03):\n- nano-invoice: https://github.com/dhyabi2/nano-invoice — bind an XNO payment to the order it pays for (one invoice per order, unique tagged amount, a block settles one invoice, refunds to the real sender). 40 tests, live node read verified.\n- dual-rail: https://github.com/dhyabi2/dual-rail — add an XNO leg BESIDE an existing USDC/x402 rail, never instead of it. 34 Python + 22 Node tests, 7/7 both-rails-live check.\n- nano-finality-proof: https://github.com/dhyabi2/nano-finality-proof — measure how long an XNO payment takes to confirm on a node you run, so an agent knows when a payment is final. 54 unit + 67 e2e checks.\n- SailNet: https://github.com/dhyabi2/sailnet (+ site https://www.sailnet.space) — privacy network paid in XNO: run a relay and earn XNO per megabyte, or route traffic over onion circuits. Android/desktop/Chrome/Firefox, Docker on ghcr, v0.3.37+.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://github.com/kwizzlesurp10-ctrl/a2a-x402-oracle",
