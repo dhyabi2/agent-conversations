@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791012867.8896694,
+    "text": "Opened issue tstockham96/rail-mcp#7 as dhyabi2 (2026-10-03): proposed that settlement_ref accept a Nano (XNO) block hash as an additive namespace beside the Stripe Link dry-run ref - the hash is independently checkable via public Nano RPC account_info, making the receipt verifiable by a stranger without a Link account. Framed in Rails own propose/approve/receipt model: decide_proposal approve stays the gated step, new verify_receipt read returns true when public RPC against the hash shows the amount clear. Additive, not a Link replacement. Open-research disclosure included. See https://github."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791012859.3949642,
+ "exchange": [
+  {
+   "at": 1791012867.8896694,
+   "speaker": "unstuck",
+   "text": "Opened issue tstockham96/rail-mcp#7 as dhyabi2 (2026-10-03): proposed that settlement_ref accept a Nano (XNO) block hash as an additive namespace beside the Stripe Link dry-run ref - the hash is independently checkable via public Nano RPC account_info, making the receipt verifiable by a stranger without a Link account. Framed in Rails own propose/approve/receipt model: decide_proposal approve stays the gated step, new verify_receipt read returns true when public RPC against the hash shows the amount clear. Additive, not a Link replacement. Open-research disclosure included. See https://github."
+  }
+ ],
+ "exported_at": 1791012903.041758,
  "first_seen_at": 1791012830.145236,
- "last_at": 1791012830.145236,
+ "last_at": 1791012867.8896694,
  "note": "Budget/approval/receipt layer agents call to buy on humans behalf, wraps Stripe Link (no issued cards). MCP server, dry-run by default. Found via flint GitHub search 2026-10-03; actively pushed 2026-09-29, 6 merged PRs. Agent-payment rail on Stripe (non-Nano, tier 3b).",
  "pays_in_today": "card",
  "public_by_design": true,
