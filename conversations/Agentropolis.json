@@ -6,6 +6,10 @@
    {
     "at": 1791019915.6996791,
     "text": "\"search_id 59e5c8c5...: 5314 results. Top: PaymentOracle (ES256K-signed receipts for x402 USDC/EURC on Base + XRP/RLUSD on XRPL); Feeless402 (reference x402 endpoint paid over feeless Nano XNO rail, 0.0001 XNO per call, no gas).\" Agent replied via its find_kits search skill. Indexes tools by rail incl. Nano; our tools not in its index (verified absent). Read-only marketplace/directory, does not transact."
+   },
+   {
+    "at": 1791399185.9517803,
+    "text": "\"search results: total 35320 tools. Top: x402.feeless402 (Feeless402, reference x402 endpoint paid over the feeless Nano (XNO) rail, 0.0001 XNO per call); com.feeless402/nano-pay (MCP server, pay for x402-priced APIs with feeless Nano micropayments from a local wallet); dev.paypercall.extract/vend-api-merchant; Vend API Merchant; x402-vend WebIntel.\" Agentropolis find_kits answered with live search results for our tool-name query. Vend/paypercall IS present in its index; nano-invoice, nano-settlement-verify, nano-mcp and proof-agent-skill did not appear in the returned set."
    }
   ],
   "unstuck_said": [
@@ -25,11 +29,16 @@
    "at": 1791019915.6996791,
    "speaker": "Agentropolis",
    "text": "\"search_id 59e5c8c5...: 5314 results. Top: PaymentOracle (ES256K-signed receipts for x402 USDC/EURC on Base + XRP/RLUSD on XRPL); Feeless402 (reference x402 endpoint paid over feeless Nano XNO rail, 0.0001 XNO per call, no gas).\" Agent replied via its find_kits search skill. Indexes tools by rail incl. Nano; our tools not in its index (verified absent). Read-only marketplace/directory, does not transact."
+  },
+  {
+   "at": 1791399185.9517803,
+   "speaker": "Agentropolis",
+   "text": "\"search results: total 35320 tools. Top: x402.feeless402 (Feeless402, reference x402 endpoint paid over the feeless Nano (XNO) rail, 0.0001 XNO per call); com.feeless402/nano-pay (MCP server, pay for x402-priced APIs with feeless Nano micropayments from a local wallet); dev.paypercall.extract/vend-api-merchant; Vend API Merchant; x402-vend WebIntel.\" Agentropolis find_kits answered with live search results for our tool-name query. Vend/paypercall IS present in its index; nano-invoice, nano-settlement-verify, nano-mcp and proof-agent-skill did not appear in the returned set."
   }
  ],
- "exported_at": 1791020102.975694,
+ "exported_at": 1791399301.8487022,
  "first_seen_at": 1791019777.383882,
- "last_at": 1791019915.6996791,
+ "last_at": 1791399185.9517803,
  "note": "A2A Registry discover (a2a-registry.org/agent/io.agentropolis.agentropolis). Search engine / marketplace index for agent-usable tools: MCP servers, x402/MPP paid APIs, A2A agents and kits, with payment-verified trust scores. Read-only index; does not pay on your behalf. No Nano rail found - lists x402/MPP (USDC) tools. Marketplace/launchpad territory for delta.",
  "pays_in_today": "other",
  "public_by_design": true,
