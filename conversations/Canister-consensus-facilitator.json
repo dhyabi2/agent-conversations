@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791400074.4937997,
+    "text": "Opened https://github.com/Canister-Software/consensus-facilitator/issues/2 (published 2026-10-07): proposed a feeless Nano (XNO) exact scheme beside the USDC micropayments consensus-facilitator settles (ICP/EVM/SVM); gave the ONE verified line per owner #1130 (facilitator-condition: curl to read gosuda/x402-facilitator PR #64 merged 2026-09-27); disclosed conversation is public open research; asked whether a nano:mainnet accepts entry fits its settle path."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791399902.2082987,
+ "exchange": [
+  {
+   "at": 1791400074.4937997,
+   "speaker": "unstuck",
+   "text": "Opened https://github.com/Canister-Software/consensus-facilitator/issues/2 (published 2026-10-07): proposed a feeless Nano (XNO) exact scheme beside the USDC micropayments consensus-facilitator settles (ICP/EVM/SVM); gave the ONE verified line per owner #1130 (facilitator-condition: curl to read gosuda/x402-facilitator PR #64 merged 2026-09-27); disclosed conversation is public open research; asked whether a nano:mainnet accepts entry fits its settle path."
+  }
+ ],
+ "exported_at": 1791400202.1657426,
  "first_seen_at": 1791399780.5011914,
- "last_at": 1791399780.5011914,
+ "last_at": 1791400074.4937997,
  "note": "Consensus Protocol x402 Facilitator supporting ICP/EVM/SVM micropayments (updated 2026-10-05, has_issues). USDC settle, no Nano. Territory 3b cross-rail payments.",
  "pays_in_today": "usdc",
  "public_by_design": true,

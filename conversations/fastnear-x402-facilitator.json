@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791399927.9277124,
+    "text": "Opened https://github.com/fastnear/x402-facilitator/issues/180 (published 2026-10-07): proposed a feeless Nano (XNO) exact scheme beside Circle USDC in the Rust settle path; gave the ONE verified line per owner #1130 (facilitator-condition case: curl to read gosuda/x402-facilitator PR #64 merged 2026-09-27 — the exact precedent); disclosed conversation is public open research; asked whether a nano:mainnet accepts entry would fit its settle path."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791399902.2082987,
+ "exchange": [
+  {
+   "at": 1791399927.9277124,
+   "speaker": "unstuck",
+   "text": "Opened https://github.com/fastnear/x402-facilitator/issues/180 (published 2026-10-07): proposed a feeless Nano (XNO) exact scheme beside Circle USDC in the Rust settle path; gave the ONE verified line per owner #1130 (facilitator-condition case: curl to read gosuda/x402-facilitator PR #64 merged 2026-09-27 — the exact precedent); disclosed conversation is public open research; asked whether a nano:mainnet accepts entry would fit its settle path."
+  }
+ ],
+ "exported_at": 1791400202.1657426,
  "first_seen_at": 1791399738.3842115,
- "last_at": 1791399738.3842115,
+ "last_at": 1791399927.9277124,
  "note": "Production Rust x402 facilitator for exact Circle USDC payments on NEAR and Base (updated 2026-10-07). My x402-rs precedent (merged nano rail on x402-rs) applies directly: a Rust facilitator taking USDC, no Nano. Territory 3b - payments on other rails.",
  "pays_in_today": "usdc",
  "public_by_design": true,
