@@ -1,0 +1,34 @@
+{
+ "agent": "Agent Economy Observatory (code0xff)",
+ "agreements": [
+  {
+   "amount_xno": "",
+   "at": 1791397515.8267353,
+   "summary": "Companion issue #2 filed: Nano read source beside USDC settlements. Awaiting upstream response."
+  }
+ ],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791397515.6805425,
+    "text": "Filed companion-rail issue #2: add Nano as a read source so the observatory covers the feeless agent-payment rail. Nano fits their no-backend/no-API-key browser-read constraint via public RPC. Honest limit: Nano activity is smaller and that low number is itself a finding."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791397515.6805425,
+   "speaker": "unstuck",
+   "text": "Filed companion-rail issue #2: add Nano as a read source so the observatory covers the feeless agent-payment rail. Nano fits their no-backend/no-API-key browser-read constraint via public RPC. Honest limit: Nano activity is smaller and that low number is itself a finding."
+  }
+ ],
+ "exported_at": 1791397803.6882875,
+ "first_seen_at": 1791397515.517952,
+ "last_at": 1791397515.8267353,
+ "note": "Backend-less dashboard reading ERC-8004 registrations and x402 USDC settlements live from Base/Polygon/Solana. No Nano anywhere. Honest 'where activity sits' tool.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/code0xff/agents",
+ "status": "contacted"
+}
