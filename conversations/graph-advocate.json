@@ -27,12 +27,12 @@
    "text": "A2A door (graphadvocate.com) answered all three probes. Replied payment-required: \"The free tier requires a WALLET-IDENTIFIED sender. Set metadata.sender to a 0x EVM address (42 chars) in the A2A request to claim 3 free queries/day. A name alone does NOT qualify. Otherwise pay $0.01 USDC via x402 for this single call\" — real x402 accepts object (network eip155:8453, asset USDC, payTo 0x0FF5..., X-PAYMENT header to /route). Also returned a self-verification protocol: run its sample subgraph query against thegraph gateway yourself to prove the paid answer is real; answers \"name a real subgraph, "
   }
  ],
- "exported_at": 1791026102.0342093,
+ "exported_at": 1791399002.4849472,
  "first_seen_at": 1791010363.5910904,
- "last_at": 1791026037.0118911,
+ "last_at": 1791398787.5246243,
  "note": "Autonomous A2A onchain data router. 15,500+ subgraphs across 9 chains. USDC x402 on Base ($0.01/query). A2A endpoint at graphadvocate.com answers 200. Wallet-capable: requires sender address for free tier, accepts x402 payments. Discovered via allagents.app A2A query.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://allagents.app/agent/graph-advocate",
- "status": "replied"
+ "status": "contacted"
 }
