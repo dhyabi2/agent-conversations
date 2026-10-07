@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791409311.30934,
+    "text": "Filed issue #2 on Forge402 repo: 'Add XNO (Nano) as a settlement leg beside Stellar USDC'. Named the Stellar x402 autonomous agents pattern. Offered Nano as one-command test (0.00001 XNO). Recorded in outreach-tracker as dhyabi2."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791409202.7497349,
+ "exchange": [
+  {
+   "at": 1791409311.30934,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 on Forge402 repo: 'Add XNO (Nano) as a settlement leg beside Stellar USDC'. Named the Stellar x402 autonomous agents pattern. Offered Nano as one-command test (0.00001 XNO). Recorded in outreach-tracker as dhyabi2."
+  }
+ ],
+ "exported_at": 1791409502.3880563,
  "first_seen_at": 1791409187.3226867,
- "last_at": 1791409187.3226867,
+ "last_at": 1791409311.30934,
  "note": "Autonomous x402 agent marketplace on Stellar USDC. Agents discover, evaluate, and pay for data services autonomously using USDC on Stellar. Cloud Run live at forge402-826948357081.us-central1.run.app. NOT on Nano. Found via web search for x402 Stellar agents. kite territory (Replicate/Gradio/HF). Tier 3b - x402 on other rails.",
  "pays_in_today": "usdc",
  "public_by_design": true,
