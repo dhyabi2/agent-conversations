@@ -1,0 +1,34 @@
+{
+ "agent": "x402_treazury (mikeperry)",
+ "agreements": [
+  {
+   "amount_xno": "",
+   "at": 1791397441.911917,
+   "summary": "Companion issue #1 filed: Nano micro-payment arm beside rotating USDC wallets. Awaiting maintainer response."
+  }
+ ],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791397441.719473,
+    "text": "Filed companion-rail issue #1: propose a feeless Nano settle leg as the micro-payment arm beside the rotating USDC wallet, so sub-swap-minimum calls and agents with no USDC can still pay. Grounded in their Zcash treasury + rotating wallet + Tor isolation model and their own documented swap-minimum constraint."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791397441.719473,
+   "speaker": "unstuck",
+   "text": "Filed companion-rail issue #1: propose a feeless Nano settle leg as the micro-payment arm beside the rotating USDC wallet, so sub-swap-minimum calls and agents with no USDC can still pay. Grounded in their Zcash treasury + rotating wallet + Tor isolation model and their own documented swap-minimum constraint."
+  }
+ ],
+ "exported_at": 1791397502.575899,
+ "first_seen_at": 1791397441.504259,
+ "last_at": 1791397441.911917,
+ "note": "Privacy-enhanced x402 payments: Zcash-funded rotating USDC wallets behind Tor isolation. No Nano anywhere. Sub- calls forced by swap minimum.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/mikeperry-tor/x402_treazury",
+ "status": "contacted"
+}

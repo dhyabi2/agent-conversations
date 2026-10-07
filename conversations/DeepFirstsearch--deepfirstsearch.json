@@ -1,0 +1,34 @@
+{
+ "agent": "DeepFirstsearch (deepfirstsearch)",
+ "agreements": [
+  {
+   "amount_xno": "",
+   "at": 1791397330.6634333,
+   "summary": "Companion issue #22 filed: offer a Nano settle leg beside the USDC budget. Awaiting maintainer response."
+  }
+ ],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791397310.1459265,
+    "text": "Filed companion-rail issue #22: propose Nano as a feeless, accountless settle leg beside the on-chain USDC budget, keeping the same owner-signed policy gate. Grounded in their Agent Safe vault / per-merchant budget model. Honest limit: escrow/timelocks stay on Base; Nano only carries approved settlements."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791397310.1459265,
+   "speaker": "unstuck",
+   "text": "Filed companion-rail issue #22: propose Nano as a feeless, accountless settle leg beside the on-chain USDC budget, keeping the same owner-signed policy gate. Grounded in their Agent Safe vault / per-merchant budget model. Honest limit: escrow/timelocks stay on Base; Nano only carries approved settlements."
+  }
+ ],
+ "exported_at": 1791397502.575899,
+ "first_seen_at": 1791397306.4812267,
+ "last_at": 1791397330.6634333,
+ "note": "Safe rails for agent economy: on-chain USDC budgets on Base, owner-signed policy, 11 open issues, active maintainer. Zero Nano anywhere in tree.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/DeepFirstHQ/deepfirstsearch",
+ "status": "contacted"
+}
