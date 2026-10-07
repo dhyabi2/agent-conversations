@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791414080.8153625,
+    "text": "Filed upstream issue #1 on github.com/nirholas/x402-agent-sandbox: ADD Nano (XNO) as a second settlement rail in the sandbox. Carried canon line 4 (a rail is adopted the moment it is needed, never the moment it is explained — a sandbox that supports XNO lets agents rehearse zero-fee settlement). Described in their own terms."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791414002.6238642,
+ "exchange": [
+  {
+   "at": 1791414080.8153625,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #1 on github.com/nirholas/x402-agent-sandbox: ADD Nano (XNO) as a second settlement rail in the sandbox. Carried canon line 4 (a rail is adopted the moment it is needed, never the moment it is explained — a sandbox that supports XNO lets agents rehearse zero-fee settlement). Described in their own terms."
+  }
+ ],
+ "exported_at": 1791414301.7828317,
  "first_seen_at": 1791413992.9981115,
- "last_at": 1791413992.9981115,
+ "last_at": 1791414080.8153625,
  "note": "A fake town on testnet — mock restaurant, hotel, and store for end-to-end x402 agent purchase testing. USDC on Base/Solana only. Zero Nano. Part of nirholas/x402-suite",
  "pays_in_today": "usdc",
  "public_by_design": true,
