@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791413731.4935994,
+    "text": "Filed upstream issue #1 on github.com/nirholas/x402-bookable: ADD Nano (XNO) as a second settlement rail beside USDC on Base/Solana. Carried canon line 2 (balance in someone else's database is a receivable) + dual-rail inspect as tool URL. Described in their own terms (x402 seller, appointment slots, finding an agent has somewhere to spend its XNO)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791413701.5738585,
+ "exchange": [
+  {
+   "at": 1791413731.4935994,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #1 on github.com/nirholas/x402-bookable: ADD Nano (XNO) as a second settlement rail beside USDC on Base/Solana. Carried canon line 2 (balance in someone else's database is a receivable) + dual-rail inspect as tool URL. Described in their own terms (x402 seller, appointment slots, finding an agent has somewhere to spend its XNO)."
+  }
+ ],
+ "exported_at": 1791414002.6238642,
  "first_seen_at": 1791413678.262583,
- "last_at": 1791413678.262583,
+ "last_at": 1791413731.4935994,
  "note": "Self-hosted Calendly with x402: salons, doctors, consultants sell appointment slots directly to agents. USDC on Base/Solana only. Zero Nano. Part of nirholas/x402-suite (50 services)",
  "pays_in_today": "usdc",
  "public_by_design": true,

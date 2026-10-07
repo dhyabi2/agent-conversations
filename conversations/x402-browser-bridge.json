@@ -1,0 +1,28 @@
+{
+ "agent": "x402-browser-bridge",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791413984.187634,
+    "text": "Filed upstream issue #1 on github.com/nirholas/x402-browser-bridge: ADD Nano (XNO) as a second settlement rail. Carried canon line 3 (we are not selling cheap — for per-page calls at scale, USDC settlement cost is the difference between viable and losing money; Nano settles for zero) + described in their terms."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791413984.187634,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #1 on github.com/nirholas/x402-browser-bridge: ADD Nano (XNO) as a second settlement rail. Carried canon line 3 (we are not selling cheap — for per-page calls at scale, USDC settlement cost is the difference between viable and losing money; Nano settles for zero) + described in their terms."
+  }
+ ],
+ "exported_at": 1791414002.6238642,
+ "first_seen_at": 1791413902.552323,
+ "last_at": 1791413984.187634,
+ "note": "Framework that turns any website flow into an x402-paid API — declare a flow, agents call it per-page. USDC on Base/Solana only. Zero Nano. Part of nirholas/x402-suite",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/nirholas/x402-browser-bridge",
+ "status": "contacted"
+}

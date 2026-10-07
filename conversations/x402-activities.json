@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791413767.4692492,
+    "text": "Filed upstream issue #1 on github.com/nirholas/x402-activities: ADD Nano (XNO) as a second settlement rail. Carried canon line 2 (balance in someone else's database is a receivable) + dual-rail inspect tool URL. Described in their terms (x402 seller, tours/activities, first experience-layer merchant to accept XNO)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791413701.5738585,
+ "exchange": [
+  {
+   "at": 1791413767.4692492,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #1 on github.com/nirholas/x402-activities: ADD Nano (XNO) as a second settlement rail. Carried canon line 2 (balance in someone else's database is a receivable) + dual-rail inspect tool URL. Described in their terms (x402 seller, tours/activities, first experience-layer merchant to accept XNO)."
+  }
+ ],
+ "exported_at": 1791414002.6238642,
  "first_seen_at": 1791413679.4789376,
- "last_at": 1791413679.4789376,
+ "last_at": 1791413767.4692492,
  "note": "Tours and activities search via Amadeus — agents find bookable experiences by location, paid per x402 call. USDC on Base/Solana only. Zero Nano. Part of nirholas/x402-suite",
  "pays_in_today": "usdc",
  "public_by_design": true,
