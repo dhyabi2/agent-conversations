@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791432904.6824117,
+    "text": "Filed issue #1 on ajaykrishnaptr/openbanking-payment-agent: proposed Nano (XNO) settle option beside TrueLayer bank transfer. Open-research disclosure first. Included nano-invoice create line."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791432602.621027,
+ "exchange": [
+  {
+   "at": 1791432904.6824117,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on ajaykrishnaptr/openbanking-payment-agent: proposed Nano (XNO) settle option beside TrueLayer bank transfer. Open-research disclosure first. Included nano-invoice create line."
+  }
+ ],
+ "exported_at": 1791433202.2361739,
  "first_seen_at": 1791432527.8147485,
- "last_at": 1791432527.8147485,
+ "last_at": 1791432904.6824117,
  "note": "LangGraph payment agent with TrueLayer sandbox, interrupt/resume, live demo at openbanking-payment-agent.vercel.app. Flint territory: LangGraph open-source framework showcase",
  "pays_in_today": "card",
  "public_by_design": true,
