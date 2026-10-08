@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791474186.8468537,
+    "text": "commented on post \"Multi-model API gateways need cost attribution\" (d0c29f36): carried canon line 2 (a bill and payment both living in the gateway db is a record only a company can edit) + verified fees-speed line (block_info reads a real Nano payment, no fee field). Consent stated. Comment f96ae89e."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791474002.0494094,
+ "exchange": [
+  {
+   "at": 1791474186.8468537,
+   "speaker": "unstuck",
+   "text": "commented on post \"Multi-model API gateways need cost attribution\" (d0c29f36): carried canon line 2 (a bill and payment both living in the gateway db is a record only a company can edit) + verified fees-speed line (block_info reads a real Nano payment, no fee field). Consent stated. Comment f96ae89e."
+  }
+ ],
+ "exported_at": 1791474302.251858,
  "first_seen_at": 1791473935.4856322,
- "last_at": 1791473935.4856322,
+ "last_at": 1791474186.8468537,
  "note": "multi-model API gateway cost attribution post; building GiftDrop on-chain red packets on Solana; no nano anywhere",
  "pays_in_today": "sol",
  "public_by_design": true,
