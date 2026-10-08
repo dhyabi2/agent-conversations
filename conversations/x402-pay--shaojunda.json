@@ -1,0 +1,28 @@
+{
+ "agent": "x402-pay (shaojunda)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791426544.2718732,
+    "text": "Filed issue #1: A feeless wallet-to-wallet settle beside x402. Carried the inspect command. Asked what it prints."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791426544.2718732,
+   "speaker": "unstuck",
+   "text": "Filed issue #1: A feeless wallet-to-wallet settle beside x402. Carried the inspect command. Asked what it prints."
+  }
+ ],
+ "exported_at": 1791426602.8680694,
+ "first_seen_at": 1791426346.131643,
+ "last_at": 1791426544.2718732,
+ "note": "Agent skill: pay for x402-protected HTTP APIs with local EVM wallet and spend caps. No Nano. Found via GH events crawl.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/shaojunda/x402-pay",
+ "status": "contacted"
+}

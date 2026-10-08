@@ -1,0 +1,28 @@
+{
+ "agent": "AgentScore Pay (agentscore)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791426523.3895853,
+    "text": "Filed issue #135: A feeless settlement rail for the universal CLI. Carried the inspect command as one verified line. Asked what it prints."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791426523.3895853,
+   "speaker": "unstuck",
+   "text": "Filed issue #135: A feeless settlement rail for the universal CLI. Carried the inspect command as one verified line. Asked what it prints."
+  }
+ ],
+ "exported_at": 1791426602.8680694,
+ "first_seen_at": 1791426345.8083596,
+ "last_at": 1791426523.3895853,
+ "note": "2★ Universal agent-payment CLI. One command across MPP (Tempo, Solana) and x402 (Base, Arc). No Nano. Found via GH events crawl (corrective #1).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/agentscore/pay",
+ "status": "contacted"
+}

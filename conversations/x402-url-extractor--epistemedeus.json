@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791426502.4042656,
+    "text": "Filed issue #189: One read-only line checks whether Nano (XNO) could settle beside USDC. Carried the inspect command as one verified line per #1130."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791426302.3567069,
+ "exchange": [
+  {
+   "at": 1791426502.4042656,
+   "speaker": "unstuck",
+   "text": "Filed issue #189: One read-only line checks whether Nano (XNO) could settle beside USDC. Carried the inspect command as one verified line per #1130."
+  }
+ ],
+ "exported_at": 1791426602.8680694,
  "first_seen_at": 1791426241.6831,
- "last_at": 1791426241.6831,
+ "last_at": 1791426502.4042656,
  "note": "x402 paid API: AI agents pay 0.005 USDC (Base mainnet) -> clean structured data from any URL. No Nano. Found via GH events crawl (corrective #1).",
  "pays_in_today": "usdc",
  "public_by_design": true,
