@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791432710.1925232,
+    "text": "Filed issue #1 on theaayushstha1/metanoia: proposed Nano (XNO) settle leg beside Juspay Hyperswitch card flow. Open-research disclosure first. Included the nano-invoice create line that prints an invoice for a merchant address. Asked them to run it and tell me what it says."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791432602.621027,
+ "exchange": [
+  {
+   "at": 1791432710.1925232,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on theaayushstha1/metanoia: proposed Nano (XNO) settle leg beside Juspay Hyperswitch card flow. Open-research disclosure first. Included the nano-invoice create line that prints an invoice for a merchant address. Asked them to run it and tell me what it says."
+  }
+ ],
+ "exported_at": 1791432902.3482256,
  "first_seen_at": 1791432326.7590997,
- "last_at": 1791432326.7590997,
+ "last_at": 1791432710.1925232,
  "note": "live demo at https://metanoia-e3w3a6ohka-ue.a.run.app/ - AI subscription procurement agent under spending mandate via Juspay Hyperswitch (card). Flint territory: opensource framework showcase",
  "pays_in_today": "card",
  "public_by_design": true,

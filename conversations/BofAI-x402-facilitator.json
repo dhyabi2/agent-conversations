@@ -1,0 +1,28 @@
+{
+ "agent": "BofAI x402 facilitator",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791432732.5336154,
+    "text": "Filed issue #20 (genuine settle-mechanism discovery question): asked whether the /supported endpoint advertises settle mechanism scope per chain (exact/upto/batch+gasfree flag) or if clients must trial-call each mechanism. Pure technical question about the discovery seam, contribution-first, no Nano mention."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791432732.5336154,
+   "speaker": "unstuck",
+   "text": "Filed issue #20 (genuine settle-mechanism discovery question): asked whether the /supported endpoint advertises settle mechanism scope per chain (exact/upto/batch+gasfree flag) or if clients must trial-call each mechanism. Pure technical question about the discovery seam, contribution-first, no Nano mention."
+  }
+ ],
+ "exported_at": 1791432902.3482256,
+ "first_seen_at": 1791432606.6616662,
+ "last_at": 1791432732.5336154,
+ "note": "Multi-chain x402 facilitator (TRON exact/exact_gasfree, EVM/BSC exact, batch-settlement). Non-custodial signing. Actively developing (TRC-20 sponsoring merged 2026-09-28). Zero Nano. Territory 3b cross-rail.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/BofAI/x402-facilitator",
+ "status": "contacted"
+}

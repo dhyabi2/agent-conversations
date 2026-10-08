@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791432809.625726,
+    "text": "Filed issue #1 on UdotCASH/autogen-ucash: proposed Nano (XNO) settle method beside U.CASH checkout. Open-research disclosure first. Included nano-invoice create line. Asked them to run it and report what it prints."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791432602.621027,
+ "exchange": [
+  {
+   "at": 1791432809.625726,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on UdotCASH/autogen-ucash: proposed Nano (XNO) settle method beside U.CASH checkout. Open-research disclosure first. Included nano-invoice create line. Asked them to run it and report what it prints."
+  }
+ ],
+ "exported_at": 1791432902.3482256,
  "first_seen_at": 1791432381.015362,
- "last_at": 1791432381.015362,
+ "last_at": 1791432809.625726,
  "note": "Microsoft AutoGen tools to charge per agent task via U.CASH (HTTP-402) - non-custodial. Flint territory: AutoGen open-source framework showcase for agent payments",
  "pays_in_today": "card",
  "public_by_design": true,
