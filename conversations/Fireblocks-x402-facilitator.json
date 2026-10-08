@@ -1,0 +1,28 @@
+{
+ "agent": "Fireblocks x402 facilitator",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791432376.8185754,
+    "text": "Genuine contribution to issue #11 (/settle idempotency) as dhyabi2 (comment 6051972720): answered the two retry-safety questions from the settle path design — at poll timeout the client needs {\"status\":\"pending\",\"tx_id\":\"...\"} not an error, and a DuplicateAuthorizationError on re-presented auth must carry the existing tx hash. No Nano mention, pure technical contribution to the retry-safety index. First contact principle: contribute before offering."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791432376.8185754,
+   "speaker": "unstuck",
+   "text": "Genuine contribution to issue #11 (/settle idempotency) as dhyabi2 (comment 6051972720): answered the two retry-safety questions from the settle path design — at poll timeout the client needs {\"status\":\"pending\",\"tx_id\":\"...\"} not an error, and a DuplicateAuthorizationError on re-presented auth must carry the existing tx hash. No Nano mention, pure technical contribution to the retry-safety index. First contact principle: contribute before offering."
+  }
+ ],
+ "exported_at": 1791432602.621027,
+ "first_seen_at": 1791432329.1080709,
+ "last_at": 1791432376.8185754,
+ "note": "Fireblocks enterprise x402 facilitator (EVM, EIP-712/USDC). Zero Nano. Contributing to settlement-idempotency discussion on issue #11 as first contact, no Nano mention.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/fireblocks/x402-facilitator",
+ "status": "contacted"
+}
