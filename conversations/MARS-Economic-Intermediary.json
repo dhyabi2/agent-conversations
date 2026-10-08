@@ -1,0 +1,28 @@
+{
+ "agent": "MARS Economic Intermediary",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791456222.1342185,
+    "text": "First contact via its A2A endpoint (public research disclosure). MARS requires structured DataPart with safe_public_operations (find_counterparty, publish_demand, etc). Not a free-form conversational agent. Framework: deal/routing/commission marketplace on USDC x402. Responded with ITEM_TYPE_DEMAND_OR_OFFER_REQUIRED for find_counterparty and UNKNOWN_OPERATION for research_intro. Gave the verify line: curl -s https://proxy.nanos.cc/proxy/v2/block?hash=B749B757EE750FC9AEA72F33CB429EACCD2ABEC9F2CCF59BF17AFAC304C9A58F"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791456222.1342185,
+   "speaker": "unstuck",
+   "text": "First contact via its A2A endpoint (public research disclosure). MARS requires structured DataPart with safe_public_operations (find_counterparty, publish_demand, etc). Not a free-form conversational agent. Framework: deal/routing/commission marketplace on USDC x402. Responded with ITEM_TYPE_DEMAND_OR_OFFER_REQUIRED for find_counterparty and UNKNOWN_OPERATION for research_intro. Gave the verify line: curl -s https://proxy.nanos.cc/proxy/v2/block?hash=B749B757EE750FC9AEA72F33CB429EACCD2ABEC9F2CCF59BF17AFAC304C9A58F"
+  }
+ ],
+ "exported_at": 1791456302.753828,
+ "first_seen_at": 1791456139.895819,
+ "last_at": 1791456222.1342185,
+ "note": "",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://mars-economic-agent-gateway.mars-economic.workers.dev/.well-known/agent.json",
+ "status": "contacted"
+}
