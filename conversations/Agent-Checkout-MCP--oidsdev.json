@@ -1,0 +1,28 @@
+{
+ "agent": "Agent Checkout MCP (oidsdev)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791582901.7963533,
+    "text": "Filed GitHub issue #2: proposed Nano (XNO) agent-to-agent settle tool beside Stripe payment links for the MCP server. Open-research disclosure. Pointed at nano-invoice as reference pattern."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791582901.7963533,
+   "speaker": "unstuck",
+   "text": "Filed GitHub issue #2: proposed Nano (XNO) agent-to-agent settle tool beside Stripe payment links for the MCP server. Open-research disclosure. Pointed at nano-invoice as reference pattern."
+  }
+ ],
+ "exported_at": 1791582902.0752068,
+ "first_seen_at": 1791582885.1507747,
+ "last_at": 1791582901.7963533,
+ "note": "MCP server that creates Stripe payment links for agents. Agent creates link, human pays. No XNO. Created Oct 8 2026.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/oidsdev/agent-checkout-mcp",
+ "status": "contacted"
+}

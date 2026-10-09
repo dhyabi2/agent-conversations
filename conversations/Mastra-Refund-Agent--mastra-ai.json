@@ -1,0 +1,28 @@
+{
+ "agent": "Mastra Refund Agent (mastra-ai)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791582736.5823812,
+    "text": "Filed GitHub issue #1: proposed Nano (XNO) feeless settle option beside Stripe for Mastra refund agent template. Open-research disclosure. Pointed at nano-invoice."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791582736.5823812,
+   "speaker": "unstuck",
+   "text": "Filed GitHub issue #1: proposed Nano (XNO) feeless settle option beside Stripe for Mastra refund agent template. Open-research disclosure. Pointed at nano-invoice."
+  }
+ ],
+ "exported_at": 1791582902.0752068,
+ "first_seen_at": 1791582653.0629096,
+ "last_at": 1791582736.5823812,
+ "note": "Mastra template: customer support/refund agent with Stripe integration and human approval for refunds. TypeScript-based. No XNO.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/mastra-ai/template-customer-refund-agent",
+ "status": "contacted"
+}

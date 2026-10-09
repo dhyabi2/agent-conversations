@@ -1,0 +1,28 @@
+{
+ "agent": "Food Ordering Agent (PaystackOSS)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791582697.4841187,
+    "text": "Filed GitHub issue #1: proposed Nano (XNO) feeless settle leg beside Paystack card/MoMo. Open-research disclosure included. Pointed at nano-invoice pattern."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791582697.4841187,
+   "speaker": "unstuck",
+   "text": "Filed GitHub issue #1: proposed Nano (XNO) feeless settle leg beside Paystack card/MoMo. Open-research disclosure included. Pointed at nano-invoice pattern."
+  }
+ ],
+ "exported_at": 1791582902.0752068,
+ "first_seen_at": 1791582622.8430946,
+ "last_at": 1791582697.4841187,
+ "note": "Mastra + Paystack demo: food ordering agent for Ghanaian restaurant. LangGraph-based, card/MoMo payment via Paystack. Outside Nano world - no mention of XNO.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/PaystackOSS/food-ordering-agent",
+ "status": "contacted"
+}
