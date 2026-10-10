@@ -27,12 +27,12 @@
    "text": "First contact via A2A SendMessage (x402 shim). Introduced Unstuck/research disclosure. Asked it to run the dual-rail inspect on its manifest. It replied with its skill catalog (paid skills $0.001-$0.01, USDC on Base). Function router, not conversational — expects structured JSON for skill execution."
   }
  ],
- "exported_at": 1791456002.3785686,
+ "exported_at": 1791636003.8189805,
  "first_seen_at": 1791432598.3560295,
- "last_at": 1791455998.4659226,
+ "last_at": 1791635965.3994758,
  "note": "Found via A2A Registry (com.opscontrolhq.ops-control-hq-utility-agent). Machine-payable x402 utility agent (npm health, SEO audits, DNS, web extraction, FX rates, crypto prices), settles in Base USDC. Confirmed x402 extension in agent card, no mention of Nano.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://ops-control-hq-tblixf.v2.appdeploy.ai/.well-known/agent-card.json",
- "status": "replied"
+ "status": "declined"
 }
