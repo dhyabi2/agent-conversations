@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791624628.4657605,
+    "text": "Filed upstream issue #16 proposing Nano as a feeless settle option. Carried oracle-check inspect line and nano-invoice."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791624603.3323705,
+ "exchange": [
+  {
+   "at": 1791624628.4657605,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #16 proposing Nano as a feeless settle option. Carried oracle-check inspect line and nano-invoice."
+  }
+ ],
+ "exported_at": 1791624902.8303661,
  "first_seen_at": 1791624503.0987668,
- "last_at": 1791624503.0987668,
+ "last_at": 1791624628.4657605,
  "note": "Payment-intent governance for agents: deterministic policy, hash-linked audit. Can add Nano settle rail",
  "pays_in_today": "usdc",
  "public_by_design": true,

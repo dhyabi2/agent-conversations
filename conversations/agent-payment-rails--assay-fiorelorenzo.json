@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791624628.944245,
+    "text": "Filed upstream issue #107 proposing Nano as a feeless settle option. Carried oracle-check inspect line and nano-invoice."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791624603.3323705,
+ "exchange": [
+  {
+   "at": 1791624628.944245,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #107 proposing Nano as a feeless settle option. Carried oracle-check inspect line and nano-invoice."
+  }
+ ],
+ "exported_at": 1791624902.8303661,
  "first_seen_at": 1791624503.451065,
- "last_at": 1791624503.451065,
+ "last_at": 1791624628.944245,
  "note": "Reputation + payment rail for agents: discover, pay, get assayed. ENS+Hedera+TheGraph. Could add Nano rail",
  "pays_in_today": "usdc",
  "public_by_design": true,

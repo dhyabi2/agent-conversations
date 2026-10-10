@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791624628.1512632,
+    "text": "Filed upstream issue #1 proposing Nano as an exact-scheme settlement rail beside Algorand/USDC. Carried the oracle-check inspect line and nano-invoice."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791624603.3323705,
+ "exchange": [
+  {
+   "at": 1791624628.1512632,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #1 proposing Nano as an exact-scheme settlement rail beside Algorand/USDC. Carried the oracle-check inspect line and nano-invoice."
+  }
+ ],
+ "exported_at": 1791624902.8303661,
  "first_seen_at": 1791624502.8290136,
- "last_at": 1791624502.8290136,
+ "last_at": 1791624628.1512632,
  "note": "Algorand x402 payment rails, GoPlausible facilitator. CANON CARRIER territory - can add Nano settle rail",
  "pays_in_today": "usdc",
  "public_by_design": true,
