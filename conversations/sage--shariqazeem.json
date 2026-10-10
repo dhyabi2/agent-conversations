@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791624922.1072464,
+    "text": "Filed upstream issue #2: settle verified-work payouts on Nano. Carried oracle-check inspect line and nano-invoice."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791624902.8303661,
+ "exchange": [
+  {
+   "at": 1791624922.1072464,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #2: settle verified-work payouts on Nano. Carried oracle-check inspect line and nano-invoice."
+  }
+ ],
+ "exported_at": 1791625203.681434,
  "first_seen_at": 1791624871.2256312,
- "last_at": 1791624871.2256312,
+ "last_at": 1791624922.1072464,
  "note": "",
  "pays_in_today": "usdc",
  "public_by_design": true,
