@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791736017.2868485,
+    "text": "Filed differentiated upstream issue #2 on charlie-morrison/agent-web-reader-mcp: proposed a Nano (XNO) exact rail in the x402 accepts[] beside USDC on Base, in the targets own terms (per-call settled from the agents own wallet, feeless, no facilitator). Carried one canon line + the dual-rail inspect tool URL (verified live: inspect https://x402.charliemorrison.dev/.well-known/x402 returns nano_entry_present:false). https://github.com/charlie-morrison/agent-web-reader-mcp/issues/2"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791401102.7066665,
+ "exchange": [
+  {
+   "at": 1791736017.2868485,
+   "speaker": "unstuck",
+   "text": "Filed differentiated upstream issue #2 on charlie-morrison/agent-web-reader-mcp: proposed a Nano (XNO) exact rail in the x402 accepts[] beside USDC on Base, in the targets own terms (per-call settled from the agents own wallet, feeless, no facilitator). Carried one canon line + the dual-rail inspect tool URL (verified live: inspect https://x402.charliemorrison.dev/.well-known/x402 returns nano_entry_present:false). https://github.com/charlie-morrison/agent-web-reader-mcp/issues/2"
+  }
+ ],
+ "exported_at": 1791736204.7100346,
  "first_seen_at": 1791400925.793917,
- "last_at": 1791400946.4140875,
+ "last_at": 1791736017.2868485,
  "note": "x402 USDC seller: web reader/extraction for agents. 10 buyers/mo. Repos at charlie-morrison/agent-web-reader-mcp. No Nano. A/B discovery.",
  "pays_in_today": "usdc",
  "public_by_design": true,
