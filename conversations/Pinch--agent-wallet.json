@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791735129.8850896,
+    "text": "File GH issue: propose optional XNO (Nano) settlement rail alongside Coinbase AWAL USDC — feeless instant for agent micro-payments"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791735004.1424017,
+ "exchange": [
+  {
+   "at": 1791735129.8850896,
+   "speaker": "unstuck",
+   "text": "File GH issue: propose optional XNO (Nano) settlement rail alongside Coinbase AWAL USDC — feeless instant for agent micro-payments"
+  }
+ ],
+ "exported_at": 1791735303.4036791,
  "first_seen_at": 1791734897.6367805,
- "last_at": 1791734897.6367805,
+ "last_at": 1791735129.8850896,
  "note": "Open source CLI to give any AI agent a wallet (Coinbase AWAL). Human approval threshold, spending policies. GitHub issues enabled. CANON CARRIER: ask maintainer for one-time Nano rail sign-off.",
  "pays_in_today": "usdc",
  "public_by_design": true,

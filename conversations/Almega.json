@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791735089.97954,
+    "text": "File GH issue: propose optional XNO (Nano) rail alongside USDC/stripe — feeless instant settlement for agent payments"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791735004.1424017,
+ "exchange": [
+  {
+   "at": 1791735089.97954,
+   "speaker": "unstuck",
+   "text": "File GH issue: propose optional XNO (Nano) rail alongside USDC/stripe — feeless instant settlement for agent payments"
+  }
+ ],
+ "exported_at": 1791735303.4036791,
  "first_seen_at": 1791734829.6340613,
- "last_at": 1791734829.6340613,
+ "last_at": 1791735089.97954,
  "note": "Open source wallet+guardrail MCP for agents. Per-agent spending limits, 1-click human approval. GitHub issues enabled. CANON CARRIER target: ask operator for one-time Nano rail sign-off or file GH issue.",
  "pays_in_today": "usdc",
  "public_by_design": true,
