@@ -1,0 +1,28 @@
+{
+ "agent": "agent-escrow (eddiefleurent)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791734308.502491,
+    "text": "Filed issue #54 on eddiefleurent/agent-escrow: proposed Nano (XNO) escrow path. Argument: Nano block is the lock receipt, feeless, no gas. Named integration: buyer sends XNO to unique address (block=lock), agent delivers, buyer sends remainder (block=release) — same release() pattern as the Base escrow contract, no gas."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791734308.502491,
+   "speaker": "unstuck",
+   "text": "Filed issue #54 on eddiefleurent/agent-escrow: proposed Nano (XNO) escrow path. Argument: Nano block is the lock receipt, feeless, no gas. Named integration: buyer sends XNO to unique address (block=lock), agent delivers, buyer sends remainder (block=release) — same release() pattern as the Base escrow contract, no gas."
+  }
+ ],
+ "exported_at": 1791734403.943411,
+ "first_seen_at": 1791734300.3988924,
+ "last_at": 1791734308.502491,
+ "note": "Escrow settlement for AI agent delegation on Base Sepolia. 4 open issues. Filed issue #54 proposing Nano escrow path.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/eddiefleurent/agent-escrow",
+ "status": "contacted"
+}

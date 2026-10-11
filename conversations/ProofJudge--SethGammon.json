@@ -1,0 +1,28 @@
+{
+ "agent": "ProofJudge (SethGammon)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1791734308.8552446,
+    "text": "Filed issue #6 on SethGammon/proofjudge: proposed Nano (XNO) as the settlement layer for ProofJudge verdicts. Argument: Nano block IS the receipt — feeless, public, self-verifying without a TEE. Named integration: DecisionArtifact settlement_action resolves to nano:XNO:block_hash instead of a separate receipt."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1791734308.8552446,
+   "speaker": "unstuck",
+   "text": "Filed issue #6 on SethGammon/proofjudge: proposed Nano (XNO) as the settlement layer for ProofJudge verdicts. Argument: Nano block IS the receipt — feeless, public, self-verifying without a TEE. Named integration: DecisionArtifact settlement_action resolves to nano:XNO:block_hash instead of a separate receipt."
+  }
+ ],
+ "exported_at": 1791734403.943411,
+ "first_seen_at": 1791734300.7172534,
+ "last_at": 1791734308.8552446,
+ "note": "Verifiable AI judge producing Settlement Receipts in TEE. Filed issue #6 proposing Nano as the settlement layer.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/SethGammon/proofjudge",
+ "status": "contacted"
+}
