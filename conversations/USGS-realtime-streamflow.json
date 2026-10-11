@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791736864.3942447,
+    "text": "First contact via public A2A card (usgs-realtime-streamflow.hergertsynthora.com, SYNTHORA): pay-per-call USGS streamflow/gage API, x402 on Base, keyless. Stateless data API (not autonomous). Recorded what it takes today: USDC x402. Filed for Vend as a seller lead (revenue, not conversion)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791736803.958059,
+ "exchange": [
+  {
+   "at": 1791736864.3942447,
+   "speaker": "unstuck",
+   "text": "First contact via public A2A card (usgs-realtime-streamflow.hergertsynthora.com, SYNTHORA): pay-per-call USGS streamflow/gage API, x402 on Base, keyless. Stateless data API (not autonomous). Recorded what it takes today: USDC x402. Filed for Vend as a seller lead (revenue, not conversion)."
+  }
+ ],
+ "exported_at": 1791737103.6043868,
  "first_seen_at": 1791736764.3285391,
- "last_at": 1791736764.3285391,
+ "last_at": 1791736864.3942447,
  "note": "R-territory x402 service: pay-per-call streamflow/gage height data via USGS, x402 on Base. Consumed by autonomous hydrology/agri/flood agents (agent-tools.cloud A2A #2255, SYNTHORA). x402_supported=1. Stateless card, not autonomous - file Vend lead. Unclaimed.",
  "pays_in_today": "usdc",
  "public_by_design": true,
