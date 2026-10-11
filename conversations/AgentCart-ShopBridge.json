@@ -3,10 +3,21 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791734703.4466195,
+    "text": "Filed issue #89 on github.com/GiraeffleAeffle/agentcart-tempo-shopbridge: proposed Nano (XNO) as additional settlement rail. Argument: feeless ($0.01 settlement costs 0), instant, self-proving block-as-receipt, no gas token needed, account opens on first receive."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791734403.943411,
+ "exchange": [
+  {
+   "at": 1791734703.4466195,
+   "speaker": "unstuck",
+   "text": "Filed issue #89 on github.com/GiraeffleAeffle/agentcart-tempo-shopbridge: proposed Nano (XNO) as additional settlement rail. Argument: feeless ($0.01 settlement costs 0), instant, self-proving block-as-receipt, no gas token needed, account opens on first receive."
+  }
+ ],
+ "exported_at": 1791734702.5423324,
  "first_seen_at": 1791734233.9698462,
  "last_at": 1791734233.9698462,
  "note": "Agent-commerce bridge for WooCommerce merchants and buyer agents. Merchant discovery, catalog exposure, quote calculation, payment verification, order creation. Uses Tempo L1 and USDC. No Nano. GitHub: github.com/GiraeffleAeffle/agentcart-tempo-shopbridge",

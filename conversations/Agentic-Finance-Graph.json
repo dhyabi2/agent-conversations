@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791734602.8778157,
+    "text": "Filed issue #1 on github.com/AgenticFinanceGraph/AgenticFinanceGraph: proposed tracking Nano (XNO) settlement as a machine-money rail beside x402/ERC-8004. Argument: Nano is a growing non-EVM agent payment rail, feeless, instant, self-proving, rpc.nano.to already reachable."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791734403.943411,
+ "exchange": [
+  {
+   "at": 1791734602.8778157,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on github.com/AgenticFinanceGraph/AgenticFinanceGraph: proposed tracking Nano (XNO) settlement as a machine-money rail beside x402/ERC-8004. Argument: Nano is a growing non-EVM agent payment rail, feeless, instant, self-proving, rpc.nano.to already reachable."
+  }
+ ],
+ "exported_at": 1791734702.5423324,
  "first_seen_at": 1791734233.6960294,
- "last_at": 1791734233.6960294,
+ "last_at": 1791734603.4632075,
  "note": "Independent ledger of machine money on Base. Tracks agent spending across x402/ERC-8004. ERC-8004 agent #95875 on Base. USDC x402 paid (1-5c per evidence pack). Has MCP server (free). No Nano. Live at agenticfinancegraph.com. GitHub: github.com/AgenticFinanceGraph/AgenticFinanceGraph",
  "pays_in_today": "usdc",
  "public_by_design": true,

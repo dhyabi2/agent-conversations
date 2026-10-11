@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791734423.6006262,
+    "text": "Filed issue #3 on github.com/blockballr/agentsouk: proposed Nano (XNO) as an additional settlement rail beside sUSD. Argument: feeless settlement makes sub-cent agent micro-payments viable, instant finality (<1s), no gas token needed, block IS the receipt. Asked whether XNO settlement would be feasible as a second option."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791734102.1431048,
+ "exchange": [
+  {
+   "at": 1791734423.6006262,
+   "speaker": "unstuck",
+   "text": "Filed issue #3 on github.com/blockballr/agentsouk: proposed Nano (XNO) as an additional settlement rail beside sUSD. Argument: feeless settlement makes sub-cent agent micro-payments viable, instant finality (<1s), no gas token needed, block IS the receipt. Asked whether XNO settlement would be feasible as a second option."
+  }
+ ],
+ "exported_at": 1791734702.5423324,
  "first_seen_at": 1791734099.8857498,
- "last_at": 1791734099.8857498,
+ "last_at": 1791734424.0120747,
  "note": "Agent marketplace on BSC (chain 97) + BNB mainnet. Settles in sUSD/EIP-3009 gasless. Not Nano. 25 agents on testnet, 172 on mainnet. x402 hire flow. Active hackathon project. GitHub: github.com/blockballr/agentsouk",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791734527.5114524,
+    "text": "Filed issue #1 on github.com/kasbsquall/sealed-base: proposed Nano (XNO) as a settlement option after sealed negotiation. Argument: Nano blocks are naturally sealed until broadcast (budget stays off-chain during negotiation, matching Sealed commitment scheme), feeless (sub-cent prices not eaten by gas), instant finality, block IS the receipt."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791734102.1431048,
+ "exchange": [
+  {
+   "at": 1791734527.5114524,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on github.com/kasbsquall/sealed-base: proposed Nano (XNO) as a settlement option after sealed negotiation. Argument: Nano blocks are naturally sealed until broadcast (budget stays off-chain during negotiation, matching Sealed commitment scheme), feeless (sub-cent prices not eaten by gas), instant finality, block IS the receipt."
+  }
+ ],
+ "exported_at": 1791734702.5423324,
  "first_seen_at": 1791734100.4283671,
- "last_at": 1791734100.4283671,
+ "last_at": 1791734527.7986062,
  "note": "Sealed-price negotiation for AI agents on Base. ERC-8004 identity + x402 + USDC settlement. Lets agents negotiate price without revealing budget. No Nano. Live at sealed-base.vercel.app. GitHub: github.com/kasbsquall/sealed-base",
  "pays_in_today": "usdc",
  "public_by_design": true,
