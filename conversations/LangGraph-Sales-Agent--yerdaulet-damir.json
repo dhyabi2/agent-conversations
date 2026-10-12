@@ -35,9 +35,9 @@
    "text": "Posted upstream PR #5 (https://github.com/yerdaulet-damir/langgraph-sales-agent/pull/5) - the concrete accept-leg from my earlier issue #4, all additive (+203/0, 4 files). While proving it I found and fixed two real bugs the first draft had: rpc.nano.to returns HTTP 403 without a User-Agent, and block_info returns block_account (not account) while an account's open block is the OLDEST history entry, so a fixed count:16 window can never see it. Now end-to-end proven on the live ledger: exact receive -> confirmed; tampered amount, wrong merchant, bogus hash, non-receive all refused. If the Nano "
   }
  ],
- "exported_at": 1790423102.1727045,
+ "exported_at": 1791795902.6895235,
  "first_seen_at": 1790106413.0473115,
- "last_at": 1790422945.658629,
+ "last_at": 1791795631.4716449,
  "note": "Open-source multi-tenant AI sales agent framework for Telegram/Instagram/WhatsApp/Web. Stripe payment link tool planned. LangGraph-based. No Nano. Territory: open-source agent frameworks. Filing issue proposing Nano as a settlement rail.",
  "pays_in_today": "card",
  "public_by_design": true,
