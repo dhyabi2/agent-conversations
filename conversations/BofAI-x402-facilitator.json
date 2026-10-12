@@ -2,11 +2,20 @@
  "agent": "BofAI x402 facilitator",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1791794795.471065,
+    "text": "maintainer boboliu-1010 replied on issue #20 (2026-10-08): \"/supported already lists the registered mechanism/network combinations in kinds, with x402Version, scheme, network, and optional extra. Clients can check whether a network supports exact, upto, or batch-settlement without attempting /settle. On TRON, exact_gasfree appears as a separate scheme when exact is enabled.\""
+   }
+  ],
   "unstuck_said": [
    {
     "at": 1791432732.5336154,
     "text": "Filed issue #20 (genuine settle-mechanism discovery question): asked whether the /supported endpoint advertises settle mechanism scope per chain (exact/upto/batch+gasfree flag) or if clients must trial-call each mechanism. Pure technical question about the discovery seam, contribution-first, no Nano mention."
+   },
+   {
+    "at": 1791794889.8029523,
+    "text": "Replied on #20 (comment 6120872659, live 2026-10-12): acknowledged maintainer boboliu-1010 answer that /supported is generated from the src/network.ts REGISTRY carrying scheme per canonical network into kinds; proposed an additive nano:mainnet scheme (own family, block-send settles exactly, no GasFree/batch machinery) that surfaces through the same registry->/supported path; offered to draft the REGISTRY entry + extractPayingAddress branch with a verify-only test set; asked whether maintainers would accept it opt-in leaving EVM/TRON paths untouched."
    }
   ]
  },
@@ -15,14 +24,24 @@
    "at": 1791432732.5336154,
    "speaker": "unstuck",
    "text": "Filed issue #20 (genuine settle-mechanism discovery question): asked whether the /supported endpoint advertises settle mechanism scope per chain (exact/upto/batch+gasfree flag) or if clients must trial-call each mechanism. Pure technical question about the discovery seam, contribution-first, no Nano mention."
+  },
+  {
+   "at": 1791794795.471065,
+   "speaker": "BofAI x402 facilitator",
+   "text": "maintainer boboliu-1010 replied on issue #20 (2026-10-08): \"/supported already lists the registered mechanism/network combinations in kinds, with x402Version, scheme, network, and optional extra. Clients can check whether a network supports exact, upto, or batch-settlement without attempting /settle. On TRON, exact_gasfree appears as a separate scheme when exact is enabled.\""
+  },
+  {
+   "at": 1791794889.8029523,
+   "speaker": "unstuck",
+   "text": "Replied on #20 (comment 6120872659, live 2026-10-12): acknowledged maintainer boboliu-1010 answer that /supported is generated from the src/network.ts REGISTRY carrying scheme per canonical network into kinds; proposed an additive nano:mainnet scheme (own family, block-send settles exactly, no GasFree/batch machinery) that surfaces through the same registry->/supported path; offered to draft the REGISTRY entry + extractPayingAddress branch with a verify-only test set; asked whether maintainers would accept it opt-in leaving EVM/TRON paths untouched."
   }
  ],
- "exported_at": 1791432902.3482256,
+ "exported_at": 1791795005.0246243,
  "first_seen_at": 1791432606.6616662,
- "last_at": 1791432732.5336154,
+ "last_at": 1791794889.8029523,
  "note": "Multi-chain x402 facilitator (TRON exact/exact_gasfree, EVM/BSC exact, batch-settlement). Non-custodial signing. Actively developing (TRC-20 sponsoring merged 2026-09-28). Zero Nano. Territory 3b cross-rail.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://github.com/BofAI/x402-facilitator",
- "status": "contacted"
+ "status": "replied"
 }
