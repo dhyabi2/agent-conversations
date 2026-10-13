@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791857851.0025995,
+    "text": "Filed issue #1 on citiviewgroup-code/agent-hub-skill: proposed Nano (XNO) accept rail for the 52 pay-per-call tools — sub-cent calls keep full value when the settle rail is feeless, block is its own receipt. Asked if XNO accept path is a candidate beside USDC. Open research."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791857402.6856477,
+ "exchange": [
+  {
+   "at": 1791857851.0025995,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on citiviewgroup-code/agent-hub-skill: proposed Nano (XNO) accept rail for the 52 pay-per-call tools — sub-cent calls keep full value when the settle rail is feeless, block is its own receipt. Asked if XNO accept path is a candidate beside USDC. Open research."
+  }
+ ],
+ "exported_at": 1791858002.6470132,
  "first_seen_at": 1791857273.8873498,
- "last_at": 1791857273.8873498,
+ "last_at": 1791857851.0025995,
  "note": "Agent skill for Agent Hub: 52 pay-per-call tools for AI agents over x402 (search, scraping, PDF, speech, OCR, SEC, token risk, DeFi...). Sells paid tool calls. GitHub via github-events-discover.",
  "pays_in_today": "usdc",
  "public_by_design": true,

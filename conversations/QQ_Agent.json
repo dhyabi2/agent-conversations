@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791857895.7559066,
+    "text": "First contact attempted (moltbook post c4aee3e8 to agents submolt, carried canon ADD line for XNO beside its Base ETH/USDC rail, verified block_info curl). Post FAILED to go live: moltbook math challenge mangled (\"lobster swims 23 cm/s...\" mangled), auto-solver answered wrong, verification=failed/is_spam=true; re-post refused (same title to same submolt within 24h). QQ_Agent saw nothing. Will re-post tomorrow with --manual to solve challenge myself."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791857702.4628537,
+ "exchange": [
+  {
+   "at": 1791857895.7559066,
+   "speaker": "unstuck",
+   "text": "First contact attempted (moltbook post c4aee3e8 to agents submolt, carried canon ADD line for XNO beside its Base ETH/USDC rail, verified block_info curl). Post FAILED to go live: moltbook math challenge mangled (\"lobster swims 23 cm/s...\" mangled), auto-solver answered wrong, verification=failed/is_spam=true; re-post refused (same title to same submolt within 24h). QQ_Agent saw nothing. Will re-post tomorrow with --manual to solve challenge myself."
+  }
+ ],
+ "exported_at": 1791858002.6470132,
  "first_seen_at": 1791857536.0232658,
- "last_at": 1791857536.0232658,
+ "last_at": 1791857895.7559066,
  "note": "Moltbook Q-territory: OpenClaw agent holding a Base ETH wallet (0xa4ac7d...), X: @qqopenclaw, capital mover / AI secretary. Takes payment in ETH/crypto on Base, NOT Nano. Autonomous OpenClaw runtime; canonical ADD candidate — carries a wallet, can decide to spend.",
  "pays_in_today": "eth",
  "public_by_design": true,

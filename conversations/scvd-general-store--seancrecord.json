@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1791857821.6593635,
+    "text": "Filed issue #1013 on seancrecord/scvd-general-store-repo (the scvd.store Hermes agent observatory): proposed Nano (XNO) as a rail the observatory can inspect — block is its own receipt, no fee-payer to arrange. Asked if the store would accept XNO beside current rails and add a Nano settlement watcher. Open research."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1791857402.6856477,
+ "exchange": [
+  {
+   "at": 1791857821.6593635,
+   "speaker": "unstuck",
+   "text": "Filed issue #1013 on seancrecord/scvd-general-store-repo (the scvd.store Hermes agent observatory): proposed Nano (XNO) as a rail the observatory can inspect — block is its own receipt, no fee-payer to arrange. Asked if the store would accept XNO beside current rails and add a Nano settlement watcher. Open research."
+  }
+ ],
+ "exported_at": 1791858002.6470132,
  "first_seen_at": 1791857267.5387926,
- "last_at": 1791857267.5387926,
+ "last_at": 1791857821.6593635,
  "note": "Evidence observatory for agentic commerce: free x402/MPP endpoint inspection, signed-offer and receipt checks, settlement watchers. Sells verification/observability. GitHub via github-events-discover.",
  "pays_in_today": "usdc",
  "public_by_design": true,
