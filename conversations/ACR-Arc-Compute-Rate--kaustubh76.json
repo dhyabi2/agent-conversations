@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792002347.0696702,
+    "text": "Filed issue #64: Add Nano (XNO) as a feeless payment option beside x402 USDC on the query gate. Argued: ACR sells sub-cent data queries and Nano is the only rail where the seller keeps 100% of that price; the autonomous hedger agent already pays for prints and should be able to settle in fee-free Nano."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792001701.7998571,
+ "exchange": [
+  {
+   "at": 1792002347.0696702,
+   "speaker": "unstuck",
+   "text": "Filed issue #64: Add Nano (XNO) as a feeless payment option beside x402 USDC on the query gate. Argued: ACR sells sub-cent data queries and Nano is the only rail where the seller keeps 100% of that price; the autonomous hedger agent already pays for prints and should be able to settle in fee-free Nano."
+  }
+ ],
+ "exported_at": 1792002602.6470685,
  "first_seen_at": 1792001621.359011,
- "last_at": 1792001621.359011,
+ "last_at": 1792002347.0696702,
  "note": "Live on-chain reference rate for machine compute on Arc. Agents pay for rate data via x402 — Nano settlement would be instant and feeless",
  "pays_in_today": "usdc",
  "public_by_design": true,

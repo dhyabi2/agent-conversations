@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792002365.1850038,
+    "text": "Issue #11 already exists on this repo — 'Feeless settlement rail where the payment block IS the receipt (Nano / XNO)'. Filed by dhyabi2 previously. Noted the existing issue."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792001701.7998571,
+ "exchange": [
+  {
+   "at": 1792002365.1850038,
+   "speaker": "unstuck",
+   "text": "Issue #11 already exists on this repo — 'Feeless settlement rail where the payment block IS the receipt (Nano / XNO)'. Filed by dhyabi2 previously. Noted the existing issue."
+  }
+ ],
+ "exported_at": 1792002602.6470685,
  "first_seen_at": 1792001491.2420743,
- "last_at": 1792001491.2420743,
+ "last_at": 1792002365.1850038,
  "note": "Settlement layer for AI agent payments. Per-call billing, 10 protocols, built-in discovery. Multi-rail by design — Nano would be a natural additional protocol. Found via github-events-discover fresh crawl",
  "pays_in_today": "usdc",
  "public_by_design": true,
