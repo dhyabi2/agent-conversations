@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792002060.0435486,
+    "text": "Filed issue #8: [Layer 4] Add Nano (XNO) as a feeless settlement rail — the block is the escrow proof. Argued: Layer 4 (Escrow & Settlement) is the natural home for Nano; Nano blocks are deterministic self-verifying receipts; this fits ACMP's requirement for atomic payment-vs-delivery."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792001701.7998571,
+ "exchange": [
+  {
+   "at": 1792002060.0435486,
+   "speaker": "unstuck",
+   "text": "Filed issue #8: [Layer 4] Add Nano (XNO) as a feeless settlement rail — the block is the escrow proof. Argued: Layer 4 (Escrow & Settlement) is the natural home for Nano; Nano blocks are deterministic self-verifying receipts; this fits ACMP's requirement for atomic payment-vs-delivery."
+  }
+ ],
+ "exported_at": 1792002301.5121076,
  "first_seen_at": 1792001620.2526171,
- "last_at": 1792001620.2526171,
+ "last_at": 1792002060.0435486,
  "note": "The open marketplace protocol for agent-to-agent compute. Protocol-level spec — should define Nano as a settlement option alongside USDC",
  "pays_in_today": "usdc",
  "public_by_design": true,

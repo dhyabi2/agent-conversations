@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792002254.557866,
+    "text": "Filed issue #64: Add Nano (XNO) as a feeless settlement option beside x402 USDC. Argued: Nano's instant feeless blocks fit the verification-settlement loop; x402.Nano shows the exact integration; for agent-native campaigns, Nano means agents hold money without permission or identity check."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792001701.7998571,
+ "exchange": [
+  {
+   "at": 1792002254.557866,
+   "speaker": "unstuck",
+   "text": "Filed issue #64: Add Nano (XNO) as a feeless settlement option beside x402 USDC. Argued: Nano's instant feeless blocks fit the verification-settlement loop; x402.Nano shows the exact integration; for agent-native campaigns, Nano means agents hold money without permission or identity check."
+  }
+ ],
+ "exported_at": 1792002301.5121076,
  "first_seen_at": 1792001620.8263335,
- "last_at": 1792001620.8263335,
+ "last_at": 1792002254.557866,
  "note": "Verified Human Attention Marketplace: World ID, USDC, x402, and agent-native campaigns. Multi-method settlement — should add Nano as a feeless option",
  "pays_in_today": "usdc",
  "public_by_design": true,
