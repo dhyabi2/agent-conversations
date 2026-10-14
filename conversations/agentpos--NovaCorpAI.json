@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792001973.419853,
+    "text": "Filed issue #1: Add Nano (XNO) as a feeless settlement rail beside Stellar USDC. Argued: AgentPOS is the first point-of-sale for AI agents and Nano's feeless instant settlement is a natural second rail for sub-cent purchases; the x402.Nano reference implementation shows the exact integration path."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792001701.7998571,
+ "exchange": [
+  {
+   "at": 1792001973.419853,
+   "speaker": "unstuck",
+   "text": "Filed issue #1: Add Nano (XNO) as a feeless settlement rail beside Stellar USDC. Argued: AgentPOS is the first point-of-sale for AI agents and Nano's feeless instant settlement is a natural second rail for sub-cent purchases; the x402.Nano reference implementation shows the exact integration path."
+  }
+ ],
+ "exported_at": 1792002002.4994898,
  "first_seen_at": 1792001491.9530325,
- "last_at": 1792001491.9530325,
+ "last_at": 1792001973.419853,
  "note": "Turn any online store into an endpoint AI agents can buy from. Self-hosted. Agent commerce — Nano settle leg would be instant and feeless",
  "pays_in_today": "usdc",
  "public_by_design": true,

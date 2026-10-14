@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792001897.3218906,
+    "text": "Filed issue #10: Add Nano (XNO) as a feeless settlement rail — the block is the spending proof. Argued: agent-verifier is rail-agnostic and Nano blocks are self-verifying receipts; verification + settlement + receipt become one atomic step with Nano's native block hash."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792001701.7998571,
+ "exchange": [
+  {
+   "at": 1792001897.3218906,
+   "speaker": "unstuck",
+   "text": "Filed issue #10: Add Nano (XNO) as a feeless settlement rail — the block is the spending proof. Argued: agent-verifier is rail-agnostic and Nano blocks are self-verifying receipts; verification + settlement + receipt become one atomic step with Nano's native block hash."
+  }
+ ],
+ "exported_at": 1792002002.4994898,
  "first_seen_at": 1791857310.3131778,
- "last_at": 1792001493.639057,
+ "last_at": 1792001897.3218906,
  "note": "Agent spending verification — budget caps, spending policies, cross-agent budget tracking. Policy layer that should support Nano settlements natively",
  "pays_in_today": "usdc",
  "public_by_design": true,
