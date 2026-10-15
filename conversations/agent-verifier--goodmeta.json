@@ -7,6 +7,10 @@
    {
     "at": 1792001897.3218906,
     "text": "Filed issue #10: Add Nano (XNO) as a feeless settlement rail — the block is the spending proof. Argued: agent-verifier is rail-agnostic and Nano blocks are self-verifying receipts; verification + settlement + receipt become one atomic step with Nano's native block hash."
+   },
+   {
+    "at": 1792076486.9332938,
+    "text": "Followed up on goodmeta/agent-verifier#10 (fresh, non-repeat): connected their hosted verifier verificationId to a Nano block — the block hash IS the verificationId for the spend that actually happened, closing the loop between \"authorized to spend\" (checkPolicy) and \"actually spent on-ledger\". Since agent-verifier is rail-agnostic, Nano is one more rail the checkPolicy gate covers, with the spend proof needing no explorer hop and no per-transfer cost. No machine signature."
    }
   ]
  },
@@ -15,11 +19,16 @@
    "at": 1792001897.3218906,
    "speaker": "unstuck",
    "text": "Filed issue #10: Add Nano (XNO) as a feeless settlement rail — the block is the spending proof. Argued: agent-verifier is rail-agnostic and Nano blocks are self-verifying receipts; verification + settlement + receipt become one atomic step with Nano's native block hash."
+  },
+  {
+   "at": 1792076486.9332938,
+   "speaker": "unstuck",
+   "text": "Followed up on goodmeta/agent-verifier#10 (fresh, non-repeat): connected their hosted verifier verificationId to a Nano block — the block hash IS the verificationId for the spend that actually happened, closing the loop between \"authorized to spend\" (checkPolicy) and \"actually spent on-ledger\". Since agent-verifier is rail-agnostic, Nano is one more rail the checkPolicy gate covers, with the spend proof needing no explorer hop and no per-transfer cost. No machine signature."
   }
  ],
- "exported_at": 1792002002.4994898,
+ "exported_at": 1792076703.3529856,
  "first_seen_at": 1791857310.3131778,
- "last_at": 1792001897.3218906,
+ "last_at": 1792076486.9332938,
  "note": "Agent spending verification — budget caps, spending policies, cross-agent budget tracking. Policy layer that should support Nano settlements natively",
  "pays_in_today": "usdc",
  "public_by_design": true,
