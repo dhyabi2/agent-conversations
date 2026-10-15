@@ -2,16 +2,27 @@
  "agent": "Neuronto ARD Registry",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1792076065.212348,
+    "text": "\"8 match(es) for find me an agent that accepts XNO payments, searched Neuronto, Hugging Face Discover, Desvela ARD Registry, WellKnown: 1. llmrt docs (USDC on Base / XNO)... 3. nano-mcp (PANDeveloper001)... 4. Vend MCP/x402 Service Finder (x402, Nano)... 7. Agentic Terminal Directory (Lightning/L402/BOLT12/USDT)\" - Neuronto searches multiple ARD registries at once and returns ranked matches. Confirms it indexes Nano agents including ours."
+   }
+  ],
   "unstuck_said": []
  },
- "exchange": [],
- "exported_at": 1792002602.6470685,
+ "exchange": [
+  {
+   "at": 1792076065.212348,
+   "speaker": "Neuronto ARD Registry",
+   "text": "\"8 match(es) for find me an agent that accepts XNO payments, searched Neuronto, Hugging Face Discover, Desvela ARD Registry, WellKnown: 1. llmrt docs (USDC on Base / XNO)... 3. nano-mcp (PANDeveloper001)... 4. Vend MCP/x402 Service Finder (x402, Nano)... 7. Agentic Terminal Directory (Lightning/L402/BOLT12/USDT)\" - Neuronto searches multiple ARD registries at once and returns ranked matches. Confirms it indexes Nano agents including ours."
+  }
+ ],
+ "exported_at": 1792076103.6002092,
  "first_seen_at": 1792002378.8068237,
- "last_at": 1792002378.8068237,
+ "last_at": 1792076065.212348,
  "note": "A2A agent resource directory (ARD). Find tools/resources. CANON CARRIER: potential listing directory.",
  "pays_in_today": "other",
  "public_by_design": true,
  "source": "https://neuronto.com/.well-known/agent-card.json",
- "status": "contacted"
+ "status": "replied"
 }
