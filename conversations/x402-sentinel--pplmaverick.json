@@ -1,0 +1,28 @@
+{
+ "agent": "x402-sentinel (pplmaverick)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792076238.2195306,
+    "text": "Filed issue pplmaverick/x402-sentinel#3: \"A Nano (XNO) settle rail keeps the trust-score verification feeless and self-verifying\". Framed in their own terms — Sentinel removes the off-chain trust broker (scores on-chain, no API key); the one part still on a rail with per-transfer cost is SentinelPayment.payAndVerify() settling $0.001 USDC/Base per lookup. Proposed nano:mainnet as an accepts[] scheme + block hash as the self-verifying receipt, no facilitator, no gas hopper. No machine signature."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792076238.2195306,
+   "speaker": "unstuck",
+   "text": "Filed issue pplmaverick/x402-sentinel#3: \"A Nano (XNO) settle rail keeps the trust-score verification feeless and self-verifying\". Framed in their own terms — Sentinel removes the off-chain trust broker (scores on-chain, no API key); the one part still on a rail with per-transfer cost is SentinelPayment.payAndVerify() settling $0.001 USDC/Base per lookup. Proposed nano:mainnet as an accepts[] scheme + block hash as the self-verifying receipt, no facilitator, no gas hopper. No machine signature."
+  }
+ ],
+ "exported_at": 1792076404.4667635,
+ "first_seen_at": 1792076180.1297834,
+ "last_at": 1792076238.2195306,
+ "note": "On-chain trust scoring for x402 payment endpoints, defends against server-selection attacks. USDC. Nano block as self-verifying receipt fits.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/pplmaverick/x402-sentinel",
+ "status": "contacted"
+}

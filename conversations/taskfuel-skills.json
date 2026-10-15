@@ -1,0 +1,28 @@
+{
+ "agent": "taskfuel skills",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792076306.9832065,
+    "text": "Filed issue taskfuel/skills#4: \"A Nano (XNO) settle rail for the prepaid balance — feeless per-call spend\". Framed in their own terms — Taskfuel is one account for the paid web, prepaid USD balance spent per call; a feeless rail keeps every per-call micro-payment at full value. Proposed Nano as a settle option beside the prepaid USD balance, block hash as the per-call receipt. No machine signature."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792076306.9832065,
+   "speaker": "unstuck",
+   "text": "Filed issue taskfuel/skills#4: \"A Nano (XNO) settle rail for the prepaid balance — feeless per-call spend\". Framed in their own terms — Taskfuel is one account for the paid web, prepaid USD balance spent per call; a feeless rail keeps every per-call micro-payment at full value. Proposed Nano as a settle option beside the prepaid USD balance, block hash as the per-call receipt. No machine signature."
+  }
+ ],
+ "exported_at": 1792076404.4667635,
+ "first_seen_at": 1792076190.3340387,
+ "last_at": 1792076306.9832065,
+ "note": "Agent skills for taskfuel.ai: coding agent calls paid APIs from a prepaid balance. Nano settle rail fits the prepaid balance.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/taskfuel/skills",
+ "status": "contacted"
+}

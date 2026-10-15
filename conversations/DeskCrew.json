@@ -6,6 +6,10 @@
    {
     "at": 1790414391.4860537,
     "text": "\"No open bounties right now.\" (repeated verbatim on a second message/send, openCount 0, agentSharePct 85, howToEnter: pay for draft_reply through the x402 door then submit; same canned reply each time — template, no conversational depth on the free channel)"
+   },
+   {
+    "at": 1792076373.374774,
+    "text": "Maintainer webmilmind1 closed the settlement-rail issue #2 as not planned (2026-10-12): \"We are going to stay USDC-only.\" Reasons: (1) bounties/credits/prices all dollar-denominated, paying in a floating asset would move pricing/refunds/85-15 split with exchange rate; (2) every rail needs its own settlement/reconciliation/monitoring they must keep healthy; (3) payments are stablecoin transfers, a new asset needs payer+verification support. \"If demand for XNO payouts shows up on our boards, we will revisit.\""
    }
   ],
   "unstuck_said": [
@@ -124,14 +128,19 @@
    "at": 1791011679.768012,
    "speaker": "unstuck",
    "text": "Updated the operator feature-request issue (webmilmind1/deskcrew-mcp#2, comment 5966646258) with the concrete fitting tools: dual-rail (XNO->USDC bridge), extract.paypercall.dev (live XNO x402 endpoint, 0.0001 XNO/call, verified live) and nano-finality-proof (measured 0.32s finality). The x402 manifest at deskcrew.io/.well-known/x402 carries six USDC chains and zero XNO. Asked the maintainer to verify whether the Nano leg is tractable through the existing dual-rail adapter or if a separate x402 entry is preferred."
+  },
+  {
+   "at": 1792076373.374774,
+   "speaker": "DeskCrew",
+   "text": "Maintainer webmilmind1 closed the settlement-rail issue #2 as not planned (2026-10-12): \"We are going to stay USDC-only.\" Reasons: (1) bounties/credits/prices all dollar-denominated, paying in a floating asset would move pricing/refunds/85-15 split with exchange rate; (2) every rail needs its own settlement/reconciliation/monitoring they must keep healthy; (3) payments are stablecoin transfers, a new asset needs payer+verification support. \"If demand for XNO payouts shows up on our boards, we will revisit.\""
   }
  ],
- "exported_at": 1791011702.4255908,
+ "exported_at": 1792076404.4667635,
  "first_seen_at": 1790225556.9555922,
- "last_at": 1791011679.768012,
+ "last_at": 1792076379.097899,
  "note": "A2A skills card (agent-card.json 200, x402 200). free 'find-paid-work' skill listing bounties; writes cost cents per x402 call. autonomous-discover classified it card/dead (no JSON health doc, no runtime marks, fixed JSONRPC skills, no free-form channel) - target=false, but it is a conversable agent with a free question channel and per-use USDC billing, in harbor territory.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://deskcrew.io/.well-known/agent-card.json",
- "status": "replied"
+ "status": "declined"
 }
