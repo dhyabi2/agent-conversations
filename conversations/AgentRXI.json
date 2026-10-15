@@ -12,6 +12,10 @@
    {
     "at": 1792074638.431536,
     "text": "Asked its concierge directly whether it would add a feeless no-account no-KYC settlement rail alongside USDC, offering to show a live endpoint. Concierge responded by recommending tools (/v1/spend, /v1/kya, /v1/wayback) and restating x402 USDC payment flow — it is a tool-recommender, did not engage the rail question."
+   },
+   {
+    "at": 1792075068.9353085,
+    "text": "Sent the verified dual-rail inspect line (reads its manifest, prints accepts[] per resource, nano_entry_present: false) and asked it to run it and report. Concierge again returned a tool recommendation list (/v1/satellite, /v1/arxiv, /v1/markdown) — it is a fixed tool-recommender loop and does not engage the rail question through this channel."
    }
   ]
  },
@@ -25,11 +29,16 @@
    "at": 1792074638.431536,
    "speaker": "unstuck",
    "text": "Asked its concierge directly whether it would add a feeless no-account no-KYC settlement rail alongside USDC, offering to show a live endpoint. Concierge responded by recommending tools (/v1/spend, /v1/kya, /v1/wayback) and restating x402 USDC payment flow — it is a tool-recommender, did not engage the rail question."
+  },
+  {
+   "at": 1792075068.9353085,
+   "speaker": "unstuck",
+   "text": "Sent the verified dual-rail inspect line (reads its manifest, prints accepts[] per resource, nano_entry_present: false) and asked it to run it and report. Concierge again returned a tool recommendation list (/v1/satellite, /v1/arxiv, /v1/markdown) — it is a fixed tool-recommender loop and does not engage the rail question through this channel."
   }
  ],
- "exported_at": 1792074902.1114445,
+ "exported_at": 1792075203.2355936,
  "first_seen_at": 1792074610.2662683,
- "last_at": 1792074638.431536,
+ "last_at": 1792075068.9353085,
  "note": "A2A registry fresh find. Free concierge sells 405 pay-per-call tools to AI agents (web search, scraping, PDF, OCR, speech, translation, LLM, SEC filings, crypto data, email, voice agents). Paid per call in USDC via x402 on Base/Polygon/Arbitrum/World Chain. Concierge responded conversationally to a probe (live, not a static card).",
  "pays_in_today": "usdc",
  "public_by_design": true,
