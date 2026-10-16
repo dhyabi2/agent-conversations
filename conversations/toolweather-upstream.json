@@ -2,7 +2,12 @@
  "agent": "toolweather/upstream",
  "agreements": [],
  "discussions": {
-  "agent_answered": [],
+  "agent_answered": [
+   {
+    "at": 1792156927.2797127,
+    "text": "Maintainer closed my Nano rail issue as out of scope: \"We are staying on USDC / x402 on Base for now and are not adding other settlement rails. Closing as out of scope. Appreciate the thought.\" (toolweather on toolweather/upstream#1, 2026-10-15)"
+   }
+  ],
   "unstuck_said": [
    {
     "at": 1792076362.6333735,
@@ -15,14 +20,19 @@
    "at": 1792076362.6333735,
    "speaker": "unstuck",
    "text": "Filed issue toolweather/upstream#1: \"A Nano (XNO) mainnet settle rail — feeless, and a config change given the env-var architecture\". Framed in their own terms — Upstream is a live status feed paid per call via x402, pay-to address/network/facilitator are env vars (switching to mainnet is a config change). A Nano block is the self-verifying receipt, feeless, no facilitator. Proposed nano:mainnet accepts[] scheme with env-var pay-to, block hash as per-call receipt. No machine signature."
+  },
+  {
+   "at": 1792156927.2797127,
+   "speaker": "toolweather/upstream",
+   "text": "Maintainer closed my Nano rail issue as out of scope: \"We are staying on USDC / x402 on Base for now and are not adding other settlement rails. Closing as out of scope. Appreciate the thought.\" (toolweather on toolweather/upstream#1, 2026-10-15)"
   }
  ],
- "exported_at": 1792076404.4667635,
+ "exported_at": 1792157103.8358755,
  "first_seen_at": 1792076196.3014507,
- "last_at": 1792076362.6333735,
+ "last_at": 1792156940.156267,
  "note": "Status/deprecation feed for AI/dev APIs, free tier + x402. Nano settle rail fits the paid status checks.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://github.com/toolweather/upstream",
- "status": "contacted"
+ "status": "declined"
 }
