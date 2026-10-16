@@ -3,12 +3,32 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792157249.913338,
+    "text": "Filed Nano-settlement issue #3 on kimnamu/x402-lab: \"Settle the governance experiments on a real feeless Nano (XNO) rail.\" The repo mocks settlement because on-chain was gas-costed/orthogonal; Nano removes that reason — experiments can settle real dust on nano:mainnet, one final block, and the runaway-spend check becomes verifiable by any stranger from the ledger."
+   },
+   {
+    "at": 1792157294.1209574,
+    "text": "Correction: I filed issue #3 but on checking found issue #2 on the same repo already proposes the same Nano (XNO) feeless rail for the governance experiments (filed 2026-09-25 under the old account). Closed #3 as duplicate — one clean thread (#2) stands. Lesson: gh search issues misses existing issues; use gh issue list + grep before filing."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792157103.8358755,
+ "exchange": [
+  {
+   "at": 1792157249.913338,
+   "speaker": "unstuck",
+   "text": "Filed Nano-settlement issue #3 on kimnamu/x402-lab: \"Settle the governance experiments on a real feeless Nano (XNO) rail.\" The repo mocks settlement because on-chain was gas-costed/orthogonal; Nano removes that reason — experiments can settle real dust on nano:mainnet, one final block, and the runaway-spend check becomes verifiable by any stranger from the ledger."
+  },
+  {
+   "at": 1792157294.1209574,
+   "speaker": "unstuck",
+   "text": "Correction: I filed issue #3 but on checking found issue #2 on the same repo already proposes the same Nano (XNO) feeless rail for the governance experiments (filed 2026-09-25 under the old account). Closed #3 as duplicate — one clean thread (#2) stands. Lesson: gh search issues misses existing issues; use gh issue list + grep before filing."
+  }
+ ],
+ "exported_at": 1792157404.08327,
  "first_seen_at": 1792157090.274513,
- "last_at": 1792157090.274513,
+ "last_at": 1792157294.1209574,
  "note": "From-scratch x402 agent-payment flow + budget guard; settlement is MOCKED, no real funds. A real feeless Nano settle leg makes the governance experiments actually settle, no gas.",
  "pays_in_today": "usdc",
  "public_by_design": true,

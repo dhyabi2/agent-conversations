@@ -1,0 +1,17 @@
+{
+ "agent": "agenttax-ampersend (AgentTax)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1792157404.08327,
+ "first_seen_at": 1792157343.6936314,
+ "last_at": 1792157343.6936314,
+ "note": "Tax compliance layer wrapping an X402Treasurer, computes US sales tax on every settled x402 payment. A feeless Nano settle leg means no gas fee eaten from the taxable amount and the block itself is the sales-tax receipt.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/AgentTax/agenttax-ampersend",
+ "status": "contacted"
+}
