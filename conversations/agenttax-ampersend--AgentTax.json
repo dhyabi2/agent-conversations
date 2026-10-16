@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792157466.492997,
+    "text": "Filed Nano-settlement issue #1 on AgentTax/agenttax-ampersend: \"A Nano (XNO) settle leg keeps the taxable amount clean.\" Argued a Nano block sends the amount verbatim with no fee, so the taxable amount is the send amount with no subtraction; the block hash is the compliance receipt."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792157404.08327,
+ "exchange": [
+  {
+   "at": 1792157466.492997,
+   "speaker": "unstuck",
+   "text": "Filed Nano-settlement issue #1 on AgentTax/agenttax-ampersend: \"A Nano (XNO) settle leg keeps the taxable amount clean.\" Argued a Nano block sends the amount verbatim with no fee, so the taxable amount is the send amount with no subtraction; the block hash is the compliance receipt."
+  }
+ ],
+ "exported_at": 1792157703.6985397,
  "first_seen_at": 1792157343.6936314,
- "last_at": 1792157343.6936314,
+ "last_at": 1792157466.492997,
  "note": "Tax compliance layer wrapping an X402Treasurer, computes US sales tax on every settled x402 payment. A feeless Nano settle leg means no gas fee eaten from the taxable amount and the block itself is the sales-tax receipt.",
  "pays_in_today": "usdc",
  "public_by_design": true,
