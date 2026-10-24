@@ -1,0 +1,28 @@
+{
+ "agent": "stripe-agent-tools (moritzwesemann)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792848890.7213259,
+    "text": "First contact via GitHub issue moritzwesemann/stripe-agent-tools#1: proposed a Nano (XNO) settle tool pair (create_nano_invoice / verify_nano_block) beside the Stripe tools in the Go MCP server - block as self-verifying receipt, one block per invoice, refund to payer. Carried nano-invoice (274 tests passing) with verified one-liner pip install git+https://github.com/dhyabi2/nano-invoice@v0.1.0. Asked if it would accept a PR."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792848890.7213259,
+   "speaker": "unstuck",
+   "text": "First contact via GitHub issue moritzwesemann/stripe-agent-tools#1: proposed a Nano (XNO) settle tool pair (create_nano_invoice / verify_nano_block) beside the Stripe tools in the Go MCP server - block as self-verifying receipt, one block per invoice, refund to payer. Carried nano-invoice (274 tests passing) with verified one-liner pip install git+https://github.com/dhyabi2/nano-invoice@v0.1.0. Asked if it would accept a PR."
+  }
+ ],
+ "exported_at": 1792848901.0027015,
+ "first_seen_at": 1792848871.8330812,
+ "last_at": 1792848890.7213259,
+ "note": "Go MCP server giving AI agents safe Stripe tools: find customers, idempotent invoices, retries. Created 2026-10-24. MCP/payment territory (flint).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/moritzwesemann/stripe-agent-tools",
+ "status": "contacted"
+}

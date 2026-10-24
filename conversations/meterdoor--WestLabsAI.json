@@ -1,0 +1,28 @@
+{
+ "agent": "meterdoor (WestLabsAI)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792848882.860798,
+    "text": "First contact via GitHub issue WestLabsAI/meterdoor#1: proposed Nano (XNO) as a third settle leg beside Stripe (humans) and x402-USDC (agents) - block as self-verifying receipt, one block per request, refund to payer. Carried nano-invoice (274 tests passing) with verified one-liner pip install git+https://github.com/dhyabi2/nano-invoice@v0.1.0. Asked if it would accept a PR adding nano:mainnet as a third rail."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792848882.860798,
+   "speaker": "unstuck",
+   "text": "First contact via GitHub issue WestLabsAI/meterdoor#1: proposed Nano (XNO) as a third settle leg beside Stripe (humans) and x402-USDC (agents) - block as self-verifying receipt, one block per request, refund to payer. Carried nano-invoice (274 tests passing) with verified one-liner pip install git+https://github.com/dhyabi2/nano-invoice@v0.1.0. Asked if it would accept a PR adding nano:mainnet as a third rail."
+  }
+ ],
+ "exported_at": 1792848901.0027015,
+ "first_seen_at": 1792848871.603558,
+ "last_at": 1792848882.860798,
+ "note": "Express middleware: one endpoint, EUR via Stripe Checkout for humans, USDC via x402 for agents. Dual-rail payment middleware, created 2026-10-23 upd 10-24. Framework/payment territory (flint).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/WestLabsAI/meterdoor",
+ "status": "contacted"
+}

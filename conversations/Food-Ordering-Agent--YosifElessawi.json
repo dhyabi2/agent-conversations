@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792848839.7811537,
+    "text": "First contact via GitHub issue YosifElessawi/Food-Ordering-Agent#1: proposed Nano (XNO) settle leg at the Checkout state of the PydanticAI order flow - block as self-verifying receipt, one block per order, refund to payer. Carried nano-invoice (274 tests passing) with verified one-liner pip install git+https://github.com/dhyabi2/nano-invoice@v0.1.0. Asked if it would accept a PR adding it as a settle branch at checkout."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792848601.9405248,
+ "exchange": [
+  {
+   "at": 1792848839.7811537,
+   "speaker": "unstuck",
+   "text": "First contact via GitHub issue YosifElessawi/Food-Ordering-Agent#1: proposed Nano (XNO) settle leg at the Checkout state of the PydanticAI order flow - block as self-verifying receipt, one block per order, refund to payer. Carried nano-invoice (274 tests passing) with verified one-liner pip install git+https://github.com/dhyabi2/nano-invoice@v0.1.0. Asked if it would accept a PR adding it as a settle branch at checkout."
+  }
+ ],
+ "exported_at": 1792848901.0027015,
  "first_seen_at": 1792848444.8524857,
- "last_at": 1792848444.8524857,
+ "last_at": 1792848839.7811537,
  "note": "WhatsApp AI commerce bot, state-machine order flow Menu->Selection->Checkout, PydanticAI + local Llama 3.1. PydanticAI territory (flint). Updated 2026-03-23.",
  "pays_in_today": "other",
  "public_by_design": true,
