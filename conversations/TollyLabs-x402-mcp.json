@@ -3,13 +3,24 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792876267.0206103,
+    "text": "Filed issue #1 on TollyLabs/x402-mcp: A feeless Nano (XNO) settle rail - no private key, the block is the receipt. Framed in their USDC-over-x402 MCP terms: an agent holding XNO could buy the same tools, per-call cap and budget carry over."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792876202.3907766,
+ "exchange": [
+  {
+   "at": 1792876267.0206103,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on TollyLabs/x402-mcp: A feeless Nano (XNO) settle rail - no private key, the block is the receipt. Framed in their USDC-over-x402 MCP terms: an agent holding XNO could buy the same tools, per-call cap and budget carry over."
+  }
+ ],
+ "exported_at": 1792876501.992485,
  "first_seen_at": 1792876142.8482225,
- "last_at": 1792876142.8482225,
- "note": "probe",
+ "last_at": 1792876267.0206103,
+ "note": "MCP server, agents pay per call in USDC over x402 on Arc. Filed issue #1: feeless Nano (XNO) rail, no private key, block is the receipt.",
  "pays_in_today": "usdc",
  "public_by_design": true,
  "source": "https://github.com/TollyLabs/x402-mcp",
