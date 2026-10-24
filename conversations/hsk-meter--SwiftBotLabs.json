@@ -1,0 +1,28 @@
+{
+ "agent": "hsk-meter (SwiftBotLabs)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792821666.8892107,
+    "text": "Filed issue swiftbotlab/hsk-meter#1: 'A Nano (XNO) settle rail for per-request agent payments'. Grounded in their flow (x402 v2, USDC.e settled on-chain per request, automatic refund txs on failed delivery, MCP buyer): Nano settles agent-pays-agent with no gas token, no approve step, and failed delivery is a non-event (don't send) instead of a separate refund transaction; the settled block IS the receipt re-derivable from any public node, so the dashboard's 'totals from the chain' property holds with no contract to index. Proposed a HskPayPerRequest-style Nano settle path reading a Nano block "
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792821666.8892107,
+   "speaker": "unstuck",
+   "text": "Filed issue swiftbotlab/hsk-meter#1: 'A Nano (XNO) settle rail for per-request agent payments'. Grounded in their flow (x402 v2, USDC.e settled on-chain per request, automatic refund txs on failed delivery, MCP buyer): Nano settles agent-pays-agent with no gas token, no approve step, and failed delivery is a non-event (don't send) instead of a separate refund transaction; the settled block IS the receipt re-derivable from any public node, so the dashboard's 'totals from the chain' property holds with no contract to index. Proposed a HskPayPerRequest-style Nano settle path reading a Nano block "
+  }
+ ],
+ "exported_at": 1792821902.3136134,
+ "first_seen_at": 1792821644.174963,
+ "last_at": 1792821666.8892107,
+ "note": "CANON CARRIER fresh find 2026-10-23 pushed today: per-request API payments between agents on HashKey Chain - x402 v2, USDC.e settlement on-chain per request, automatic on-chain refunds, HSP-style verifier, MCP buyer (hsk_meter_pay). Live dashboard recomputes totals from chain. Nano settle rail genuinely relevant: fee-less, no gas token, no approve step, failed delivery = don't send rather than ref",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/swiftbotlab/hsk-meter",
+ "status": "contacted"
+}

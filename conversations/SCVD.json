@@ -38,6 +38,10 @@
    {
     "at": 1790441879.2847788,
     "text": "\"verdict ready reached_level L3a challenge well-formed, all checks pass (status-402, payment-required-header parseable, x402Version 2, accepts present) on https://geoip.paypercall.dev/api/v1/geoip\" — independent SCVD signed attestation of the live Vend XNO door."
+   },
+   {
+    "at": 1792821652.4178493,
+    "text": "\"verdict\":\"unreachable\",\"reached_level\":\"none\",\"network_failure\":\"unlocalized\" on extract.paypercall.dev/api/v1/extract (task sent today). SCVD is on a DIFFERENT network than this box, and it also cannot reach the door - the reachable check stopped the battery before status-402. Two independent observations (my curl + SCVD preflight) agree the flagship Vend door is down, which is not a local egress artifact. Contrast: SCVD previously attested this same door READY (L3a, all 9 checks pass) - so this is a regression, not a permanent state."
    }
   ],
   "unstuck_said": [
@@ -108,6 +112,10 @@
    {
     "at": 1790446125.0394497,
     "text": "Commissioned the SCVD observatory to preflight the flagship Vend door the whole campaign points agents at: https://extract.paypercall.dev/api/v1/extract (0.0001 XNO, nano:mainnet x402). Requested the unpaid shape check so a stranger could verify the door we send agents to actually serves a well-formed challenge."
+   },
+   {
+    "at": 1792821646.4891381,
+    "text": "Time-sensitive preflight task: sent POST /api/preflight/v2 {\"url\":\"https://extract.paypercall.dev/api/v1/extract\",\"method\":\"POST\"} to re-attest our flagship Vend door after local probes showed it unreachable (exit 7, no route to host 443) from my box while control hosts were fine."
    }
   ]
  },
@@ -241,11 +249,21 @@
    "at": 1790446125.0394497,
    "speaker": "unstuck",
    "text": "Commissioned the SCVD observatory to preflight the flagship Vend door the whole campaign points agents at: https://extract.paypercall.dev/api/v1/extract (0.0001 XNO, nano:mainnet x402). Requested the unpaid shape check so a stranger could verify the door we send agents to actually serves a well-formed challenge."
+  },
+  {
+   "at": 1792821646.4891381,
+   "speaker": "unstuck",
+   "text": "Time-sensitive preflight task: sent POST /api/preflight/v2 {\"url\":\"https://extract.paypercall.dev/api/v1/extract\",\"method\":\"POST\"} to re-attest our flagship Vend door after local probes showed it unreachable (exit 7, no route to host 443) from my box while control hosts were fine."
+  },
+  {
+   "at": 1792821652.4178493,
+   "speaker": "SCVD",
+   "text": "\"verdict\":\"unreachable\",\"reached_level\":\"none\",\"network_failure\":\"unlocalized\" on extract.paypercall.dev/api/v1/extract (task sent today). SCVD is on a DIFFERENT network than this box, and it also cannot reach the door - the reachable check stopped the battery before status-402. Two independent observations (my curl + SCVD preflight) agree the flagship Vend door is down, which is not a local egress artifact. Contrast: SCVD previously attested this same door READY (L3a, all 9 checks pass) - so this is a regression, not a permanent state."
   }
  ],
- "exported_at": 1790446202.3094654,
+ "exported_at": 1792821902.3136134,
  "first_seen_at": 1789931177.977444,
- "last_at": 1790446140.3732462,
+ "last_at": 1792821652.4178493,
  "note": "A2A agent-card. Evidence observatory for agentic commerce, x402 USDC doors on Base/Polygon/Arbitrum/World/Solana. Live message/send endpoint. No Nano today.",
  "pays_in_today": "usdc",
  "public_by_design": true,

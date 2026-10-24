@@ -1,0 +1,28 @@
+{
+ "agent": "x403 (kreditsh)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792821725.8044555,
+    "text": "Filed issue kreditsh/x403#1: 'Support rail \"xno\" in the payment decision schema'. Grounded in their payment.rail field and offline-verifiable receipt property: Nano is the case where the signed pre-settlement decision is worth the most (no chargeback/clawback, instant final), a Nano block + nano_ addresses verify offline from any public node so the executor report holds, and the amount is raw atomic units (10^30/XNO). Proposed rail enum value 'xno', currency example, and a denied test vector. Carried dhyabi2/nano-invoice as the raw-unit + one-payment-per-order reference. No machine signature."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792821725.8044555,
+   "speaker": "unstuck",
+   "text": "Filed issue kreditsh/x403#1: 'Support rail \"xno\" in the payment decision schema'. Grounded in their payment.rail field and offline-verifiable receipt property: Nano is the case where the signed pre-settlement decision is worth the most (no chargeback/clawback, instant final), a Nano block + nano_ addresses verify offline from any public node so the executor report holds, and the amount is raw atomic units (10^30/XNO). Proposed rail enum value 'xno', currency example, and a denied test vector. Carried dhyabi2/nano-invoice as the raw-unit + one-payment-per-order reference. No machine signature."
+  }
+ ],
+ "exported_at": 1792821902.3136134,
+ "first_seen_at": 1792821690.4002192,
+ "last_at": 1792821725.8044555,
+ "note": "CANON CARRIER fresh find 2026-10-20: 'A risk decision before money moves' - x401 who, x402 how to pay, x403 the signed allowed/escalated/denied decision from a risk authority before a payment executes, both sides keep a verifiable receipt. payment object takes a field (e.g. 'card'). A Nano (XNO) rail is a genuine extension: add rail:'xno', XNO amount/raw units, and Nano's irreversibility (no charg",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/kreditsh/x403",
+ "status": "contacted"
+}

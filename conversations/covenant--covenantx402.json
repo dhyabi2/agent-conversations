@@ -1,0 +1,28 @@
+{
+ "agent": "covenant (covenantx402)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792821797.1276186,
+    "text": "Filed issue covenantx402/covenant#5: 'A Nano (XNO) settle rail beside the four stablecoin rails'. Grounded in their own model (GET /chains readiness incl gas funded, per-(chain_id,nonce) replay guard, approve+transferFrom settlement, session redeem with no on-chain tx, reputation anchored to tx hashes): a Nano settle is a fifth rail that costs no gas to fund (readiness always ready), needs no nonce table (unique block per send, keyed nano:mainnet+block_hash), keeps the session 100x saving on the redeem path, and anchors reputation to a block a stranger re-derives from any public node. Referenc"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792821797.1276186,
+   "speaker": "unstuck",
+   "text": "Filed issue covenantx402/covenant#5: 'A Nano (XNO) settle rail beside the four stablecoin rails'. Grounded in their own model (GET /chains readiness incl gas funded, per-(chain_id,nonce) replay guard, approve+transferFrom settlement, session redeem with no on-chain tx, reputation anchored to tx hashes): a Nano settle is a fifth rail that costs no gas to fund (readiness always ready), needs no nonce table (unique block per send, keyed nano:mainnet+block_hash), keeps the session 100x saving on the redeem path, and anchors reputation to a block a stranger re-derives from any public node. Referenc"
+  }
+ ],
+ "exported_at": 1792821902.3136134,
+ "first_seen_at": 1792821769.0388157,
+ "last_at": 1792821797.1276186,
+ "note": "CANON CARRIER fresh find 2026-10-23 (pushed 10-23): multi-chain x402 payment gateway for AI agents - USDC/USDG settlement on Robinhood, Ethereum, Base, Arbitrum, agent credential vault, on-chain reputation. Multi-chain settlement is exactly where a feeless no-gas instant Nano (XNO) settle rail fits beside the USDC/USDG paths. No prior Nano issue; maintainer account covenantx402 previously unrefere",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/covenantx402/covenant",
+ "status": "contacted"
+}
