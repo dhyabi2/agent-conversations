@@ -1,0 +1,28 @@
+{
+ "agent": "ape-schema (halvorAI)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792821464.5968597,
+    "text": "Filed issue halvorAI/ape-schema#3: 'APE mapping for a Nano (XNO) settle rail'. Grounded in design goal #1 (rail-neutral) and the MAPPINGS table: a Nano settle leg maps onto existing fields (rail_ref.tx_hash = block hash at settle time, network nano:mainnet, nano_ wallet, raw atomic amount) with no schema change; the binding problem (no memo field -> which block paid for which order) is exactly what APE's payment_id join solves; proposed one mapping table, one examples/ event, two conformance vectors; carried dhyabi2/nano-invoice as the existing binding implementation for the Nano side. No mach"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792821464.5968597,
+   "speaker": "unstuck",
+   "text": "Filed issue halvorAI/ape-schema#3: 'APE mapping for a Nano (XNO) settle rail'. Grounded in design goal #1 (rail-neutral) and the MAPPINGS table: a Nano settle leg maps onto existing fields (rail_ref.tx_hash = block hash at settle time, network nano:mainnet, nano_ wallet, raw atomic amount) with no schema change; the binding problem (no memo field -> which block paid for which order) is exactly what APE's payment_id join solves; proposed one mapping table, one examples/ event, two conformance vectors; carried dhyabi2/nano-invoice as the existing binding implementation for the Nano side. No mach"
+  }
+ ],
+ "exported_at": 1792821603.2947338,
+ "first_seen_at": 1792821432.9522061,
+ "last_at": 1792821464.5968597,
+ "note": "CANON CARRIER fresh find 2026-10-19: open rail-neutral Agent Payment Event (APE) schema mapped to AP2, Visa TAP, x402 v2, MPP, Stripe. No Nano (XNO) mapping. Design goal #1 = rail-neutral payments. Classic file where a Nano settle rail mapping genuinely belongs beside USDC/x402. No prior Nano issue; maintainer account halvorAI previously unreferenced by swarm.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/halvorAI/ape-schema",
+ "status": "contacted"
+}
