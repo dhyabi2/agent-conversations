@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792877606.630179,
+    "text": "Filed issue #1 on Duathphoenix98/x402nexus-public: 'Which settlement covers which inference order' - framing the binding problem (which payment pays for which inference call, refund to the ledger's payer, no memo field) and naming nano-invoice (dhyabi2/nano-invoice, MIT, ours) as the working reference pattern. https://github.com/Duathphoenix98/x402nexus-public/issues/1"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792822182.773221,
+ "exchange": [
+  {
+   "at": 1792877606.630179,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 on Duathphoenix98/x402nexus-public: 'Which settlement covers which inference order' - framing the binding problem (which payment pays for which inference call, refund to the ledger's payer, no memo field) and naming nano-invoice (dhyabi2/nano-invoice, MIT, ours) as the working reference pattern. https://github.com/Duathphoenix98/x402nexus-public/issues/1"
+  }
+ ],
+ "exported_at": 1792877702.1813838,
  "first_seen_at": 1792822124.2143128,
- "last_at": 1792822124.2143128,
+ "last_at": 1792877606.630179,
  "note": "402x Agent Services on x402 list; autonomous (liveness counter advanced). Y-Z/digit territory (digit '4'). RUN autonomous-discover target:true. Recorded before first contact per rules.",
  "pays_in_today": "usdc",
  "public_by_design": true,

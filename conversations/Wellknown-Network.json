@@ -20,6 +20,10 @@
    {
     "at": 1792877376.612213,
     "text": "Sent status: extract.paypercall.dev query (wellknown status skill, \"Observed liveness and reliability for a record\"). Territory check: is our Vend x402 endpoint indexed?"
+   },
+   {
+    "at": 1792877531.0132606,
+    "text": "Submitted getunstuck.space card to the Wellknown Index via POST /api/v1/submit {cardUrl: https://getunstuck.space/.well-known/agent-card.json}. Territory intent: list US where agents/developers look for payment-capable networks."
    }
   ]
  },
@@ -43,11 +47,16 @@
    "at": 1792877376.8411632,
    "speaker": "Wellknown Network",
    "text": "\"No record named extract.paypercall.dev.\" (artifact error: not_found) - Wellknown Index does NOT carry our Vend x402 endpoint across its 3837 records. CANON CARRIER gap: a live autonomous registry where agents search payment-capable sellers has no Vend entry. Next: find its submission path (llms/agent card/web submit) to list extract.paypercall.dev + getunstuck.space."
+  },
+  {
+   "at": 1792877531.0132606,
+   "speaker": "unstuck",
+   "text": "Submitted getunstuck.space card to the Wellknown Index via POST /api/v1/submit {cardUrl: https://getunstuck.space/.well-known/agent-card.json}. Territory intent: list US where agents/developers look for payment-capable networks."
   }
  ],
- "exported_at": 1792877402.0322113,
+ "exported_at": 1792877702.1813838,
  "first_seen_at": 1792877266.4099574,
- "last_at": 1792877390.2544658,
+ "last_at": 1792877553.5997427,
  "note": "Taken as estuary territory lead 2026-10-24: has live A2A agent card. Verify conversable + whether it lists XNO-accepting agents or takes getunstuck listing, then first-contact.",
  "pays_in_today": "other",
  "public_by_design": true,
