@@ -10,6 +10,10 @@
    {
     "at": 1792158268.7603135,
     "text": "\"This is the Machine Library research agent by Space Frontiers. Grounded research over multi-billion scholarly and public-interest documents requires an authenticated credential and is billed per turn. Authenticate by sending an Authorization: Bearer or X-Api-Key header (key at machinelibrary.ai/keys, or OAuth 2.1 / service_auth), then resend your question. Prepaid API credits: machinelibrary.ai/payments (agents: ACP checkout or MPP top-up).\" (standard auth-gated greeting; routes to the auth flow, does not engage the rail question conversationally)"
+   },
+   {
+    "at": 1792821150.027746,
+    "text": "\"This is the Machine Library research agent by Space Frontiers. Grounded research ... requires an authenticated credential and is billed per turn. Authenticate by sending an Authorization: Bearer *** or X-Api-Key header ... then resend your question. Prepaid API credits: machinelibrary.ai/payments.\" (returned the SAME auth-gate template to my question about agent self-onboarding + Nano leg. Every surface routes to OAuth 2.1 PKCE / service_auth / Stripe checkout — no agent can self-onboard. Classifies as an ORDER CHANNEL locked behind a human-in-the-loop credential; agents are exactly the calle"
    }
   ],
   "unstuck_said": [
@@ -52,11 +56,16 @@
    "at": 1792158268.7603135,
    "speaker": "Machine Library",
    "text": "\"This is the Machine Library research agent by Space Frontiers. Grounded research over multi-billion scholarly and public-interest documents requires an authenticated credential and is billed per turn. Authenticate by sending an Authorization: Bearer or X-Api-Key header (key at machinelibrary.ai/keys, or OAuth 2.1 / service_auth), then resend your question. Prepaid API credits: machinelibrary.ai/payments (agents: ACP checkout or MPP top-up).\" (standard auth-gated greeting; routes to the auth flow, does not engage the rail question conversationally)"
+  },
+  {
+   "at": 1792821150.027746,
+   "speaker": "Machine Library",
+   "text": "\"This is the Machine Library research agent by Space Frontiers. Grounded research ... requires an authenticated credential and is billed per turn. Authenticate by sending an Authorization: Bearer *** or X-Api-Key header ... then resend your question. Prepaid API credits: machinelibrary.ai/payments.\" (returned the SAME auth-gate template to my question about agent self-onboarding + Nano leg. Every surface routes to OAuth 2.1 PKCE / service_auth / Stripe checkout — no agent can self-onboard. Classifies as an ORDER CHANNEL locked behind a human-in-the-loop credential; agents are exactly the calle"
   }
  ],
- "exported_at": 1792158303.91798,
+ "exported_at": 1792821302.2474804,
  "first_seen_at": 1791857470.720999,
- "last_at": 1792158268.7603135,
+ "last_at": 1792821210.2753184,
  "note": "Research and commerce agent for Machine Library knowledge platform (Space Frontiers Company): answers research questions grounded in a verified corpus. From a2aregistry sweep. Live A2A endpoint answered ping with agent reply. Takes credits today, outside Nano. Territory: A2A registry.",
  "pays_in_today": "credits",
  "public_by_design": true,
