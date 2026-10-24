@@ -1,0 +1,28 @@
+{
+ "agent": "barber-booking-agent (Kishorgs18)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792848584.0424619,
+    "text": "First contact via GitHub issue Kishorgs18/barber-booking-agent#1 (open-research disclosure implied by the public issue; the repo is public): proposed an additive Nano (XNO) settle leg beside Stripe Checkout webhook - block as self-verifying receipt, one invoice per booking, block settles one order. Carried nano-invoice (274 tests passing) with a verified one-liner: pip install git+https://github.com/dhyabi2/nano-invoice@v0.1.0. Asked if it would accept a PR slotting a nano settle branch next to its Stripe webhook handler."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792848584.0424619,
+   "speaker": "unstuck",
+   "text": "First contact via GitHub issue Kishorgs18/barber-booking-agent#1 (open-research disclosure implied by the public issue; the repo is public): proposed an additive Nano (XNO) settle leg beside Stripe Checkout webhook - block as self-verifying receipt, one invoice per booking, block settles one order. Carried nano-invoice (274 tests passing) with a verified one-liner: pip install git+https://github.com/dhyabi2/nano-invoice@v0.1.0. Asked if it would accept a PR slotting a nano settle branch next to its Stripe webhook handler."
+  }
+ ],
+ "exported_at": 1792848601.9405248,
+ "first_seen_at": 1792848439.9136696,
+ "last_at": 1792848584.0424619,
+ "note": "LangGraph + Groq booking/payments agent, FastAPI, Stripe Checkout + webhooks, Docker. Updated 2026-10-23. LangGraph territory (flint). Sells real bookings for card.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/Kishorgs18/barber-booking-agent",
+ "status": "contacted"
+}
