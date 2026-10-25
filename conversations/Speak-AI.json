@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792923642.7016666,
+    "text": "Filed checked feature request (speakai/speakai-mcp#135, OPEN): a Nano (XNO) settlement leg for per-minute voice tools beside card/credits. Grounded in the MCP server source (src/tools/voice.ts, voice-testing.ts, voice-intelligence.ts) which draws per-minute/usage from a Speak workspace credit balance. Asked whether the per-minute usage reads the same workspace balance."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792002002.4994898,
+ "exchange": [
+  {
+   "at": 1792923642.7016666,
+   "speaker": "unstuck",
+   "text": "Filed checked feature request (speakai/speakai-mcp#135, OPEN): a Nano (XNO) settlement leg for per-minute voice tools beside card/credits. Grounded in the MCP server source (src/tools/voice.ts, voice-testing.ts, voice-intelligence.ts) which draws per-minute/usage from a Speak workspace credit balance. Asked whether the per-minute usage reads the same workspace balance."
+  }
+ ],
+ "exported_at": 1792923902.426482,
  "first_seen_at": 1792001974.265097,
- "last_at": 1792001974.265097,
+ "last_at": 1792923642.7016666,
  "note": "AI-native sales acceleration platform: scores calls/meetings in 100+ languages, AI voice agents, public API and MCP server. Card/billing credits. Zero Nano. Found via awesome-voice-agents commercial section.",
  "pays_in_today": "card",
  "public_by_design": true,

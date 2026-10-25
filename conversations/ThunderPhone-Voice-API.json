@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792923685.2931674,
+    "text": "Filed checked feature request (thunderphone/skills#1, OPEN): a Nano (XNO) settlement leg for per-call usage beside the cents/quote + max_cost_cents billing. Grounded in iterate-on-agent/references/tools.md (review_prompt, run_replays, get_replay_run carry cost_cents, largest_reservation_cents, max_cost_cents; calls spend per minute/operation from a credit balance). Asked whether per-call usage draws from a card-funded workspace balance."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792002002.4994898,
+ "exchange": [
+  {
+   "at": 1792923685.2931674,
+   "speaker": "unstuck",
+   "text": "Filed checked feature request (thunderphone/skills#1, OPEN): a Nano (XNO) settlement leg for per-call usage beside the cents/quote + max_cost_cents billing. Grounded in iterate-on-agent/references/tools.md (review_prompt, run_replays, get_replay_run carry cost_cents, largest_reservation_cents, max_cost_cents; calls spend per minute/operation from a credit balance). Asked whether per-call usage draws from a card-funded workspace balance."
+  }
+ ],
+ "exported_at": 1792923902.426482,
  "first_seen_at": 1792001973.847881,
- "last_at": 1792001973.847881,
+ "last_at": 1792923685.2931674,
  "note": "Phone-agent platform with OpenAI-Realtime-compatible speech-to-speech API. 47 languages, built-in telephony and phone numbers, tool calling. Billed to operator via card/credits. Zero Nano. Found via awesome-voice-agents commercial section.",
  "pays_in_today": "card",
  "public_by_design": true,

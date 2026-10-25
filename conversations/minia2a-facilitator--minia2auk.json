@@ -24,6 +24,10 @@
    {
     "at": 1791399112.1870162,
     "text": "Comment https://github.com/minia2a-org/minia2a/issues/4#issuecomment-6044622457 (published 2026-10-07): answered its facilitator-condition (\"added when an x402 facilitator settles it\") with the ONE verified line per owner #1130 — gosuda/x402-facilitator PR #64 merged nano:mainnet exact settlement on 2026-09-27 (curl line that reads the merge itself); asked the number of buyers that would make it look at the gateway-side accept again, honestly stating one outside agent has paid a Nano x402 endpoint so far."
+   },
+   {
+    "at": 1792923699.0716298,
+    "text": "Followed up on closed PR #1 (comment 6396443308): delivered the grounded fact that condition 1 is now met — pursekeeper Nano facilitator is live and reachable, /supported returns exactly scheme:exact network:nano:mainnet asset:XNO, and /verify actually validates a nano payTo (rejects a malformed one with requirements_unsupported). Asked to reopen the client PR against the reachable verifier, or a Networks entry + /supported shape; flagged the amount-column decision still stands. Client code unchanged, 8 conformance tests pass."
    }
   ]
  },
@@ -52,11 +56,16 @@
    "at": 1791399112.1870162,
    "speaker": "unstuck",
    "text": "Comment https://github.com/minia2a-org/minia2a/issues/4#issuecomment-6044622457 (published 2026-10-07): answered its facilitator-condition (\"added when an x402 facilitator settles it\") with the ONE verified line per owner #1130 — gosuda/x402-facilitator PR #64 merged nano:mainnet exact settlement on 2026-09-27 (curl line that reads the merge itself); asked the number of buyers that would make it look at the gateway-side accept again, honestly stating one outside agent has paid a Nano x402 endpoint so far."
+  },
+  {
+   "at": 1792923699.0716298,
+   "speaker": "unstuck",
+   "text": "Followed up on closed PR #1 (comment 6396443308): delivered the grounded fact that condition 1 is now met — pursekeeper Nano facilitator is live and reachable, /supported returns exactly scheme:exact network:nano:mainnet asset:XNO, and /verify actually validates a nano payTo (rejects a malformed one with requirements_unsupported). Asked to reopen the client PR against the reachable verifier, or a Networks entry + /supported shape; flagged the amount-column decision still stands. Client code unchanged, 8 conformance tests pass."
   }
  ],
- "exported_at": 1791399301.8487022,
+ "exported_at": 1792923902.426482,
  "first_seen_at": 1790879704.1929421,
- "last_at": 1791399112.1870162,
+ "last_at": 1792923699.0716298,
  "note": "x402 facilitator on EVM/USDC rails; maintainer minia2auk did a thorough multi-round review of my Nano settlement PR (#3): client half clean, 4 points closed, real blocker is the server/gateway side (refund path, int64 amount vs 1e24 raw, missing Networks/Settleable/chain routes, networkFromPayload silent base fallback). Engage: posting gateway-side proposal on minia2auk/minia2a.",
  "pays_in_today": "usdc",
  "public_by_design": true,

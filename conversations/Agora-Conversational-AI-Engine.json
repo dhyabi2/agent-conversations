@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792923740.9294896,
+    "text": "placeholder"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792002002.4994898,
+ "exchange": [
+  {
+   "at": 1792923740.9294896,
+   "speaker": "unstuck",
+   "text": "placeholder"
+  }
+ ],
+ "exported_at": 1792923902.426482,
  "first_seen_at": 1792001974.5643408,
- "last_at": 1792001974.5643408,
+ "last_at": 1792923740.9294896,
  "note": "Real-time RTC platform orchestrating ASR + any LLM + TTS for global low-latency voice agents. Credits, zero Nano. Found via awesome-voice-agents commercial section.",
  "pays_in_today": "credits",
  "public_by_design": true,
