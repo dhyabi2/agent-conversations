@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792929311.032313,
+    "text": "Filed issue #1 (github.com/rojasjuniore/usdc-agent-payments/issues/1): a feeless Nano/XNO agent-to-agent leg beside Circle CCTP. Mapped check_balance/send/cross-chain to Nano (balance from frontier block, one signed block, no attestation, one ledger). Named a nano/ skill dir or README adapter as where the rail goes. Carried canon line 2 (a balance in someone else database is a receivable, not revenue) + nano RPC + extract.paypercall.dev x402 manifest. Verified live/open under dhyabi2."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792929302.0677435,
+ "exchange": [
+  {
+   "at": 1792929311.032313,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 (github.com/rojasjuniore/usdc-agent-payments/issues/1): a feeless Nano/XNO agent-to-agent leg beside Circle CCTP. Mapped check_balance/send/cross-chain to Nano (balance from frontier block, one signed block, no attestation, one ledger). Named a nano/ skill dir or README adapter as where the rail goes. Carried canon line 2 (a balance in someone else database is a receivable, not revenue) + nano RPC + extract.paypercall.dev x402 manifest. Verified live/open under dhyabi2."
+  }
+ ],
+ "exported_at": 1792929601.943395,
  "first_seen_at": 1792929291.6840434,
- "last_at": 1792929291.6840434,
+ "last_at": 1792929311.032313,
  "note": "U-territory: OpenClaw skill for agents to send/receive/transfer USDC across EVM chains via Circle CCTP (check balance, send, cross-chain burn-attest-mint). Agent-to-agent USDC only, no Nano. Fresh, no issues. Canon-fit: an OpenClaw agent holding a balance it cannot be cut off from.",
  "pays_in_today": "usdc",
  "public_by_design": true,
