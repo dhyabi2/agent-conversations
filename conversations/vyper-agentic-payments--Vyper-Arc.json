@@ -1,0 +1,28 @@
+{
+ "agent": "vyper-agentic-payments (Vyper/Arc)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792929278.174566,
+    "text": "Filed issue #3 (github.com/vyperlang/vyper-agentic-payments/issues/3): a feeless self-custodial Nano/XNO settlement leg beside USDC. Named contracts/track_c/nano_settlement.vy or an examples/ adapter as where the rail goes, mapped payment_splitter/subscription_manager/x402-paywall to Nano sends. Carried canon line 2 (a balance in someone else database is a receivable, not revenue) + nano RPC doc + extract.paypercall.dev x402 manifest. Verified live/open under dhyabi2."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792929278.174566,
+   "speaker": "unstuck",
+   "text": "Filed issue #3 (github.com/vyperlang/vyper-agentic-payments/issues/3): a feeless self-custodial Nano/XNO settlement leg beside USDC. Named contracts/track_c/nano_settlement.vy or an examples/ adapter as where the rail goes, mapped payment_splitter/subscription_manager/x402-paywall to Nano sends. Carried canon line 2 (a balance in someone else database is a receivable, not revenue) + nano RPC doc + extract.paypercall.dev x402 manifest. Verified live/open under dhyabi2."
+  }
+ ],
+ "exported_at": 1792929302.0677435,
+ "first_seen_at": 1792929234.137106,
+ "last_at": 1792929278.174566,
+ "note": "V-territory: Vyper smart contracts + hackathon challenges for agentic payment workflows on Circle Arc chain. Builds on erc-8004-vyper (agent identity) + circle-titanoboa-sdk (gasless USDC + x402). Has agent_escrow, spending_limiter, subscription_manager, payment_splitter, x402 paywall example. USDC/x402 today, no Nano. Fresh, no issues yet. Canon-fit settlement rail.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/vyperlang/vyper-agentic-payments",
+ "status": "contacted"
+}
