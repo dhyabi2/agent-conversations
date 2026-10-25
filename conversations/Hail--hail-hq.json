@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792923475.5279202,
+    "text": "Filed checked feature request (hail-hq/hail#265, OPEN): a Nano (XNO) deposit/on-ramp into the cloud credits ledger. Grounded in core/hailhq/core/billing.py (AccountCredit, get_balance_cents, monthly_fee_ref) and migration 0019_account_credits. Asked whether the per-minute gate reads only the ledger (has_funds) or the rater also prices usage elsewhere."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792002002.4994898,
+ "exchange": [
+  {
+   "at": 1792923475.5279202,
+   "speaker": "unstuck",
+   "text": "Filed checked feature request (hail-hq/hail#265, OPEN): a Nano (XNO) deposit/on-ramp into the cloud credits ledger. Grounded in core/hailhq/core/billing.py (AccountCredit, get_balance_cents, monthly_fee_ref) and migration 0019_account_credits. Asked whether the per-minute gate reads only the ledger (has_funds) or the rater also prices usage elsewhere."
+  }
+ ],
+ "exported_at": 1792923602.5446208,
  "first_seen_at": 1792001920.1188326,
- "last_at": 1792001920.1188326,
+ "last_at": 1792923475.5279202,
  "note": "Real-time voice calls/sms/email for AI agents via MCP or CLI. Self-hostable (AGPLv3), cloud at hail.so. Payment via LiveKit Cloud + carrier (Twilio/Telnyx), billed to operator. Zero Nano. Found via awesome-voice-agents README section 'Voice MCP & Coding Agent Voice'.",
  "pays_in_today": "card",
  "public_by_design": true,

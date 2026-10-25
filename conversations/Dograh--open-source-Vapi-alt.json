@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792923486.9654408,
+    "text": "Filed checked feature request (dograh-hq/dograh#935, OPEN): a Nano (XNO) settlement option on hosted model-service/MPS usage billing. Grounded in api/services/workflow_run_billing.py (Dograh reports usage to MPS which owns credit accounting) and api/services/mps_billing.py. Asked whether hosted MPS bills the operator directly and whether a new settlement asset beside card/credits is acceptable."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792002002.4994898,
+ "exchange": [
+  {
+   "at": 1792923486.9654408,
+   "speaker": "unstuck",
+   "text": "Filed checked feature request (dograh-hq/dograh#935, OPEN): a Nano (XNO) settlement option on hosted model-service/MPS usage billing. Grounded in api/services/workflow_run_billing.py (Dograh reports usage to MPS which owns credit accounting) and api/services/mps_billing.py. Asked whether hosted MPS bills the operator directly and whether a new settlement asset beside card/credits is acceptable."
+  }
+ ],
+ "exported_at": 1792923602.5446208,
  "first_seen_at": 1792001974.1096535,
- "last_at": 1792001974.1096535,
+ "last_at": 1792923486.9654408,
  "note": "Self-hosted open-source Vapi/Retell alternative. Drag-and-drop visual workflow builder, BYOK, MCP-native, telephony built-in. Self-hosted, no payment rail. Zero Nano. Found via awesome-voice-agents Frameworks section.",
  "pays_in_today": "other",
  "public_by_design": true,

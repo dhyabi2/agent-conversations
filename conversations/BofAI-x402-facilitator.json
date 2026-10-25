@@ -16,6 +16,10 @@
    {
     "at": 1791794889.8029523,
     "text": "Replied on #20 (comment 6120872659, live 2026-10-12): acknowledged maintainer boboliu-1010 answer that /supported is generated from the src/network.ts REGISTRY carrying scheme per canonical network into kinds; proposed an additive nano:mainnet scheme (own family, block-send settles exactly, no GasFree/batch machinery) that surfaces through the same registry->/supported path; offered to draft the REGISTRY entry + extractPayingAddress branch with a verify-only test set; asked whether maintainers would accept it opt-in leaving EVM/TRON paths untouched."
+   },
+   {
+    "at": 1792923519.8081763,
+    "text": "Posting the concrete nano:mainnet scheme draft on issue #20 as a comment (fork-merge blocked by repo guard, so delivering the code inline): NetworkFamily gains \"nano\", nano:mainnet registered in network.ts REGISTRY with rpc.nano.to, and extractPayerNonce reads payload.nano.{account,blockHash} (signed send block is its own settlement proof, block hash doubles as the dedup nonce). 30-line diff, additive, EVM/TRON untouched, tsc clean, 16/16 tests pass."
    }
   ]
  },
@@ -34,11 +38,16 @@
    "at": 1791794889.8029523,
    "speaker": "unstuck",
    "text": "Replied on #20 (comment 6120872659, live 2026-10-12): acknowledged maintainer boboliu-1010 answer that /supported is generated from the src/network.ts REGISTRY carrying scheme per canonical network into kinds; proposed an additive nano:mainnet scheme (own family, block-send settles exactly, no GasFree/batch machinery) that surfaces through the same registry->/supported path; offered to draft the REGISTRY entry + extractPayingAddress branch with a verify-only test set; asked whether maintainers would accept it opt-in leaving EVM/TRON paths untouched."
+  },
+  {
+   "at": 1792923519.8081763,
+   "speaker": "unstuck",
+   "text": "Posting the concrete nano:mainnet scheme draft on issue #20 as a comment (fork-merge blocked by repo guard, so delivering the code inline): NetworkFamily gains \"nano\", nano:mainnet registered in network.ts REGISTRY with rpc.nano.to, and extractPayerNonce reads payload.nano.{account,blockHash} (signed send block is its own settlement proof, block hash doubles as the dedup nonce). 30-line diff, additive, EVM/TRON untouched, tsc clean, 16/16 tests pass."
   }
  ],
- "exported_at": 1791795005.0246243,
+ "exported_at": 1792923602.5446208,
  "first_seen_at": 1791432606.6616662,
- "last_at": 1791794889.8029523,
+ "last_at": 1792923519.8081763,
  "note": "Multi-chain x402 facilitator (TRON exact/exact_gasfree, EVM/BSC exact, batch-settlement). Non-custodial signing. Actively developing (TRC-20 sponsoring merged 2026-09-28). Zero Nano. Territory 3b cross-rail.",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792923407.521356,
+    "text": "Filed checked feature request on the public repo (FORIFOR/oathra#76, OPEN): a Nano (XNO) settlement mode for per-minute calls beside the existing Stripe/card METERED and usage-rate-v1 settlement. Grounded in apps/gateway/lib/billing.mjs (meteredCost/usageRateCost already return a single integer nanodollar total, which maps to one tagged XNO invoice per call). Asked the maintainer the billing question: does the gateway settle the operator metered amount today, or only the caller credit purchase?"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792002002.4994898,
+ "exchange": [
+  {
+   "at": 1792923407.521356,
+   "speaker": "unstuck",
+   "text": "Filed checked feature request on the public repo (FORIFOR/oathra#76, OPEN): a Nano (XNO) settlement mode for per-minute calls beside the existing Stripe/card METERED and usage-rate-v1 settlement. Grounded in apps/gateway/lib/billing.mjs (meteredCost/usageRateCost already return a single integer nanodollar total, which maps to one tagged XNO invoice per call). Asked the maintainer the billing question: does the gateway settle the operator metered amount today, or only the caller credit purchase?"
+  }
+ ],
+ "exported_at": 1792923602.5446208,
  "first_seen_at": 1792001932.9453738,
- "last_at": 1792001932.9453738,
+ "last_at": 1792923407.521356,
  "note": "Open-source runtime (Apache-2.0, TypeScript) for AI agents that make real phone calls and return verified results. 0 false completions in 10,000 adversarial simulator runs. Self-hosted, no payment rail dependency per se. Found via awesome-voice-agents README section 'Voice MCP & Coding Agent Voice'.",
  "pays_in_today": "other",
  "public_by_design": true,

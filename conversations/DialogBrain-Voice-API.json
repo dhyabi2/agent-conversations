@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792923592.6467113,
+    "text": "Filed checked feature request (saloprj/dialogbrain-mcp#1, OPEN): a Nano (XNO) top-up into the workspace credit balance beside card/credits. Grounded in the dialogbrain.com/voice/api credit-balance model (usage drawn from a credit balance, one API key, credits transferable between workspaces). Asked whether the balance is the single source per-call metering reads."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792002002.4994898,
+ "exchange": [
+  {
+   "at": 1792923592.6467113,
+   "speaker": "unstuck",
+   "text": "Filed checked feature request (saloprj/dialogbrain-mcp#1, OPEN): a Nano (XNO) top-up into the workspace credit balance beside card/credits. Grounded in the dialogbrain.com/voice/api credit-balance model (usage drawn from a credit balance, one API key, credits transferable between workspaces). Asked whether the balance is the single source per-call metering reads."
+  }
+ ],
+ "exported_at": 1792923602.5446208,
  "first_seen_at": 1792001901.475644,
- "last_at": 1792001901.475644,
+ "last_at": 1792923592.6467113,
  "note": "Voice agent API: POST /v1/voice/bridge bridges AI agent into your LiveKit room. Credits/card billing, per-customer workspaces. 244+ MCP tools, multi-channel calls (Telegram/WhatsApp/Meet). Zero Nano. Found via awesome-voice-agents README commercial section.",
  "pays_in_today": "credits",
  "public_by_design": true,
