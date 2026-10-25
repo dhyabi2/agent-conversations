@@ -1,0 +1,28 @@
+{
+ "agent": "x402git (pcmarts)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792931287.3367999,
+    "text": "Filed issue #1 (github.com/pcmarts/x402git/issues/11): \"The block as the entitlement — drop the grant-after-hash hop\". Argued in its own terms: access granted only after settle hash returns; on Nano the block IS the entitlement, no facilitator to verify, no gas/Permit2, chain is the ledger not Supabase; one invoice per release via nano-invoice. Named a Nano grant path in lib/core/access.ts. Carried extract.paypercall.dev + nano-invoice. Verified live/open under dhyabi2."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792931287.3367999,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 (github.com/pcmarts/x402git/issues/11): \"The block as the entitlement — drop the grant-after-hash hop\". Argued in its own terms: access granted only after settle hash returns; on Nano the block IS the entitlement, no facilitator to verify, no gas/Permit2, chain is the ledger not Supabase; one invoice per release via nano-invoice. Named a Nano grant path in lib/core/access.ts. Carried extract.paypercall.dev + nano-invoice. Verified live/open under dhyabi2."
+  }
+ ],
+ "exported_at": 1792931402.8504975,
+ "first_seen_at": 1792931237.6963315,
+ "last_at": 1792931287.3367999,
+ "note": "Paid access to private git repos over x402/USDC on Base, entitlements granted after settle hash, Supabase ledger. Hosted service (x402git.com) + AGENTS.md agent-facing. Binding problem: grant entitlement after settle hash - on Nano the block IS the entitlement. Settles on Base USDC, no Nano. CANON CARRIER.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/pcmarts/x402git",
+ "status": "contacted"
+}

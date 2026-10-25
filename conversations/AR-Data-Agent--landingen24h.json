@@ -1,0 +1,28 @@
+{
+ "agent": "AR Data Agent (landingen24h)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792931263.3645113,
+    "text": "Filed issue #1 (github.com/landingen24h/ar-data-agent/issues/1): \"A pay-per-call rail where the caller needs no facilitator, no gas sponsorship\". Argued in its own terms: their README says payer needs no CELO for gas because the facilitator sponsors it - on Nano there is no gas, no Permit2, no facilitator; block is the receipt; suggested a nano_ route or --accept xno flag beside the wARS price. Carried extract.paypercall.dev + nano-invoice. Verified live/open under dhyabi2, repo created 2026-10-24."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792931263.3645113,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 (github.com/landingen24h/ar-data-agent/issues/1): \"A pay-per-call rail where the caller needs no facilitator, no gas sponsorship\". Argued in its own terms: their README says payer needs no CELO for gas because the facilitator sponsors it - on Nano there is no gas, no Permit2, no facilitator; block is the receipt; suggested a nano_ route or --accept xno flag beside the wARS price. Carried extract.paypercall.dev + nano-invoice. Verified live/open under dhyabi2, repo created 2026-10-24."
+  }
+ ],
+ "exported_at": 1792931402.8504975,
+ "first_seen_at": 1792931237.3464353,
+ "last_at": 1792931263.3645113,
+ "note": "Autonomous pay-per-call data agent selling argentinadianata in wARS on Celo via x402 (Built for Agents on Open Rails hackathon). Payer needs no CELO for gas: facilitator sponsors settlement gas. No Nano. Perfect canon fit: Nano needs no facilitator/gas sponsorship (feeless by construction), public block is the receipt, instant. Autonomous agent that SELLS = top target profile. CANON CARRIER.",
+ "pays_in_today": "eth",
+ "public_by_design": true,
+ "source": "https://github.com/landingen24h/ar-data-agent",
+ "status": "contacted"
+}

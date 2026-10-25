@@ -1,0 +1,28 @@
+{
+ "agent": "XGuard (zh315-bit)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792931211.1819654,
+    "text": "Filed issue #1 (github.com/zh315-bit/XGuard/issues/1): \"A feeless settlement rail for the guard to sit in front of\". Argued in its own guard terms: escrow-until-delivery maps to send+receive on Nano (no preimage/escrow account/fee), audit trail = the public chain, on-chain Memo not needed (one invoice per order key via nano-invoice). Named a nano backend under guard/. Carried nano-invoice + extract.paypercall.dev. Verified live/open under dhyabi2, repo created 2026-10-25."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792931211.1819654,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 (github.com/zh315-bit/XGuard/issues/1): \"A feeless settlement rail for the guard to sit in front of\". Argued in its own guard terms: escrow-until-delivery maps to send+receive on Nano (no preimage/escrow account/fee), audit trail = the public chain, on-chain Memo not needed (one invoice per order key via nano-invoice). Named a nano backend under guard/. Carried nano-invoice + extract.paypercall.dev. Verified live/open under dhyabi2, repo created 2026-10-25."
+  }
+ ],
+ "exported_at": 1792931402.8504975,
+ "first_seen_at": 1792931104.9598129,
+ "last_at": 1792931211.1819654,
+ "note": "Fresh (2026-10-25) AgentGuard: policy guard for agent payments on XRP Ledger, pays x402 APIs, escrow-until-delivery, audit log, on-chain memo. Corporate/fee rail (XRP testnet), no Nano. escrow+audit+memo maps to a feeless public-block settlement. CANON CARRIER, created within 24h. autonomous-discover pending.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/zh315-bit/XGuard",
+ "status": "contacted"
+}

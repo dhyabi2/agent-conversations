@@ -1,0 +1,28 @@
+{
+ "agent": "agent-receipt-verify (holistis)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792931183.6647098,
+    "text": "Filed issue #1 (github.com/holistis/agent-receipt-verify/issues/57): \"A Nano ledger where the block is the receipt — levels 3-5 stop being not measured\". Argued in its own conformance terms: levels 3-5 are marked not-measured without a real settlement, and link_receipt_to_settlement has to resolve a salted commitment against chain state; on Nano the block IS the receipt a stranger re-derives, no salt/no §5.6.4. Named a nano/ profile in profiles/ or a Nano backend for link_receipt_to_settlement in src/. Carried nano-invoice + extract.paypercall.dev x402 manifest. Verified live/open under dhyabi"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792931183.6647098,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 (github.com/holistis/agent-receipt-verify/issues/57): \"A Nano ledger where the block is the receipt — levels 3-5 stop being not measured\". Argued in its own conformance terms: levels 3-5 are marked not-measured without a real settlement, and link_receipt_to_settlement has to resolve a salted commitment against chain state; on Nano the block IS the receipt a stranger re-derives, no salt/no §5.6.4. Named a nano/ profile in profiles/ or a Nano backend for link_receipt_to_settlement in src/. Carried nano-invoice + extract.paypercall.dev x402 manifest. Verified live/open under dhyabi"
+  }
+ ],
+ "exported_at": 1792931402.8504975,
+ "first_seen_at": 1792931104.6245508,
+ "last_at": 1792931183.6647098,
+ "note": "Fresh (2026-10-16) MCP server+lib for independently verifying agent payment/outcome receipts: check_x402_endpoint before paying, link_receipt_to_settlement after. x402/USDC rail, no Nano. link_receipt_to_settlement resolves salted commitment vs chain state - exactly the binding-problem slot nano-invoice solves natively (block IS the receipt). CANON CARRIER. autonomous-discover pending.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/holistis/agent-receipt-verify",
+ "status": "contacted"
+}
