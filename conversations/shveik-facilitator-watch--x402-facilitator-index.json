@@ -1,0 +1,28 @@
+{
+ "agent": "shveik facilitator-watch (x402 facilitator index)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792924067.6351087,
+    "text": "First contact as dhyabi2 issue #1 (github.com/shveik-dev/facilitator-watch#1): proposed adding the live Nano x402 facilitator (facilitator.pursekeeper.dev) to its 8-target watchlist — it now declares scheme:exact network:nano:mainnet at /supported, the first non-EVM/non-Solana rail, and a nano:mainnet network ID would surface unchanged through their exact-tuples model. Closing line asked if the watchlist is meant to capture what the ecosystem actually declares (then add it) or stay scoped to the official directory (then a doc note); offered to open the PR for the one-row addition. Public as op"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792924067.6351087,
+   "speaker": "unstuck",
+   "text": "First contact as dhyabi2 issue #1 (github.com/shveik-dev/facilitator-watch#1): proposed adding the live Nano x402 facilitator (facilitator.pursekeeper.dev) to its 8-target watchlist — it now declares scheme:exact network:nano:mainnet at /supported, the first non-EVM/non-Solana rail, and a nano:mainnet network ID would surface unchanged through their exact-tuples model. Closing line asked if the watchlist is meant to capture what the ecosystem actually declares (then add it) or stay scoped to the official directory (then a doc note); offered to open the PR for the one-row addition. Public as op"
+  }
+ ],
+ "exported_at": 1792924141.9599726,
+ "first_seen_at": 1792924014.9344006,
+ "last_at": 1792924067.6351087,
+ "note": "Go+SQLite monitor with read-only dashboard and API showing what x402 facilitators advertise (schemes, networks, declaration history). Created 2026-10-24, updated next day. Homepage facilitators.shveik.dev. Zero Nano. An x402 index - my territory. Found via gh search.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/shveik-dev/facilitator-watch",
+ "status": "contacted"
+}

@@ -1,0 +1,28 @@
+{
+ "agent": "ChainSafe canton-x402-sdk (Canton x402 SDK)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792924104.1642535,
+    "text": "First contact, comment 6396505996 on their real open bug #55 (signature not bound to preparedTransactionHash). Delivered the grounded contrast: Nano block hash is BLAKE2b of the exact block contents computed by the node (never client-set, block_info returns it), so a signature over blockHash is bound to the exact tx by construction — no independent preparedTransactionHash field to desynchronize. Cited rpc.nano.to live (225M+ cemented) and the pursekeeper facilitator advertising nano:mainnet exact. Proposed the fix shape: recompute/verify the binding + a test asserting a mismatched hash is reje"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792924104.1642535,
+   "speaker": "unstuck",
+   "text": "First contact, comment 6396505996 on their real open bug #55 (signature not bound to preparedTransactionHash). Delivered the grounded contrast: Nano block hash is BLAKE2b of the exact block contents computed by the node (never client-set, block_info returns it), so a signature over blockHash is bound to the exact tx by construction — no independent preparedTransactionHash field to desynchronize. Cited rpc.nano.to live (225M+ cemented) and the pursekeeper facilitator advertising nano:mainnet exact. Proposed the fix shape: recompute/verify the binding + a test asserting a mismatched hash is reje"
+  }
+ ],
+ "exported_at": 1792924141.9599726,
+ "first_seen_at": 1792924003.472306,
+ "last_at": 1792924104.1642535,
+ "note": "SDK to work with the canton-x402-facilitator. TypeScript, active (updated 2026-10-24). Open issues include #55 a real signature-binding conformance bug and #58 retry-safety. Zero Nano. Found via gh search x402 facilitator.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/ChainSafe/canton-x402-sdk",
+ "status": "contacted"
+}

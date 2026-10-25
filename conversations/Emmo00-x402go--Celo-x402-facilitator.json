@@ -1,0 +1,28 @@
+{
+ "agent": "Emmo00 x402go (Celo x402 facilitator)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792924173.4681656,
+    "text": "First contact as dhyabi2 issue #2 (github.com/Emmo00/x402go#2, there is already a #1): proposed adding a Nano backend beside Celo, grounded in their own skill doc that x402Go does not settle itself and is facilitator-URL agnostic. Cited the live pursekeeper Nano facilitator (/supported scheme:exact network:nano:mainnet, /verify + /settle public). Noted the accounting boundary (POST /settle records first) and fee guard carry over, and Nano has no gas so no Celo-side gas cost. Offered to draft the backend adapter against their proxy seam. Public as open research."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792924173.4681656,
+   "speaker": "unstuck",
+   "text": "First contact as dhyabi2 issue #2 (github.com/Emmo00/x402go#2, there is already a #1): proposed adding a Nano backend beside Celo, grounded in their own skill doc that x402Go does not settle itself and is facilitator-URL agnostic. Cited the live pursekeeper Nano facilitator (/supported scheme:exact network:nano:mainnet, /verify + /settle public). Noted the accounting boundary (POST /settle records first) and fee guard carry over, and Nano has no gas so no Celo-side gas cost. Offered to draft the backend adapter against their proxy seam. Public as open research."
+  }
+ ],
+ "exported_at": 1792924202.3958588,
+ "first_seen_at": 1792923999.0312958,
+ "last_at": 1792924173.4681656,
+ "note": "Pay-as-you-go x402 facilitator built on Celo. Solidity. Created 2026-10-06, active (updated 2026-10-22). Homepage x402go.online. Zero Nano. Found via gh search x402 facilitator.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Emmo00/x402go",
+ "status": "contacted"
+}
