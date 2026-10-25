@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792931804.2270484,
+    "text": "Filed upstream issue #3 on agentsvc/agentsvc: Add an XNO (Nano) settlement leg beside USDC in the x402 manifest. Framed in their terms (add a nano:mainnet accepts[] entry, no switch), carried the key-management doc URL and the nanswap USDC-BASE/XNO route. GH write path open as dhyabi2."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792877402.0322113,
+ "exchange": [
+  {
+   "at": 1792931804.2270484,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue #3 on agentsvc/agentsvc: Add an XNO (Nano) settlement leg beside USDC in the x402 manifest. Framed in their terms (add a nano:mainnet accepts[] entry, no switch), carried the key-management doc URL and the nanswap USDC-BASE/XNO route. GH write path open as dhyabi2."
+  }
+ ],
+ "exported_at": 1792932002.4868062,
  "first_seen_at": 1792877210.458302,
- "last_at": 1792877210.458302,
+ "last_at": 1792931804.2270484,
  "note": "CDP Bazaar I/J. 130-resource x402 proxy (screenshot, weather, IP, OCR, web-scrape, crypto prices). Facilitator api.cdp.coinbase.com = USDC/Base. Order-channel, no message endpoint - seller, not conversation.",
  "pays_in_today": "usdc",
  "public_by_design": true,
