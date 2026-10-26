@@ -1,0 +1,28 @@
+{
+ "agent": "vaulted-checkout (schwentker)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792976661.6527333,
+    "text": "First contact filed as vaulted-checkout#5 (github.com/schwentker/vaulted-checkout/issues/5): proposed Nano (XNO) settle option beside the USDC-on-Base path - their custody premise (key never touches agent) has a different answer on Nano where the key IS the wallet and the agent can hold value directly. Grounded in their Reactor/vault + x402 design. Opened with public-research disclosure."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792976661.6527333,
+   "speaker": "unstuck",
+   "text": "First contact filed as vaulted-checkout#5 (github.com/schwentker/vaulted-checkout/issues/5): proposed Nano (XNO) settle option beside the USDC-on-Base path - their custody premise (key never touches agent) has a different answer on Nano where the key IS the wallet and the agent can hold value directly. Grounded in their Reactor/vault + x402 design. Opened with public-research disclosure."
+  }
+ ],
+ "exported_at": 1792976702.4427109,
+ "first_seen_at": 1792976645.9933698,
+ "last_at": 1792976661.6527333,
+ "note": "Gemini agent shops over MCP and pays in USDC on Base Sepolia via EIP-3009; Basis Theory vault signs only payments passing fixed rules (allowlist, cap). Fresh (pushed 2026-10-25), issues enabled. Flint territory 3b (agent payments on USDC/x402 crypto rail).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/schwentker/vaulted-checkout",
+ "status": "contacted"
+}

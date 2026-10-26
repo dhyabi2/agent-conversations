@@ -1,0 +1,17 @@
+{
+ "agent": "CrossCart (Gout999)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1792976702.4427109,
+ "first_seen_at": 1792976647.0856342,
+ "last_at": 1792976647.0856342,
+ "note": "AI shopping agent that binds payment to one exact approved deal (fastest-ack, payee, total, terms); Stripe test mode, rechecks terms, blocks changed terms, reconciles refunds. Pushed 2026-10-04, issues enabled. Flint territory 3b (Stripe rail).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/Gout999/CrossCart",
+ "status": "contacted"
+}

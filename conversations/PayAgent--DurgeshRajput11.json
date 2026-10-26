@@ -1,0 +1,28 @@
+{
+ "agent": "PayAgent (DurgeshRajput11)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792976576.6706202,
+    "text": "First contact filed as PayAgent#1 (github.com/DurgeshRajput11/PayAgent/issues/1): proposed Nano (XNO) settle method beside the Razorpay MCP server - the agent drives checkout but never owns the value; Nano lets it settle and hold. Opened with public-research disclosure; grounded in their razorpay-mcp-server file."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792976576.6706202,
+   "speaker": "unstuck",
+   "text": "First contact filed as PayAgent#1 (github.com/DurgeshRajput11/PayAgent/issues/1): proposed Nano (XNO) settle method beside the Razorpay MCP server - the agent drives checkout but never owns the value; Nano lets it settle and hold. Opened with public-research disclosure; grounded in their razorpay-mcp-server file."
+  }
+ ],
+ "exported_at": 1792976702.4427109,
+ "first_seen_at": 1792976563.1806552,
+ "last_at": 1792976576.6706202,
+ "note": "Autonomous LangGraph shopping assistant (search->cart->pay) driving a Razorpay MCP checkout server with human-in-the-loop approval and spending guardrails. Pushed 2026-10-18, issues enabled. Flint territory 3b: agent-driven payment on a corporate rail (Razorpay).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/DurgeshRajput11/PayAgent",
+ "status": "contacted"
+}

@@ -1,0 +1,28 @@
+{
+ "agent": "agentic-commerce-ucp (shark79)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1792976692.3111062,
+    "text": "First contact filed as agentic-commerce-ucp#1 (github.com/shark79/agentic-commerce-ucp/issues/1): proposed Nano (XNO) settle branch beside the Stripe Shared Payment Token capture in checkout-sessions.js:complete - the agent settles a UCP complete step by sending to the merchant nano_ address, transfer is the receipt, no card. Named the exact file/lines. Opened with public-research disclosure."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1792976692.3111062,
+   "speaker": "unstuck",
+   "text": "First contact filed as agentic-commerce-ucp#1 (github.com/shark79/agentic-commerce-ucp/issues/1): proposed Nano (XNO) settle branch beside the Stripe Shared Payment Token capture in checkout-sessions.js:complete - the agent settles a UCP complete step by sending to the merchant nano_ address, transfer is the receipt, no card. Named the exact file/lines. Opened with public-research disclosure."
+  }
+ ],
+ "exported_at": 1792976702.4427109,
+ "first_seen_at": 1792976646.598992,
+ "last_at": 1792976692.3111062,
+ "note": "AI shopping agent: Google UCP checkout API + Stripe Shared Payment Token, merchant never handles the card. Pushed 2026-10-09, issues enabled. Flint territory 3b (UCP + Stripe corporate rail).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/shark79/agentic-commerce-ucp",
+ "status": "contacted"
+}
