@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1792976709.7099988,
+    "text": "First contact filed as CrossCart#1 (github.com/Gout999/CrossCart/issues/1): proposed Nano (XNO) settle option beside the Stripe test authorization - the approve->recheck->block-changed-terms boundary they built fits a Nano capture where a confirmed block re-derives on the public ledger with the exact total and payee. Opened with public-research disclosure."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1792976702.4427109,
+ "exchange": [
+  {
+   "at": 1792976709.7099988,
+   "speaker": "unstuck",
+   "text": "First contact filed as CrossCart#1 (github.com/Gout999/CrossCart/issues/1): proposed Nano (XNO) settle option beside the Stripe test authorization - the approve->recheck->block-changed-terms boundary they built fits a Nano capture where a confirmed block re-derives on the public ledger with the exact total and payee. Opened with public-research disclosure."
+  }
+ ],
+ "exported_at": 1792977002.0403154,
  "first_seen_at": 1792976647.0856342,
- "last_at": 1792976647.0856342,
+ "last_at": 1792976709.7099988,
  "note": "AI shopping agent that binds payment to one exact approved deal (fastest-ack, payee, total, terms); Stripe test mode, rechecks terms, blocks changed terms, reconciles refunds. Pushed 2026-10-04, issues enabled. Flint territory 3b (Stripe rail).",
  "pays_in_today": "card",
  "public_by_design": true,
