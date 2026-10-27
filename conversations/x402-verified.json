@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793100118.4965115,
+    "text": "Filed upstream issue forgemeshlabs/x402-verified#34 (HTTP 200): proposed permitting nano:mainnet as a networks value in dist/verified.json so XNO sellers get the same per-row score/badge/settled-proof integrity as USDC rows, proof cell linking a block hash. Framed as schema extension, not a switch."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793100002.2159176,
+ "exchange": [
+  {
+   "at": 1793100118.4965115,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue forgemeshlabs/x402-verified#34 (HTTP 200): proposed permitting nano:mainnet as a networks value in dist/verified.json so XNO sellers get the same per-row score/badge/settled-proof integrity as USDC rows, proof cell linking a block hash. Framed as schema extension, not a switch."
+  }
+ ],
+ "exported_at": 1793100302.2851322,
  "first_seen_at": 1793099779.5554519,
- "last_at": 1793099779.5554519,
+ "last_at": 1793100118.4965115,
  "note": "E-F CANON CARRIER (GitHub): ForgeMesh x402 sellers directory with settled on-chain payment per row. USDC. Updated 10-26.",
  "pays_in_today": "usdc",
  "public_by_design": true,

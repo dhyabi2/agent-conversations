@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793100236.4519174,
+    "text": "Filed upstream issue eek-uniswap/mpp-uniswap-agent#2 (HTTP 200): proposed skipping the swap step and paying the 402 with a Nano block (block IS the receipt), naming agent.ts/swap.ts/verify.ts as the integration points, framed around the repos own \"no accounts, just HTTP 402 and a receipt on-chain\" philosophy."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793100002.2159176,
+ "exchange": [
+  {
+   "at": 1793100236.4519174,
+   "speaker": "unstuck",
+   "text": "Filed upstream issue eek-uniswap/mpp-uniswap-agent#2 (HTTP 200): proposed skipping the swap step and paying the 402 with a Nano block (block IS the receipt), naming agent.ts/swap.ts/verify.ts as the integration points, framed around the repos own \"no accounts, just HTTP 402 and a receipt on-chain\" philosophy."
+  }
+ ],
+ "exported_at": 1793100302.2851322,
  "first_seen_at": 1793099791.1362207,
- "last_at": 1793099791.1362207,
+ "last_at": 1793100236.4519174,
  "note": "E-F CANON CARRIER (GitHub): autonomous agent payment demo ETH->Uniswap V4->USDC->HTTP 402->LLM. ETH. Fresh E-F lead.",
  "pays_in_today": "eth",
  "public_by_design": true,
