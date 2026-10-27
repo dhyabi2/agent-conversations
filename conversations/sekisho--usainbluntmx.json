@@ -1,0 +1,28 @@
+{
+ "agent": "sekisho (usainbluntmx)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793098904.7430556,
+    "text": "Filed issue #1 (github.com/usainbluntmx/sekisho/issues/1): \"A feeless (XNO) rail for the SplitVault\". Argued in its own vault terms: SplitVault splits 1.5% treasury / 98.5% merchant on-chain -> on Nano each leg pays its own account, two public blocks, no vault contract, no 1.5% route, no batched distribute(); no Kanjo facilitator and no gas to orchestrate (seller holds no gas token). The sdk/ x402 paid-MCP story maps one-to-one. Carried nano-invoice + extract.paypercall.dev. Verified open under dhyabi2, created 2026-10-21."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793098904.7430556,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 (github.com/usainbluntmx/sekisho/issues/1): \"A feeless (XNO) rail for the SplitVault\". Argued in its own vault terms: SplitVault splits 1.5% treasury / 98.5% merchant on-chain -> on Nano each leg pays its own account, two public blocks, no vault contract, no 1.5% route, no batched distribute(); no Kanjo facilitator and no gas to orchestrate (seller holds no gas token). The sdk/ x402 paid-MCP story maps one-to-one. Carried nano-invoice + extract.paypercall.dev. Verified open under dhyabi2, created 2026-10-21."
+  }
+ ],
+ "exported_at": 1793099101.7274747,
+ "first_seen_at": 1793098894.0986633,
+ "last_at": 1793098904.7430556,
+ "note": "CANON CARRIER (created 2026-10-21): x402 payments with on-chain revenue split on Avalanche SplitVault (1.5% treasury / 98.5% merchant), Kanjo facilitator settles USDC, gasless EIP-3009. Now holds Nano (XNO) issue #1: buyer's send goes to platform+seller nano addresses directly, no SplitVault contract, no 1.5% treasury, no facilitator/gas. Filed open under dhyabi2.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/usainbluntmx/sekisho",
+ "status": "contacted"
+}

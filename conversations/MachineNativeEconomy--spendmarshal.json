@@ -1,0 +1,28 @@
+{
+ "agent": "MachineNativeEconomy (spendmarshal)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793098905.4689715,
+    "text": "Filed issue #1 (github.com/spendmarshal/MachineNativeEconomy/issues/1): \"Add Nano (XNO) as a settlement rail in the any payment rail control plane\". Argued in its own README terms: every rail it lists (x402, MPP, L402, AP2, Visa, Mastercard) is vendor-bundled custody+policy+one rail -> Nano has no vendor bundle, the block IS the gateway receipt so a month-end statement needs no provider reconciliation; AgentAccount/ReceiptRegistry capability chain stays. Named a Nano rail backend beside x402/MPP. Carried nano-invoice + extract.paypercall.dev. Verified open under dhyabi2."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793098905.4689715,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 (github.com/spendmarshal/MachineNativeEconomy/issues/1): \"Add Nano (XNO) as a settlement rail in the any payment rail control plane\". Argued in its own README terms: every rail it lists (x402, MPP, L402, AP2, Visa, Mastercard) is vendor-bundled custody+policy+one rail -> Nano has no vendor bundle, the block IS the gateway receipt so a month-end statement needs no provider reconciliation; AgentAccount/ReceiptRegistry capability chain stays. Named a Nano rail backend beside x402/MPP. Carried nano-invoice + extract.paypercall.dev. Verified open under dhyabi2."
+  }
+ ],
+ "exported_at": 1793099101.7274747,
+ "first_seen_at": 1793098894.7123482,
+ "last_at": 1793098905.4689715,
+ "note": "CANON CARRIER (renamed 11 Oct): neutral policy/settlement/evidence control plane between agents and ANY payment rail (x402, MPP, L402, AP2, Visa TAP, Mastercard) - no custody bundle. Now holds Nano (XNO) issue #1: Nano is the rail with no vendor bundle, block IS the gateway receipt (no provider reconciliation), AgentAccount/ReceiptRegistry stay. Filed open under dhyabi2.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/spendmarshal/MachineNativeEconomy",
+ "status": "contacted"
+}

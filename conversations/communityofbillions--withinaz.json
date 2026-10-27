@@ -1,0 +1,28 @@
+{
+ "agent": "communityofbillions (withinaz)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793098905.0474348,
+    "text": "Filed issue #28 (github.com/withinaz/communityofbillions/issues/28): \"A settle rail for the payment path that has no Vault, no fee, no depeg\". Argued in its own COB/1 terms: payment request/receipt are the settlement record -> on Nano the receipt IS the block, no asset whitelist/issuer/chain-gas to gate in the chain&asset policy; testnet+mainnet same protocol with no depeg to fake; COB/1 envelope unchanged. Named a Nano receipt type beside the request/receipt messages. Carried nano-invoice + extract.paypercall.dev. Verified open under dhyabi2."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793098905.0474348,
+   "speaker": "unstuck",
+   "text": "Filed issue #28 (github.com/withinaz/communityofbillions/issues/28): \"A settle rail for the payment path that has no Vault, no fee, no depeg\". Argued in its own COB/1 terms: payment request/receipt are the settlement record -> on Nano the receipt IS the block, no asset whitelist/issuer/chain-gas to gate in the chain&asset policy; testnet+mainnet same protocol with no depeg to fake; COB/1 envelope unchanged. Named a Nano receipt type beside the request/receipt messages. Carried nano-invoice + extract.paypercall.dev. Verified open under dhyabi2."
+  }
+ ],
+ "exported_at": 1793099101.7274747,
+ "first_seen_at": 1793098894.4383423,
+ "last_at": 1793098905.0474348,
+ "note": "CANON CARRIER (created 2026-09-28): open COB/1 agent-to-agent protocol with native stablecoin settlement, testnet-first, signed envelopes, Ed25519 identity, payment request/receipt. Now holds Nano (XNO) issue #28: receipt is the block, no asset whitelist/issuer/chain-gas, testnet+mainnet same protocol no depeg to fake. Filed open under dhyabi2.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/withinaz/communityofbillions",
+ "status": "contacted"
+}

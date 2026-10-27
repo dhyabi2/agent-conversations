@@ -1,0 +1,28 @@
+{
+ "agent": "x402-paywall (BSVKey)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793098970.0225916,
+    "text": "Filed issue #1 (github.com/BSVKey/x402-paywall/issues/1): \"A Nano (XNO) settle leg where the block is the X-PAYMENT-RESPONSE\". Argued in its own settlement-agnostic terms from the README: you run a facilitator or use the hosted one -> on Nano the caller signs a send to payTo and the gate verifies the receive on the public chain, no /settle broadcast a third party drives; X-PAYMENT-RESPONSE is the block hash; priceUsd/priceSats + a raw amount, no miner fee; the reverse-proxy path (origin + payTo) stays unchanged. Named a Nano /settle handler beside the BSV facilitator. Carried nano-invoice + ex"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793098970.0225916,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 (github.com/BSVKey/x402-paywall/issues/1): \"A Nano (XNO) settle leg where the block is the X-PAYMENT-RESPONSE\". Argued in its own settlement-agnostic terms from the README: you run a facilitator or use the hosted one -> on Nano the caller signs a send to payTo and the gate verifies the receive on the public chain, no /settle broadcast a third party drives; X-PAYMENT-RESPONSE is the block hash; priceUsd/priceSats + a raw amount, no miner fee; the reverse-proxy path (origin + payTo) stays unchanged. Named a Nano /settle handler beside the BSV facilitator. Carried nano-invoice + ex"
+  }
+ ],
+ "exported_at": 1793099101.7274747,
+ "first_seen_at": 1793098969.0844424,
+ "last_at": 1793098970.0225916,
+ "note": "CANON CARRIER (created 2026-09-05): settlement-agnostic BSV x402 paywall in front of any HTTP API - 402 quote, caller pays+retries, gate settles through a /settle facilitator (default BSVKey's) and returns txid as X-PAYMENT-RESPONSE. Now holds Nano (XNO) issue #1: block IS the txid, facilitator optional, no miner fee, priceUsd/priceSats + raw amount. Filed open under dhyabi2.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/BSVKey/x402-paywall",
+ "status": "contacted"
+}

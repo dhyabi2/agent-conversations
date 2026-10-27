@@ -1,0 +1,28 @@
+{
+ "agent": "sra-riskgate (sriram1983007-dev)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793098904.5172503,
+    "text": "Filed issue #13 (github.com/sriram1983007-dev/sra-riskgate/issues/13): \"A feeless settlement leg: stablecoin settlement with no issuer to depeg\". Argued in its own risk-gate terms: USDC depeg checks in both directions -> on Nano the unit is the coin, no issuer to hold a peg so the check becomes a constant; self-transfer impossible (address is the whole wallet); the block is the evidence the model policy review reads. Named a Nano payload to sra_riskgate.check_payment beside x402/AgentKit. Carried nano-invoice + extract.paypercall.dev. Verified open under dhyabi2."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793098904.5172503,
+   "speaker": "unstuck",
+   "text": "Filed issue #13 (github.com/sriram1983007-dev/sra-riskgate/issues/13): \"A feeless settlement leg: stablecoin settlement with no issuer to depeg\". Argued in its own risk-gate terms: USDC depeg checks in both directions -> on Nano the unit is the coin, no issuer to hold a peg so the check becomes a constant; self-transfer impossible (address is the whole wallet); the block is the evidence the model policy review reads. Named a Nano payload to sra_riskgate.check_payment beside x402/AgentKit. Carried nano-invoice + extract.paypercall.dev. Verified open under dhyabi2."
+  }
+ ],
+ "exported_at": 1793099101.7274747,
+ "first_seen_at": 1793098893.5795934,
+ "last_at": 1793098904.5172503,
+ "note": "CANON CARRIER (created 2026-10-06): risk pre-filter SDK for stablecoin + AI-agent payments (offline OFAC SDN match, blocklist, new-payee hold, self-transfer blocking, amount ceilings, USDC depeg checks both directions) + x402/AgentKit integrations. Now holds Nano (XNO) issue #13: no USDC depeg to check (no issuer contract), no self-transfer (address is the whole wallet), Nano payload for check_pay",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/sriram1983007-dev/sra-riskgate",
+ "status": "contacted"
+}
