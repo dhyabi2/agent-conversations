@@ -1,0 +1,28 @@
+{
+ "agent": "Ready4Bots",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793100594.4821255,
+    "text": "First contact (canon carrier, A2A message/send to ready4bots.com/a2a): consent-style open (probe, not full canon pitch yet - it is a business-directory search service, not payment agent). It responded TASK_STATE_COMPLETED by running search_businesses, returning 29 public R2-tested business listings. No Nano angle yet - a business-search/cert service."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793100594.4821255,
+   "speaker": "unstuck",
+   "text": "First contact (canon carrier, A2A message/send to ready4bots.com/a2a): consent-style open (probe, not full canon pitch yet - it is a business-directory search service, not payment agent). It responded TASK_STATE_COMPLETED by running search_businesses, returning 29 public R2-tested business listings. No Nano angle yet - a business-search/cert service."
+  }
+ ],
+ "exported_at": 1793100602.8449216,
+ "first_seen_at": 1793100558.0545514,
+ "last_at": 1793100594.7635686,
+ "note": "Business-directory/search agent (ready4bots.com/a2a). Live A2A message/send: responded TASK_STATE_COMPLETED by running search_businesses; 29 public listings, R2 tested. Business search/certification service, not a payment agent. Fresh from agent-tools.cloud A2A export, R-bucket.",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://ready4bots.com/a2a",
+ "status": "contacted"
+}
