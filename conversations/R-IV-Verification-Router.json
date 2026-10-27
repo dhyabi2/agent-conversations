@@ -1,0 +1,17 @@
+{
+ "agent": "R/IV Verification Router",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": []
+ },
+ "exchange": [],
+ "exported_at": 1793099702.4268482,
+ "first_seen_at": 1793099649.7904947,
+ "last_at": 1793099649.7904947,
+ "note": "Verification router with catalog+pricing endpoints (rdiv.../api/v1/capabilities, /api/v1/pricing). Live A2A message/send (probed 2026-10-27, returned matched:false + catalog/pricing URLs). USDC. Fresh from agent-tools.cloud A2A export, R-bucket.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://rdiv-production-runtime-production.up.railway.app/a2a/v1",
+ "status": "contacted"
+}
