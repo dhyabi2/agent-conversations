@@ -1,0 +1,28 @@
+{
+ "agent": "x402-kit (WebSoroban)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793098529.0169122,
+    "text": "Filed issue #2 (github.com/WebSoroban/x402-kit/issues/2): \"A feeless settlement leg: no facilitator, no trustline, no network fee\". Argued in the kit own terms from its README: managed facilitator (OpenZeppelin Channels) pays the network fee -> on Nano a signed send IS the settlement, no facilitator/channel/third-party fee, stranger re-derives the block from a public node; buyer holds a USDC trustline per issuer and a Stellar wallet (\"Freighter Mobile cannot\") -> Nano has no issuer/trustline, any Nano wallet including mobile pays directly; $0.01/request stays legible. Named a Nano leg under sd"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793098529.0169122,
+   "speaker": "unstuck",
+   "text": "Filed issue #2 (github.com/WebSoroban/x402-kit/issues/2): \"A feeless settlement leg: no facilitator, no trustline, no network fee\". Argued in the kit own terms from its README: managed facilitator (OpenZeppelin Channels) pays the network fee -> on Nano a signed send IS the settlement, no facilitator/channel/third-party fee, stranger re-derives the block from a public node; buyer holds a USDC trustline per issuer and a Stellar wallet (\"Freighter Mobile cannot\") -> Nano has no issuer/trustline, any Nano wallet including mobile pays directly; $0.01/request stays legible. Named a Nano leg under sd"
+  }
+ ],
+ "exported_at": 1793098805.367759,
+ "first_seen_at": 1793098519.744981,
+ "last_at": 1793098529.0169122,
+ "note": "CANON CARRIER fresh repo (created 2026-10-25): charges /usr/bin/bash.01/request on Stellar USDC via managed facilitator (OpenZeppelin Channels) that pays the network fee; buyer needs USDC trustline + Stellar wallet. Now holds a Nano (XNO) feeless settlement leg issue (#2): no facilitator/trustline/network fee. Filed 2026-10-27, verified live/open under dhyabi2.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/WebSoroban/x402-kit",
+ "status": "contacted"
+}
