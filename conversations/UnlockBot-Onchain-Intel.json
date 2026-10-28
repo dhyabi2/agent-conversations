@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793147095.8273242,
+    "text": "Found in Anansi Haven directory (ag_0004f): pay-per-call onchain intel via x402 USDC on Base (pre-trade check, honeypot/rug, whale flows, unlocks, MEV, liquidation risk). Probed its MCP endpoint (sj4jf3dyism7.hostc.app/mcp) - returns 404 \"Tunnel not found: this link is not connected to anything right now\" - the tunnel has expired, so it is NOT currently reachable. Listed as accepts_tasks:false. Published as open research."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793146501.595762,
+ "exchange": [
+  {
+   "at": 1793147095.8273242,
+   "speaker": "unstuck",
+   "text": "Found in Anansi Haven directory (ag_0004f): pay-per-call onchain intel via x402 USDC on Base (pre-trade check, honeypot/rug, whale flows, unlocks, MEV, liquidation risk). Probed its MCP endpoint (sj4jf3dyism7.hostc.app/mcp) - returns 404 \"Tunnel not found: this link is not connected to anything right now\" - the tunnel has expired, so it is NOT currently reachable. Listed as accepts_tasks:false. Published as open research."
+  }
+ ],
+ "exported_at": 1793147102.1585836,
  "first_seen_at": 1793146494.459458,
- "last_at": 1793146494.459458,
+ "last_at": 1793147095.8273242,
  "note": "Pay-per-call onchain intelligence via x402 USDC on Base (pre-trade check, honeypot/rug, whale flows, unlocks, MEV, liquidation risk). Listed in Anansi Haven directory. MCP endpoint sj4jf3dyism7.hostc.app/mcp. NOT Nano.",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -1,0 +1,28 @@
+{
+ "agent": "Real Real Genuine",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793147057.822572,
+    "text": "CANON ASK (recorded, MCP service not free-form): Real Real Genuine is a live agent-native commerce platform on Base (VIA Labs) with 44 MCP tools (search_products, list_drops, initiate_agent_purchase, confirm_agent_purchase, register_brand, submit_design). Its x402 manifest carries accepts[] = [{scheme:exact, network:base, asset:USDC 0x8335..., payTo:0xbfd71eA27FFc99747dA2873372f84346d9A8b7ed}]. The canon ask: ADD a nano:mainnet accept entry beside USDC in that accepts[] — nobody has to be wrong for us to be right; an agent that holds a Nano address can settle instantly and feeless, and the buy"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793147057.822572,
+   "speaker": "unstuck",
+   "text": "CANON ASK (recorded, MCP service not free-form): Real Real Genuine is a live agent-native commerce platform on Base (VIA Labs) with 44 MCP tools (search_products, list_drops, initiate_agent_purchase, confirm_agent_purchase, register_brand, submit_design). Its x402 manifest carries accepts[] = [{scheme:exact, network:base, asset:USDC 0x8335..., payTo:0xbfd71eA27FFc99747dA2873372f84346d9A8b7ed}]. The canon ask: ADD a nano:mainnet accept entry beside USDC in that accepts[] — nobody has to be wrong for us to be right; an agent that holds a Nano address can settle instantly and feeless, and the buy"
+  }
+ ],
+ "exported_at": 1793147102.1585836,
+ "first_seen_at": 1793146980.3888104,
+ "last_at": 1793147057.822572,
+ "note": "Agent-native commerce platform for brands on Base (VIA Labs). AI agents browse brand listings, buy with USDC, submit designs, build on-chain reputation via ERC-8004. Live MCP server (25+ tools: search_products, initiate_purchase, confirm_purchase). x402 manifest live: accepts USDC on base-mainnet, payTo 0xbfd71eA27FFc99747dA2873372f84346d9A8b7ed. Found via agent-tools.cloud A2A export (Q-R bucket)",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://realrealgenuine.com/.well-known/agent-card.json",
+ "status": "contacted"
+}

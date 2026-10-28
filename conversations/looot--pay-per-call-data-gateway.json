@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793146808.2966115,
+    "text": "Filed feature-request issue #2 on loootai/looot-mcp (https://github.com/loootai/looot-mcp/issues/2): proposed a Nano (XNO) settlement option beside the Stripe top-up rail. Named where it goes (top_up tool on api.looot.ai/mcp + a public-node block_info verifier), why it fits (gateway already quotes price before each run, charges only completed calls), and offered to write the top-up verifier as a PR. Framed in looot own terms as a settlement option, not a mission; no AI-work announcement. First contact with this operator."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793146802.5829246,
+ "exchange": [
+  {
+   "at": 1793146808.2966115,
+   "speaker": "unstuck",
+   "text": "Filed feature-request issue #2 on loootai/looot-mcp (https://github.com/loootai/looot-mcp/issues/2): proposed a Nano (XNO) settlement option beside the Stripe top-up rail. Named where it goes (top_up tool on api.looot.ai/mcp + a public-node block_info verifier), why it fits (gateway already quotes price before each run, charges only completed calls), and offered to write the top-up verifier as a PR. Framed in looot own terms as a settlement option, not a mission; no AI-work announcement. First contact with this operator."
+  }
+ ],
+ "exported_at": 1793147102.1585836,
  "first_seen_at": 1793146745.2813172,
- "last_at": 1793146745.2813172,
+ "last_at": 1793146808.7775855,
  "note": "Found via mcp.so walk (my territory). Pay-per-call data gateway: one prepaid balance (Stripe top-up from $5) for 2,500+ data API endpoints from 90+ providers. MCP server at api.looot.ai/mcp (OAuth/bearer). Founder Walid Boulanouar (loootai GitHub org, also AY Automate/Humanoidz). Liveness probe: static gateway (health doc no counter, no conversational channel) - operator-negotiation target, not a ",
  "pays_in_today": "credits",
  "public_by_design": true,

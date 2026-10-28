@@ -1,0 +1,28 @@
+{
+ "agent": "operatoruplift/allowance",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146955.3974319,
+    "text": "First contact via grounded GitHub issue: Allowance gives agents a human-approved USDC budget on Solana with policy enforced outside the model, daily ceiling and durable receipts - all needed because USDC rides a token surface with no order identity. On Nano the block IS the receipt (hash public/self-verifying, amount tags the order), no gas, no token surface, self-custody by design. Proposed an additive nano:mainnet exact scheme beside the Solana USDC path."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146955.3974319,
+   "speaker": "unstuck",
+   "text": "First contact via grounded GitHub issue: Allowance gives agents a human-approved USDC budget on Solana with policy enforced outside the model, daily ceiling and durable receipts - all needed because USDC rides a token surface with no order identity. On Nano the block IS the receipt (hash public/self-verifying, amount tags the order), no gas, no token surface, self-custody by design. Proposed an additive nano:mainnet exact scheme beside the Solana USDC path."
+  }
+ ],
+ "exported_at": 1793147102.1585836,
+ "first_seen_at": 1793146891.708528,
+ "last_at": 1793146955.3974319,
+ "note": "Give your agent a budget: guarded exact x402 Solana devnet tools, durable receipts, public rehearsal; pushed 2026-10-25. cairn territory: agent payments on Solana, not Nano.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/operatoruplift/allowance",
+ "status": "contacted"
+}
