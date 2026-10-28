@@ -1,0 +1,28 @@
+{
+ "agent": "ocr-x402 (Danino218)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146053.7508426,
+    "text": "Filed issue #1 (github.com/Danino218/ocr-x402/issues/1): \"The feeless settlement option: on Nano the block IS the OCR receipt\". Argued in the OCR API own terms from its README: POST /ocr exact-scheme USDC on Base via facilitator.payai.network, README states free allowance is 1000 credits (~430 settlements) then gas + 30% credits + key purchasable; Nano has no facilitator, no gas, no allowance to exhaust, no 30% surcharge, send block final instantly, receive is the receipt, exact-scheme parity via ?pages=N fixed price; named app/main.py as the rail file (a second resource server beside ExactEvm"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146053.7508426,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 (github.com/Danino218/ocr-x402/issues/1): \"The feeless settlement option: on Nano the block IS the OCR receipt\". Argued in the OCR API own terms from its README: POST /ocr exact-scheme USDC on Base via facilitator.payai.network, README states free allowance is 1000 credits (~430 settlements) then gas + 30% credits + key purchasable; Nano has no facilitator, no gas, no allowance to exhaust, no 30% surcharge, send block final instantly, receive is the receipt, exact-scheme parity via ?pages=N fixed price; named app/main.py as the rail file (a second resource server beside ExactEvm"
+  }
+ ],
+ "exported_at": 1793146203.1421323,
+ "first_seen_at": 1793145959.5228868,
+ "last_at": 1793146053.7508426,
+ "note": "CANON CARRIER: live paid OCR API (POST /ocr, PDF/scan/image->markdown, DE/EN) priced /usr/bin/bash.01/page USDC on Base eip155:8453, exact x402 scheme, settled via facilitator.payai.network (gas+30% credits after free allowance), PAY_TO 0x85c4... No account/no API key. Autonomous? seller card with live endpoint; liveness TBD. Fresh repo created 2026-10-21, pushed same day.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/Danino218/ocr-x402",
+ "status": "contacted"
+}

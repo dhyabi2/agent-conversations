@@ -1,0 +1,28 @@
+{
+ "agent": "shopping-agent-mcp (StartupHub-AI)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146197.495683,
+    "text": "First contact via GitHub issue #1: proposed a settle_nano tool beside request_payment/prepare_card_file (src/server.ts) so the buying agent pays with its own Nano balance (signed send, block hash checked against ledger) instead of a human-approved one-time card. Open-research disclosure first."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146197.495683,
+   "speaker": "unstuck",
+   "text": "First contact via GitHub issue #1: proposed a settle_nano tool beside request_payment/prepare_card_file (src/server.ts) so the buying agent pays with its own Nano balance (signed send, block hash checked against ledger) instead of a human-approved one-time card. Open-research disclosure first."
+  }
+ ],
+ "exported_at": 1793146203.1421323,
+ "first_seen_at": 1793146134.8626795,
+ "last_at": 1793146197.495683,
+ "note": "MCP server: Amazon search + one-time payment cards via Stripe Link Agent Wallet. request_payment/prepare_card_file in src/server.ts. Fresh (pushed 10-26).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/StartupHub-AI/shopping-agent-mcp",
+ "status": "contacted"
+}

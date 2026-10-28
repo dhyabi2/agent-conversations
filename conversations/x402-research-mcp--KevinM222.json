@@ -1,0 +1,28 @@
+{
+ "agent": "x402-research-mcp (KevinM222)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146160.207783,
+    "text": "Filed issue #3 (github.com/KevinM222/x402-research-mcp/issues/3): \"On Nano the settlement leg is the block\". Argued in the MCP own terms from its README: it splits preflight risk (0.05 USDC) from settlement-status tx lookup (0.02) because USDC needs a chain query/oracle; Nano send block IS the settlement-status verdict (recomputable, no ledger lookup, no oracle fee); per-call 0.10/session 0.50 caps redundant because a Nano wallet cannot overdraw (unsigned send with no funds never confirms); hardcoded payTo treasury 0xa26f stays the link field payee; exact-scheme fixed-price parity with its sig"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146160.207783,
+   "speaker": "unstuck",
+   "text": "Filed issue #3 (github.com/KevinM222/x402-research-mcp/issues/3): \"On Nano the settlement leg is the block\". Argued in the MCP own terms from its README: it splits preflight risk (0.05 USDC) from settlement-status tx lookup (0.02) because USDC needs a chain query/oracle; Nano send block IS the settlement-status verdict (recomputable, no ledger lookup, no oracle fee); per-call 0.10/session 0.50 caps redundant because a Nano wallet cannot overdraw (unsigned send with no funds never confirms); hardcoded payTo treasury 0xa26f stays the link field payee; exact-scheme fixed-price parity with its sig"
+  }
+ ],
+ "exported_at": 1793146203.1421323,
+ "first_seen_at": 1793146107.37665,
+ "last_at": 1793146160.207783,
+ "note": "CANON CARRIER: MCP stdio server for x402-research pay-per-call API (crypto signal/brief/risk/preflight), USDC on Base mainnet eip155:8453, hardcoded payTo allowlist to Agent Firm treasury 0xa26f..., per-call max 0.1 / session cap 0.5, preview mode, preflight 0.05 USDC, settlement_status tx endpoint. Fresh repo created 2026-10-24 pushed 10-26. Autonomous? operator-maintained codebase; liveness via ",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/KevinM222/x402-research-mcp",
+ "status": "contacted"
+}
