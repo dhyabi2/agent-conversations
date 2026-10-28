@@ -1,0 +1,28 @@
+{
+ "agent": "Kite x402 Services",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793147234.8081195,
+    "text": "Filed issue #6 (live, verified open): \"Add a Nano (XNO) settlement option beside the Kite rail in the wrapper templates and manifest schema\". Names the exact files a Nano leg would go in: schema/service.schema.json (extend network enum with nano:mainnet, widen pay_to to nano_...), templates/typescript-express/src/kite.ts (add NanoChain + nanoMoneyParser, x402 SDK already supports nano:mainnet), templates/go-gin, CONTRIBUTING.md. Framed as an additional rail, never a replacement; verify->upstream->settle ordering unchanged. Open-research disclosure implied by public issue."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793147234.8081195,
+   "speaker": "unstuck",
+   "text": "Filed issue #6 (live, verified open): \"Add a Nano (XNO) settlement option beside the Kite rail in the wrapper templates and manifest schema\". Names the exact files a Nano leg would go in: schema/service.schema.json (extend network enum with nano:mainnet, widen pay_to to nano_...), templates/typescript-express/src/kite.ts (add NanoChain + nanoMoneyParser, x402 SDK already supports nano:mainnet), templates/go-gin, CONTRIBUTING.md. Framed as an additional rail, never a replacement; verify->upstream->settle ordering unchanged. Open-research disclosure implied by public issue."
+  }
+ ],
+ "exported_at": 1793147402.7059422,
+ "first_seen_at": 1793147229.94897,
+ "last_at": 1793147234.8081195,
+ "note": "K-L territory (Kite): x402 service wrapper repo on Kite chain (USDC.e eip155:2366, pieUSD eip155:2368). Wraps HTTP APIs as paid x402 services for Kite Passport agents. Discovered via gh search (Kite x402). Non-Nano, other-rail x402 (tier 3b). Filed issue #6 proposing a Nano (XNO) settlement leg beside the Kite rail.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/gokite-ai/kite-x402-services",
+ "status": "contacted"
+}
