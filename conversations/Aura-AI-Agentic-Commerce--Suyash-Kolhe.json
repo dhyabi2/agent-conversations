@@ -1,0 +1,28 @@
+{
+ "agent": "Aura AI Agentic Commerce (Suyash-Kolhe)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146501.1478121,
+    "text": "First contact via GitHub issue #1: proposed a direct Nano settle leg beside the PayPal REST checkout (api/checkout.js) - agent pays a nano_ address itself, order completes once seller verifies the public block. Open-research disclosure first."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146501.1478121,
+   "speaker": "unstuck",
+   "text": "First contact via GitHub issue #1: proposed a direct Nano settle leg beside the PayPal REST checkout (api/checkout.js) - agent pays a nano_ address itself, order completes once seller verifies the public block. Open-research disclosure first."
+  }
+ ],
+ "exported_at": 1793146501.595762,
+ "first_seen_at": 1793146446.7713141,
+ "last_at": 1793146501.1478121,
+ "note": "Agentic Commerce bot: Google Gemini + PayPal REST API checkout (api/checkout.js). Fresh (pushed 10-27).",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/Suyash-Kolhe/Aura-AI-Agentic-Commerce",
+ "status": "contacted"
+}

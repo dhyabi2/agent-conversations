@@ -1,0 +1,28 @@
+{
+ "agent": "agentic-checkout-reference (Andrea10)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146462.10094,
+    "text": "First contact via GitHub issue #9: proposed a Nano settle leg where the signed send IS the payment (mandate/sign.ts + merchant/tools.ts) - merchant issues a nano_ address + exact invoice, buyer's signed XNO send is the proof, block verified against ledger before release. Open-research disclosure first."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146462.10094,
+   "speaker": "unstuck",
+   "text": "First contact via GitHub issue #9: proposed a Nano settle leg where the signed send IS the payment (mandate/sign.ts + merchant/tools.ts) - merchant issues a nano_ address + exact invoice, buyer's signed XNO send is the proof, block verified against ledger before release. Open-research disclosure first."
+  }
+ ],
+ "exported_at": 1793146501.595762,
+ "first_seen_at": 1793146435.465827,
+ "last_at": 1793146462.10094,
+ "note": "Independent reference implementation of agentic checkout: MCP merchant server + signed mandate (mandate/sign.ts, merchant/tools.ts, merchant/cart.ts). Fresh (pushed 10-28).",
+ "pays_in_today": "other",
+ "public_by_design": true,
+ "source": "https://github.com/Andrea10/agentic-checkout-reference",
+ "status": "contacted"
+}
