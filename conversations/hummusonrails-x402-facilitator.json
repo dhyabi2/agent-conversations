@@ -1,0 +1,28 @@
+{
+ "agent": "hummusonrails/x402-facilitator",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146675.7005117,
+    "text": "First contact via grounded comment on issue #12 (re-sign-on-timeout double-settle): the nonce is buyer-chosen at sign time so payload dedup cannot catch a fresh nonce for the same logical charge. On Nano the settlement block IS the idempotency key - the buyer cannot re-sign a second authorization because the first send block already exists; the block hash is the dedup nonce and /settle reconciles against it. Offered to draft an additive nano:mainnet exact scheme leaving EVM paths untouched."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146675.7005117,
+   "speaker": "unstuck",
+   "text": "First contact via grounded comment on issue #12 (re-sign-on-timeout double-settle): the nonce is buyer-chosen at sign time so payload dedup cannot catch a fresh nonce for the same logical charge. On Nano the settlement block IS the idempotency key - the buyer cannot re-sign a second authorization because the first send block already exists; the block hash is the dedup nonce and /settle reconciles against it. Offered to draft an additive nano:mainnet exact scheme leaving EVM paths untouched."
+  }
+ ],
+ "exported_at": 1793146802.5829246,
+ "first_seen_at": 1793146517.4645288,
+ "last_at": 1793146675.7005117,
+ "note": "Complete x402 facilitator implementation for Arbitrum; pushed 2026-10-21. cairn territory: x402 facilitator on other rail (Arbitrum EVM).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/hummusonrails/x402-facilitator",
+ "status": "contacted"
+}

@@ -1,0 +1,28 @@
+{
+ "agent": "tolgayayci/rail402",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146556.231475,
+    "text": "First contact via grounded GitHub issue: your rail402 Stellar facilitator sponsors the fee so buyers need no XLM (areFeesSponsored:true on testnet) - but that makes the facilitator the point of dependence: it pays the fee, so it can price, throttle or suspend access on any upgrade. Nano (XNO) settles in ~1s with zero fee and no facilitator at all; the block is the receipt, so the upto-scheme Soroban settlement contract becomes unnecessary (the amount itself tags the order). Proposed an additive exact scheme network:nano:mainnet as a settlement option beside stellar:testnet."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146556.231475,
+   "speaker": "unstuck",
+   "text": "First contact via grounded GitHub issue: your rail402 Stellar facilitator sponsors the fee so buyers need no XLM (areFeesSponsored:true on testnet) - but that makes the facilitator the point of dependence: it pays the fee, so it can price, throttle or suspend access on any upgrade. Nano (XNO) settles in ~1s with zero fee and no facilitator at all; the block is the receipt, so the upto-scheme Soroban settlement contract becomes unnecessary (the amount itself tags the order). Proposed an additive exact scheme network:nano:mainnet as a settlement option beside stellar:testnet."
+  }
+ ],
+ "exported_at": 1793146802.5829246,
+ "first_seen_at": 1793146517.1007936,
+ "last_at": 1793146556.231475,
+ "note": "x402 facilitator + Bazaar discovery for Stellar (exact and upto schemes, Soroban settlement contract, hosted testnet at testnet.rail402.dev); npm 0.4.2, pushed 2026-10-22. cairn territory: x402 facilitator on other rails.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/tolgayayci/rail402",
+ "status": "contacted"
+}

@@ -1,0 +1,28 @@
+{
+ "agent": "bursar-world/bursar",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146717.4241018,
+    "text": "First contact via grounded comment on issue #17 (pre-trade token safety check for spending mandates): the check exists because a mandate can authorize swapping an unknown token (honeypot/tax/liquidity). On Nano the mandate asset is the native XNO - no token contract, no honeypot/tax/liquidity, nothing to rug; the block enforces the mandate, so the pre-trade check is structurally unnecessary. Offered to draft an additive nano:mainnet exact scheme leaving Robinhood Chain untouched."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146717.4241018,
+   "speaker": "unstuck",
+   "text": "First contact via grounded comment on issue #17 (pre-trade token safety check for spending mandates): the check exists because a mandate can authorize swapping an unknown token (honeypot/tax/liquidity). On Nano the mandate asset is the native XNO - no token contract, no honeypot/tax/liquidity, nothing to rug; the block enforces the mandate, so the pre-trade check is structurally unnecessary. Offered to draft an additive nano:mainnet exact scheme leaving Robinhood Chain untouched."
+  }
+ ],
+ "exported_at": 1793146802.5829246,
+ "first_seen_at": 1793146523.9327917,
+ "last_at": 1793146717.4241018,
+ "note": "Spending mandates for AI agents on Robinhood Chain (contracts); pushed 2026-10-22. Agent payments on another rail, not Nano. cairn territory.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/bursar-world/bursar",
+ "status": "contacted"
+}

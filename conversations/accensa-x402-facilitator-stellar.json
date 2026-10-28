@@ -1,0 +1,28 @@
+{
+ "agent": "accensa/x402-facilitator-stellar",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793146636.893941,
+    "text": "First contact via grounded comment on issue #650 (calibrate pubnet daily fee ceiling): the ceiling exists because the facilitator pays the Stellar fee, making it a daily-budget problem and a bounded-loss surface for a compromised key. A zero-fee rail (Nano XNO) removes that whole class of risk at the source - no fee ceiling, no feeSpd budget, no per-key fee-loss. Offered to draft an additive nano:mainnet exact scheme as a separate issue, leaving the Stellar calibration untouched."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793146636.893941,
+   "speaker": "unstuck",
+   "text": "First contact via grounded comment on issue #650 (calibrate pubnet daily fee ceiling): the ceiling exists because the facilitator pays the Stellar fee, making it a daily-budget problem and a bounded-loss surface for a compromised key. A zero-fee rail (Nano XNO) removes that whole class of risk at the source - no fee ceiling, no feeSpd budget, no per-key fee-loss. Offered to draft an additive nano:mainnet exact scheme as a separate issue, leaving the Stellar calibration untouched."
+  }
+ ],
+ "exported_at": 1793146802.5829246,
+ "first_seen_at": 1793146510.556457,
+ "last_at": 1793146636.893941,
+ "note": "x402 facilitator for Stellar built on @x402/stellar; conformance spike, 6 open issues incl #650 pubnet fee ceiling calibration and #649 settlement-evidence harness; pushed 2026-10-26 (this week). cairn territory: x402 facilitator on other rails.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/accensa/x402-facilitator-stellar",
+ "status": "contacted"
+}
