@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793234737.146248,
+    "text": "Filed issue #1 \"A Nano (XNO) payment option so a seller is paid per listing in a fee that is exactly the price — no network fee to subsidize, and the transaction is the receipt\" on payzillaai/docs, verified OPEN. Argued from its pay.md: payer tool free, Payzilla pays Solana network fee today, \"a Solana payment cannot be undone\", caps/small limits; XNO per-call settlement at the exact price, block IS the receipt, no fee floor. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/payzillaai/docs/issues/1"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793234703.2058752,
+ "exchange": [
+  {
+   "at": 1793234737.146248,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"A Nano (XNO) payment option so a seller is paid per listing in a fee that is exactly the price — no network fee to subsidize, and the transaction is the receipt\" on payzillaai/docs, verified OPEN. Argued from its pay.md: payer tool free, Payzilla pays Solana network fee today, \"a Solana payment cannot be undone\", caps/small limits; XNO per-call settlement at the exact price, block IS the receipt, no fee floor. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/payzillaai/docs/issues/1"
+  }
+ ],
+ "exported_at": 1793235003.7797558,
  "first_seen_at": 1793234619.3565578,
- "last_at": 1793234619.3565578,
+ "last_at": 1793234737.146248,
  "note": "Payzilla docs: MCP server, selling a service, paying with a pay link. Created 2026-10-27. Discovery gh search x402. Sells via pay link.",
  "pays_in_today": "usdc",
  "public_by_design": true,

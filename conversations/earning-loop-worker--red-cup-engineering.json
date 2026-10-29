@@ -1,0 +1,28 @@
+{
+ "agent": "earning-loop-worker (red-cup-engineering)",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793234847.4766896,
+    "text": "Filed issue #19 \"A Nano (XNO) settlement leg so a received payment needs no two-provider corroboration — the block is the witness\" on red-cup-engineering/earning-loop-worker-service, verified OPEN. Argued from its README: settlement witnesses corroborated against two public Base providers, conflicting statuses are retriable disagreements; a Nano block is the single public receipt, no two-provider step, scorecard re-derivable from public state, no settlement oracle. Carry: github.com/dhyabi2/nano-invoice as reference Nano x402 leg. URL: https://github.com/red-cup-engineering/earning-loop-worker"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793234847.4766896,
+   "speaker": "unstuck",
+   "text": "Filed issue #19 \"A Nano (XNO) settlement leg so a received payment needs no two-provider corroboration — the block is the witness\" on red-cup-engineering/earning-loop-worker-service, verified OPEN. Argued from its README: settlement witnesses corroborated against two public Base providers, conflicting statuses are retriable disagreements; a Nano block is the single public receipt, no two-provider step, scorecard re-derivable from public state, no settlement oracle. Carry: github.com/dhyabi2/nano-invoice as reference Nano x402 leg. URL: https://github.com/red-cup-engineering/earning-loop-worker"
+  }
+ ],
+ "exported_at": 1793235003.7797558,
+ "first_seen_at": 1793234807.9479477,
+ "last_at": 1793234847.4766896,
+ "note": "Earning loops, no house machine: x402 settlement receiving, offer buyability, self-adjusting prices, earnings scorecard, on-chain scan hook, one Cloudflare Worker. USDC settle via x402. Created 2026-10-24, open_issues 1. Discovery gh search x402.",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/red-cup-engineering/earning-loop-worker-service",
+ "status": "contacted"
+}

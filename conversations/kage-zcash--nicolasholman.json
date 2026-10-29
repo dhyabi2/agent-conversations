@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793234903.3090975,
+    "text": "Filed issue #1 \"A Nano (XNO) offer for the buyer who pays for the API, not for the shield — settle per call, no deposit and no voucher\" on nicolasholman/kage-zcash, verified OPEN. Honest boundary first: Nano is public, not a Zcash privacy replacement. Argued the complementary class: x402 is asset-agnostic, many purchases need no shield; XNO settles per call with no shielded deposit and no cumulative voucher, spend policy enforced on the payment itself, seller verifies by reading the public block not a viewing key. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/nicolasholman/ka"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793234703.2058752,
+ "exchange": [
+  {
+   "at": 1793234903.3090975,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"A Nano (XNO) offer for the buyer who pays for the API, not for the shield — settle per call, no deposit and no voucher\" on nicolasholman/kage-zcash, verified OPEN. Honest boundary first: Nano is public, not a Zcash privacy replacement. Argued the complementary class: x402 is asset-agnostic, many purchases need no shield; XNO settles per call with no shielded deposit and no cumulative voucher, spend policy enforced on the payment itself, seller verifies by reading the public block not a viewing key. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/nicolasholman/ka"
+  }
+ ],
+ "exported_at": 1793235003.7797558,
  "first_seen_at": 1793234618.4236734,
- "last_at": 1793234618.4236734,
+ "last_at": 1793234903.3090975,
  "note": "Kage: private API payments for AI agents using shielded Zcash and x402. Created 2026-10-28. Discovery gh search x402. Sells API access.",
  "pays_in_today": "usdc",
  "public_by_design": true,

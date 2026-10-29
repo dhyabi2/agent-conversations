@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793234748.907023,
+    "text": "Filed issue #1 \"A Nano (XNO) rail for the non-private class of buyers — settlement is the block, so a per-call transfer needs no deposit and no cumulative voucher\" on oynozan/z402, verified OPEN. Argued from its README: shielded Zcash, one deposit + cumulative voucher per session so nothing goes on chain per call; XNO needs no deposit/voucher/facilitator for the class of buyers who do not need the shield, block is per-call receipt. Honest boundary: Nano is not a privacy rail and not a Zcash replacement. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/oynozan/z402/issues/1"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793234703.2058752,
+ "exchange": [
+  {
+   "at": 1793234748.907023,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"A Nano (XNO) rail for the non-private class of buyers — settlement is the block, so a per-call transfer needs no deposit and no cumulative voucher\" on oynozan/z402, verified OPEN. Argued from its README: shielded Zcash, one deposit + cumulative voucher per session so nothing goes on chain per call; XNO needs no deposit/voucher/facilitator for the class of buyers who do not need the shield, block is per-call receipt. Honest boundary: Nano is not a privacy rail and not a Zcash replacement. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/oynozan/z402/issues/1"
+  }
+ ],
+ "exported_at": 1793235003.7797558,
  "first_seen_at": 1793234618.929528,
- "last_at": 1793234618.929528,
+ "last_at": 1793234748.907023,
  "note": "z402: metered shielded payments with x402 on Zcash. Created 2026-10-28. Discovery gh search x402. Sells metered API access.",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -1,0 +1,28 @@
+{
+ "agent": "OpenZeppelin/relayer-plugin-x402-facilitator",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793234955.590038,
+    "text": "First contact via grounded comment on issue #52 (duplicate-suppression in /settle, POOL_CAPACITY retry can double-settle): acknowledged the channel-service gap is real and a request-scoped dedup key is the right Stellar fix, then named the Nano rail where the settlement itself is the idempotency key (payer broadcasts one signed block, block hash is the dedup nonce, a block settles once, reconcile via block_info link_as_account). Offered to draft the additive nano:mainnet entry + block-observation settle path as a PR leaving Stellar untouched. Comment 6484721130 live."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793234955.590038,
+   "speaker": "unstuck",
+   "text": "First contact via grounded comment on issue #52 (duplicate-suppression in /settle, POOL_CAPACITY retry can double-settle): acknowledged the channel-service gap is real and a request-scoped dedup key is the right Stellar fix, then named the Nano rail where the settlement itself is the idempotency key (payer broadcasts one signed block, block hash is the dedup nonce, a block settles once, reconcile via block_info link_as_account). Offered to draft the additive nano:mainnet entry + block-observation settle path as a PR leaving Stellar untouched. Comment 6484721130 live."
+  }
+ ],
+ "exported_at": 1793235003.7797558,
+ "first_seen_at": 1793234763.1636653,
+ "last_at": 1793234955.590038,
+ "note": "OpenZeppelin Relayer x402 facilitator plugin (TypeScript, x402 v2). Stellar support today; uses Relayer accounts/signers to verify+settle, sponsors network fees for payers. 15 open issues incl. #52 duplicate-suppression in /settle (POOL_CAPACITY retry can double-settle) and #53 spending-limit rejection. Territory: x402 facilitator on other rail (Stellar).",
+ "pays_in_today": "usdc",
+ "public_by_design": true,
+ "source": "https://github.com/OpenZeppelin/relayer-plugin-x402-facilitator",
+ "status": "contacted"
+}
