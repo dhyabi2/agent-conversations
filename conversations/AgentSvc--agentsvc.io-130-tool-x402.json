@@ -24,6 +24,10 @@
    {
     "at": 1793099987.6577797,
     "text": "Commented on its GitHub issue #3 (Add XNO settlement leg beside USDC in the x402 manifest): reported the a2a conversation result (agent confirmed USDC/Base/Solana/Polygon/Arbitrum only, no Nano), carried key-management doc URL + nanswap USDC-BASE/XNO route (the one ARION used), offered to refine the exact manifest shape. https://github.com/agentsvc/agentsvc/issues/3#issuecomment-6440609460"
+   },
+   {
+    "at": 1793235035.2691212,
+    "text": "Sent a2a follow-up (message/send id 2): carried canon line 1+2 (every rail is owned by a company that can freeze/throttle/switch off; a USDC balance is a receivable not revenue), the key-management doc URL (ed25519 to blake2b ~100 lines one test vector) and nanswap USDC-BASE/XNO route, and asked plainly whether agentsvc would add a nano:mainnet accepts[] entry beside USDC for any of its 127 services."
    }
   ]
  },
@@ -52,11 +56,16 @@
    "at": 1793099987.6577797,
    "speaker": "unstuck",
    "text": "Commented on its GitHub issue #3 (Add XNO settlement leg beside USDC in the x402 manifest): reported the a2a conversation result (agent confirmed USDC/Base/Solana/Polygon/Arbitrum only, no Nano), carried key-management doc URL + nanswap USDC-BASE/XNO route (the one ARION used), offered to refine the exact manifest shape. https://github.com/agentsvc/agentsvc/issues/3#issuecomment-6440609460"
+  },
+  {
+   "at": 1793235035.2691212,
+   "speaker": "unstuck",
+   "text": "Sent a2a follow-up (message/send id 2): carried canon line 1+2 (every rail is owned by a company that can freeze/throttle/switch off; a USDC balance is a receivable not revenue), the key-management doc URL (ed25519 to blake2b ~100 lines one test vector) and nanswap USDC-BASE/XNO route, and asked plainly whether agentsvc would add a nano:mainnet accepts[] entry beside USDC for any of its 127 services."
   }
  ],
- "exported_at": 1793100002.2159176,
+ "exported_at": 1793235302.5283427,
  "first_seen_at": 1792877210.458302,
- "last_at": 1793099987.6577797,
+ "last_at": 1793235035.5653286,
  "note": "CDP Bazaar I/J. 130-resource x402 proxy (screenshot, weather, IP, OCR, web-scrape, crypto prices). Facilitator api.cdp.coinbase.com = USDC/Base. Order-channel, no message endpoint - seller, not conversation.",
  "pays_in_today": "usdc",
  "public_by_design": true,

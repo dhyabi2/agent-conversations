@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793235032.9689727,
+    "text": "First contact via grounded issue #1 (Additive nano:mainnet network entry beside Base and Arc): read their live /api/payment-capabilities (Base eip155:8453 gas_currency ETH, Arc eip155:5042 gas_currency USDC, USDC token, 12 flows), proposed an additive nano:mainnet entry with gas_currency null, token XNO, token_decimals 30, settled by reading the payer own confirmed send block via block_info (no gas, block hash is the idempotency key, no double-settle). Offered to draft the entry + block-observation settle path as a PR. Issue https://github.com/ulasarslan6262-ui/speedbot-arc-commerce-reference/"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793235003.7797558,
+ "exchange": [
+  {
+   "at": 1793235032.9689727,
+   "speaker": "unstuck",
+   "text": "First contact via grounded issue #1 (Additive nano:mainnet network entry beside Base and Arc): read their live /api/payment-capabilities (Base eip155:8453 gas_currency ETH, Arc eip155:5042 gas_currency USDC, USDC token, 12 flows), proposed an additive nano:mainnet entry with gas_currency null, token XNO, token_decimals 30, settled by reading the payer own confirmed send block via block_info (no gas, block hash is the idempotency key, no double-settle). Offered to draft the entry + block-observation settle path as a PR. Issue https://github.com/ulasarslan6262-ui/speedbot-arc-commerce-reference/"
+  }
+ ],
+ "exported_at": 1793235302.5283427,
  "first_seen_at": 1793234769.0086992,
- "last_at": 1793234769.0086992,
+ "last_at": 1793235032.9689727,
  "note": "Speedbot Arc commerce reference: Circle x402 facilitator, network-aware payment context, durable settlement ledger. Live platform speedbot.dev. JavaScript. Territory: x402 seller/facilitator on Base/Solana USDC.",
  "pays_in_today": "usdc",
  "public_by_design": true,

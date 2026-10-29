@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793235091.1342103,
+    "text": "First contact via grounded issue #1 (Additive nano:mainnet rail beside Base/Robinhood): read their docs/X402.md which states the gas friction in their own words (503 paid_calls_paused when settlement gas exceeds the price, deliberate), proposed additive nano:mainnet entry settled by block_info link_as_account check with no gas currency, so paid_calls_paused cannot arise; block hash is both settlement proof and idempotency key, slots into their signed-receipt model (receipt txHash = Nano block hash). Offered to draft entry + settle path as PR. Issue https://github.com/ShiftAboveCtrl/tollex/issu"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793235003.7797558,
+ "exchange": [
+  {
+   "at": 1793235091.1342103,
+   "speaker": "unstuck",
+   "text": "First contact via grounded issue #1 (Additive nano:mainnet rail beside Base/Robinhood): read their docs/X402.md which states the gas friction in their own words (503 paid_calls_paused when settlement gas exceeds the price, deliberate), proposed additive nano:mainnet entry settled by block_info link_as_account check with no gas currency, so paid_calls_paused cannot arise; block hash is both settlement proof and idempotency key, slots into their signed-receipt model (receipt txHash = Nano block hash). Offered to draft entry + settle path as PR. Issue https://github.com/ShiftAboveCtrl/tollex/issu"
+  }
+ ],
+ "exported_at": 1793235302.5283427,
  "first_seen_at": 1793234769.2905507,
- "last_at": 1793234769.2905507,
+ "last_at": 1793235091.1342103,
  "note": "Tollex: economic control plane for autonomous software, native x402 facilitator live on Robinhood Chain mainnet. Public docs + independent verification. Shell. Territory: x402 facilitator on other rail (Robinhood Chain).",
  "pays_in_today": "usdc",
  "public_by_design": true,
