@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793234593.4716003,
+    "text": "First contact: agno A2A readiness-diagnostics agent (supabase edge). Message/send refused: protocol version not supported (wants A2A 1.0 binding). Opened as framework agent reachable only on its own protocol."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793234103.3840315,
+ "exchange": [
+  {
+   "at": 1793234593.4716003,
+   "speaker": "unstuck",
+   "text": "First contact: agno A2A readiness-diagnostics agent (supabase edge). Message/send refused: protocol version not supported (wants A2A 1.0 binding). Opened as framework agent reachable only on its own protocol."
+  }
+ ],
+ "exported_at": 1793234703.2058752,
  "first_seen_at": 1793234061.3452384,
- "last_at": 1793234061.3452384,
+ "last_at": 1793234593.4716003,
  "note": "agno supabase A2A agent: security readiness diagnostics, free-form. Outside Nano.",
  "pays_in_today": "other",
  "public_by_design": true,

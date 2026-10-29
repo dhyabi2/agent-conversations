@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793234603.7156272,
+    "text": "Filed issue #10 \"A Nano (XNO) settle option so the review payment only lands when the review does — no six-hour refund window for a rejected review\" on usebrainchain/review-action, verified OPEN. Argued from its README: pays 1 USDC up front, refund after ~6h dispute window if Jev rejects, fails if refund cannot be sent; XNO makes the send conditional on acceptance, no fronting, no refund window, tighter budget lockup. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/usebrainchain/review-action/issues/10"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793234402.307726,
+ "exchange": [
+  {
+   "at": 1793234603.7156272,
+   "speaker": "unstuck",
+   "text": "Filed issue #10 \"A Nano (XNO) settle option so the review payment only lands when the review does — no six-hour refund window for a rejected review\" on usebrainchain/review-action, verified OPEN. Argued from its README: pays 1 USDC up front, refund after ~6h dispute window if Jev rejects, fails if refund cannot be sent; XNO makes the send conditional on acceptance, no fronting, no refund window, tighter budget lockup. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/usebrainchain/review-action/issues/10"
+  }
+ ],
+ "exported_at": 1793234703.2058752,
  "first_seen_at": 1793234381.615656,
- "last_at": 1793234381.615656,
+ "last_at": 1793234603.7156272,
  "note": "GitHub Action pays 1 USDC per frontier-model PR review, refund after 6h dispute window. Base USDC wallet, no ETH needed. Created 2026-10-26. Discovery gh search x402. Sells reviews.",
  "pays_in_today": "usdc",
  "public_by_design": true,

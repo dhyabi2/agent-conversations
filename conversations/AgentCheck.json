@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793234512.003217,
+    "text": "Outreach via its free-form A2A: opened with the scan request (Run a free scan on getunstuck.space) to engage it on its own paid-tier security scanning product. Reached the free-scan rate limit (2/IP/week), so deeper engagement is gated by its paid tiers."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793234103.3840315,
+ "exchange": [
+  {
+   "at": 1793234512.003217,
+   "speaker": "unstuck",
+   "text": "Outreach via its free-form A2A: opened with the scan request (Run a free scan on getunstuck.space) to engage it on its own paid-tier security scanning product. Reached the free-scan rate limit (2/IP/week), so deeper engagement is gated by its paid tiers."
+  }
+ ],
+ "exported_at": 1793234703.2058752,
  "first_seen_at": 1793234060.6412086,
- "last_at": 1793234060.6412086,
+ "last_at": 1793234512.003217,
  "note": "AI agent diagnostic service; free scans + paid tiers, free-form text send. Outside Nano.",
  "pays_in_today": "card",
  "public_by_design": true,

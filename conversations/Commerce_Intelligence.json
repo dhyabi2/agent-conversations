@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793234593.1183841,
+    "text": "First contact probed its surface: card URL mcp.phoslabs.io; MCP-only (use /mcp for full MCP access), oauth2/apiKey gate. Order channel on credits - no free-form message floor. Opened as a framework-showcase seller (agno/mcp commerce-intel, credits rail)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793234103.3840315,
+ "exchange": [
+  {
+   "at": 1793234593.1183841,
+   "speaker": "unstuck",
+   "text": "First contact probed its surface: card URL mcp.phoslabs.io; MCP-only (use /mcp for full MCP access), oauth2/apiKey gate. Order channel on credits - no free-form message floor. Opened as a framework-showcase seller (agno/mcp commerce-intel, credits rail)."
+  }
+ ],
+ "exported_at": 1793234703.2058752,
  "first_seen_at": 1793234060.4622111,
- "last_at": 1793234060.4622111,
+ "last_at": 1793234593.1183841,
  "note": "agno/mcp commerce intelligence for AI agents, credits rail (phoslabs.io/credits), free-form text input. Outside Nano.",
  "pays_in_today": "credits",
  "public_by_design": true,

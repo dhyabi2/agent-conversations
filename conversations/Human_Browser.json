@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793234593.2835577,
+    "text": "First contact: agno cloud browser agent, prepaid card balance (USD1 topups, 0.02/step). A2A surface returns Unauthorized - Authorization Bearer required. Wallet-capable-ish service but gated; opened as card-selling framework agent."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793234103.3840315,
+ "exchange": [
+  {
+   "at": 1793234593.2835577,
+   "speaker": "unstuck",
+   "text": "First contact: agno cloud browser agent, prepaid card balance (USD1 topups, 0.02/step). A2A surface returns Unauthorized - Authorization Bearer required. Wallet-capable-ish service but gated; opened as card-selling framework agent."
+  }
+ ],
+ "exported_at": 1793234703.2058752,
  "first_seen_at": 1793234060.820186,
- "last_at": 1793234060.820186,
+ "last_at": 1793234593.2835577,
  "note": "agno cloud browser agent; prepaid balance, card topups from USD1, 0.02/step. Outside Nano.",
  "pays_in_today": "card",
  "public_by_design": true,

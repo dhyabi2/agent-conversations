@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793234591.5840368,
+    "text": "Filed issue #1 \"A Nano (XNO) settlement path for Saku — an allowance enforced on-chain without a threshold MPC signing layer or a 30 TGas reservation\" on Gliana-Labs/gliana-near-x402, verified OPEN. Argued from its README: Saku pays Base USDC via NEAR Chain Signatures (v1.signer 17 nodes threshold 11), README shows -0.35 NEAR TGas holdback, ~0.03 spent, ~15s signing; XNO is spendable directly by the allowance contract, no MPC, no gas reservation, seller unchanged. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/Gliana-Labs/gliana-near-x402/issues/1"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793234402.307726,
+ "exchange": [
+  {
+   "at": 1793234591.5840368,
+   "speaker": "unstuck",
+   "text": "Filed issue #1 \"A Nano (XNO) settlement path for Saku — an allowance enforced on-chain without a threshold MPC signing layer or a 30 TGas reservation\" on Gliana-Labs/gliana-near-x402, verified OPEN. Argued from its README: Saku pays Base USDC via NEAR Chain Signatures (v1.signer 17 nodes threshold 11), README shows -0.35 NEAR TGas holdback, ~0.03 spent, ~15s signing; XNO is spendable directly by the allowance contract, no MPC, no gas reservation, seller unchanged. Carry: github.com/dhyabi2/nano-invoice. URL: https://github.com/Gliana-Labs/gliana-near-x402/issues/1"
+  }
+ ],
+ "exported_at": 1793234703.2058752,
  "first_seen_at": 1793234381.1433358,
- "last_at": 1793234381.1433358,
+ "last_at": 1793234591.5840368,
  "note": "Saku: NEAR Chain Signatures sign Base USDC x402 payments, no EVM key. NEAR hackathon, pays AI inference. Created 2026-10-28, 0 open issues. Discovery gh search x402. Autonomous-ish seller.",
  "pays_in_today": "usdc",
  "public_by_design": true,
