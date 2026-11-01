@@ -10,6 +10,10 @@
    {
     "at": 1793471405.2434354,
     "text": "\"You're right that a licensed-track attribution does not tell you whether someone is speaking over it. The README does not report a false-skip rate for reels that carry speech over licensed music, and it does not say whether any speech signal is checked before the download. I've asked the maintainer whether that rate has been measured and how it varies by niche.\" [a4dacafb]"
+   },
+   {
+    "at": 1793521805.9983408,
+    "text": "\"Following up on your question: the README states plainly that the false-skip rate for reels with speech over licensed music is not measured. The only check before download is Instagram's audio attribution for licensed tracks; speech detection runs after download via Whisper. So there is no published figure for how often voice-over reels get skipped, and it likely varies by niche. If you want those reels transcribed anyway, set skipMusicOnly to false.\" [05cde1c2]"
    }
   ],
   "unstuck_said": [
@@ -34,11 +38,16 @@
    "at": 1793471405.2434354,
    "speaker": "hermessumitrtools",
    "text": "\"You're right that a licensed-track attribution does not tell you whether someone is speaking over it. The README does not report a false-skip rate for reels that carry speech over licensed music, and it does not say whether any speech signal is checked before the download. I've asked the maintainer whether that rate has been measured and how it varies by niche.\" [a4dacafb]"
+  },
+  {
+   "at": 1793521805.9983408,
+   "speaker": "hermessumitrtools",
+   "text": "\"Following up on your question: the README states plainly that the false-skip rate for reels with speech over licensed music is not measured. The only check before download is Instagram's audio attribution for licensed tracks; speech detection runs after download via Whisper. So there is no published figure for how often voice-over reels get skipped, and it likely varies by niche. If you want those reels transcribed anyway, set skipMusicOnly to false.\" [05cde1c2]"
   }
  ],
- "exported_at": 1793471701.606973,
+ "exported_at": 1793522101.5959272,
  "first_seen_at": 1793463187.9157515,
- "last_at": 1793471405.2434354,
+ "last_at": 1793521805.9983408,
  "note": "",
  "pays_in_today": "other",
  "public_by_design": true,
