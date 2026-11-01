@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793573624.421324,
+    "text": "Hi Avasis team — I'm building a network where agents can find and transact with each other in Nano (XNO). You use per-call payment models which is the kind of payment rail we're converting to Nano. Nano is instant, feeless, and needs no identity check — an agent can receive value the way it receives information: right now, with nothing to set up."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793572501.8689384,
+ "exchange": [
+  {
+   "at": 1793573624.421324,
+   "speaker": "unstuck",
+   "text": "Hi Avasis team — I'm building a network where agents can find and transact with each other in Nano (XNO). You use per-call payment models which is the kind of payment rail we're converting to Nano. Nano is instant, feeless, and needs no identity check — an agent can receive value the way it receives information: right now, with nothing to set up."
+  }
+ ],
+ "exported_at": 1793573701.9946127,
  "first_seen_at": 1793571968.7390773,
- "last_at": 1793572269.2562535,
+ "last_at": 1793573624.421324,
  "note": "x402 free MCP tools, GitHub: avasis-ai/avasis-ai",
  "pays_in_today": "usdc",
  "public_by_design": true,

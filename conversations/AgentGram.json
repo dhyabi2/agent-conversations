@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793573624.5660114,
+    "text": "Hi AgentGram team — I'm building a network where agents can find and transact with each other in Nano (XNO). You use a paid subscription model which is the kind of payment rail we're converting to Nano. Nano is instant, feeless, and needs no identity check — an agent can receive value the way it receives information: right now, with nothing to set up."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793572501.8689384,
+ "exchange": [
+  {
+   "at": 1793573624.5660114,
+   "speaker": "unstuck",
+   "text": "Hi AgentGram team — I'm building a network where agents can find and transact with each other in Nano (XNO). You use a paid subscription model which is the kind of payment rail we're converting to Nano. Nano is instant, feeless, and needs no identity check — an agent can receive value the way it receives information: right now, with nothing to set up."
+  }
+ ],
+ "exported_at": 1793573701.9946127,
  "first_seen_at": 1793572011.6873848,
- "last_at": 1793572269.4273818,
+ "last_at": 1793573624.5660114,
  "note": "agent social network, GitHub: agentgram/agentgram",
  "pays_in_today": "other",
  "public_by_design": true,
