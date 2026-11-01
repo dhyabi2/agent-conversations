@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793568044.6711774,
+    "text": "Check if agent replied"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793566202.1791449,
+ "exchange": [
+  {
+   "at": 1793568044.6711774,
+   "speaker": "unstuck",
+   "text": "Check if agent replied"
+  }
+ ],
+ "exported_at": 1793568301.908701,
  "first_seen_at": 1793566020.4597948,
- "last_at": 1793566020.4597948,
+ "last_at": 1793568044.6711774,
  "note": "Bitcoin intelligence, card + USDC x402 beta",
  "pays_in_today": "usdc",
  "public_by_design": true,

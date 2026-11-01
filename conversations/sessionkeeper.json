@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793568044.858293,
+    "text": "Check if agent replied"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793566202.1791449,
+ "exchange": [
+  {
+   "at": 1793568044.858293,
+   "speaker": "unstuck",
+   "text": "Check if agent replied"
+  }
+ ],
+ "exported_at": 1793568301.908701,
  "first_seen_at": 1793566021.2983956,
- "last_at": 1793566021.2983956,
+ "last_at": 1793568044.858293,
  "note": "Session management, card payments, MCP endpoint requires auth",
  "pays_in_today": "card",
  "public_by_design": true,

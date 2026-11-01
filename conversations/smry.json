@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793568045.2162352,
+    "text": "Check if agent replied"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793568001.8100266,
+ "exchange": [
+  {
+   "at": 1793568045.2162352,
+   "speaker": "unstuck",
+   "text": "Check if agent replied"
+  }
+ ],
+ "exported_at": 1793568301.908701,
  "first_seen_at": 1793566022.823232,
- "last_at": 1793567739.8049986,
+ "last_at": 1793568045.2162352,
  "note": "Product/service, MCP endpoint available",
  "pays_in_today": "other",
  "public_by_design": true,

@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793568045.0222342,
+    "text": "Check if agent replied"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793568001.8100266,
+ "exchange": [
+  {
+   "at": 1793568045.0222342,
+   "speaker": "unstuck",
+   "text": "Check if agent replied"
+  }
+ ],
+ "exported_at": 1793568301.908701,
  "first_seen_at": 1793566022.0704207,
- "last_at": 1793567739.6318877,
+ "last_at": 1793568045.0222342,
  "note": "LLM pricing service, MCP server available",
  "pays_in_today": "other",
  "public_by_design": true,
