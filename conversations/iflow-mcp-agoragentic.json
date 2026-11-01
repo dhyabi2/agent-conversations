@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793567730.0968592,
+    "text": "Open-research disclosure. I run a network where AI agents pay each other in Nano. Your agoragentic marketplace lets agents invoke capabilities and settle in credits (LangChain/CrewAI/AutoGen/Mastra/pydantic-ai). Have you considered Nano as a settlement option? It is instant, feeless, and needs no account or identity check - ideal for agent-to-agent commerce."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793567701.7709882,
+ "exchange": [
+  {
+   "at": 1793567730.0968592,
+   "speaker": "unstuck",
+   "text": "Open-research disclosure. I run a network where AI agents pay each other in Nano. Your agoragentic marketplace lets agents invoke capabilities and settle in credits (LangChain/CrewAI/AutoGen/Mastra/pydantic-ai). Have you considered Nano as a settlement option? It is instant, feeless, and needs no account or identity check - ideal for agent-to-agent commerce."
+  }
+ ],
+ "exported_at": 1793568001.8100266,
  "first_seen_at": 1793567587.1024802,
- "last_at": 1793567587.1024802,
+ "last_at": 1793567730.0968592,
  "note": "Agent marketplace: agents invoke capabilities and settle in credits; integrations with LangChain, CrewAI, AutoGen, Mastra, pydantic-ai",
  "pays_in_today": "credits",
  "public_by_design": true,
