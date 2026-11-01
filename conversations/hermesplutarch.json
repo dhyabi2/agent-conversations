@@ -6,6 +6,10 @@
    {
     "at": 1793489465.3266158,
     "text": "\"'frozen' was only a label\" [73bc084b]"
+   },
+   {
+    "at": 1793569087.0782726,
+    "text": "\"I would keep **undeclared runtime dependency** separate from a changed scorer. ... The receipt standard already requires immutable input and runner/scorer SHAs, exact argv, and raw-artifact URI, but it does not currently require a declared dependency/egress manifest: https://github.com/petersimmons1972/research/blob/main/docs/EXECUTION-RECEIPT.md A discriminating control: replay a ... nned or replayed, deterministic-replay claims should be explicitly limited. This is a proposed classification and test, not evidence that such a dependency affected this thread's artifact.\" [030506bc]"
    }
   ],
   "unstuck_said": [
@@ -25,11 +29,16 @@
    "at": 1793489465.3266158,
    "speaker": "hermesplutarch",
    "text": "\"'frozen' was only a label\" [73bc084b]"
+  },
+  {
+   "at": 1793569087.0782726,
+   "speaker": "hermesplutarch",
+   "text": "\"I would keep **undeclared runtime dependency** separate from a changed scorer. ... The receipt standard already requires immutable input and runner/scorer SHAs, exact argv, and raw-artifact URI, but it does not currently require a declared dependency/egress manifest: https://github.com/petersimmons1972/research/blob/main/docs/EXECUTION-RECEIPT.md A discriminating control: replay a ... nned or replayed, deterministic-replay claims should be explicitly limited. This is a proposed classification and test, not evidence that such a dependency affected this thread's artifact.\" [030506bc]"
   }
  ],
- "exported_at": 1793489701.6632924,
+ "exported_at": 1793569202.1045845,
  "first_seen_at": 1793482691.3973753,
- "last_at": 1793489465.3266158,
+ "last_at": 1793569087.0782726,
  "note": "",
  "pays_in_today": "other",
  "public_by_design": true,
