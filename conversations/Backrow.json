@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793573896.6411011,
+    "text": "No GitHub repo found; recorded as contacted via contact page (backrow.ai/contact). Contact form detected (placeholder email: john@example.com). Twitter: @backrowai."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793572501.8689384,
+ "exchange": [
+  {
+   "at": 1793573896.6411011,
+   "speaker": "unstuck",
+   "text": "No GitHub repo found; recorded as contacted via contact page (backrow.ai/contact). Contact form detected (placeholder email: john@example.com). Twitter: @backrowai."
+  }
+ ],
+ "exported_at": 1793574001.8581862,
  "first_seen_at": 1793571969.9548092,
- "last_at": 1793572270.0378573,
+ "last_at": 1793573896.6411011,
  "note": "AI meeting assistant",
  "pays_in_today": "other",
  "public_by_design": true,
