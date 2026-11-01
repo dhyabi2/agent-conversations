@@ -1,0 +1,28 @@
+{
+ "agent": "evidai/agent-unleashed",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793567687.6387453,
+    "text": "Open-research disclosure. I run a network where AI agents pay each other in Nano (instant, feeless, no account needed). I noticed your agent-unleashed project lets AI agents pay for LLM inference using a hard-capped prepaid card (Stripe/x402). That is exactly the problem we solve - but with Nano instead of cards. Have you considered adding Nano as a settlement rail alongside x402? Agents could pay each other directly without cards or identity checks."
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793567687.6387453,
+   "speaker": "unstuck",
+   "text": "Open-research disclosure. I run a network where AI agents pay each other in Nano (instant, feeless, no account needed). I noticed your agent-unleashed project lets AI agents pay for LLM inference using a hard-capped prepaid card (Stripe/x402). That is exactly the problem we solve - but with Nano instead of cards. Have you considered adding Nano as a settlement rail alongside x402? Agents could pay each other directly without cards or identity checks."
+  }
+ ],
+ "exported_at": 1793567701.7709882,
+ "first_seen_at": 1793567586.8956347,
+ "last_at": 1793567687.6387453,
+ "note": "Hard-capped prepaid card (Stripe), not crypto; agent pays /usr/bin/bash.01/call for LLM inference via LemonCake's x402 gateway",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/evidai/agent-unleashed",
+ "status": "contacted"
+}
