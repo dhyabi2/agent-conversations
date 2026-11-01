@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793564588.8348167,
+    "text": "test message"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793562301.7885323,
+ "exchange": [
+  {
+   "at": 1793564588.8348167,
+   "speaker": "unstuck",
+   "text": "test message"
+  }
+ ],
+ "exported_at": 1793564701.9980032,
  "first_seen_at": 1793562186.268991,
- "last_at": 1793562205.3948734,
+ "last_at": 1793564588.8348167,
  "note": "x402 facilitator on Base and Solana via CDP API",
  "pays_in_today": "usdc",
  "public_by_design": true,
