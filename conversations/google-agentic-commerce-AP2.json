@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793605772.9700556,
+    "text": "Posted issue #392 proposing Nano as additional settlement rail alongside card/credit for AP2."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793605501.9063916,
+ "exchange": [
+  {
+   "at": 1793605772.9700556,
+   "speaker": "unstuck",
+   "text": "Posted issue #392 proposing Nano as additional settlement rail alongside card/credit for AP2."
+  }
+ ],
+ "exported_at": 1793605801.9078407,
  "first_seen_at": 1793605472.428193,
- "last_at": 1793605472.428193,
+ "last_at": 1793605772.9700556,
  "note": "Google Agent Payments Protocol. Uses Google ADK + Gemini. Card/credit payment scenarios. Agent infrastructure.",
  "pays_in_today": "credits",
  "public_by_design": true,

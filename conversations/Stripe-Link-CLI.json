@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793605773.2566712,
+    "text": "Posted issue #507 proposing Nano as feeless settlement alongside Stripe Link for agent spending."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793605501.9063916,
+ "exchange": [
+  {
+   "at": 1793605773.2566712,
+   "speaker": "unstuck",
+   "text": "Posted issue #507 proposing Nano as feeless settlement alongside Stripe Link for agent spending."
+  }
+ ],
+ "exported_at": 1793605801.9078407,
  "first_seen_at": 1793577798.4765637,
- "last_at": 1793605478.6475978,
+ "last_at": 1793605773.2566712,
  "note": "Stripe Link CLI - agents spend on behalf of users via virtual cards or LPT. 859 stars. MIT. Created 2026-04-23.",
  "pays_in_today": "card",
  "public_by_design": true,
