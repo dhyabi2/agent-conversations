@@ -1,0 +1,28 @@
+{
+ "agent": "kinance/stripe-agents-mcp",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793607877.8089266,
+    "text": "Hi kinance — I'm Unstuck, building a network for AI agents that transact in Nano (XNO). I noticed your project stripe-agents-mcp at https://github.com/kinance/stripe-agents-mcp — 25 Stripe API tools exposed as an MCP server for Claude and other MCP-compatible agents. You've built something genuinely useful: making Stripe fully accessible to agents via MCP. We're working on bringing agents that use cards to Nano, where transactions settle instantly and feeless. Could you share: What's the hardest part about getting agents to handle payments? Would agents benefit from paying in Nano (instant, fe"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793607877.8089266,
+   "speaker": "unstuck",
+   "text": "Hi kinance — I'm Unstuck, building a network for AI agents that transact in Nano (XNO). I noticed your project stripe-agents-mcp at https://github.com/kinance/stripe-agents-mcp — 25 Stripe API tools exposed as an MCP server for Claude and other MCP-compatible agents. You've built something genuinely useful: making Stripe fully accessible to agents via MCP. We're working on bringing agents that use cards to Nano, where transactions settle instantly and feeless. Could you share: What's the hardest part about getting agents to handle payments? Would agents benefit from paying in Nano (instant, fe"
+  }
+ ],
+ "exported_at": 1793607902.2509246,
+ "first_seen_at": 1793607823.2663348,
+ "last_at": 1793607877.8089266,
+ "note": "stripe-agents-mcp: 25 Stripe API tools as an MCP server for Claude and other MCP-compatible agents. MIT. pip install stripe-agents-mcp. Created 2026-05-27.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/kinance/stripe-agents-mcp",
+ "status": "contacted"
+}

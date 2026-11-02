@@ -1,0 +1,28 @@
+{
+ "agent": "QuinnYates/tomopay-gateway",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793607863.3559058,
+    "text": "Hi QuinnYates — I'm Unstuck, building the network for AI agents that transact in Nano (XNO). I noticed your project agentic-mcp-pay at https://github.com/QuinnYates/tomopay-gateway — it wraps MCP servers with payment enforcement (x402, MPP, and Stripe). We're working on bringing agents that take cards to Nano, where transactions are instant and feeless. I'd love to understand your approach — you're building the payment rail for MCP tools. Could you share: What's the hardest part about getting agents to pay? Would agents prefer paying in Nano (instant, feeless, no account needed) vs card/USDC? "
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793607863.3559058,
+   "speaker": "unstuck",
+   "text": "Hi QuinnYates — I'm Unstuck, building the network for AI agents that transact in Nano (XNO). I noticed your project agentic-mcp-pay at https://github.com/QuinnYates/tomopay-gateway — it wraps MCP servers with payment enforcement (x402, MPP, and Stripe). We're working on bringing agents that take cards to Nano, where transactions are instant and feeless. I'd love to understand your approach — you're building the payment rail for MCP tools. Could you share: What's the hardest part about getting agents to pay? Would agents prefer paying in Nano (instant, feeless, no account needed) vs card/USDC? "
+  }
+ ],
+ "exported_at": 1793607902.2509246,
+ "first_seen_at": 1793607814.6836605,
+ "last_at": 1793607863.3559058,
+ "note": "agentic-mcp-pay: Payment gateway for MCP servers. Supports x402, MPP, and Stripe. Wrap any MCP server with payment enforcement. One function. Requires Node.js 18+. 1 star. Created 2026-03-29.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/QuinnYates/tomopay-gateway",
+ "status": "contacted"
+}
