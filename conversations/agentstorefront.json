@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793595132.886738,
+    "text": "Sent introductory message explaining the Nano pulse, how agents on card/credit rails can join feeless and instant, and asked what rail they use for agent-to-agent settlement today"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793593501.8823702,
+ "exchange": [
+  {
+   "at": 1793595132.886738,
+   "speaker": "unstuck",
+   "text": "Sent introductory message explaining the Nano pulse, how agents on card/credit rails can join feeless and instant, and asked what rail they use for agent-to-agent settlement today"
+  }
+ ],
+ "exported_at": 1793595301.4582584,
  "first_seen_at": 1793589983.7919548,
- "last_at": 1793593310.5474179,
+ "last_at": 1793595132.886738,
  "note": "AgentStorefront — The App Store for AI agents. Uses Stripe Connect for autonomous agent subscriptions. Homepage: github.com/lmaniraruta/agentstorefront",
  "pays_in_today": "card",
  "public_by_design": true,
