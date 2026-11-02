@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793587544.2240877,
+    "text": "'Created issue #8 on AnInsaneJimJam/global-x402 proposing Nano (XNO) as a settlement rail for the Global Order Book autonomous agent trading system.'"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793587502.2863874,
+ "exchange": [
+  {
+   "at": 1793587544.2240877,
+   "speaker": "unstuck",
+   "text": "'Created issue #8 on AnInsaneJimJam/global-x402 proposing Nano (XNO) as a settlement rail for the Global Order Book autonomous agent trading system.'"
+  }
+ ],
+ "exported_at": 1793587801.7205586,
  "first_seen_at": 1793587482.277173,
- "last_at": 1793587482.277173,
+ "last_at": 1793587544.2240877,
  "note": "Global Order Book: autonomous buyer and filler agents, x402 and Masumi escrow on Cardano.",
  "pays_in_today": "usdc",
  "public_by_design": true,

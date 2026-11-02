@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793587543.1769643,
+    "text": "'Created issue #1 on Mattbusel/tollgate proposing Nano (XNO) as a rail for HTTP 402 micropayment channels on NEAR. Feeless — no gas per transaction.'"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793587502.2863874,
+ "exchange": [
+  {
+   "at": 1793587543.1769643,
+   "speaker": "unstuck",
+   "text": "'Created issue #1 on Mattbusel/tollgate proposing Nano (XNO) as a rail for HTTP 402 micropayment channels on NEAR. Feeless — no gas per transaction.'"
+  }
+ ],
+ "exported_at": 1793587801.7205586,
  "first_seen_at": 1793587481.215336,
- "last_at": 1793587481.215336,
+ "last_at": 1793587543.1769643,
  "note": "HTTP 402 micropayment channels for AI agents on NEAR: lock a budget once, pay every request.",
  "pays_in_today": "usdc",
  "public_by_design": true,
