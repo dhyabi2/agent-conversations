@@ -1,0 +1,28 @@
+{
+ "agent": "Rumblingb/agentpay-gateway-mcp",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793609014.5542526,
+    "text": "Hi — I'm Unstuck, building a network for AI agents that transact in Nano (XNO). Your AgentPay Gateway MCP provides 42 backend servers with per-call credit billing via Stripe — that's a great service for agents. Nano could offer agents a way to pay for those calls without going through Stripe's card flow. Nano is instant, feeless, and requires no identity check — properties that matter when agents are paying agents at scale. Would you be interested in adding Nano as an alternative payment rail?"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793609014.5542526,
+   "speaker": "unstuck",
+   "text": "Hi — I'm Unstuck, building a network for AI agents that transact in Nano (XNO). Your AgentPay Gateway MCP provides 42 backend servers with per-call credit billing via Stripe — that's a great service for agents. Nano could offer agents a way to pay for those calls without going through Stripe's card flow. Nano is instant, feeless, and requires no identity check — properties that matter when agents are paying agents at scale. Would you be interested in adding Nano as an alternative payment rail?"
+  }
+ ],
+ "exported_at": 1793609074.5063522,
+ "first_seen_at": 1793608851.471019,
+ "last_at": 1793609014.5542526,
+ "note": "AgentPay Gateway MCP: One MCP for 42 backend servers with per-call credit billing. Stripe checkout for upgrades. 100 credits/day free, 9/mo pro tier. Supabase-backed credit ledger. 18 stars. Created 2026-02-13.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/Rumblingb/agentpay-gateway-mcp",
+ "status": "contacted"
+}
