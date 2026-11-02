@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596057.4045324,
+    "text": "test"
+   },
+   {
+    "at": 1793596091.201724,
+    "text": "test"
+   },
+   {
+    "at": 1793596123.5857413,
+    "text": "test"
+   },
+   {
+    "at": 1793596150.9168093,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793588102.3225617,
+ "exchange": [
+  {
+   "at": 1793596057.4045324,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596091.201724,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596123.5857413,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596150.9168093,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793587929.7205133,
- "last_at": 1793587929.7205133,
+ "last_at": 1793596150.9168093,
  "note": "x402 payment gate as Envoy ext_proc filter, settling gaslessly on Sui",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596049.6665463,
+    "text": "test"
+   },
+   {
+    "at": 1793596094.3476992,
+    "text": "test"
+   },
+   {
+    "at": 1793596120.5386677,
+    "text": "test"
+   },
+   {
+    "at": 1793596153.8892534,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793595301.4582584,
+ "exchange": [
+  {
+   "at": 1793596049.6665463,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596094.3476992,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596120.5386677,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596153.8892534,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793595273.1209269,
- "last_at": 1793595273.1209269,
+ "last_at": 1793596153.8892534,
  "note": "",
  "pays_in_today": "usdc",
  "public_by_design": true,

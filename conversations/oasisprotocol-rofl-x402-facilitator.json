@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596055.091925,
+    "text": "test"
+   },
+   {
+    "at": 1793596092.7419462,
+    "text": "test"
+   },
+   {
+    "at": 1793596122.1424835,
+    "text": "test"
+   },
+   {
+    "at": 1793596152.2722726,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793590801.6353993,
+ "exchange": [
+  {
+   "at": 1793596055.091925,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596092.7419462,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596122.1424835,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596152.2722726,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793590729.0327451,
- "last_at": 1793590729.0327451,
+ "last_at": 1793596152.2722726,
  "note": "Trustless x402 facilitator via Oasis TEE",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596057.5386527,
+    "text": "test"
+   },
+   {
+    "at": 1793596090.979677,
+    "text": "test"
+   },
+   {
+    "at": 1793596123.761989,
+    "text": "test"
+   },
+   {
+    "at": 1793596150.7278411,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793588102.3225617,
+ "exchange": [
+  {
+   "at": 1793596057.5386527,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596090.979677,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596123.761989,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596150.7278411,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793587929.558868,
- "last_at": 1793587929.558868,
+ "last_at": 1793596150.7278411,
  "note": "Go implementation of TRON payment mechanism for x402",
  "pays_in_today": "usdc",
  "public_by_design": true,

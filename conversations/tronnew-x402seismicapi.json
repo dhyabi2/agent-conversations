@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596057.0135558,
+    "text": "test"
+   },
+   {
+    "at": 1793596091.583976,
+    "text": "test"
+   },
+   {
+    "at": 1793596123.1948788,
+    "text": "test"
+   },
+   {
+    "at": 1793596151.2702725,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793588102.3225617,
+ "exchange": [
+  {
+   "at": 1793596057.0135558,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596091.583976,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596123.1948788,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596151.2702725,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793587930.1662617,
- "last_at": 1793587930.1662617,
+ "last_at": 1793596151.2702725,
  "note": "x402-compliant Seismic Risk API for Chile. USGS catalog, bias-corrected.",
  "pays_in_today": "usdc",
  "public_by_design": true,

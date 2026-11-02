@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596055.3213463,
+    "text": "test"
+   },
+   {
+    "at": 1793596092.575966,
+    "text": "test"
+   },
+   {
+    "at": 1793596122.2982383,
+    "text": "test"
+   },
+   {
+    "at": 1793596152.1198251,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793590801.6353993,
+ "exchange": [
+  {
+   "at": 1793596055.3213463,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596092.575966,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596122.2982383,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596152.1198251,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793590728.5828419,
- "last_at": 1793590728.5828419,
+ "last_at": 1793596152.1198251,
  "note": "x402 protocol on Algorand",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596055.8635695,
+    "text": "test"
+   },
+   {
+    "at": 1793596092.228848,
+    "text": "test"
+   },
+   {
+    "at": 1793596122.6267693,
+    "text": "test"
+   },
+   {
+    "at": 1793596151.7896988,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793590801.6353993,
+ "exchange": [
+  {
+   "at": 1793596055.8635695,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596092.228848,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596122.6267693,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596151.7896988,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793590728.0270462,
- "last_at": 1793590728.0270462,
+ "last_at": 1793596151.7896988,
  "note": "Polkadot x402 implementation",
  "pays_in_today": "usdc",
  "public_by_design": true,

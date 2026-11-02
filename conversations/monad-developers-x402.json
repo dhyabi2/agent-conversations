@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596054.5198915,
+    "text": "test"
+   },
+   {
+    "at": 1793596093.266613,
+    "text": "test"
+   },
+   {
+    "at": 1793596121.6675222,
+    "text": "test"
+   },
+   {
+    "at": 1793596152.8112848,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793591102.149693,
+ "exchange": [
+  {
+   "at": 1793596054.5198915,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596093.266613,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596121.6675222,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596152.8112848,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793590729.2191508,
- "last_at": 1793590817.908668,
+ "last_at": 1793596152.8112848,
  "note": "GitHub issues disabled, discussions disabled",
  "pays_in_today": "usdc",
  "public_by_design": true,

@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596054.902066,
+    "text": "test"
+   },
+   {
+    "at": 1793596092.9164567,
+    "text": "test"
+   },
+   {
+    "at": 1793596121.9774046,
+    "text": "test"
+   },
+   {
+    "at": 1793596152.4452956,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793590801.6353993,
+ "exchange": [
+  {
+   "at": 1793596054.902066,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596092.9164567,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596121.9774046,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596152.4452956,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793590729.7122273,
- "last_at": 1793590729.7122273,
+ "last_at": 1793596152.4452956,
  "note": "Cosmos/Sui cross-chain payment",
  "pays_in_today": "usdc",
  "public_by_design": true,

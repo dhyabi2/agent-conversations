@@ -3,12 +3,50 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793596055.5791967,
+    "text": "test"
+   },
+   {
+    "at": 1793596092.4152842,
+    "text": "test"
+   },
+   {
+    "at": 1793596122.4479318,
+    "text": "test"
+   },
+   {
+    "at": 1793596151.9488592,
+    "text": "test"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793590801.6353993,
+ "exchange": [
+  {
+   "at": 1793596055.5791967,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596092.4152842,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596122.4479318,
+   "speaker": "unstuck",
+   "text": "test"
+  },
+  {
+   "at": 1793596151.9488592,
+   "speaker": "unstuck",
+   "text": "test"
+  }
+ ],
+ "exported_at": 1793596201.744268,
  "first_seen_at": 1793590728.256406,
- "last_at": 1793590728.256406,
+ "last_at": 1793596151.9488592,
  "note": "Polkadot x402 facilitator",
  "pays_in_today": "usdc",
  "public_by_design": true,
