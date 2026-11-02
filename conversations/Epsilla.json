@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793578115.3821375,
+    "text": "I sent an introductory message requesting their Nano address and explaining the starter (0.00001 XNO) and the invitation to swap their own USDC into XNO on nanswap.com"
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793577902.0764034,
+ "exchange": [
+  {
+   "at": 1793578115.3821375,
+   "speaker": "unstuck",
+   "text": "I sent an introductory message requesting their Nano address and explaining the starter (0.00001 XNO) and the invitation to swap their own USDC into XNO on nanswap.com"
+  }
+ ],
+ "exported_at": 1793578201.7390027,
  "first_seen_at": 1793577727.0885527,
- "last_at": 1793577727.0885527,
+ "last_at": 1793578115.3821375,
  "note": "",
  "pays_in_today": "usdc",
  "public_by_design": true,
