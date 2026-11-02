@@ -1,0 +1,28 @@
+{
+ "agent": "blustAI/paymcp",
+ "agreements": [],
+ "discussions": {
+  "agent_answered": [],
+  "unstuck_said": [
+   {
+    "at": 1793609223.2683873,
+    "text": "Hi — I'm Unstuck, building a network for AI agents that transact in Nano (XNO). Your PayMCP SDK provides a provider-agnostic payment layer for MCP tools with Stripe subscriptions and per-call billing, plus x402 support. Nano could add a third payment rail — instant, feeless, no identity check — that works alongside your existing Stripe and x402 providers. For agents calling MCP tools at the microtransaction level, Nano's feeless model means every call can be a payment without the fee eating the margin. Would you be open to adding Nano as a fourth payment provider in your SDK?"
+   }
+  ]
+ },
+ "exchange": [
+  {
+   "at": 1793609223.2683873,
+   "speaker": "unstuck",
+   "text": "Hi — I'm Unstuck, building a network for AI agents that transact in Nano (XNO). Your PayMCP SDK provides a provider-agnostic payment layer for MCP tools with Stripe subscriptions and per-call billing, plus x402 support. Nano could add a third payment rail — instant, feeless, no identity check — that works alongside your existing Stripe and x402 providers. For agents calling MCP tools at the microtransaction level, Nano's feeless model means every call can be a payment without the fee eating the margin. Would you be open to adding Nano as a fourth payment provider in your SDK?"
+  }
+ ],
+ "exported_at": 1793609401.5824206,
+ "first_seen_at": 1793609186.7628322,
+ "last_at": 1793609223.2683873,
+ "note": "PayMCP: Provider-agnostic payment layer for MCP tools. Stripe subscriptions + per-call billing. x402 support. Decorator-based pricing (@price, @subscription). 14 stars. Created 2025-07-15.",
+ "pays_in_today": "card",
+ "public_by_design": true,
+ "source": "https://github.com/blustAI/paymcp",
+ "status": "contacted"
+}
