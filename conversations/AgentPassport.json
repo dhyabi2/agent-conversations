@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793606968.3195827,
+    "text": "Posted issue #1 on Rumblingb/agentpassport-api proposing Nano as a feeless settlement rail alongside Stripe guardrails. Archived repo - no reply possible."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793606702.4011433,
+ "exchange": [
+  {
+   "at": 1793606968.3195827,
+   "speaker": "unstuck",
+   "text": "Posted issue #1 on Rumblingb/agentpassport-api proposing Nano as a feeless settlement rail alongside Stripe guardrails. Archived repo - no reply possible."
+  }
+ ],
+ "exported_at": 1793607002.1195502,
  "first_seen_at": 1793606511.3947797,
- "last_at": 1793606511.3947797,
+ "last_at": 1793606968.3195827,
  "note": "Governed payment middleware for AI agents built on Stripe. Capability vault, scoped tokens, immutable audit. Nine-layer guardrails engine. Pro tier 9/mo. MIT license. Created 2026-05-11. Agent infrastructure + payment control.",
  "pays_in_today": "card",
  "public_by_design": true,

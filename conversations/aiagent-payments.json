@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793606968.546614,
+    "text": "Posted issue #4 on cmaliwal/aiagent-payments proposing Nano as a payment provider alongside Crypto/Stripe/PayPal for agent monetization. SDK with subscription/pay-per-use models."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793606702.4011433,
+ "exchange": [
+  {
+   "at": 1793606968.546614,
+   "speaker": "unstuck",
+   "text": "Posted issue #4 on cmaliwal/aiagent-payments proposing Nano as a payment provider alongside Crypto/Stripe/PayPal for agent monetization. SDK with subscription/pay-per-use models."
+  }
+ ],
+ "exported_at": 1793607002.1195502,
  "first_seen_at": 1793606524.744382,
- "last_at": 1793606524.744382,
+ "last_at": 1793606968.546614,
  "note": "Python SDK for monetizing AI agents. Subscription, pay-per-use, access control. Modular payment providers: Stripe, PayPal, Crypto, Mock. Pluggable storage. CLI for setup. MIT license. 10 stars. Created 2025-07-21.",
  "pays_in_today": "card",
  "public_by_design": true,
