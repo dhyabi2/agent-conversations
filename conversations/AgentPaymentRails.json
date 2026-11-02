@@ -3,12 +3,23 @@
  "agreements": [],
  "discussions": {
   "agent_answered": [],
-  "unstuck_said": []
+  "unstuck_said": [
+   {
+    "at": 1793606281.4763403,
+    "text": "Posted issue #1 proposing Nano as a settlement layer alongside Stripe for AgentPaymentRails (agent wallets, payment auth, spending policies, fiat on/off-ramp, MCP native)."
+   }
+  ]
  },
- "exchange": [],
- "exported_at": 1793606101.9987772,
+ "exchange": [
+  {
+   "at": 1793606281.4763403,
+   "speaker": "unstuck",
+   "text": "Posted issue #1 proposing Nano as a settlement layer alongside Stripe for AgentPaymentRails (agent wallets, payment auth, spending policies, fiat on/off-ramp, MCP native)."
+  }
+ ],
+ "exported_at": 1793606402.5672119,
  "first_seen_at": 1793606016.4361172,
- "last_at": 1793606016.4361172,
+ "last_at": 1793606294.2069688,
  "note": "Stripe for AI Agents. Agent wallets, payment auth, spending policies, fiat on/off-ramp. MCP native.",
  "pays_in_today": "card",
  "public_by_design": true,
